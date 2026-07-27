@@ -83,6 +83,44 @@ class CoreTests(unittest.TestCase):
         )
         self.assertEqual(len(streams), 1)
 
+
+    def test_player_payload_accepts_nested_and_string_urls(self) -> None:
+        match = Match("1", datetime.now(ZoneInfo("Asia/Ho_Chi_Minh")), "League", "A", "B")
+        payload = {
+            "data": {
+                "code": "0",
+                "purl": [
+                    "https://cdn.example/sport/10.flv?auth_key=1785093935-a",
+                    {"src": "https://cdn.example/sport/11.flv?auth_key=1785093940-b"},
+                ],
+            }
+        }
+        streams = streams_from_player_payload(
+            payload,
+            match=match,
+            api_url="https://api.example",
+            page_url="https://page.example",
+            max_lines=4,
+        )
+        self.assertEqual([item.line_number for item in streams], [1, 2])
+        self.assertTrue(streams[0].media_url.endswith("auth_key=1785093935-a"))
+
+    def test_player_payload_accepts_json_encoded_purl(self) -> None:
+        match = Match("1", datetime.now(ZoneInfo("Asia/Ho_Chi_Minh")), "League", "A", "B")
+        payload = {
+            "code": 0,
+            "purl": '[{"url":"https:\\/\\/cdn.example\\/sport\\/12.flv?auth_key=1785093935-a"}]',
+        }
+        streams = streams_from_player_payload(
+            payload,
+            match=match,
+            api_url="https://api.example",
+            page_url="https://page.example",
+            max_lines=4,
+        )
+        self.assertEqual(len(streams), 1)
+        self.assertIn("/sport/12.flv", streams[0].media_url)
+
     def test_playlist_matches_reference_style_without_headers(self) -> None:
         config = Config(emit_headers=False)
         match = Match("1", datetime(2026, 7, 27, 0, 30, tzinfo=ZoneInfo("Asia/Ho_Chi_Minh")), "POL D1", "A", "B")
@@ -122,6 +160,7 @@ class CoreTests(unittest.TestCase):
         self.assertNotIn("cron:", workflow)
         self.assertIn("workflow_dispatch:", workflow)
         self.assertIn("repository_dispatch:", workflow)
+        self.assertIn("--allow-empty", workflow)
 
 
 if __name__ == "__main__":

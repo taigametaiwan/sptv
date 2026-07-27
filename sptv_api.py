@@ -24,7 +24,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 DATE12_RE = re.compile(r"^20\d{10}$")
 PLAYER_ID_RE = re.compile(r"(?:/player/|[?&]id=)(\d{4,})", re.I)
@@ -311,10 +311,31 @@ def signed_at_from_url(url: str) -> tuple[int | None, str | None]:
     return epoch, iso
 
 
+def unwrap_player_payload(payload: Any) -> dict[str, Any]:
+    """Return the most likely player object from common API wrapper shapes."""
+    current = payload
+    for _ in range(4):
+        if not isinstance(current, dict):
+            return {}
+        if any(key in current for key in ("purl", "play_url", "playUrl", "streams", "urls", "m")):
+            return current
+        next_value = None
+        for key in ("data", "result", "payload", "player"):
+            value = current.get(key)
+            if isinstance(value, dict):
+                next_value = value
+                break
+        if next_value is None:
+            return current
+        current = next_value
+    return current if isinstance(current, dict) else {}
+
+
 def metadata_from_player_payload(payload: Any, fallback: Match, timezone_name: str) -> Match:
-    if not isinstance(payload, dict):
+    player = unwrap_player_payload(payload)
+    if not player:
         return fallback
-    raw = payload.get("m")
+    raw = player.get("m")
     parsed = parse_match_fields(csv_fields(raw), timezone_name) if isinstance(raw, list) else None
     if not parsed:
         return fallback
@@ -328,6 +349,67 @@ def metadata_from_player_payload(payload: Any, fallback: Match, timezone_name: s
     )
 
 
+def _decode_jsonish(value: Any) -> Any:
+    if not isinstance(value, str):
+        return value
+    text = value.strip()
+    if not text or text[0] not in "[{":
+        return value
+    try:
+        return json.loads(text)
+    except Exception:
+        return value
+
+
+def iter_player_stream_items(payload: Any) -> list[Any]:
+    player = unwrap_player_payload(payload)
+    if not player:
+        return []
+    raw: Any = None
+    for key in ("purl", "streams", "urls", "play_url", "playUrl", "url"):
+        if key in player:
+            raw = _decode_jsonish(player.get(key))
+            break
+    if raw is None:
+        return []
+    if isinstance(raw, list):
+        return raw
+    if isinstance(raw, dict):
+        for key in ("data", "items", "list", "urls", "streams"):
+            nested = _decode_jsonish(raw.get(key))
+            if isinstance(nested, list):
+                return nested
+        return list(raw.values())
+    return [raw]
+
+
+def stream_url_from_item(item: Any) -> str:
+    item = _decode_jsonish(item)
+    if isinstance(item, str):
+        return clean_text(item).replace("\\/", "/")
+    if isinstance(item, dict):
+        for key in ("url", "play_url", "playUrl", "src", "flv", "file"):
+            value = item.get(key)
+            if isinstance(value, str) and value.strip():
+                return clean_text(value).replace("\\/", "/")
+    return ""
+
+
+def player_payload_diagnostics(payload: Any) -> dict[str, Any]:
+    player = unwrap_player_payload(payload)
+    items = iter_player_stream_items(payload)
+    return {
+        "payload_type": type(payload).__name__,
+        "top_keys": sorted(str(key) for key in payload.keys())[:30] if isinstance(payload, dict) else [],
+        "player_keys": sorted(str(key) for key in player.keys())[:30] if player else [],
+        "code": player.get("code", payload.get("code") if isinstance(payload, dict) else None) if player else None,
+        "pid": player.get("pid") if player else None,
+        "title": player.get("title") if player else None,
+        "stream_item_count": len(items),
+        "stream_item_types": sorted({type(item).__name__ for item in items}),
+    }
+
+
 def streams_from_player_payload(
     payload: Any,
     *,
@@ -337,24 +419,22 @@ def streams_from_player_payload(
     max_lines: int,
     timezone_name: str = "Asia/Shanghai",
 ) -> list[Stream]:
-    if not isinstance(payload, dict):
+    player = unwrap_player_payload(payload)
+    if not player:
         return []
     try:
-        code = int(payload.get("code", -1))
+        code_raw = player.get("code", 0)
+        code = int(code_raw) if code_raw not in (None, "") else 0
     except (TypeError, ValueError):
-        code = -1
-    if code != 0:
+        code = 0
+    items = iter_player_stream_items(payload)
+    if code != 0 and not items:
         return []
-    metadata = metadata_from_player_payload(payload, match, timezone_name)
-    purl = payload.get("purl")
-    if not isinstance(purl, list):
-        return []
+    metadata = metadata_from_player_payload(player, match, timezone_name)
     output: list[Stream] = []
     seen_paths: set[str] = set()
-    for item in purl:
-        if not isinstance(item, dict):
-            continue
-        url = clean_text(item.get("url")).replace("\\/", "/")
+    for item in items:
+        url = stream_url_from_item(item)
         parts = urllib.parse.urlsplit(url)
         if parts.scheme not in {"http", "https"} or not parts.netloc or not parts.path.lower().endswith(".flv"):
             continue
@@ -458,12 +538,7 @@ class SptvClient:
             max_lines=self.config.max_lines_per_match,
             timezone_name=self.config.schedule_timezone,
         )
-        info = {
-            "code": payload.get("code") if isinstance(payload, dict) else None,
-            "pid": payload.get("pid") if isinstance(payload, dict) else None,
-            "title": payload.get("title") if isinstance(payload, dict) else None,
-            "purl_count": len(payload.get("purl", [])) if isinstance(payload, dict) and isinstance(payload.get("purl"), list) else 0,
-        }
+        info = player_payload_diagnostics(payload)
         return streams, attempts, info
 
 
@@ -622,7 +697,10 @@ def run(
             }
         )
         status_text = "/".join(str(value) for value in statuses if value) or "ERR"
-        log(f"[SPTV] {index}/{len(rows)} id={match.player_id} | HTTP {status_text} | streams={len(streams)}")
+        log(
+            f"[SPTV] {index}/{len(rows)} id={match.player_id} | HTTP {status_text} "
+            f"| code={info.get('code')} | items={info.get('stream_item_count')} | streams={len(streams)}"
+        )
 
         if denial_streak >= config.stop_after_denials:
             log(f"[SPTV] Dừng sớm sau {denial_streak} lượt liên tiếp HTTP 403/429 để tránh tăng mức chặn.")
@@ -664,7 +742,9 @@ def run(
     atomic_write(debug_path, json.dumps(debug, ensure_ascii=False, indent=2) + "\n")
     log(f"[SPTV] {publish_reason}")
     log(f"[SPTV] Debug: {debug_path}")
-    return 0 if published or "preserved last-good" in publish_reason else 3
+    # Empty first runs during quiet hours are valid. Keep the playlist unchanged,
+    # commit the debug report, and let later manual/external runs refresh it.
+    return 0
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:

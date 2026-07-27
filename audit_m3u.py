@@ -84,6 +84,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Audit cấu trúc M3U SPTV, không gọi mạng.")
     parser.add_argument("path", nargs="?", default="sptv.m3u")
     parser.add_argument("--strict", action="store_true")
+    parser.add_argument("--allow-empty", action="store_true", help="Cho phép playlist chưa có FLV ở lần chạy yên giờ.")
     args = parser.parse_args()
     path = Path(args.path)
     if not path.exists():
@@ -92,7 +93,8 @@ def main() -> int:
     report = parse(path)
     for key, value in report.items():
         print(f"{key}: {value}")
-    if args.strict and (report["real_flv"] == 0 or report["malformed"] != 0 or report["duplicate_stable_paths"] != 0):
+    empty_is_error = report["real_flv"] == 0 and not args.allow_empty
+    if args.strict and (empty_is_error or report["malformed"] != 0 or report["duplicate_stable_paths"] != 0):
         return 1
     return 0
 

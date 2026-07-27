@@ -1,4 +1,4 @@
-# SPTV API GitHub v0.1.0
+# SPTV API GitHub v0.1.1
 
 Bộ source lấy lịch và URL FLV SPTV qua API, tối ưu theo hướng **ít request** và không thăm dò video CDN.
 
@@ -10,10 +10,24 @@ Bộ source lấy lịch và URL FLV SPTV qua API, tối ưu theo hướng **ít
 4. Gọi `ajax_zb.php?act=player...` **tuần tự**, mặc định chờ ngẫu nhiên 4,0–5,5 giây giữa hai trận.
 5. Chỉ đọc `purl[].url`; không gửi Range, không tải đầu file FLV, không thử 5 bộ header.
 6. Trường số đầu tiên trong `auth_key` được ghi là `signed_at` để chẩn đoán, **không coi là thời điểm hết hạn**.
-7. Nếu lượt mới có 0 link thật thì giữ nguyên `sptv.m3u` cũ.
+7. Nếu lượt mới có 0 link thật thì giữ nguyên `sptv.m3u` cũ; lần chạy yên giờ vẫn kết thúc xanh và ghi debug.
 8. Gặp 403/429 liên tiếp hai lượt thì dừng sớm.
+9. Parser chấp nhận thêm response bọc trong `data/result`, `purl` dạng chuỗi JSON, danh sách URL chuỗi hoặc các khóa `url/src/play_url`.
 
 Cơ chế này được suy ra từ playlist tham chiếu: các dấu thời gian `auth_key` của 41 link tăng đều khoảng 2–7 giây, trung bình gần 5 giây, phù hợp với việc gọi player API tuần tự. Source riêng của repo tham chiếu không công khai nên không thể khẳng định từng dòng code giống hệt.
+
+
+## Sửa lỗi v0.1.1
+
+Log GitHub đầu tiên không phải lỗi 403: trang chủ và player API đều HTTP 200. Tại thời điểm chạy chỉ có 1 trận trong cửa sổ, nhưng player API trả 0 stream; vì repository chưa có last-good nên v0.1.0 thoát mã 3 và làm workflow đỏ.
+
+v0.1.1 sửa theo hướng:
+
+- Lần chạy không có stream không còn bị coi là lỗi hệ thống.
+- `sptv.m3u` cũ luôn được giữ nguyên.
+- File debug vẫn được commit để xem `code`, số item và cấu trúc payload.
+- Playlist ban đầu đã được seed từ 41 link FLV thật trong file tham chiếu người dùng cung cấp; không lấy 2 placeholder.
+- Audit cho phép trạng thái rỗng hợp lệ khi chưa có last-good, nhưng vẫn bắt URL lỗi và đường dẫn trùng.
 
 ## Chạy trên máy tính
 
