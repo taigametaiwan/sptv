@@ -1,6 +1,10 @@
-SPTV API GitHub v0.1.1
+SPTV API GitHub v0.1.2
+
+- Unit tests: 13/13 PASS
 - Python compile: PASS
-- Unit tests: 11/11 PASS
-- Seed playlist audit: 41 real FLV, 0 malformed, 0 duplicate stable paths
+- Empty playlist audit: PASS
 - Workflow: workflow_dispatch + repository_dispatch only; no schedule/cron
-- Media probe: none
+- External refresh design: 15 phút
+- auth_key[0]: expiry epoch
+- No FLV media probe / no Range / no concurrency
+- Expired last-good cleanup: PASS

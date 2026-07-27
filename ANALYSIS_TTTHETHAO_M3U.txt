@@ -1,19 +1,8 @@
-PHÂN TÍCH PLAYLIST THAM CHIẾU ttthethao.m3u
+KẾT LUẬN CƠ CHẾ PLAYLIST THAM CHIẾU
 
-- Tổng entry toàn file: 647.
-- Group SP TV (China): 43 entry.
-- SPTV FLV thật: 41.
-- Placeholder no-signal: 2.
-- SPTV không kèm #EXTVLCOPT Referer/User-Agent và không dùng URL pipe header.
-- auth_key[0] nhỏ nhất: 1785093935 = 2026-07-26 19:25:35 UTC.
-- auth_key[0] lớn nhất: 1785094124 = 2026-07-26 19:28:44 UTC.
-- 41 timestamp được tạo trong 189 giây.
-- Khoảng cách liên tiếp: 2-7 giây; trung bình 4,725 giây; median 5 giây.
-
-KẾT LUẬN KỸ THUẬT
-
-Dữ liệu phù hợp rất mạnh với cơ chế: lấy lịch một lần, gọi player API tuần tự khoảng
-mỗi 5 giây, ghi URL FLV trực tiếp và không probe media. auth_key[0] nằm gần đúng thời
-điểm file được sinh nên phải coi là signed_at/issued_at, không phải expiry. Source
-apisports.py của repo tham chiếu nằm trong repo private nên đây là suy luận từ output,
-không phải sao chép source gốc.
+- auth_key[0] nhỏ nhất/lớn nhất trong file tham chiếu nằm sau thời điểm workflow bắt đầu khoảng 25-29 phút.
+- Do đó auth_key[0] là expiry, không phải signed_at.
+- Script gọi player API tuần tự, các expiry tăng cách nhau khoảng 2-7 giây.
+- Repository được cron bên ngoài kích hoạt mỗi 15 phút.
+- Key sống khoảng 25 phút nên các lượt cập nhật chồng lấn 6-10 phút.
+- Link playlist công khai giữ nguyên nhưng nội dung bên trong được thay key liên tục.

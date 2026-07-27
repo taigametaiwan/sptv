@@ -1,11 +1,17 @@
 # Changelog
 
+## v0.1.2
+
+- Sửa kết luận `auth_key[0]`: đây là Unix expiry.
+- Thiết kế đúng chu kỳ external `repository_dispatch` mỗi 15 phút.
+- Không thêm cron/schedule vào GitHub workflow.
+- Lọc key còn tối thiểu 900 giây khi publish.
+- Chỉ giữ last-good khi key cũ còn hạn; xóa seed/link đã hết hạn.
+- Merge key mới với các path cũ còn hạn để chống mất link do API trả thiếu tạm thời.
+- Thêm audit TTL, `lastupdated.txt`, external trigger script.
+- Bật `cancel-in-progress: true`, timeout workflow 14 phút.
+
 ## v0.1.1
 
-- Sửa workflow đỏ khi player API HTTP 200 nhưng không có stream trong giờ yên.
-- Giữ last-good và luôn trả exit code 0 cho kết quả rỗng hợp lệ.
-- Mở rộng parser nhiều dạng payload/purl.
-- Ghi thêm chẩn đoán cấu trúc payload vào debug JSON.
-- Seed `sptv.m3u` bằng 41 FLV thật từ playlist tham chiếu do người dùng cung cấp.
-- Audit hỗ trợ `--allow-empty`.
-- Không thêm cron GitHub, không probe media CDN.
+- Xử lý lượt yên giờ không làm workflow đỏ.
+- Mở rộng parser player payload.

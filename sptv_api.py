@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""SPTV API -> M3U, designed for low request volume.
+"""SPTV API -> M3U, designed for a 15-minute external refresh cycle.
 
-The implementation intentionally does not probe FLV media and does not treat the
-first numeric auth_key component as an expiry timestamp. It fetches the schedule
-once, then fetches each player payload sequentially with a delay and jitter.
+The implementation does not probe FLV media. The first numeric component in
+``auth_key`` is treated as the URL expiry epoch, matching the observed reference
+playlist refresh pattern: keys live roughly 25 minutes while an external scheduler
+triggers this workflow every 15 minutes.
 """
 from __future__ import annotations
 
@@ -24,7 +25,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 DATE12_RE = re.compile(r"^20\d{10}$")
 PLAYER_ID_RE = re.compile(r"(?:/player/|[?&]id=)(\d{4,})", re.I)
@@ -53,6 +54,9 @@ class Config:
     language: int = 2
     is_mobile: int = 0
     min_real_streams: int = 1
+    min_ttl_seconds: int = 900
+    preserve_old_min_ttl_seconds: int = 60
+    expiry_clock_skew_seconds: int = 30
     include_placeholders: bool = False
     placeholder_url: str = "https://freem3u.xyz/static/no-signal/low.m3u8"
     group_title: str = "SP TV (China)"
@@ -79,6 +83,13 @@ class Config:
             language=_env_int("SPTV_LANGUAGE", defaults.language, 1, 3),
             is_mobile=_env_int("SPTV_IS_MOBILE", defaults.is_mobile, 0, 1),
             min_real_streams=_env_int("SPTV_MIN_REAL_STREAMS", defaults.min_real_streams, 0, 500),
+            min_ttl_seconds=_env_int("SPTV_MIN_TTL_SECONDS", defaults.min_ttl_seconds, 0, 7200),
+            preserve_old_min_ttl_seconds=_env_int(
+                "SPTV_PRESERVE_OLD_MIN_TTL_SECONDS", defaults.preserve_old_min_ttl_seconds, 0, 3600
+            ),
+            expiry_clock_skew_seconds=_env_int(
+                "SPTV_EXPIRY_CLOCK_SKEW_SECONDS", defaults.expiry_clock_skew_seconds, 0, 300
+            ),
             include_placeholders=_env_bool("SPTV_INCLUDE_PLACEHOLDERS", defaults.include_placeholders),
             placeholder_url=_env("SPTV_PLACEHOLDER_URL", defaults.placeholder_url),
             group_title=_env("SPTV_GROUP_TITLE", defaults.group_title),
@@ -111,8 +122,8 @@ class Stream:
     away: str
     line_number: int
     media_url: str
-    signed_at_epoch: int | None
-    signed_at_utc: str | None
+    expires_at_epoch: int | None
+    expires_at_utc: str | None
     player_api_url: str
     player_page_url: str
 
@@ -123,6 +134,25 @@ class HttpAttempt:
     status: int
     elapsed: float
     error: str = ""
+
+
+@dataclass(slots=True)
+class PlaylistBlock:
+    lines: list[str]
+    media_url: str
+    stable_key: str
+    expires_at_epoch: int | None
+
+
+@dataclass(slots=True)
+class PublishResult:
+    changed: bool
+    status: str
+    reason: str
+    fresh_count: int
+    preserved_count: int
+    expired_removed: int
+    final_count: int
 
 
 def log(message: str) -> None:
@@ -289,13 +319,8 @@ def player_api_url(base: str, player_id: str, *, language: int = 2, is_mobile: i
     return base + ("&" if "?" in base else "?") + params
 
 
-def signed_at_from_url(url: str) -> tuple[int | None, str | None]:
-    """Read the first auth_key component as a signing/issuance timestamp.
-
-    It is deliberately *not* treated as an expiry timestamp. The uploaded
-    reference M3U shows one value generated roughly every five seconds while
-    the source walks through matches sequentially.
-    """
+def expiry_from_url(url: str) -> tuple[int | None, str | None]:
+    """Read the first ``auth_key`` component as a Unix expiry timestamp."""
     try:
         values = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query).get("auth_key") or []
         first = values[0].split("-", 1)[0] if values else ""
@@ -309,6 +334,14 @@ def signed_at_from_url(url: str) -> tuple[int | None, str | None]:
     except (OverflowError, OSError, ValueError):
         return epoch, None
     return epoch, iso
+
+
+def remaining_ttl_seconds(url: str, now_epoch: int | None = None, *, clock_skew_seconds: int = 0) -> int | None:
+    expiry, _ = expiry_from_url(url)
+    if expiry is None:
+        return None
+    current = int(time.time()) if now_epoch is None else int(now_epoch)
+    return expiry - current - max(0, int(clock_skew_seconds))
 
 
 def unwrap_player_payload(payload: Any) -> dict[str, Any]:
@@ -442,7 +475,7 @@ def streams_from_player_payload(
         if stable_path in seen_paths:
             continue
         seen_paths.add(stable_path)
-        signed_epoch, signed_iso = signed_at_from_url(url)
+        expires_epoch, expires_iso = expiry_from_url(url)
         output.append(
             Stream(
                 player_id=metadata.player_id,
@@ -452,8 +485,8 @@ def streams_from_player_payload(
                 away=metadata.away,
                 line_number=len(output) + 1,
                 media_url=url,
-                signed_at_epoch=signed_epoch,
-                signed_at_utc=signed_iso,
+                expires_at_epoch=expires_epoch,
+                expires_at_utc=expires_iso,
                 player_api_url=api_url,
                 player_page_url=page_url,
             )
@@ -584,27 +617,146 @@ def playlist_text(streams: Iterable[Stream], *, config: Config, placeholder_matc
 
 
 def count_real_streams(text: str) -> int:
-    count = 0
+    return len(parse_playlist_blocks(text))
+
+
+def stable_media_key(url: str) -> str:
+    parts = urllib.parse.urlsplit(url)
+    return f"{parts.netloc.lower()}{parts.path.lower()}"
+
+
+def parse_playlist_blocks(text: str) -> list[PlaylistBlock]:
+    """Parse complete EXTINF -> URL blocks and keep only FLV media entries."""
+    output: list[PlaylistBlock] = []
+    pending: list[str] = []
     for raw in text.splitlines():
         line = raw.strip()
+        if line.startswith("#EXTINF"):
+            pending = [line]
+            continue
+        if not pending:
+            continue
+        if line.startswith("#"):
+            pending.append(line)
+            continue
         if line.startswith(("http://", "https://")):
-            path = urllib.parse.urlsplit(line).path.lower()
-            if path.endswith(".flv"):
-                count += 1
-    return count
+            parts = urllib.parse.urlsplit(line)
+            if parts.netloc and parts.path.lower().endswith(".flv"):
+                expiry, _ = expiry_from_url(line)
+                output.append(
+                    PlaylistBlock(
+                        lines=[*pending, line],
+                        media_url=line,
+                        stable_key=stable_media_key(line),
+                        expires_at_epoch=expiry,
+                    )
+                )
+            pending = []
+            continue
+        pending = []
+    return output
 
 
-def publish_candidate(output_path: Path, candidate_text: str, *, min_real_streams: int) -> tuple[bool, str]:
-    real_count = count_real_streams(candidate_text)
-    if real_count >= min_real_streams:
-        atomic_write(output_path, candidate_text)
-        return True, f"published {real_count} real streams"
-    if output_path.exists() and count_real_streams(output_path.read_text(encoding="utf-8", errors="replace")) > 0:
-        return False, f"candidate has {real_count}; preserved last-good playlist"
-    if min_real_streams == 0:
-        atomic_write(output_path, candidate_text)
-        return True, "published empty playlist because minimum is zero"
-    return False, f"candidate has {real_count}; no last-good playlist exists"
+def playlist_from_blocks(blocks: Iterable[PlaylistBlock]) -> str:
+    lines = ["#EXTM3U"]
+    for block in blocks:
+        lines.extend(block.lines)
+    return "\n".join(lines) + "\n"
+
+
+def block_has_min_ttl(
+    block: PlaylistBlock,
+    *,
+    now_epoch: int,
+    min_ttl_seconds: int,
+    clock_skew_seconds: int = 0,
+) -> bool:
+    if block.expires_at_epoch is None:
+        return min_ttl_seconds <= 0
+    ttl = block.expires_at_epoch - now_epoch - max(0, clock_skew_seconds)
+    return ttl >= min_ttl_seconds
+
+
+def publish_candidate(
+    output_path: Path,
+    candidate_text: str,
+    *,
+    min_real_streams: int,
+    now_epoch: int | None = None,
+    preserve_old_min_ttl_seconds: int = 60,
+    clock_skew_seconds: int = 0,
+) -> PublishResult:
+    """Publish fresh keys and preserve only still-unexpired previous blocks.
+
+    Fresh blocks win by stable FLV path. Previous blocks are carried forward only
+    when their expiry remains safely in the future. Expired seed/last-good links
+    are removed instead of being kept forever.
+    """
+    current = int(time.time()) if now_epoch is None else int(now_epoch)
+    fresh_blocks = parse_playlist_blocks(candidate_text)
+    previous_text = output_path.read_text(encoding="utf-8", errors="replace") if output_path.exists() else "#EXTM3U\n"
+    previous_blocks = parse_playlist_blocks(previous_text)
+    valid_previous = [
+        block
+        for block in previous_blocks
+        if block_has_min_ttl(
+            block,
+            now_epoch=current,
+            min_ttl_seconds=preserve_old_min_ttl_seconds,
+            clock_skew_seconds=clock_skew_seconds,
+        )
+    ]
+    expired_removed = len(previous_blocks) - len(valid_previous)
+
+    final_blocks: list[PlaylistBlock] = []
+    seen: set[str] = set()
+    for block in fresh_blocks:
+        if block.stable_key not in seen:
+            seen.add(block.stable_key)
+            final_blocks.append(block)
+    preserved_count = 0
+    for block in valid_previous:
+        if block.stable_key not in seen:
+            seen.add(block.stable_key)
+            final_blocks.append(block)
+            preserved_count += 1
+
+    if len(fresh_blocks) >= min_real_streams:
+        status = "PUBLISHED_FRESH"
+        reason = (
+            f"published {len(fresh_blocks)} fresh streams"
+            f" + preserved {preserved_count} unexpired previous streams"
+        )
+    elif valid_previous:
+        status = "PRESERVED_UNEXPIRED"
+        reason = (
+            f"candidate has {len(fresh_blocks)}; preserved {len(valid_previous)} unexpired previous streams"
+            f"; removed {expired_removed} expired streams"
+        )
+        final_blocks = valid_previous
+        preserved_count = len(valid_previous)
+    else:
+        status = "EMPTY_NO_VALID_KEY"
+        reason = (
+            f"candidate has {len(fresh_blocks)}; no unexpired previous stream remains"
+            f"; removed {expired_removed} expired streams"
+        )
+        final_blocks = fresh_blocks if min_real_streams == 0 else []
+        preserved_count = 0
+
+    final_text = playlist_from_blocks(final_blocks)
+    changed = final_text != previous_text
+    if changed:
+        atomic_write(output_path, final_text)
+    return PublishResult(
+        changed=changed,
+        status=status,
+        reason=reason,
+        fresh_count=len(fresh_blocks),
+        preserved_count=preserved_count,
+        expired_removed=expired_removed,
+        final_count=len(final_blocks),
+    )
 
 
 def sleep_between(config: Config, rng: random.Random) -> float:
@@ -634,8 +786,9 @@ def run(
         "policy": {
             "media_probe": False,
             "player_requests": "sequential",
-            "auth_key_first_field": "signed_at_not_expiry",
-            "last_good_preserved_on_empty": True,
+            "auth_key_first_field": "expiry_epoch",
+            "external_refresh_interval_minutes": 15,
+            "last_good_preserved_only_while_unexpired": True,
         },
         "home": {},
         "schedule": {},
@@ -720,27 +873,59 @@ def run(
             unique.append(stream)
 
     unique.sort(key=lambda item: (item.start_at or datetime.max.replace(tzinfo=VN_TZ), item.player_id, item.line_number))
-    candidate = playlist_text(unique, config=config, placeholder_matches=no_stream_matches)
-    published, publish_reason = publish_candidate(output_path, candidate, min_real_streams=config.min_real_streams)
 
-    signed_values = sorted(stream.signed_at_epoch for stream in unique if stream.signed_at_epoch is not None)
+    publish_epoch = int(time.time())
+    fresh_streams: list[Stream] = []
+    rejected_missing_expiry = 0
+    rejected_short_ttl = 0
+    for stream in unique:
+        if stream.expires_at_epoch is None:
+            rejected_missing_expiry += 1
+            continue
+        ttl = stream.expires_at_epoch - publish_epoch - config.expiry_clock_skew_seconds
+        if ttl < config.min_ttl_seconds:
+            rejected_short_ttl += 1
+            continue
+        fresh_streams.append(stream)
+
+    candidate = playlist_text(fresh_streams, config=config, placeholder_matches=no_stream_matches)
+    publish_result = publish_candidate(
+        output_path,
+        candidate,
+        min_real_streams=config.min_real_streams,
+        now_epoch=publish_epoch,
+        preserve_old_min_ttl_seconds=config.preserve_old_min_ttl_seconds,
+        clock_skew_seconds=config.expiry_clock_skew_seconds,
+    )
+
+    expiry_values = sorted(stream.expires_at_epoch for stream in fresh_streams if stream.expires_at_epoch is not None)
+    remaining_values = [value - publish_epoch - config.expiry_clock_skew_seconds for value in expiry_values]
     debug["summary"] = {
-        "status": "PUBLISHED" if published else "LAST_GOOD_PRESERVED",
+        "status": publish_result.status,
         "matches_selected": len(rows),
         "matches_processed": len(debug["matches"]),
-        "real_streams": len(unique),
+        "streams_returned_by_api": len(unique),
+        "fresh_streams_accepted": len(fresh_streams),
+        "rejected_missing_expiry": rejected_missing_expiry,
+        "rejected_short_ttl": rejected_short_ttl,
+        "minimum_required_ttl_seconds": config.min_ttl_seconds,
         "placeholders": len(no_stream_matches) if config.include_placeholders else 0,
         "request_delays_seconds": delays,
-        "signed_at_min_epoch": signed_values[0] if signed_values else None,
-        "signed_at_max_epoch": signed_values[-1] if signed_values else None,
-        "signed_at_span_seconds": signed_values[-1] - signed_values[0] if len(signed_values) >= 2 else 0,
-        "published": published,
-        "publish_reason": publish_reason,
+        "expires_at_min_epoch": expiry_values[0] if expiry_values else None,
+        "expires_at_max_epoch": expiry_values[-1] if expiry_values else None,
+        "expires_at_span_seconds": expiry_values[-1] - expiry_values[0] if len(expiry_values) >= 2 else 0,
+        "remaining_ttl_min_seconds": min(remaining_values) if remaining_values else None,
+        "remaining_ttl_max_seconds": max(remaining_values) if remaining_values else None,
+        "playlist_changed": publish_result.changed,
+        "preserved_unexpired_previous": publish_result.preserved_count,
+        "expired_previous_removed": publish_result.expired_removed,
+        "final_streams": publish_result.final_count,
+        "publish_reason": publish_result.reason,
         "output": str(output_path),
         "elapsed_seconds": round(time.monotonic() - started, 2),
     }
     atomic_write(debug_path, json.dumps(debug, ensure_ascii=False, indent=2) + "\n")
-    log(f"[SPTV] {publish_reason}")
+    log(f"[SPTV] {publish_result.reason}")
     log(f"[SPTV] Debug: {debug_path}")
     # Empty first runs during quiet hours are valid. Keep the playlist unchanged,
     # commit the debug report, and let later manual/external runs refresh it.

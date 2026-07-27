@@ -1,82 +1,96 @@
-# SPTV API GitHub v0.1.1
+# SPTV API GitHub v0.1.2
 
-Bộ source lấy lịch và URL FLV SPTV qua API, tối ưu theo hướng **ít request** và không thăm dò video CDN.
+Bản này mô phỏng đúng cơ chế đã xác định từ playlist tham chiếu:
 
-## Cơ chế
+- `auth_key[0]` là **Unix expiry**, không phải thời điểm cấp key.
+- Key quan sát được sống khoảng 25 phút.
+- Workflow được **cron bên ngoài gọi mỗi 15 phút** để key mới chồng lấn key cũ.
+- Trong `.github/workflows/update-sptv.yml` không có `schedule` hay cron nội bộ.
+- GitHub không probe FLV và không truyền video; người xem tải thẳng CDN SPTV.
 
-1. Mở trang chủ đúng một lần để tạo cookie/session.
-2. Lấy `data/zb.json` đúng một lần.
-3. Lọc trận trong cửa sổ thời gian.
-4. Gọi `ajax_zb.php?act=player...` **tuần tự**, mặc định chờ ngẫu nhiên 4,0–5,5 giây giữa hai trận.
-5. Chỉ đọc `purl[].url`; không gửi Range, không tải đầu file FLV, không thử 5 bộ header.
-6. Trường số đầu tiên trong `auth_key` được ghi là `signed_at` để chẩn đoán, **không coi là thời điểm hết hạn**.
-7. Nếu lượt mới có 0 link thật thì giữ nguyên `sptv.m3u` cũ; lần chạy yên giờ vẫn kết thúc xanh và ghi debug.
-8. Gặp 403/429 liên tiếp hai lượt thì dừng sớm.
-9. Parser chấp nhận thêm response bọc trong `data/result`, `purl` dạng chuỗi JSON, danh sách URL chuỗi hoặc các khóa `url/src/play_url`.
+## Cấu trúc bắt buộc trên GitHub
 
-Cơ chế này được suy ra từ playlist tham chiếu: các dấu thời gian `auth_key` của 41 link tăng đều khoảng 2–7 giây, trung bình gần 5 giây, phù hợp với việc gọi player API tuần tự. Source riêng của repo tham chiếu không công khai nên không thể khẳng định từng dòng code giống hệt.
-
-
-## Sửa lỗi v0.1.1
-
-Log GitHub đầu tiên không phải lỗi 403: trang chủ và player API đều HTTP 200. Tại thời điểm chạy chỉ có 1 trận trong cửa sổ, nhưng player API trả 0 stream; vì repository chưa có last-good nên v0.1.0 thoát mã 3 và làm workflow đỏ.
-
-v0.1.1 sửa theo hướng:
-
-- Lần chạy không có stream không còn bị coi là lỗi hệ thống.
-- `sptv.m3u` cũ luôn được giữ nguyên.
-- File debug vẫn được commit để xem `code`, số item và cấu trúc payload.
-- Playlist ban đầu đã được seed từ 41 link FLV thật trong file tham chiếu người dùng cung cấp; không lấy 2 placeholder.
-- Audit cho phép trạng thái rỗng hợp lệ khi chưa có last-good, nhưng vẫn bắt URL lỗi và đường dẫn trùng.
-
-## Chạy trên máy tính
-
-Windows: chạy `run_local.bat`.
-
-Linux/VPS:
-
-```bash
-chmod +x run_local.sh
-./run_local.sh
+```text
+.github/workflows/update-sptv.yml
+external_trigger/trigger_sptv.sh
+tests/test_core.py
+sptv_api.py
+audit_m3u.py
+requirements.txt
+sptv.m3u
+lastupdated.txt
 ```
 
-## Đưa lên GitHub
+Hãy tải toàn bộ nội dung thư mục này lên gốc repository, không để thừa một tầng thư mục.
 
-1. Tạo repository mới và tải toàn bộ source lên.
-2. Mở tab **Actions**.
-3. Chạy workflow **Update SPTV playlist** thủ công.
-4. File kết quả là `sptv.m3u` tại thư mục gốc.
+## Cơ chế một lượt chạy
 
-Workflow chỉ có `workflow_dispatch` và `repository_dispatch`; **không có cron nội bộ**. Có thể dùng cron bên ngoài gửi `repository_dispatch`, nhưng nên bắt đầu với tần suất thấp thay vì 5 phút/lần.
+1. Warm session tại trang chủ SPTV.
+2. Tải lịch một lần.
+3. Lọc trận trong cửa sổ `-150/+180` phút.
+4. Gọi player API tuần tự, nghỉ ngẫu nhiên 4–5,5 giây.
+5. Không gọi thử URL FLV, không gửi `Range`, không thử nhiều profile header.
+6. Đọc `auth_key[0]` thành thời điểm hết hạn.
+7. Chỉ nhận key còn tối thiểu 900 giây tại lúc xuất playlist.
+8. Link cũ chỉ được giữ khi vẫn còn hạn; link đã hết hạn bị xóa.
+9. Workflow commit `sptv.m3u`, `debug/sptv_debug.json`, `lastupdated.txt`.
 
-## Biến cấu hình
+## Vì sao phải gọi mỗi 15 phút?
 
-Sao chép `.env.example` sang `.env` khi chạy cục bộ, hoặc đặt trong phần `env` của workflow. Script đọc trực tiếp biến môi trường; file `.env` không tự nạp để tránh thêm dependency.
+Playlist tham chiếu được làm mới mỗi 15 phút trong khi key còn sống khoảng 25 phút. Vì vậy thường có 6–10 phút chồng lấn giữa thế hệ key cũ và mới. URL Raw/GitHub Pages đứng yên, nhưng nội dung `sptv.m3u` thay đổi liên tục.
 
-Các biến quan trọng:
+## Chạy thủ công
 
-- `SPTV_DELAY_MIN_SECONDS=4.0`
-- `SPTV_DELAY_MAX_SECONDS=5.5`
-- `SPTV_STOP_AFTER_DENIALS=2`
-- `SPTV_MIN_REAL_STREAMS=1`
-- `SPTV_EMIT_HEADERS=0`
-- `SPTV_INCLUDE_PLACEHOLDERS=0`
+Vào `Actions` → `Update SPTV playlist` → `Run workflow`.
 
-## Audit
+## Kích hoạt từ cron bên ngoài mỗi 15 phút
 
-```bash
-python -m unittest discover -s tests -v
-python audit_m3u.py sptv.m3u --strict
+Workflow nhận các event:
+
+```text
+refresh-sptv
+trigger-sptv-from-cronjob
+trigger-ththethao-from-cronjob
 ```
 
-`audit_m3u.py` không gọi mạng. Nó đếm link FLV, placeholder, URL lỗi, đường dẫn trùng và thống kê nhịp timestamp trong `auth_key`.
+Ví dụ trên VPS hoặc máy cron riêng:
 
-## Lưu ý
+```bash
+export GITHUB_OWNER="TEN_TAI_KHOAN"
+export GITHUB_REPO="TEN_REPOSITORY"
+export GITHUB_TOKEN="TOKEN_CO_QUYEN_ACTIONS_CONTENTS"
 
-- Không có proxy video, không tiêu tốn băng thông phát của GitHub runner/VPS.
-- Không bảo đảm CDN sẽ cho mọi IP/ASN truy cập. GitHub Actions có thể bị CDN từ chối theo từng thời điểm.
-- Dùng nguồn và luồng mà bạn có quyền truy cập; URL của bên thứ ba có thể thay đổi hoặc ngừng hoạt động.
+bash external_trigger/trigger_sptv.sh
+```
 
-## Khác biệt quan trọng so với VPS Scanner v0.3.11
+Crontab bên ngoài:
 
-Bản VPS cũ hiểu `auth_key[0]` là expiry, nên mỗi trận thường gọi player API lần thứ hai và cuối cùng vẫn có thể loại URL vì “TTL dưới 120 giây”. Bản này bỏ hoàn toàn giả định TTL đó. Nó cũng không có cron 5 phút và không thử năm profile HTTP vào mỗi FLV.
+```cron
+*/15 * * * * GITHUB_OWNER='TEN_TAI_KHOAN' GITHUB_REPO='TEN_REPOSITORY' GITHUB_TOKEN='TOKEN' /bin/bash /duong-dan/external_trigger/trigger_sptv.sh >> /tmp/sptv_dispatch.log 2>&1
+```
+
+Không chép dòng cron này vào workflow YAML. Nếu dùng cron-job.org hoặc dịch vụ tương tự, cấu hình POST tới GitHub repository dispatch với JSON:
+
+```json
+{"event_type":"refresh-sptv"}
+```
+
+## Quyền workflow
+
+Repository → Settings → Actions → General → Workflow permissions → chọn `Read and write permissions`.
+
+## Link playlist
+
+```text
+https://raw.githubusercontent.com/TEN_TAI_KHOAN/TEN_REPOSITORY/main/sptv.m3u
+```
+
+Repository public sẽ thuận tiện hơn cho IPTV/Gấu Player đọc Raw URL.
+
+## Bảo vệ chống lỗi
+
+- Hai lần liên tiếp gặp HTTP 403/429 thì dừng sớm.
+- `cancel-in-progress: true`: lượt dispatch mới hủy lượt cũ nếu bị kéo dài quá 15 phút.
+- Candidate rỗng chỉ giữ key cũ nếu key đó chưa hết hạn.
+- Không dùng 41 link seed cũ vì chúng đã hết hạn và không có giá trị dự phòng.
+- Audit từ chối URL thiếu expiry, trùng path, malformed hoặc đã quá hạn.
