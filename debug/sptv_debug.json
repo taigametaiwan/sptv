@@ -1,7 +1,7 @@
 {
   "source": "sptv",
-  "version": "0.1.1",
-  "started_at": "2026-07-27T13:33:01+07:00",
+  "version": "0.1.2",
+  "started_at": "2026-07-27T15:11:16+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -19,6 +19,9 @@
     "language": 2,
     "is_mobile": 0,
     "min_real_streams": 1,
+    "min_ttl_seconds": 900,
+    "preserve_old_min_ttl_seconds": 60,
+    "expiry_clock_skew_seconds": 30,
     "include_placeholders": false,
     "placeholder_url": "https://freem3u.xyz/static/no-signal/low.m3u8",
     "group_title": "SP TV (China)",
@@ -28,13 +31,14 @@
   "policy": {
     "media_probe": false,
     "player_requests": "sequential",
-    "auth_key_first_field": "signed_at_not_expiry",
-    "last_good_preserved_on_empty": true
+    "auth_key_first_field": "expiry_epoch",
+    "external_refresh_interval_minutes": 15,
+    "last_good_preserved_only_while_unexpired": true
   },
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.537,
+    "elapsed": 0.679,
     "error": ""
   },
   "schedule": {
@@ -42,17 +46,17 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.117,
+        "elapsed": 0.171,
         "error": ""
       }
     ],
-    "rows_selected": 1,
+    "rows_selected": 2,
     "window": "-150/+180"
   },
   "matches": [
     {
       "player_id": "5137854312",
-      "start_at": "2026-07-27T15:00:00+07:00",
+      "start_at": "2026-07-27T14:00:00+07:00",
       "league": "MPBL",
       "home": "Binan Tatak Gel BC",
       "away": "Valenzuela City Darkhorse BC",
@@ -60,7 +64,65 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854312&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.176,
+          "error": ""
+        }
+      ],
+      "player": {
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "MPBL Binan Tatak Gel BC vs Valenzuela City Darkhorse BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137854312",
+          "start_at": "2026-07-27T14:00:00+07:00",
+          "league": "MPBL",
+          "home": "Binan Tatak Gel BC",
+          "away": "Valenzuela City Darkhorse BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546640_1.flv?auth_key=1785140477-7537-0-d7a651b862328f9ecda84f4709c2bb4f",
+          "expires_at_epoch": 1785140477,
+          "expires_at_utc": "2026-07-27T08:21:17+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854312&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137854312.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144578362",
+      "start_at": "2026-07-27T17:30:00+07:00",
+      "league": "CHN D2N",
+      "home": "Qingdao Red Lions",
+      "away": "Beijing BIT FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578362&lan=2",
+          "status": 200,
+          "elapsed": 0.176,
           "error": ""
         }
       ],
@@ -86,7 +148,7 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "MPBL Binan Tatak Gel BC vs Valenzuela City Darkhorse BC",
+        "title": "CHN D2N Qingdao Red Lions vs Beijing BIT FC",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -94,18 +156,29 @@
     }
   ],
   "summary": {
-    "status": "LAST_GOOD_PRESERVED",
-    "matches_selected": 1,
-    "matches_processed": 1,
-    "real_streams": 0,
+    "status": "EMPTY_NO_VALID_KEY",
+    "matches_selected": 2,
+    "matches_processed": 2,
+    "streams_returned_by_api": 1,
+    "fresh_streams_accepted": 0,
+    "rejected_missing_expiry": 0,
+    "rejected_short_ttl": 1,
+    "minimum_required_ttl_seconds": 900,
     "placeholders": 0,
-    "request_delays_seconds": [],
-    "signed_at_min_epoch": null,
-    "signed_at_max_epoch": null,
-    "signed_at_span_seconds": 0,
-    "published": false,
-    "publish_reason": "candidate has 0; preserved last-good playlist",
+    "request_delays_seconds": [
+      5.014
+    ],
+    "expires_at_min_epoch": null,
+    "expires_at_max_epoch": null,
+    "expires_at_span_seconds": 0,
+    "remaining_ttl_min_seconds": null,
+    "remaining_ttl_max_seconds": null,
+    "playlist_changed": false,
+    "preserved_unexpired_previous": 0,
+    "expired_previous_removed": 0,
+    "final_streams": 0,
+    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 0 expired streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 0.78
+    "elapsed_seconds": 6.23
   }
 }
