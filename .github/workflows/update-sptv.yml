@@ -3,19 +3,22 @@ name: Update SPTV playlist
 on:
   workflow_dispatch:
   repository_dispatch:
-    types: [refresh-sptv]
+    types:
+      - refresh-sptv
+      - trigger-sptv-from-cronjob
+      - trigger-ththethao-from-cronjob
 
 permissions:
   contents: write
 
 concurrency:
   group: sptv-api-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 14
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,29 +37,35 @@ jobs:
       - name: Unit tests
         run: python -m unittest discover -s tests -v
 
-      - name: Fetch SPTV through API
+      - name: Fetch fresh SPTV keys through API
         env:
           SPTV_DELAY_MIN_SECONDS: "4.0"
           SPTV_DELAY_MAX_SECONDS: "5.5"
           SPTV_NETWORK_RETRIES: "1"
           SPTV_STOP_AFTER_DENIALS: "2"
           SPTV_MIN_REAL_STREAMS: "1"
+          SPTV_MIN_TTL_SECONDS: "900"
+          SPTV_PRESERVE_OLD_MIN_TTL_SECONDS: "60"
+          SPTV_EXPIRY_CLOCK_SKEW_SECONDS: "30"
           SPTV_INCLUDE_PLACEHOLDERS: "0"
           SPTV_EMIT_HEADERS: "0"
         run: python sptv_api.py --output sptv.m3u --debug debug/sptv_debug.json
 
-      - name: Audit output
-        run: python audit_m3u.py sptv.m3u --strict --allow-empty
+      - name: Audit output and key expiry
+        run: python audit_m3u.py sptv.m3u --strict --allow-empty --min-remaining-seconds 30
+
+      - name: Write update marker
+        run: date -u +'%Y-%m-%dT%H:%M:%SZ' > lastupdated.txt
 
       - name: Commit changed playlist
         run: |
           git config user.name "sptv-api-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sptv.m3u debug/sptv_debug.json
+          git add sptv.m3u debug/sptv_debug.json lastupdated.txt
           if git diff --cached --quiet; then
             echo "No playlist change."
             exit 0
           fi
-          git commit -m "Update SPTV playlist"
+          git commit -m "Refresh SPTV keys"
           git pull --rebase
           git push
