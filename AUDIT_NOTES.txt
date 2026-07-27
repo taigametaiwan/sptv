@@ -1,0 +1,12 @@
+SPTV API GitHub v0.1.0 - STATIC AUDIT
+
+[PASS] Workflow không chứa schedule/cron.
+[PASS] Chỉ workflow_dispatch + repository_dispatch.
+[PASS] Player API chạy tuần tự; không ThreadPool/concurrency.
+[PASS] Mặc định delay 4.0-5.5 giây giữa các player request.
+[PASS] Không probe/tải FLV media.
+[PASS] Không diễn giải auth_key[0] là expiry/TTL.
+[PASS] Dừng sớm khi 403/429 liên tiếp.
+[PASS] Candidate rỗng giữ last-good M3U.
+[PASS] tvg-logo để trống; không có request phụ tìm logo.
+[PASS] Unit test và audit M3U có trong source.
