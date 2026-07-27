@@ -30,7 +30,7 @@ class CoreTests(unittest.TestCase):
             config = Config.from_env()
             self.assertEqual(config.home_url, "https://www.sptv.com/en/")
             self.assertEqual(config.delay_min_seconds, 4.0)
-            self.assertEqual(config.min_ttl_seconds, 900)
+            self.assertEqual(config.min_ttl_seconds, 300)
             self.assertEqual(config.preserve_old_min_ttl_seconds, 60)
         finally:
             for key, value in old.items():
@@ -193,16 +193,16 @@ class CoreTests(unittest.TestCase):
             self.assertEqual(report["remaining_ttl_min_seconds"], 1000)
             self.assertEqual(report["missing_expiry"], 0)
 
-    def test_workflow_matches_external_15_minute_dispatch_design(self) -> None:
+    def test_workflow_matches_five_minute_schedule_design(self) -> None:
         root = Path(__file__).parents[1]
         workflow = (root / ".github/workflows/update-sptv.yml").read_text(encoding="utf-8")
-        self.assertNotIn("schedule:", workflow)
-        self.assertNotIn("cron:", workflow)
+        self.assertIn("schedule:", workflow)
+        self.assertIn('cron: "*/5 * * * *"', workflow)
         self.assertIn("workflow_dispatch:", workflow)
         self.assertIn("repository_dispatch:", workflow)
         self.assertIn("refresh-sptv", workflow)
-        self.assertIn("cancel-in-progress: true", workflow)
-        self.assertIn('SPTV_MIN_TTL_SECONDS: "900"', workflow)
+        self.assertIn("cancel-in-progress: false", workflow)
+        self.assertIn('SPTV_MIN_TTL_SECONDS: "300"', workflow)
         self.assertIn("--min-remaining-seconds 30", workflow)
 
     def test_source_never_probes_flv_media(self) -> None:

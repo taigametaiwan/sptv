@@ -1,17 +1,15 @@
 # Changelog
 
+## v0.1.3
+
+- Thêm cron GitHub `*/5 * * * *` theo yêu cầu.
+- Hạ `SPTV_MIN_TTL_SECONDS` từ 900 xuống 300 sau khi log xác nhận key hợp lệ chỉ còn khoảng 600 giây.
+- Đổi concurrency thành `cancel-in-progress: false` để lượt đang chạy không bị cron kế tiếp hủy.
+- Cập nhật debug policy, tài liệu và test sang chu kỳ 5 phút.
+- Giữ nguyên cơ chế tuần tự 4–5,5 giây, không probe FLV, không gửi Range.
+
 ## v0.1.2
 
-- Sửa kết luận `auth_key[0]`: đây là Unix expiry.
-- Thiết kế đúng chu kỳ external `repository_dispatch` mỗi 15 phút.
-- Không thêm cron/schedule vào GitHub workflow.
-- Lọc key còn tối thiểu 900 giây khi publish.
-- Chỉ giữ last-good khi key cũ còn hạn; xóa seed/link đã hết hạn.
-- Merge key mới với các path cũ còn hạn để chống mất link do API trả thiếu tạm thời.
-- Thêm audit TTL, `lastupdated.txt`, external trigger script.
-- Bật `cancel-in-progress: true`, timeout workflow 14 phút.
-
-## v0.1.1
-
-- Xử lý lượt yên giờ không làm workflow đỏ.
-- Mở rộng parser player payload.
+- Xác định `auth_key[0]` là Unix expiry.
+- Chỉ giữ last-good khi key cũ còn hạn.
+- Loại seed/link đã hết hạn.

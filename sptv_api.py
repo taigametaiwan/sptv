@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""SPTV API -> M3U, designed for a 15-minute external refresh cycle.
+"""SPTV API -> M3U for a five-minute GitHub Actions refresh cycle.
 
-The implementation does not probe FLV media. The first numeric component in
-``auth_key`` is treated as the URL expiry epoch, matching the observed reference
-playlist refresh pattern: keys live roughly 25 minutes while an external scheduler
-triggers this workflow every 15 minutes.
+The implementation never probes FLV media. The first numeric component in
+``auth_key`` is treated as the URL expiry epoch. Current API observations show
+that some keys have only about ten minutes of remaining life, so the workflow
+refreshes every five minutes and accepts keys with at least five minutes left.
 """
 from __future__ import annotations
 
@@ -25,7 +25,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 DATE12_RE = re.compile(r"^20\d{10}$")
 PLAYER_ID_RE = re.compile(r"(?:/player/|[?&]id=)(\d{4,})", re.I)
@@ -54,7 +54,7 @@ class Config:
     language: int = 2
     is_mobile: int = 0
     min_real_streams: int = 1
-    min_ttl_seconds: int = 900
+    min_ttl_seconds: int = 300
     preserve_old_min_ttl_seconds: int = 60
     expiry_clock_skew_seconds: int = 30
     include_placeholders: bool = False
@@ -787,7 +787,7 @@ def run(
             "media_probe": False,
             "player_requests": "sequential",
             "auth_key_first_field": "expiry_epoch",
-            "external_refresh_interval_minutes": 15,
+            "workflow_refresh_interval_minutes": 5,
             "last_good_preserved_only_while_unexpired": True,
         },
         "home": {},

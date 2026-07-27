@@ -1,0 +1,12 @@
+CẬP NHẬT REPOSITORY TỪ v0.1.2 LÊN v0.1.3
+
+1. Giải nén gói CHANGED_ONLY.
+2. Tải toàn bộ nội dung bên trong lên gốc repository và chọn ghi đè file cũ.
+3. Không cần xóa sptv.m3u hiện tại; workflow sẽ thay key ở lượt chạy kế tiếp.
+4. Kiểm tra file sau đã nằm đúng đường dẫn:
+   .github/workflows/update-sptv.yml
+5. Vào Actions -> Update SPTV playlist -> Run workflow để thử ngay.
+6. Sau đó workflow tự chạy mỗi 5 phút bằng cron GitHub.
+7. Settings -> Actions -> General -> Workflow permissions phải là Read and write permissions.
+
+Tệp SETUP_EXTERNAL_15_MINUTES.txt được ghi đè thành thông báo lỗi thời; không cần cron VPS ngoài nữa.

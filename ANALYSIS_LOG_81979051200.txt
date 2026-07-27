@@ -1,0 +1,13 @@
+AUDIT LOG 81979051200
+
+- Workflow bắt đầu lấy API lúc 2026-07-27 09:24:28 UTC.
+- 3 trận được chọn.
+- Trận 5137859919 trả HTTP 200, items=1, streams=1.
+- Key của luồng còn khoảng 600 giây trước clock-skew.
+- v0.1.2 yêu cầu 900 giây, nên tự loại luồng thành rejected_short_ttl.
+- Đây là lỗi ngưỡng TTL, không phải API rỗng hay GitHub bị chặn.
+
+Sửa trong v0.1.3:
+- ngưỡng publish 300 giây;
+- cron GitHub mỗi 5 phút;
+- không hủy lượt đang chạy khi cron kế tiếp tới.

@@ -1,18 +1,17 @@
-# SPTV API GitHub v0.1.2
+# SPTV API GitHub v0.1.3
 
-Bản này mô phỏng đúng cơ chế đã xác định từ playlist tham chiếu:
+Bản này chạy tự động bằng **GitHub Actions mỗi 5 phút**:
 
-- `auth_key[0]` là **Unix expiry**, không phải thời điểm cấp key.
-- Key quan sát được sống khoảng 25 phút.
-- Workflow được **cron bên ngoài gọi mỗi 15 phút** để key mới chồng lấn key cũ.
-- Trong `.github/workflows/update-sptv.yml` không có `schedule` hay cron nội bộ.
+- `auth_key[0]` được đọc là Unix expiry.
+- Lượt API thực tế ngày 27/07/2026 trả key chỉ còn khoảng 10 phút.
+- Ngưỡng publish hạ từ 900 xuống **300 giây** để không loại nhầm luồng hợp lệ.
+- Workflow có `schedule: */5 * * * *`, đồng thời vẫn hỗ trợ chạy thủ công và `repository_dispatch`.
 - GitHub không probe FLV và không truyền video; người xem tải thẳng CDN SPTV.
 
-## Cấu trúc bắt buộc trên GitHub
+## Tệp cần đặt ở gốc repository
 
 ```text
 .github/workflows/update-sptv.yml
-external_trigger/trigger_sptv.sh
 tests/test_core.py
 sptv_api.py
 audit_m3u.py
@@ -21,7 +20,7 @@ sptv.m3u
 lastupdated.txt
 ```
 
-Hãy tải toàn bộ nội dung thư mục này lên gốc repository, không để thừa một tầng thư mục.
+Tải toàn bộ nội dung thư mục này lên gốc repository, không để thừa một tầng thư mục.
 
 ## Cơ chế một lượt chạy
 
@@ -31,49 +30,26 @@ Hãy tải toàn bộ nội dung thư mục này lên gốc repository, không �
 4. Gọi player API tuần tự, nghỉ ngẫu nhiên 4–5,5 giây.
 5. Không gọi thử URL FLV, không gửi `Range`, không thử nhiều profile header.
 6. Đọc `auth_key[0]` thành thời điểm hết hạn.
-7. Chỉ nhận key còn tối thiểu 900 giây tại lúc xuất playlist.
-8. Link cũ chỉ được giữ khi vẫn còn hạn; link đã hết hạn bị xóa.
-9. Workflow commit `sptv.m3u`, `debug/sptv_debug.json`, `lastupdated.txt`.
+7. Chỉ nhận key còn tối thiểu 300 giây sau khi trừ 30 giây clock-skew.
+8. Link cũ chỉ được giữ khi vẫn còn ít nhất 60 giây; link hết hạn bị xóa.
+9. Commit `sptv.m3u`, `debug/sptv_debug.json`, `lastupdated.txt`.
 
-## Vì sao phải gọi mỗi 15 phút?
+## Lịch tự động
 
-Playlist tham chiếu được làm mới mỗi 15 phút trong khi key còn sống khoảng 25 phút. Vì vậy thường có 6–10 phút chồng lấn giữa thế hệ key cũ và mới. URL Raw/GitHub Pages đứng yên, nhưng nội dung `sptv.m3u` thay đổi liên tục.
+Workflow chứa:
+
+```yaml
+schedule:
+  - cron: "*/5 * * * *"
+```
+
+GitHub lên lịch theo UTC, nhưng biểu thức này chạy mỗi 5 phút nên không cần đổi múi giờ. GitHub có thể khởi chạy trễ vài phút khi hệ thống đông; đây là giới hạn của Actions chứ không phải lỗi code.
+
+`cancel-in-progress: false` để lượt đang lấy key không bị lượt kế tiếp hủy giữa chừng. Với cùng một concurrency group, GitHub chỉ cho một lượt chạy và tối đa một lượt chờ.
 
 ## Chạy thủ công
 
 Vào `Actions` → `Update SPTV playlist` → `Run workflow`.
-
-## Kích hoạt từ cron bên ngoài mỗi 15 phút
-
-Workflow nhận các event:
-
-```text
-refresh-sptv
-trigger-sptv-from-cronjob
-trigger-ththethao-from-cronjob
-```
-
-Ví dụ trên VPS hoặc máy cron riêng:
-
-```bash
-export GITHUB_OWNER="TEN_TAI_KHOAN"
-export GITHUB_REPO="TEN_REPOSITORY"
-export GITHUB_TOKEN="TOKEN_CO_QUYEN_ACTIONS_CONTENTS"
-
-bash external_trigger/trigger_sptv.sh
-```
-
-Crontab bên ngoài:
-
-```cron
-*/15 * * * * GITHUB_OWNER='TEN_TAI_KHOAN' GITHUB_REPO='TEN_REPOSITORY' GITHUB_TOKEN='TOKEN' /bin/bash /duong-dan/external_trigger/trigger_sptv.sh >> /tmp/sptv_dispatch.log 2>&1
-```
-
-Không chép dòng cron này vào workflow YAML. Nếu dùng cron-job.org hoặc dịch vụ tương tự, cấu hình POST tới GitHub repository dispatch với JSON:
-
-```json
-{"event_type":"refresh-sptv"}
-```
 
 ## Quyền workflow
 
@@ -85,12 +61,10 @@ Repository → Settings → Actions → General → Workflow permissions → ch�
 https://raw.githubusercontent.com/TEN_TAI_KHOAN/TEN_REPOSITORY/main/sptv.m3u
 ```
 
-Repository public sẽ thuận tiện hơn cho IPTV/Gấu Player đọc Raw URL.
-
 ## Bảo vệ chống lỗi
 
 - Hai lần liên tiếp gặp HTTP 403/429 thì dừng sớm.
-- `cancel-in-progress: true`: lượt dispatch mới hủy lượt cũ nếu bị kéo dài quá 15 phút.
 - Candidate rỗng chỉ giữ key cũ nếu key đó chưa hết hạn.
-- Không dùng 41 link seed cũ vì chúng đã hết hạn và không có giá trị dự phòng.
-- Audit từ chối URL thiếu expiry, trùng path, malformed hoặc đã quá hạn.
+- Không dùng link seed cũ đã hết hạn.
+- Audit từ chối URL thiếu expiry, trùng path, malformed hoặc chỉ còn dưới 30 giây.
+- `workflow_dispatch` và `repository_dispatch` vẫn được giữ để kiểm thử hoặc kích hoạt bổ sung.

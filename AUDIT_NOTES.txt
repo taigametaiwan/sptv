@@ -1,8 +1,8 @@
-[PASS] Workflow không chứa schedule/cron.
-[PASS] workflow_dispatch + repository_dispatch.
-[PASS] repository_dispatch hỗ trợ refresh-sptv và event tương thích.
+[PASS] Workflow có cron GitHub */5 * * * *.
+[PASS] Vẫn hỗ trợ workflow_dispatch + repository_dispatch.
 [PASS] auth_key[0] được coi là expiry Unix.
-[PASS] Key ngắn hạn bị loại trước publish.
+[PASS] Ngưỡng publish là 300 giây; audit cuối yêu cầu tối thiểu 30 giây.
 [PASS] Last-good chỉ được giữ khi chưa hết hạn.
-[PASS] Không probe FLV, không Range, không concurrency.
+[PASS] Không probe FLV, không Range, không concurrency trong code cào.
+[PASS] Workflow concurrency không hủy lượt đang chạy.
 [PASS] Không tìm logo; tvg-logo="".

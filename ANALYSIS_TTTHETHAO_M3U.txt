@@ -1,8 +1,8 @@
-KẾT LUẬN CƠ CHẾ PLAYLIST THAM CHIẾU
+KẾT LUẬN CƠ CHẾ VÀ ĐIỀU CHỈNH THỰC TẾ
 
-- auth_key[0] nhỏ nhất/lớn nhất trong file tham chiếu nằm sau thời điểm workflow bắt đầu khoảng 25-29 phút.
-- Do đó auth_key[0] là expiry, không phải signed_at.
-- Script gọi player API tuần tự, các expiry tăng cách nhau khoảng 2-7 giây.
-- Repository được cron bên ngoài kích hoạt mỗi 15 phút.
-- Key sống khoảng 25 phút nên các lượt cập nhật chồng lấn 6-10 phút.
-- Link playlist công khai giữ nguyên nhưng nội dung bên trong được thay key liên tục.
+- auth_key[0] là thời điểm hết hạn Unix.
+- Playlist tham chiếu từng cho thấy key sống khoảng 25 phút và được cập nhật khoảng 15 phút/lần.
+- Tuy nhiên log API trực tiếp ngày 27/07/2026 trả key chỉ còn khoảng 600 giây.
+- Vì TTL có thể thay đổi theo thời điểm/endpoint, bản này không cố định giả định 25 phút.
+- Workflow chạy mỗi 5 phút và chỉ nhận key còn tối thiểu 300 giây.
+- Script vẫn gọi player API tuần tự 4-5,5 giây và không probe URL video.
