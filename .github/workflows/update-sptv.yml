@@ -1,6 +1,8 @@
 name: Update SPTV playlist
 
 on:
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_dispatch:
   repository_dispatch:
     types:
@@ -13,7 +15,7 @@ permissions:
 
 concurrency:
   group: sptv-api-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -44,7 +46,7 @@ jobs:
           SPTV_NETWORK_RETRIES: "1"
           SPTV_STOP_AFTER_DENIALS: "2"
           SPTV_MIN_REAL_STREAMS: "1"
-          SPTV_MIN_TTL_SECONDS: "900"
+          SPTV_MIN_TTL_SECONDS: "300"
           SPTV_PRESERVE_OLD_MIN_TTL_SECONDS: "60"
           SPTV_EXPIRY_CLOCK_SKEW_SECONDS: "30"
           SPTV_INCLUDE_PLACEHOLDERS: "0"
