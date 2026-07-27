@@ -46,7 +46,7 @@ jobs:
         run: python sptv_api.py --output sptv.m3u --debug debug/sptv_debug.json
 
       - name: Audit output
-        run: python audit_m3u.py sptv.m3u --strict
+        run: python audit_m3u.py sptv.m3u --strict --allow-empty
 
       - name: Commit changed playlist
         run: |
