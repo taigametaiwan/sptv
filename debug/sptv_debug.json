@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.2",
-  "started_at": "2026-07-27T15:11:16+07:00",
+  "started_at": "2026-07-27T16:24:28+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -38,7 +38,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.679,
+    "elapsed": 0.704,
     "error": ""
   },
   "schedule": {
@@ -46,25 +46,25 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.171,
+        "elapsed": 0.168,
         "error": ""
       }
     ],
-    "rows_selected": 2,
+    "rows_selected": 3,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5137854312",
-      "start_at": "2026-07-27T14:00:00+07:00",
-      "league": "MPBL",
-      "home": "Binan Tatak Gel BC",
-      "away": "Valenzuela City Darkhorse BC",
+      "player_id": "5137859919",
+      "start_at": "2026-07-27T16:00:00+07:00",
+      "league": "FriendlyB",
+      "home": "Georgia (M)",
+      "away": "Montenegro (M)",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854312&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859919&lan=2",
           "status": 200,
-          "elapsed": 0.176,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -90,7 +90,7 @@
         ],
         "code": 0,
         "pid": 1,
-        "title": "MPBL Binan Tatak Gel BC vs Valenzuela City Darkhorse BC",
+        "title": "FriendlyB Georgia (M) vs Montenegro (M)",
         "stream_item_count": 1,
         "stream_item_types": [
           "dict"
@@ -98,17 +98,17 @@
       },
       "streams": [
         {
-          "player_id": "5137854312",
-          "start_at": "2026-07-27T14:00:00+07:00",
-          "league": "MPBL",
-          "home": "Binan Tatak Gel BC",
-          "away": "Valenzuela City Darkhorse BC",
+          "player_id": "5137859919",
+          "start_at": "2026-07-27T16:00:00+07:00",
+          "league": "FriendlyB",
+          "home": "Georgia (M)",
+          "away": "Montenegro (M)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546640_1.flv?auth_key=1785140477-7537-0-d7a651b862328f9ecda84f4709c2bb4f",
-          "expires_at_epoch": 1785140477,
-          "expires_at_utc": "2026-07-27T08:21:17+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854312&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137854312.html"
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5581724_1.flv?auth_key=1785144869-9868-0-af1616aefa6e2a476c59ba1a435cce68",
+          "expires_at_epoch": 1785144869,
+          "expires_at_utc": "2026-07-27T09:34:29+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859919&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137859919.html"
         }
       ]
     },
@@ -122,7 +122,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578362&lan=2",
           "status": 200,
-          "elapsed": 0.176,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -153,12 +153,54 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5137854315",
+      "start_at": "2026-07-27T19:00:00+07:00",
+      "league": "MPBL",
+      "home": "Sarangani Marlins BC",
+      "away": "Manila Batang Quiapo BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854315&lan=2",
+          "status": 200,
+          "elapsed": 0.174,
+          "error": ""
+        }
+      ],
+      "player": {
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Sarangani Marlins BC vs Manila Batang Quiapo BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "EMPTY_NO_VALID_KEY",
-    "matches_selected": 2,
-    "matches_processed": 2,
+    "matches_selected": 3,
+    "matches_processed": 3,
     "streams_returned_by_api": 1,
     "fresh_streams_accepted": 0,
     "rejected_missing_expiry": 0,
@@ -166,7 +208,8 @@
     "minimum_required_ttl_seconds": 900,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.014
+      4.202,
+      4.724
     ],
     "expires_at_min_epoch": null,
     "expires_at_max_epoch": null,
@@ -179,6 +222,6 @@
     "final_streams": 0,
     "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 0 expired streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 6.23
+    "elapsed_seconds": 10.33
   }
 }
