@@ -1,0 +1,111 @@
+{
+  "source": "sptv",
+  "version": "0.1.1",
+  "started_at": "2026-07-27T13:33:01+07:00",
+  "configuration": {
+    "home_url": "https://www.sptv.com/en/",
+    "schedule_url": "https://www.sptv.com/data/zb.json",
+    "player_api_url": "https://www.sptv.com/ajax_zb.php",
+    "schedule_timezone": "Asia/Shanghai",
+    "past_minutes": 150,
+    "future_minutes": 180,
+    "max_matches": 120,
+    "max_lines_per_match": 4,
+    "request_timeout": 15.0,
+    "delay_min_seconds": 4.0,
+    "delay_max_seconds": 5.5,
+    "network_retries": 1,
+    "stop_after_denials": 2,
+    "language": 2,
+    "is_mobile": 0,
+    "min_real_streams": 1,
+    "include_placeholders": false,
+    "placeholder_url": "https://freem3u.xyz/static/no-signal/low.m3u8",
+    "group_title": "SP TV (China)",
+    "emit_headers": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+  },
+  "policy": {
+    "media_probe": false,
+    "player_requests": "sequential",
+    "auth_key_first_field": "signed_at_not_expiry",
+    "last_good_preserved_on_empty": true
+  },
+  "home": {
+    "url": "https://www.sptv.com/en/",
+    "status": 200,
+    "elapsed": 0.537,
+    "error": ""
+  },
+  "schedule": {
+    "attempts": [
+      {
+        "url": "https://www.sptv.com/data/zb.json",
+        "status": 200,
+        "elapsed": 0.117,
+        "error": ""
+      }
+    ],
+    "rows_selected": 1,
+    "window": "-150/+180"
+  },
+  "matches": [
+    {
+      "player_id": "5137854312",
+      "start_at": "2026-07-27T15:00:00+07:00",
+      "league": "MPBL",
+      "home": "Binan Tatak Gel BC",
+      "away": "Valenzuela City Darkhorse BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854312&lan=2",
+          "status": 200,
+          "elapsed": 0.123,
+          "error": ""
+        }
+      ],
+      "player": {
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Binan Tatak Gel BC vs Valenzuela City Darkhorse BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    }
+  ],
+  "summary": {
+    "status": "LAST_GOOD_PRESERVED",
+    "matches_selected": 1,
+    "matches_processed": 1,
+    "real_streams": 0,
+    "placeholders": 0,
+    "request_delays_seconds": [],
+    "signed_at_min_epoch": null,
+    "signed_at_max_epoch": null,
+    "signed_at_span_seconds": 0,
+    "published": false,
+    "publish_reason": "candidate has 0; preserved last-good playlist",
+    "output": "/home/runner/work/sptv/sptv/sptv.m3u",
+    "elapsed_seconds": 0.78
+  }
+}
