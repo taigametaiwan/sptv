@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.3",
-  "started_at": "2026-07-28T16:10:27+07:00",
+  "started_at": "2026-07-28T16:20:28+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -38,7 +38,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.44,
+    "elapsed": 0.459,
     "error": ""
   },
   "schedule": {
@@ -97,6 +97,48 @@
       "streams": []
     },
     {
+      "player_id": "5137854321",
+      "start_at": "2026-07-28T16:00:00+07:00",
+      "league": "MPBL",
+      "home": "Zamboanga Sikat BC",
+      "away": "Paranaque Patriots BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854321&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Zamboanga Sikat BC vs Paranaque Patriots BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
       "player_id": "5137858431",
       "start_at": "2026-07-28T16:00:00+07:00",
       "league": "WNBL",
@@ -146,9 +188,9 @@
           "home": "Shandong Chishui River Jiu (W)",
           "away": "Xinjiang Tianshan (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5553502_1.flv?auth_key=1785230432-6724-0-ec7f281ffa11f1e751e058adccc0ceb8",
-          "expires_at_epoch": 1785230432,
-          "expires_at_utc": "2026-07-28T09:20:32+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5553502_1.flv?auth_key=1785231039-6982-0-1350c6149ad7d11dd3afdb953af12afe",
+          "expires_at_epoch": 1785231039,
+          "expires_at_utc": "2026-07-28T09:30:39+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858431&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137858431.html"
         }
@@ -164,7 +206,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855308&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -204,55 +246,13 @@
           "home": "Phoenix Fuel Masters BC",
           "away": "Blackwater Bossing BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5599375_1.flv?auth_key=1785230436-6572-0-3d0a7f01701fa232f63d230843f9723f",
-          "expires_at_epoch": 1785230436,
-          "expires_at_utc": "2026-07-28T09:20:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5599375_1.flv?auth_key=1785231043-9552-0-36522a0616e309f10d7931a904ad6ef7",
+          "expires_at_epoch": 1785231043,
+          "expires_at_utc": "2026-07-28T09:30:43+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855308&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855308.html"
         }
       ]
-    },
-    {
-      "player_id": "5137854321",
-      "start_at": "2026-07-28T17:00:00+07:00",
-      "league": "MPBL",
-      "home": "Zamboanga Sikat BC",
-      "away": "Paranaque Patriots BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854321&lan=2",
-          "status": 200,
-          "elapsed": 0.123,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "MPBL Zamboanga Sikat BC vs Paranaque Patriots BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5137859847",
@@ -308,22 +308,22 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.101,
-      4.222,
-      4.368,
-      4.434
+      5.271,
+      4.379,
+      4.233,
+      5.175
     ],
-    "expires_at_min_epoch": 1785230432,
-    "expires_at_max_epoch": 1785230436,
+    "expires_at_min_epoch": 1785231039,
+    "expires_at_max_epoch": 1785231043,
     "expires_at_span_seconds": 4,
-    "remaining_ttl_min_seconds": 557,
-    "remaining_ttl_max_seconds": 561,
+    "remaining_ttl_min_seconds": 561,
+    "remaining_ttl_max_seconds": 565,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 0,
+    "expired_previous_removed": 2,
     "final_streams": 2,
     "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 18.31
+    "elapsed_seconds": 20.26
   }
 }
