@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.3",
-  "started_at": "2026-07-28T15:30:38+07:00",
+  "started_at": "2026-07-28T15:40:32+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -38,7 +38,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.383,
+    "elapsed": 0.4,
     "error": ""
   },
   "schedule": {
@@ -46,11 +46,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.11,
+        "elapsed": 0.109,
         "error": ""
       }
     ],
-    "rows_selected": 4,
+    "rows_selected": 3,
     "window": "-150/+180"
   },
   "matches": [
@@ -64,7 +64,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854318&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
@@ -104,9 +104,9 @@
           "home": "Bacolod Masskara BC",
           "away": "Bulacan Kuyas BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546642_1.flv?auth_key=1785228038-8499-0-44e5b7409a4dbcd064941b58c2e575eb",
-          "expires_at_epoch": 1785228038,
-          "expires_at_utc": "2026-07-28T08:40:38+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546642_1.flv?auth_key=1785228632-3806-0-5ea2a8231c87239ba98356102afe106e",
+          "expires_at_epoch": 1785228632,
+          "expires_at_utc": "2026-07-28T08:50:32+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854318&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137854318.html"
         }
@@ -155,48 +155,6 @@
       "streams": []
     },
     {
-      "player_id": "5144815167",
-      "start_at": "2026-07-28T15:30:00+07:00",
-      "league": "IDN PC",
-      "home": "Tampines Rovers",
-      "away": "Arema FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144815167&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "IDN PC Tampines Rovers vs Arema FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
       "player_id": "5137854321",
       "start_at": "2026-07-28T17:00:00+07:00",
       "league": "MPBL",
@@ -206,7 +164,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854321&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
@@ -241,8 +199,8 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 4,
-    "matches_processed": 4,
+    "matches_selected": 3,
+    "matches_processed": 3,
     "streams_returned_by_api": 1,
     "fresh_streams_accepted": 1,
     "rejected_missing_expiry": 0,
@@ -250,21 +208,20 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.244,
-      5.337,
-      5.128
+      4.417,
+      4.651
     ],
-    "expires_at_min_epoch": 1785228038,
-    "expires_at_max_epoch": 1785228038,
+    "expires_at_min_epoch": 1785228632,
+    "expires_at_max_epoch": 1785228632,
     "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": 555,
-    "remaining_ttl_max_seconds": 555,
+    "remaining_ttl_min_seconds": 560,
+    "remaining_ttl_max_seconds": 560,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 1,
     "final_streams": 1,
     "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 15.67
+    "elapsed_seconds": 9.93
   }
 }
