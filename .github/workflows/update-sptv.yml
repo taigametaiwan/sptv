@@ -22,10 +22,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 14
     steps:
-      - name: Checkout
+      - name: Checkout latest main
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+
+      - name: Sync latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,6 +51,7 @@ jobs:
           SPTV_DELAY_MAX_SECONDS: "5.5"
           SPTV_NETWORK_RETRIES: "1"
           SPTV_STOP_AFTER_DENIALS: "2"
+          SPTV_MAX_SCAN_SECONDS: "210"
           SPTV_MIN_REAL_STREAMS: "1"
           SPTV_MIN_TTL_SECONDS: "300"
           SPTV_PRESERVE_OLD_MIN_TTL_SECONDS: "60"
@@ -56,18 +63,16 @@ jobs:
       - name: Audit output and key expiry
         run: python audit_m3u.py sptv.m3u --strict --allow-empty --min-remaining-seconds 30
 
-      - name: Write update marker
-        run: date -u +'%Y-%m-%dT%H:%M:%SZ' > lastupdated.txt
-
       - name: Commit changed playlist
         run: |
+          if git diff --quiet -- sptv.m3u; then
+            echo "No playlist change; skip debug/marker commit."
+            exit 0
+          fi
+
+          date -u +'%Y-%m-%dT%H:%M:%SZ' > lastupdated.txt
           git config user.name "sptv-api-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add sptv.m3u debug/sptv_debug.json lastupdated.txt
-          if git diff --cached --quiet; then
-            echo "No playlist change."
-            exit 0
-          fi
           git commit -m "Refresh SPTV keys"
-          git pull --rebase
-          git push
+          git push origin HEAD:main
