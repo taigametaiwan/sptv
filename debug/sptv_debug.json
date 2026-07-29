@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.3",
-  "started_at": "2026-07-29T13:10:25+07:00",
+  "started_at": "2026-07-29T13:20:20+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -38,7 +38,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.727,
+    "elapsed": 0.772,
     "error": ""
   },
   "schedule": {
@@ -46,11 +46,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.173,
+        "elapsed": 0.167,
         "error": ""
       }
     ],
-    "rows_selected": 2,
+    "rows_selected": 3,
     "window": "-150/+180"
   },
   "matches": [
@@ -64,7 +64,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854324&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -106,7 +106,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560770&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.173,
           "error": ""
         }
       ],
@@ -137,12 +137,54 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5355875196",
+      "start_at": "2026-07-29T16:15:00+07:00",
+      "league": "AUS FQP3",
+      "home": "Newmarket SFC",
+      "away": "North Pine",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5355875196&lan=2",
+          "status": 200,
+          "elapsed": 0.173,
+          "error": ""
+        }
+      ],
+      "player": {
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS FQP3 Newmarket SFC  vs North Pine",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "EMPTY_NO_VALID_KEY",
-    "matches_selected": 2,
-    "matches_processed": 2,
+    "matches_selected": 3,
+    "matches_processed": 3,
     "streams_returned_by_api": 0,
     "fresh_streams_accepted": 0,
     "rejected_missing_expiry": 0,
@@ -150,7 +192,8 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.612
+      4.472,
+      4.759
     ],
     "expires_at_min_epoch": null,
     "expires_at_max_epoch": null,
@@ -163,6 +206,6 @@
     "final_streams": 0,
     "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 0 expired streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 5.87
+    "elapsed_seconds": 10.7
   }
 }
