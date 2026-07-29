@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-07-29T20:30:29+07:00",
+  "started_at": "2026-07-29T20:40:26+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.516,
+    "elapsed": 0.437,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,132 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.107,
+        "elapsed": 0.12,
         "error": ""
       }
     ],
-    "rows_selected": 9,
+    "rows_selected": 11,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137805040",
+      "start_at": "2026-07-29T20:30:00+07:00",
+      "league": "EuroB",
+      "home": "Ukraine U18 (M)",
+      "away": "Portugal U18 (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805040&lan=2",
+          "status": 200,
+          "elapsed": 0.128,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "EuroB Ukraine U18 (M) vs Portugal U18 (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137805040",
+          "start_at": "2026-07-29T20:30:00+07:00",
+          "league": "EuroB",
+          "home": "Ukraine U18 (M)",
+          "away": "Portugal U18 (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5248233_1.flv?auth_key=1785333027-8076-0-8cb933687803a7426d207cfc392dfa16",
+          "expires_at_epoch": 1785333027,
+          "expires_at_utc": "2026-07-29T13:50:27+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805040&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137805040.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137805085",
+      "start_at": "2026-07-29T20:30:00+07:00",
+      "league": "EuroB",
+      "home": "Great Britain U18 (M)",
+      "away": "Belgium U18 (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805085&lan=2",
+          "status": 200,
+          "elapsed": 0.13,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "EuroB Great Britain U18 (M) vs Belgium U18 (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137805085",
+          "start_at": "2026-07-29T20:30:00+07:00",
+          "league": "EuroB",
+          "home": "Great Britain U18 (M)",
+          "away": "Belgium U18 (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5248231_1.flv?auth_key=1785333032-2884-0-39a39162f53709f380d3229b801c84b1",
+          "expires_at_epoch": 1785333032,
+          "expires_at_utc": "2026-07-29T13:50:32+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805085&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137805085.html"
+        }
+      ]
+    },
     {
       "player_id": "5144823093",
       "start_at": "2026-07-29T20:00:00+07:00",
@@ -67,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823093&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.128,
           "error": ""
         }
       ],
@@ -108,9 +226,9 @@
           "home": "Bayer 04 Leverkusen",
           "away": "Racing Genk",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5610545_1.flv?auth_key=1785332430-1141-0-d50e9a246d870ce2f6fd297e43687e5a",
-          "expires_at_epoch": 1785332430,
-          "expires_at_utc": "2026-07-29T13:40:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5610545_1.flv?auth_key=1785333036-9616-0-1e70c2e502a3521fcdcba7b885c192a7",
+          "expires_at_epoch": 1785333036,
+          "expires_at_utc": "2026-07-29T13:50:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823093&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144823093.html"
         }
@@ -126,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144817597&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.127,
           "error": ""
         }
       ],
@@ -167,9 +285,9 @@
           "home": "Thimphu City FC",
           "away": "Tensung",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5606606_1.flv?auth_key=1785332435-4526-0-1ea6bd15c2e2db61510f8a0c36fdc752",
-          "expires_at_epoch": 1785332435,
-          "expires_at_utc": "2026-07-29T13:40:35+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5606606_1.flv?auth_key=1785333041-7238-0-d46b051a95542f89e32d6529ce12f1be",
+          "expires_at_epoch": 1785333041,
+          "expires_at_utc": "2026-07-29T13:50:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144817597&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144817597.html"
         }
@@ -185,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793456&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.128,
           "error": ""
         }
       ],
@@ -228,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144693991&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.128,
           "error": ""
         }
       ],
@@ -271,7 +389,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493459&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.127,
           "error": ""
         }
       ],
@@ -314,7 +432,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144661900&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.127,
           "error": ""
         }
       ],
@@ -357,7 +475,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793525&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.128,
           "error": ""
         }
       ],
@@ -400,7 +518,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793522&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.128,
           "error": ""
         }
       ],
@@ -443,7 +561,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860201&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.128,
           "error": ""
         }
       ],
@@ -479,38 +597,40 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 9,
-    "matches_processed": 9,
-    "valid_player_responses": 9,
+    "matches_selected": 11,
+    "matches_processed": 11,
+    "valid_player_responses": 11,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 2,
-    "fresh_streams_accepted": 2,
+    "streams_returned_by_api": 4,
+    "fresh_streams_accepted": 4,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.554,
-      4.459,
-      4.822,
-      4.762,
-      5.33,
-      4.281,
-      5.119,
-      5.052
+      5.036,
+      4.369,
+      4.351,
+      4.331,
+      4.214,
+      5.01,
+      5.373,
+      4.691,
+      4.034,
+      4.325
     ],
-    "expires_at_min_epoch": 1785332430,
-    "expires_at_max_epoch": 1785332435,
-    "expires_at_span_seconds": 5,
-    "remaining_ttl_min_seconds": 530,
-    "remaining_ttl_max_seconds": 535,
+    "expires_at_min_epoch": 1785333027,
+    "expires_at_max_epoch": 1785333041,
+    "expires_at_span_seconds": 14,
+    "remaining_ttl_min_seconds": 523,
+    "remaining_ttl_max_seconds": 537,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 6,
-    "final_streams": 2,
-    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 2,
+    "final_streams": 4,
+    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 40.05
+    "elapsed_seconds": 47.71
   }
 }
