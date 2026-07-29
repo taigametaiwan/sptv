@@ -1,7 +1,7 @@
 {
   "source": "sptv",
-  "version": "0.1.3",
-  "started_at": "2026-07-29T16:40:21+07:00",
+  "version": "0.1.4",
+  "started_at": "2026-07-29T16:50:22+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -11,6 +11,7 @@
     "future_minutes": 180,
     "max_matches": 120,
     "max_lines_per_match": 4,
+    "max_scan_seconds": 210,
     "request_timeout": 15.0,
     "delay_min_seconds": 4.0,
     "delay_max_seconds": 5.5,
@@ -33,12 +34,14 @@
     "player_requests": "sequential",
     "auth_key_first_field": "expiry_epoch",
     "workflow_refresh_interval_minutes": 5,
-    "last_good_preserved_only_while_unexpired": true
+    "last_good_preserved_only_while_unexpired": true,
+    "fail_when_all_player_responses_invalid": true,
+    "scan_time_budget_seconds": 210
   },
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.577,
+    "elapsed": 0.414,
     "error": ""
   },
   "schedule": {
@@ -46,404 +49,14 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.172,
+        "elapsed": 0.107,
         "error": ""
       }
     ],
-    "rows_selected": 23,
+    "rows_selected": 24,
     "window": "-150/+180"
   },
   "matches": [
-    {
-      "player_id": "5137805115",
-      "start_at": "2026-07-29T15:30:00+07:00",
-      "league": "EuroB",
-      "home": "North Macedonia U18 (M)",
-      "away": "Sweden U18 (M)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805115&lan=2",
-          "status": 200,
-          "elapsed": 0.179,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "EuroB North Macedonia U18 (M) vs Sweden U18 (M)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137805115",
-          "start_at": "2026-07-29T15:30:00+07:00",
-          "league": "EuroB",
-          "home": "North Macedonia U18 (M)",
-          "away": "Sweden U18 (M)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5248224_1.flv?auth_key=1785318622-5284-0-eca9eed30602f4d2be265311d830e0c1",
-          "expires_at_epoch": 1785318622,
-          "expires_at_utc": "2026-07-29T09:50:22+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805115&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137805115.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137859949",
-      "start_at": "2026-07-29T15:40:00+07:00",
-      "league": "MPBL",
-      "home": "Pasig City BC",
-      "away": "Abra Weavers BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859949&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "MPBL Pasig City BC vs Abra Weavers BC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137859949",
-          "start_at": "2026-07-29T15:40:00+07:00",
-          "league": "MPBL",
-          "home": "Pasig City BC",
-          "away": "Abra Weavers BC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5603861_1.flv?auth_key=1785318627-5482-0-9cc4271c7d67cd9e495618efc8fbe1a9",
-          "expires_at_epoch": 1785318627,
-          "expires_at_utc": "2026-07-29T09:50:27+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859949&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137859949.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137858494",
-      "start_at": "2026-07-29T16:00:00+07:00",
-      "league": "WNBL",
-      "home": "Shaanxi Yulin Tianze (W)",
-      "away": "Jiangxi Jingyu Qingjiu (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858494&lan=2",
-          "status": 200,
-          "elapsed": 0.179,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WNBL Shaanxi Yulin Tianze (W) vs Jiangxi Jingyu Qingjiu (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137858494",
-          "start_at": "2026-07-29T16:00:00+07:00",
-          "league": "WNBL",
-          "home": "Shaanxi Yulin Tianze (W)",
-          "away": "Jiangxi Jingyu Qingjiu (W)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5553506_1.flv?auth_key=1785318631-4210-0-4806621aeff6b10b0036e3834dcd8bf2",
-          "expires_at_epoch": 1785318631,
-          "expires_at_utc": "2026-07-29T09:50:31+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858494&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137858494.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144685792",
-      "start_at": "2026-07-29T16:00:00+07:00",
-      "league": "VIE WNC",
-      "home": "TP Ho Chi Minh II Women",
-      "away": "Ha Noi Watabe Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685792&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "VIE WNC TP Ho Chi Minh II Women vs Ha Noi Watabe Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144685792",
-          "start_at": "2026-07-29T16:00:00+07:00",
-          "league": "VIE WNC",
-          "home": "TP Ho Chi Minh II Women",
-          "away": "Ha Noi Watabe Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5507390_1.flv?auth_key=1785318637-5037-0-04e687420bb832fea66aa97f5c398c62",
-          "expires_at_epoch": 1785318637,
-          "expires_at_utc": "2026-07-29T09:50:37+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685792&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144685792.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144685795",
-      "start_at": "2026-07-29T16:00:00+07:00",
-      "league": "VIE WNC",
-      "home": "TP Ho Chi Minh Women",
-      "away": "Ha Noi II Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685795&lan=2",
-          "status": 200,
-          "elapsed": 0.179,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "VIE WNC TP Ho Chi Minh Women vs Ha Noi II Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144685795",
-          "start_at": "2026-07-29T16:00:00+07:00",
-          "league": "VIE WNC",
-          "home": "TP Ho Chi Minh Women",
-          "away": "Ha Noi II Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5510146_1.flv?auth_key=1785318642-8442-0-0fbfeea627f20a679743661be79c698e",
-          "expires_at_epoch": 1785318642,
-          "expires_at_utc": "2026-07-29T09:50:42+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685795&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144685795.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144823075",
-      "start_at": "2026-07-29T16:00:00+07:00",
-      "league": "Friendly",
-      "home": "Celta de Vigo",
-      "away": "Academico Viseu",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823075&lan=2",
-          "status": 200,
-          "elapsed": 0.179,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "Friendly Celta de Vigo vs Academico Viseu",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144823075",
-          "start_at": "2026-07-29T16:00:00+07:00",
-          "league": "Friendly",
-          "home": "Celta de Vigo",
-          "away": "Academico Viseu",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5610541_1.flv?auth_key=1785318646-8593-0-71e11467710ab22e5087b7e6a1dab2c6",
-          "expires_at_epoch": 1785318646,
-          "expires_at_utc": "2026-07-29T09:50:46+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823075&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144823075.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144526702",
-      "start_at": "2026-07-29T16:30:00+07:00",
-      "league": "AUS NPLACT",
-      "home": "Brindabella Blues",
-      "away": "Queanbeyan City",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526702&lan=2",
-          "status": 200,
-          "elapsed": 0.179,
-          "error": ""
-        }
-      ],
-      "player": {
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "AUS NPLACT Brindabella Blues vs Queanbeyan City",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
     {
       "player_id": "5144836230",
       "start_at": "2026-07-29T16:45:00+07:00",
@@ -454,11 +67,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144836230&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.113,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -494,9 +108,9 @@
           "home": "Sydney FC",
           "away": "Tottenham Hotspur",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5338426_1.flv?auth_key=1785318655-2498-0-a38dd435f1543ec89d417942ee80c040",
-          "expires_at_epoch": 1785318655,
-          "expires_at_utc": "2026-07-29T09:50:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5338426_1.flv?auth_key=1785319223-2046-0-caba0ca6977e8e65214382d3e2380a78",
+          "expires_at_epoch": 1785319223,
+          "expires_at_utc": "2026-07-29T10:00:23+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144836230&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144836230.html"
         },
@@ -507,11 +121,483 @@
           "home": "Sydney FC",
           "away": "Tottenham Hotspur",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5338426_2.flv?auth_key=1785318655-6294-0-4de6ef9d52e83940cc14b4dd178a9fe1",
-          "expires_at_epoch": 1785318655,
-          "expires_at_utc": "2026-07-29T09:50:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5338426_2.flv?auth_key=1785319223-6901-0-68544fdb9ea3132fc30ee7fa6835aaef",
+          "expires_at_epoch": 1785319223,
+          "expires_at_utc": "2026-07-29T10:00:23+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144836230&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144836230.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144526702",
+      "start_at": "2026-07-29T16:30:00+07:00",
+      "league": "AUS NPLACT",
+      "home": "Brindabella Blues",
+      "away": "Queanbeyan City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526702&lan=2",
+          "status": 200,
+          "elapsed": 0.113,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS NPLACT Brindabella Blues vs Queanbeyan City",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144526702",
+          "start_at": "2026-07-29T16:30:00+07:00",
+          "league": "AUS NPLACT",
+          "home": "Brindabella Blues",
+          "away": "Queanbeyan City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5003812_1.flv?auth_key=1785319227-2325-0-676164024cb54ab03aa2d3cb6f2bf592",
+          "expires_at_epoch": 1785319227,
+          "expires_at_utc": "2026-07-29T10:00:27+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526702&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144526702.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137858494",
+      "start_at": "2026-07-29T16:00:00+07:00",
+      "league": "WNBL",
+      "home": "Shaanxi Yulin Tianze (W)",
+      "away": "Jiangxi Jingyu Qingjiu (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858494&lan=2",
+          "status": 200,
+          "elapsed": 0.113,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WNBL Shaanxi Yulin Tianze (W) vs Jiangxi Jingyu Qingjiu (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137858494",
+          "start_at": "2026-07-29T16:00:00+07:00",
+          "league": "WNBL",
+          "home": "Shaanxi Yulin Tianze (W)",
+          "away": "Jiangxi Jingyu Qingjiu (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5553506_1.flv?auth_key=1785319232-6001-0-9ce186499088d90ab6c2a9fe67f37e6a",
+          "expires_at_epoch": 1785319232,
+          "expires_at_utc": "2026-07-29T10:00:32+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858494&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137858494.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144685792",
+      "start_at": "2026-07-29T16:00:00+07:00",
+      "league": "VIE WNC",
+      "home": "TP Ho Chi Minh II Women",
+      "away": "Ha Noi Watabe Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685792&lan=2",
+          "status": 200,
+          "elapsed": 0.114,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "VIE WNC TP Ho Chi Minh II Women vs Ha Noi Watabe Women",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144685792",
+          "start_at": "2026-07-29T16:00:00+07:00",
+          "league": "VIE WNC",
+          "home": "TP Ho Chi Minh II Women",
+          "away": "Ha Noi Watabe Women",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5507390_1.flv?auth_key=1785319237-8533-0-1eb8e2e8fe8db21ca650cdfb61cdb7d6",
+          "expires_at_epoch": 1785319237,
+          "expires_at_utc": "2026-07-29T10:00:37+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685792&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144685792.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144685795",
+      "start_at": "2026-07-29T16:00:00+07:00",
+      "league": "VIE WNC",
+      "home": "TP Ho Chi Minh Women",
+      "away": "Ha Noi II Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685795&lan=2",
+          "status": 200,
+          "elapsed": 0.113,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "VIE WNC TP Ho Chi Minh Women vs Ha Noi II Women",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144685795",
+          "start_at": "2026-07-29T16:00:00+07:00",
+          "league": "VIE WNC",
+          "home": "TP Ho Chi Minh Women",
+          "away": "Ha Noi II Women",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5510146_1.flv?auth_key=1785319242-4221-0-9691b92c9889fd483205cdcfa8455dcc",
+          "expires_at_epoch": 1785319242,
+          "expires_at_utc": "2026-07-29T10:00:42+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685795&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144685795.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144823075",
+      "start_at": "2026-07-29T16:00:00+07:00",
+      "league": "Friendly",
+      "home": "Celta de Vigo",
+      "away": "Academico Viseu",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823075&lan=2",
+          "status": 200,
+          "elapsed": 0.114,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Friendly Celta de Vigo vs Academico Viseu",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144823075",
+          "start_at": "2026-07-29T16:00:00+07:00",
+          "league": "Friendly",
+          "home": "Celta de Vigo",
+          "away": "Academico Viseu",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5610541_1.flv?auth_key=1785319247-1526-0-12e0d38e07a6877a5b5645bf1b716709",
+          "expires_at_epoch": 1785319247,
+          "expires_at_utc": "2026-07-29T10:00:47+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823075&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144823075.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137859949",
+      "start_at": "2026-07-29T15:40:00+07:00",
+      "league": "MPBL",
+      "home": "Pasig City BC",
+      "away": "Abra Weavers BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859949&lan=2",
+          "status": 200,
+          "elapsed": 0.114,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "MPBL Pasig City BC vs Abra Weavers BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137859949",
+          "start_at": "2026-07-29T15:40:00+07:00",
+          "league": "MPBL",
+          "home": "Pasig City BC",
+          "away": "Abra Weavers BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5603861_1.flv?auth_key=1785319251-5689-0-dd45e8afff38e038631fff035a3e18ed",
+          "expires_at_epoch": 1785319251,
+          "expires_at_utc": "2026-07-29T10:00:51+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859949&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137859949.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137804992",
+      "start_at": "2026-07-29T15:30:00+07:00",
+      "league": "EuroB",
+      "home": "Romania U18 (M)",
+      "away": "Norway U18 (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137804992&lan=2",
+          "status": 200,
+          "elapsed": 0.114,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "EuroB Romania U18 (M) vs Norway U18 (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137804992",
+          "start_at": "2026-07-29T15:30:00+07:00",
+          "league": "EuroB",
+          "home": "Romania U18 (M)",
+          "away": "Norway U18 (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5248229_1.flv?auth_key=1785319256-3020-0-ab41a33531a3d40bd0e4f96b7d3fa495",
+          "expires_at_epoch": 1785319256,
+          "expires_at_utc": "2026-07-29T10:00:56+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137804992&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137804992.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137805115",
+      "start_at": "2026-07-29T15:30:00+07:00",
+      "league": "EuroB",
+      "home": "North Macedonia U18 (M)",
+      "away": "Sweden U18 (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805115&lan=2",
+          "status": 200,
+          "elapsed": 0.114,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "EuroB North Macedonia U18 (M) vs Sweden U18 (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137805115",
+          "start_at": "2026-07-29T15:30:00+07:00",
+          "league": "EuroB",
+          "home": "North Macedonia U18 (M)",
+          "away": "Sweden U18 (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5248224_1.flv?auth_key=1785319261-1569-0-01f29d83d98ad58b3bd246dc18f91c94",
+          "expires_at_epoch": 1785319261,
+          "expires_at_utc": "2026-07-29T10:01:01+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805115&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137805115.html"
         }
       ]
     },
@@ -525,11 +611,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821743&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -567,11 +654,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821746&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -609,11 +697,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821749&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -651,11 +740,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821752&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -693,11 +783,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821758&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.113,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -735,11 +826,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821767&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -777,11 +869,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821773&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -819,11 +912,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821776&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.113,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -861,11 +955,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560689&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -903,11 +998,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821755&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -945,11 +1041,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821770&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -987,11 +1084,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821761&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -1029,11 +1127,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144577930&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -1071,11 +1170,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578317&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -1113,11 +1213,12 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137854327&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.114,
           "error": ""
         }
       ],
       "player": {
+        "valid_payload": true,
         "payload_type": "dict",
         "top_keys": [
           "code",
@@ -1148,49 +1249,53 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 23,
-    "matches_processed": 23,
-    "streams_returned_by_api": 8,
-    "fresh_streams_accepted": 8,
+    "matches_selected": 24,
+    "matches_processed": 24,
+    "valid_player_responses": 24,
+    "failed_player_responses": 0,
+    "scan_stopped_by_budget": false,
+    "streams_returned_by_api": 10,
+    "fresh_streams_accepted": 10,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.035,
-      4.773,
-      5.188,
-      5.007,
-      4.28,
-      4.141,
-      4.46,
-      4.961,
-      5.363,
-      4.055,
-      4.842,
-      4.358,
-      4.979,
-      4.916,
-      5.494,
-      5.154,
-      5.142,
-      5.013,
-      4.57,
-      4.228,
-      5.325,
-      4.2
+      4.477,
+      4.539,
+      4.946,
+      4.877,
+      4.77,
+      4.201,
+      5.108,
+      4.0,
+      4.957,
+      5.031,
+      4.846,
+      5.004,
+      4.045,
+      5.176,
+      5.046,
+      4.097,
+      4.742,
+      5.095,
+      5.194,
+      4.116,
+      4.553,
+      4.932,
+      5.168
     ],
-    "expires_at_min_epoch": 1785318622,
-    "expires_at_max_epoch": 1785318655,
-    "expires_at_span_seconds": 33,
-    "remaining_ttl_min_seconds": 461,
-    "remaining_ttl_max_seconds": 494,
+    "expires_at_min_epoch": 1785319223,
+    "expires_at_max_epoch": 1785319261,
+    "expires_at_span_seconds": 38,
+    "remaining_ttl_min_seconds": 459,
+    "remaining_ttl_max_seconds": 497,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 7,
-    "final_streams": 8,
-    "publish_reason": "published 8 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 8,
+    "final_streams": 10,
+    "publish_reason": "published 10 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 109.37
+    "elapsed_seconds": 112.2
   }
 }
