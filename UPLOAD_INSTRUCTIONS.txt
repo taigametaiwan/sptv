@@ -1,12 +1,17 @@
-CẬP NHẬT REPOSITORY TỪ v0.1.2 LÊN v0.1.3
+CẬP NHẬT REPOSITORY TỪ v0.1.3 LÊN v0.1.4
 
-1. Giải nén gói CHANGED_ONLY.
-2. Tải toàn bộ nội dung bên trong lên gốc repository và chọn ghi đè file cũ.
-3. Không cần xóa sptv.m3u hiện tại; workflow sẽ thay key ở lượt chạy kế tiếp.
-4. Kiểm tra file sau đã nằm đúng đường dẫn:
-   .github/workflows/update-sptv.yml
+Cách an toàn nhất:
+
+1. Giải nén SPTV_PATCH_v0.1.3_to_v0.1.4.zip.
+2. Chạy:
+
+   chmod +x APPLY_PATCH.sh
+   ./APPLY_PATCH.sh /duong/dan/toi/repository-sptv
+
+3. Script tự backup file cũ, copy bản vá, compile và chạy unit test.
+4. Commit/push các file đã thay đổi lên branch main.
 5. Vào Actions -> Update SPTV playlist -> Run workflow để thử ngay.
-6. Sau đó workflow tự chạy mỗi 5 phút bằng cron GitHub.
-7. Settings -> Actions -> General -> Workflow permissions phải là Read and write permissions.
+6. Settings -> Actions -> General -> Workflow permissions phải là Read and write permissions.
 
-Tệp SETUP_EXTERNAL_15_MINUTES.txt được ghi đè thành thông báo lỗi thời; không cần cron VPS ngoài nữa.
+Có thể tải bản FULL_SOURCE lên gốc repository và ghi đè toàn bộ nếu không dùng script.
+Không cần xóa sptv.m3u hiện tại; scanner sẽ giữ link cũ khi còn hạn.

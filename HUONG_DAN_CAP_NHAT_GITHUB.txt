@@ -1,0 +1,26 @@
+CẬP NHẬT SPTV v0.1.4 TRÊN GITHUB
+
+Đây là gói dành để cập nhật trực tiếp repository GitHub, không phải lệnh cài VPS.
+
+Cách làm:
+1. Giải nén SPTV_GITHUB_UPLOAD_v0.1.4.zip trên máy tính.
+2. Mở repository SPTV trên GitHub.
+3. Upload/ghi đè toàn bộ nội dung bên trong gói vào đúng gốc repository.
+   Quan trọng: thư mục .github phải nằm tại <repo>/.github, không được thành <repo>/SPTV_GITHUB_UPLOAD_v0.1.4/.github.
+4. Không xóa hoặc ghi đè ba file động đang có trên repository:
+   - sptv.m3u
+   - lastupdated.txt
+   - debug/sptv_debug.json
+   Gói này không chứa ba file trên.
+5. Commit với nội dung gợi ý: Patch SPTV scanner v0.1.4
+6. Vào Actions > Update SPTV playlist > Run workflow để chạy thử.
+7. Kiểm tra Settings > Actions > General > Workflow permissions = Read and write permissions.
+
+Các file quan trọng được thay:
+- .github/workflows/update-sptv.yml
+- sptv_api.py
+- audit_m3u.py
+- tests/test_core.py
+
+Lưu ý:
+GitHub không tự giải nén ZIP khi upload. Phải giải nén trước rồi upload các file/thư mục bên trong.

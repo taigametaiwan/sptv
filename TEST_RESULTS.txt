@@ -1,12 +1,20 @@
-SPTV API GitHub v0.1.3
+SPTV API GitHub v0.1.4
 
-- Unit tests: 13/13 PASS
+- Unit tests: 23/23 PASS
 - Python compile: PASS
-- Empty playlist audit: PASS
+- Strict empty playlist audit: PASS
+- Strict orphan URL audit: REJECTED AS EXPECTED
+- Strict orphan EXTINF audit: REJECTED AS EXPECTED
+- Workflow YAML parse: PASS
 - Workflow schedule: */5 * * * *
-- workflow_dispatch + repository_dispatch: PASS
+- Checkout latest main + hard sync: PASS
+- No git pull --rebase: PASS
+- Commit only when sptv.m3u changes: PASS
 - Minimum publish TTL: 300 giây
-- auth_key[0]: expiry epoch
+- Maximum scan budget: 210 giây
+- auth_key[0]: expiry epoch, accepted range 2000-2100
 - No FLV media probe / no Range / no code concurrency
-- Expired last-good cleanup: PASS
-- Running job is not cancelled by the next cron tick: PASS
+- Full player API failure returns exit code 3 and preserves playlist: PASS
+- Valid HTTP 200 with empty purl returns exit code 0: PASS
+- Candidate + unexpired previous merge below threshold: PASS
+- HTTP attempt de-duplication: PASS

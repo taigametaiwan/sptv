@@ -1,34 +1,53 @@
 {
-  "version": "0.1.3",
-  "build": "2026-07-27-SPTV-GITHUB-CRON-5M-TTL300-NO-MEDIA-PROBE",
+  "version": "0.1.4",
+  "build": "2026-07-29-SPTV-FAIL-CLOSED-GIT-NO-REBASE-STRICT-M3U",
   "mechanism": {
     "auth_key_first_component": "expiry_epoch",
+    "accepted_expiry_epoch_range": [
+      946684800,
+      4102444800
+    ],
     "workflow_schedule_cron": "*/5 * * * *",
+    "workflow_branch": "main",
     "workflow_internal_cron": true,
     "workflow_manual_dispatch": true,
     "workflow_repository_dispatch": true,
     "cancel_in_progress": false,
+    "git_rebase_on_generated_keys": false,
+    "commit_only_when_playlist_changes": true,
+    "fail_when_all_player_responses_invalid": true,
+    "valid_empty_player_response_is_success": true,
     "media_probe": false,
+    "maximum_scan_seconds": 210,
     "minimum_publish_ttl_seconds": 300,
     "preserve_previous_min_ttl_seconds": 60,
     "expiry_clock_skew_seconds": 30
   },
   "tests": {
-    "unit": "13/13 PASS",
+    "unit": "23/23 PASS",
     "compile": "PASS",
-    "empty_audit": "PASS",
-    "workflow_yaml_parse": "PASS"
+    "empty_strict_audit": "PASS",
+    "orphan_url_strict_audit": "REJECTED AS EXPECTED",
+    "orphan_extinf_strict_audit": "REJECTED AS EXPECTED",
+    "workflow_yaml_parse": "PASS",
+    "shell_syntax": "PASS",
+    "hash_manifest": "PASS"
   },
+  "dynamic_files_excluded_from_hash_manifest": [
+    "sptv.m3u",
+    "lastupdated.txt",
+    "debug/sptv_debug.json"
+  ],
   "files": [
     {
       "path": ".env.example",
-      "sha256": "c114ea4de76c7a1e53b2b95f531ee06b704211eb9575a4c6b0f2fab2d3011ef4",
-      "size": 919
+      "sha256": "142f2a91f8f585cf33246db76383fa2acc15ee60fb12d625b3f73a53c6a18ea2",
+      "size": 956
     },
     {
       "path": ".github/workflows/update-sptv.yml",
-      "sha256": "fc8390c5e430ba61d1cc2dfbba6fd890b63d541a856e0c63d4b21e9477669f51",
-      "size": 2032
+      "sha256": "cb21ad227b0f820d402c5335804a95c366a35c990040419b6cf9eb3f23182a5c",
+      "size": 2202
     },
     {
       "path": "ANALYSIS_LOG_81947011237.txt",
@@ -52,43 +71,53 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "54d6ee8345c1061219a9cd3ddb261e783d3744e7e750ab4213ae98f38630ed0a",
-      "size": 622
+      "sha256": "223066eab0e914ed652a13d7c065229cd2cc06dda8dd10b166d0ba9ed3c5069f",
+      "size": 1533
+    },
+    {
+      "path": "PATCH_NOTES_v0.1.4.md",
+      "sha256": "19f05132cbf23b13f4726d3eccd96490c3fc05e35c6b4cf93d20589600c0d0fa",
+      "size": 930
     },
     {
       "path": "README.md",
-      "sha256": "91e07f2146a4464628b5f28a2552f3442bd7924f0b02d44c09b18e4cbe115be0",
-      "size": 2783
+      "sha256": "1d734776ab73706291bd69ddf832d6d6418c3752dd6608907a0740b7a31dba1c",
+      "size": 3704
     },
     {
       "path": "SCHEDULE_5_MINUTES.txt",
-      "sha256": "81ba48060b8813b29c512f5e7b3eb1c0e4490a99d715e173e3c7913597851a47",
-      "size": 310
+      "sha256": "7920d327483593401b22c217c0f6e90e4d8e950bd2dcdab7726c032c5c4b012c",
+      "size": 385
     },
     {
       "path": "SEED_SOURCE_NOTE.txt",
-      "sha256": "19f5886dacedf727888a895178e26107fe6646494ae073d2a9bd82b9b786fb1b",
-      "size": 205
+      "sha256": "23d228373c004046693420b451f823d2bd0512ce93196ed507634abc607fc3e3",
+      "size": 218
     },
     {
       "path": "SETUP_EXTERNAL_15_MINUTES.txt",
-      "sha256": "2a28cf49c40696aa6250b0dd4ffebc11e7afca6de3f3a0c2991244faaa578d7c",
-      "size": 260
+      "sha256": "6cad9e0cca45400d3f1a2cf01f89879038a43969d385b8fc8b8eaf71a7cf0589",
+      "size": 352
     },
     {
       "path": "TEST_RESULTS.txt",
-      "sha256": "c3fdcb6f1cef695af0ea8af07316aa3e307bebeeaf78eb211591dcc12ca0dce1",
-      "size": 390
+      "sha256": "174a01ecdbe5fb5130e39104394265237dfc737a2972f617019ab3b993ffa0d0",
+      "size": 785
     },
     {
       "path": "UPLOAD_INSTRUCTIONS.txt",
-      "sha256": "f14759d1ed48a047152c120d794424f8577fff6bf2668c5d62ef567d4148e646",
-      "size": 733
+      "sha256": "b8b819b12ab29e24eab590bdd6ec5b6e033ec8136369b4a84a426af10af7ca0d",
+      "size": 714
+    },
+    {
+      "path": "UPLOAD_THESE_FILES.txt",
+      "sha256": "06b171a890d9c3d65c268a61f7fbd4261cc15db715ba3016763977138e129a48",
+      "size": 291
     },
     {
       "path": "audit_m3u.py",
-      "sha256": "a3de45acd9b1dfb61b90bd8ca99d70581b58d622514419b4a392701a6a658cb0",
-      "size": 5061
+      "sha256": "e9d18fb789f89a866251efa936b1056a9368248c58e8624b051fc523c318e51d",
+      "size": 6910
     },
     {
       "path": "debug/.gitkeep",
@@ -99,11 +128,6 @@
       "path": "external_trigger/trigger_sptv.sh",
       "sha256": "8fbc0d20585db320ae0e18c8b4b1d95247f65c383659d0c3e8ad1e58cadcbb8d",
       "size": 500
-    },
-    {
-      "path": "lastupdated.txt",
-      "sha256": "7b045bf41d3221bf79a7c8853abda59739b239248a0ae062fa0482c29c6d78cf",
-      "size": 43
     },
     {
       "path": "logs/.gitkeep",
@@ -126,19 +150,14 @@
       "size": 373
     },
     {
-      "path": "sptv.m3u",
-      "sha256": "144659b48f342d02b9298907ab32fcf0479ac9c99a0d293c7c2ebf8df313dd12",
-      "size": 8
-    },
-    {
       "path": "sptv_api.py",
-      "sha256": "9f3ac0d2c5b5d0875e0bf132859e65a7c77bbc542db5928fd0b8096f016e271b",
-      "size": 35975
+      "sha256": "3293f7060f02de40fa5619cf2cf12b9107c579adae4d778d5f69eabd1f4556f5",
+      "size": 39805
     },
     {
       "path": "tests/test_core.py",
-      "sha256": "64282cab3022daff9d38d38ccafd6106107fd4904544ce68fce5584e29a3d23f",
-      "size": 9069
+      "sha256": "f9860600b5410ad3565f6967659a4fa7eb2296e081d5eb52f1ed2db381eb126f",
+      "size": 17394
     }
   ]
 }

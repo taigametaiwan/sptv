@@ -25,8 +25,10 @@ from zoneinfo import ZoneInfo
 
 import requests
 
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
+MIN_AUTH_EPOCH = 946684800  # 2000-01-01 UTC
+MAX_AUTH_EPOCH = 4102444800  # 2100-01-01 UTC
 DATE12_RE = re.compile(r"^20\d{10}$")
 PLAYER_ID_RE = re.compile(r"(?:/player/|[?&]id=)(\d{4,})", re.I)
 DEFAULT_UA = (
@@ -46,6 +48,7 @@ class Config:
     future_minutes: int = 180
     max_matches: int = 120
     max_lines_per_match: int = 4
+    max_scan_seconds: int = 210
     request_timeout: float = 15.0
     delay_min_seconds: float = 4.0
     delay_max_seconds: float = 5.5
@@ -75,6 +78,7 @@ class Config:
             future_minutes=_env_int("SPTV_FUTURE_MINUTES", defaults.future_minutes, 0, 2880),
             max_matches=_env_int("SPTV_MAX_MATCHES", defaults.max_matches, 1, 500),
             max_lines_per_match=_env_int("SPTV_MAX_LINES_PER_MATCH", defaults.max_lines_per_match, 1, 10),
+            max_scan_seconds=_env_int("SPTV_MAX_SCAN_SECONDS", defaults.max_scan_seconds, 30, 600),
             request_timeout=_env_float("SPTV_REQUEST_TIMEOUT", defaults.request_timeout, 3.0, 60.0),
             delay_min_seconds=_env_float("SPTV_DELAY_MIN_SECONDS", defaults.delay_min_seconds, 0.0, 60.0),
             delay_max_seconds=_env_float("SPTV_DELAY_MAX_SECONDS", defaults.delay_max_seconds, 0.0, 60.0),
@@ -327,7 +331,7 @@ def expiry_from_url(url: str) -> tuple[int | None, str | None]:
         epoch = int(first) if first.isdigit() else None
     except Exception:
         epoch = None
-    if epoch is None:
+    if epoch is None or not (MIN_AUTH_EPOCH <= epoch <= MAX_AUTH_EPOCH):
         return None, None
     try:
         iso = datetime.fromtimestamp(epoch, tz=ZoneInfo("UTC")).isoformat(timespec="seconds")
@@ -369,7 +373,7 @@ def metadata_from_player_payload(payload: Any, fallback: Match, timezone_name: s
     if not player:
         return fallback
     raw = player.get("m")
-    parsed = parse_match_fields(csv_fields(raw), timezone_name) if isinstance(raw, list) else None
+    parsed = parse_match_fields(csv_fields(raw), timezone_name) if raw is not None else None
     if not parsed:
         return fallback
     return Match(
@@ -428,14 +432,31 @@ def stream_url_from_item(item: Any) -> str:
     return ""
 
 
+def player_payload_is_valid(payload: Any) -> bool:
+    """Return True when HTTP JSON has a recognizable player-response shape.
+
+    A valid response may legitimately contain no stream. Network errors, invalid
+    JSON, and structurally unrelated JSON are not treated as a quiet-hour result.
+    """
+    player = unwrap_player_payload(payload)
+    recognized = {"code", "purl", "play_url", "playUrl", "streams", "urls", "url", "m", "pid", "title"}
+    candidates = [value for value in (payload, player) if isinstance(value, dict)]
+    return any(any(key in value for key in recognized) for value in candidates)
+
+
 def player_payload_diagnostics(payload: Any) -> dict[str, Any]:
     player = unwrap_player_payload(payload)
     items = iter_player_stream_items(payload)
     return {
+        "valid_payload": player_payload_is_valid(payload),
         "payload_type": type(payload).__name__,
         "top_keys": sorted(str(key) for key in payload.keys())[:30] if isinstance(payload, dict) else [],
         "player_keys": sorted(str(key) for key in player.keys())[:30] if player else [],
-        "code": player.get("code", payload.get("code") if isinstance(payload, dict) else None) if player else None,
+        "code": (
+            player.get("code", payload.get("code") if isinstance(payload, dict) else None)
+            if isinstance(player, dict)
+            else (payload.get("code") if isinstance(payload, dict) else None)
+        ),
         "pid": player.get("pid") if player else None,
         "title": player.get("title") if player else None,
         "stream_item_count": len(items),
@@ -521,16 +542,26 @@ class SptvClient:
             try:
                 response = self.session.get(url, headers=headers, timeout=self.config.request_timeout)
                 elapsed = round(time.monotonic() - started, 3)
-                attempts.append(HttpAttempt(url=str(response.url), status=response.status_code, elapsed=elapsed))
-                if response.status_code in {403, 429}:
+                response_url = str(response.url)
+                status = response.status_code
+                if status in {403, 429}:
+                    attempts.append(HttpAttempt(response_url, status, elapsed, f"HTTP {status}"))
                     return None, attempts
-                response.raise_for_status()
-                return response.json(), attempts
-            except (requests.RequestException, ValueError) as exc:
+                try:
+                    response.raise_for_status()
+                    payload = response.json()
+                except (requests.RequestException, ValueError) as exc:
+                    attempts.append(
+                        HttpAttempt(response_url, status, elapsed, f"{type(exc).__name__}: {exc}")
+                    )
+                else:
+                    attempts.append(HttpAttempt(response_url, status, elapsed))
+                    return payload, attempts
+            except requests.RequestException as exc:
                 elapsed = round(time.monotonic() - started, 3)
-                attempts.append(HttpAttempt(url=url, status=0, elapsed=elapsed, error=f"{type(exc).__name__}: {exc}"))
-                if attempt_no < self.config.network_retries:
-                    time.sleep(min(3.0, 1.0 + attempt_no))
+                attempts.append(HttpAttempt(url, 0, elapsed, f"{type(exc).__name__}: {exc}"))
+            if attempt_no < self.config.network_retries:
+                time.sleep(min(3.0, 1.0 + attempt_no))
         return None, attempts
 
     def warm_session(self) -> HttpAttempt:
@@ -727,6 +758,12 @@ def publish_candidate(
             f"published {len(fresh_blocks)} fresh streams"
             f" + preserved {preserved_count} unexpired previous streams"
         )
+    elif fresh_blocks and len(final_blocks) >= min_real_streams:
+        status = "PUBLISHED_MERGED"
+        reason = (
+            f"candidate has {len(fresh_blocks)} fresh streams; merged with {preserved_count} "
+            f"unexpired previous streams to reach {len(final_blocks)}"
+        )
     elif valid_previous:
         status = "PRESERVED_UNEXPIRED"
         reason = (
@@ -759,6 +796,14 @@ def publish_candidate(
     )
 
 
+def match_priority(match: Match, now: datetime) -> tuple[int, float, str]:
+    """Prioritize recently started/live matches, then the nearest future matches."""
+    if match.start_at is None:
+        return (2, float("inf"), match.player_id)
+    delta = (match.start_at - now).total_seconds()
+    return (0, abs(delta), match.player_id) if delta <= 0 else (1, delta, match.player_id)
+
+
 def sleep_between(config: Config, rng: random.Random) -> float:
     delay = rng.uniform(config.delay_min_seconds, config.delay_max_seconds)
     if delay > 0:
@@ -789,6 +834,8 @@ def run(
             "auth_key_first_field": "expiry_epoch",
             "workflow_refresh_interval_minutes": 5,
             "last_good_preserved_only_while_unexpired": True,
+            "fail_when_all_player_responses_invalid": True,
+            "scan_time_budget_seconds": config.max_scan_seconds,
         },
         "home": {},
         "schedule": {},
@@ -813,8 +860,11 @@ def run(
             return 2
         rows = [row for row in rows if in_window(row, now, config.past_minutes, config.future_minutes)]
 
-    rows.sort(key=lambda item: (item.start_at or datetime.max.replace(tzinfo=VN_TZ), item.player_id))
-    rows = rows[: config.max_matches]
+    if exact_ids:
+        rows = rows[: config.max_matches]
+    else:
+        rows.sort(key=lambda item: match_priority(item, now))
+        rows = rows[: config.max_matches]
     debug["schedule"].update({"rows_selected": len(rows), "window": f"-{config.past_minutes}/+{config.future_minutes}"})
     log(f"[SPTV] Trận được chọn: {len(rows)}")
 
@@ -822,9 +872,20 @@ def run(
     no_stream_matches: list[Match] = []
     denial_streak = 0
     delays: list[float] = []
+    valid_player_responses = 0
+    failed_player_responses = 0
+    scan_stopped_by_budget = False
 
     for index, match in enumerate(rows, start=1):
+        if index > 1 and time.monotonic() - started >= config.max_scan_seconds:
+            scan_stopped_by_budget = True
+            log(f"[SPTV] Dừng theo ngân sách quét {config.max_scan_seconds}s để bảo toàn TTL key đã lấy.")
+            break
         streams, attempts, info = client.fetch_player(match)
+        if info.get("valid_payload"):
+            valid_player_responses += 1
+        else:
+            failed_player_responses += 1
         statuses = [attempt.status for attempt in attempts]
         if any(status in {403, 429} for status in statuses):
             denial_streak += 1
@@ -861,6 +922,23 @@ def run(
         if index < len(rows):
             delay = sleep_between(config, rng)
             delays.append(round(delay, 3))
+
+    if rows and debug["matches"] and valid_player_responses == 0:
+        debug["summary"] = {
+            "status": "PLAYER_API_FAILED_ALL",
+            "matches_selected": len(rows),
+            "matches_processed": len(debug["matches"]),
+            "valid_player_responses": 0,
+            "failed_player_responses": failed_player_responses,
+            "scan_stopped_by_budget": scan_stopped_by_budget,
+            "playlist_changed": False,
+            "output": str(output_path),
+            "elapsed_seconds": round(time.monotonic() - started, 2),
+        }
+        atomic_write(debug_path, json.dumps(debug, ensure_ascii=False, indent=2) + "\n")
+        log("[SPTV] LỖI: toàn bộ player API đều lỗi hoặc trả JSON không nhận diện được; giữ nguyên playlist cũ.")
+        log(f"[SPTV] Debug: {debug_path}")
+        return 3
 
     # Stable de-duplication. Different signed query strings for the same FLV path count as one line.
     unique: list[Stream] = []
@@ -904,6 +982,9 @@ def run(
         "status": publish_result.status,
         "matches_selected": len(rows),
         "matches_processed": len(debug["matches"]),
+        "valid_player_responses": valid_player_responses,
+        "failed_player_responses": failed_player_responses,
+        "scan_stopped_by_budget": scan_stopped_by_budget,
         "streams_returned_by_api": len(unique),
         "fresh_streams_accepted": len(fresh_streams),
         "rejected_missing_expiry": rejected_missing_expiry,
@@ -927,8 +1008,8 @@ def run(
     atomic_write(debug_path, json.dumps(debug, ensure_ascii=False, indent=2) + "\n")
     log(f"[SPTV] {publish_result.reason}")
     log(f"[SPTV] Debug: {debug_path}")
-    # Empty first runs during quiet hours are valid. Keep the playlist unchanged,
-    # commit the debug report, and let later manual/external runs refresh it.
+    # A valid API response with an empty purl is a normal quiet-hour result.
+    # Only complete player-API failure returns a non-zero code above.
     return 0
 
 

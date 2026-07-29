@@ -12,15 +12,27 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 AUTH_RE = re.compile(r"[?&]auth_key=(\d+)-")
+MIN_AUTH_EPOCH = 946684800  # 2000-01-01 UTC
+MAX_AUTH_EPOCH = 4102444800  # 2100-01-01 UTC
 
 
 def parse(path: Path, *, now_epoch: int | None = None) -> dict[str, object]:
     current = int(time.time()) if now_epoch is None else int(now_epoch)
     text = path.read_text(encoding="utf-8-sig", errors="replace")
+    raw_lines = text.splitlines()
+
+    first_nonempty = next((line.strip() for line in raw_lines if line.strip()), "")
+    header_valid = first_nonempty == "#EXTM3U"
+    header_count = sum(1 for line in raw_lines if line.strip() == "#EXTM3U")
+
+    extinf_count = 0
     entries = 0
     real_flv = 0
     placeholders = 0
     malformed = 0
+    orphan_urls = 0
+    orphan_extinf = 0
+    duplicate_headers = max(0, header_count - 1)
     groups: dict[str, int] = {}
     group_real_flv: dict[str, int] = {}
     group_other: dict[str, int] = {}
@@ -28,28 +40,53 @@ def parse(path: Path, *, now_epoch: int | None = None) -> dict[str, object]:
     remaining: list[int] = []
     missing_expiry = 0
     stable_paths: list[str] = []
-    pending_group = ""
+    pending_group: str | None = None
 
-    for raw in text.splitlines():
+    if not header_valid:
+        malformed += 1
+    malformed += duplicate_headers
+
+    for raw in raw_lines:
         line = raw.strip()
+        if not line:
+            continue
+        if line == "#EXTM3U":
+            continue
         if line.startswith("#EXTINF"):
-            entries += 1
+            extinf_count += 1
+            if pending_group is not None:
+                orphan_extinf += 1
+                malformed += 1
             match = re.search(r'group-title="([^"]*)"', line)
             pending_group = match.group(1) if match else ""
-            groups[pending_group] = groups.get(pending_group, 0) + 1
-        elif line.startswith(("http://", "https://")):
+            continue
+        if line.startswith("#"):
+            # Entry directives such as EXTVLCOPT are allowed after EXTINF.
+            # Global comments/directives are also allowed outside an entry.
+            continue
+        if line.startswith(("http://", "https://")):
+            if pending_group is None:
+                orphan_urls += 1
+                malformed += 1
+                continue
+
+            entries += 1
+            group = pending_group
+            groups[group] = groups.get(group, 0) + 1
+            pending_group = None
+
             parts = urllib.parse.urlsplit(line)
-            if not parts.netloc:
+            if parts.scheme not in {"http", "https"} or not parts.netloc:
                 malformed += 1
                 continue
             if parts.path.lower().endswith(".flv"):
                 real_flv += 1
-                group_real_flv[pending_group] = group_real_flv.get(pending_group, 0) + 1
+                group_real_flv[group] = group_real_flv.get(group, 0) + 1
                 stable_paths.append(f"{parts.netloc.lower()}{parts.path.lower()}")
                 match = AUTH_RE.search(line)
                 if match:
                     value = int(match.group(1))
-                    if 946684800 <= value <= 4102444800:
+                    if MIN_AUTH_EPOCH <= value <= MAX_AUTH_EPOCH:
                         expiries.append(value)
                         remaining.append(value - current)
                     else:
@@ -58,15 +95,29 @@ def parse(path: Path, *, now_epoch: int | None = None) -> dict[str, object]:
                     missing_expiry += 1
             else:
                 placeholders += 1
-                group_other[pending_group] = group_other.get(pending_group, 0) + 1
-        elif line and not line.startswith("#"):
-            malformed += 1
+                group_other[group] = group_other.get(group, 0) + 1
+            continue
+
+        malformed += 1
+        if pending_group is not None:
+            orphan_extinf += 1
+            pending_group = None
+
+    if pending_group is not None:
+        orphan_extinf += 1
+        malformed += 1
 
     duplicates = len(stable_paths) - len(set(stable_paths))
     gaps = [b - a for a, b in zip(sorted(expiries), sorted(expiries)[1:])]
     utc = ZoneInfo("UTC")
     return {
+        "header_valid": header_valid,
+        "header_count": header_count,
+        "duplicate_headers": duplicate_headers,
+        "extinf_count": extinf_count,
         "entries": entries,
+        "orphan_urls": orphan_urls,
+        "orphan_extinf": orphan_extinf,
         "real_flv": real_flv,
         "placeholders_or_other": placeholders,
         "malformed": malformed,
@@ -115,9 +166,17 @@ def main() -> int:
     ttl_error = bool(report["real_flv"]) and (
         report["missing_expiry"] != 0 or ttl_min is None or ttl_min < max(0, args.min_remaining_seconds)
     )
+    structure_error = (
+        not report["header_valid"]
+        or report["header_count"] != 1
+        or report["extinf_count"] != report["entries"]
+        or report["orphan_urls"] != 0
+        or report["orphan_extinf"] != 0
+        or report["malformed"] != 0
+    )
     if args.strict and (
         empty_is_error
-        or report["malformed"] != 0
+        or structure_error
         or report["duplicate_stable_paths"] != 0
         or ttl_error
     ):

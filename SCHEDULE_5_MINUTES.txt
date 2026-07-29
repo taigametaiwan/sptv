@@ -1,10 +1,11 @@
-LỊCH SPTV v0.1.3
+LỊCH SPTV v0.1.4
 
 Workflow tự chạy mỗi 5 phút bằng GitHub Actions:
 
   schedule:
     - cron: "*/5 * * * *"
 
+Workflow checkout trực tiếp branch main mới nhất, không rebase các file key.
 Không cần cấu hình cron VPS hoặc cron-job.org.
 GitHub có thể khởi chạy trễ khi runner đông.
-Chạy thủ công vẫn dùng: Actions -> Update SPTV playlist -> Run workflow.
+Chạy thủ công: Actions -> Update SPTV playlist -> Run workflow.

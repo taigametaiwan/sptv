@@ -1,8 +1,9 @@
 TỆP CŨ - KHÔNG CÒN ÁP DỤNG TỪ v0.1.3
 
 Không cần cron ngoài 15 phút nữa.
-Workflow `.github/workflows/update-sptv.yml` đã có cron GitHub:
+Workflow `.github/workflows/update-sptv.yml` có cron GitHub:
 
   */5 * * * *
 
 Có thể giữ repository_dispatch để chạy bổ sung, nhưng không bắt buộc.
+Bản v0.1.4 checkout trực tiếp branch main mới nhất và không dùng git pull --rebase.
