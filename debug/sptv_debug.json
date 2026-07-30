@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-07-31T00:40:25+07:00",
+  "started_at": "2026-07-31T00:50:20+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.422,
+    "elapsed": 0.586,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.111,
+        "elapsed": 0.165,
         "error": ""
       }
     ],
@@ -57,6 +57,65 @@
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144800746",
+      "start_at": "2026-07-31T00:45:00+07:00",
+      "league": "UEFA EL",
+      "home": "PAOK Thessaloniki",
+      "away": "Dynamo Kyiv",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800746&lan=2",
+          "status": 200,
+          "elapsed": 0.177,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UEFA EL PAOK Thessaloniki vs Dynamo Kyiv",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144800746",
+          "start_at": "2026-07-31T00:45:00+07:00",
+          "league": "UEFA EL",
+          "home": "PAOK Thessaloniki",
+          "away": "Dynamo Kyiv",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585359_1.flv?auth_key=1785434421-2984-0-55438d5907d1711da544deeb592ef880",
+          "expires_at_epoch": 1785434421,
+          "expires_at_utc": "2026-07-30T18:00:21+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800746&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144800746.html"
+        }
+      ]
+    },
     {
       "player_id": "5144693976",
       "start_at": "2026-07-31T00:30:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144693976&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -108,9 +167,9 @@
           "home": "Beitar Jerusalem",
           "away": "AEK Larnaca",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516850_1.flv?auth_key=1785433826-7719-0-68c420b32b6404c07ee9e91f1ed30da0",
-          "expires_at_epoch": 1785433826,
-          "expires_at_utc": "2026-07-30T17:50:26+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516850_1.flv?auth_key=1785434425-6198-0-ce907e60fecffa28ca6c9312af30fca4",
+          "expires_at_epoch": 1785434425,
+          "expires_at_utc": "2026-07-30T18:00:25+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144693976&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144693976.html"
         }
@@ -126,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694021&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -167,9 +226,9 @@
           "home": "Valletta",
           "away": "RKS Rakow Czestochowa",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516839_1.flv?auth_key=1785433831-9331-0-6ea777a1b6050563a63ea212033b1360",
-          "expires_at_epoch": 1785433831,
-          "expires_at_utc": "2026-07-30T17:50:31+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516839_1.flv?auth_key=1785434430-5657-0-41478bf89280687079fd2c0fcf9629eb",
+          "expires_at_epoch": 1785434430,
+          "expires_at_utc": "2026-07-30T18:00:30+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694021&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144694021.html"
         }
@@ -185,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804715&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -226,9 +285,9 @@
           "home": "The New Saints",
           "away": "Flora Tallin",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588739_1.flv?auth_key=1785433836-9070-0-9fb2a95022c614afe62db8b27e425a07",
-          "expires_at_epoch": 1785433836,
-          "expires_at_utc": "2026-07-30T17:50:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588739_1.flv?auth_key=1785434436-4243-0-f2965f925ce26f41d70f05c9d2fb5e21",
+          "expires_at_epoch": 1785434436,
+          "expires_at_utc": "2026-07-30T18:00:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804715&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804715.html"
         }
@@ -244,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804748&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -285,9 +344,9 @@
           "home": "Derry City",
           "away": "HNK Rijeka",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588740_1.flv?auth_key=1785433841-8373-0-dbe5cb29e1ae25cdc7e463a8406495dd",
-          "expires_at_epoch": 1785433841,
-          "expires_at_utc": "2026-07-30T17:50:41+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588740_1.flv?auth_key=1785434441-7460-0-461919595a2ae2adadca037e1ddfb2f4",
+          "expires_at_epoch": 1785434441,
+          "expires_at_utc": "2026-07-30T18:00:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804748&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804748.html"
         },
@@ -298,9 +357,9 @@
           "home": "Derry City",
           "away": "HNK Rijeka",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588740_2.flv?auth_key=1785433841-4508-0-42911f0ea9e353c50384d85928277be5",
-          "expires_at_epoch": 1785433841,
-          "expires_at_utc": "2026-07-30T17:50:41+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588740_2.flv?auth_key=1785434441-3519-0-df293c8f9b01981b15242ad198cd1645",
+          "expires_at_epoch": 1785434441,
+          "expires_at_utc": "2026-07-30T18:00:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804748&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804748.html"
         }
@@ -316,7 +375,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694000&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -357,9 +416,9 @@
           "home": "HB Torshavn",
           "away": "Motherwell FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516842_1.flv?auth_key=1785433846-1906-0-112b18cd91294c38dd1afd4212659258",
-          "expires_at_epoch": 1785433846,
-          "expires_at_utc": "2026-07-30T17:50:46+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516842_1.flv?auth_key=1785434446-4973-0-ac6a3692550a6c1b5a47592a5e9ebf96",
+          "expires_at_epoch": 1785434446,
+          "expires_at_utc": "2026-07-30T18:00:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694000&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144694000.html"
         }
@@ -375,7 +434,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694012&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -416,9 +475,9 @@
           "home": "FC Nordsjaelland",
           "away": "GAIS",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516847_1.flv?auth_key=1785433850-2897-0-9c67c101835d08f1ebdf2f41134ba942",
-          "expires_at_epoch": 1785433850,
-          "expires_at_utc": "2026-07-30T17:50:50+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516847_1.flv?auth_key=1785434450-7856-0-ce83110d44321b64d00a6dde3f03d4f8",
+          "expires_at_epoch": 1785434450,
+          "expires_at_utc": "2026-07-30T18:00:50+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694012&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144694012.html"
         }
@@ -434,7 +493,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694078&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -475,9 +534,9 @@
           "home": "Hradec Kralove",
           "away": "Tromso",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516830_1.flv?auth_key=1785433855-7202-0-974f7e313c63b1bfa8d0953c5ed23172",
-          "expires_at_epoch": 1785433855,
-          "expires_at_utc": "2026-07-30T17:50:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516830_1.flv?auth_key=1785434455-1616-0-6f3a2540426b0b8020b1365487cb0bc1",
+          "expires_at_epoch": 1785434455,
+          "expires_at_utc": "2026-07-30T18:00:55+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694078&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144694078.html"
         }
@@ -493,7 +552,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694081&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -534,9 +593,9 @@
           "home": "FC Midtjylland",
           "away": "Besiktas",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516833_1.flv?auth_key=1785433860-9400-0-2d971ac21ce8008b28490c061165a316",
-          "expires_at_epoch": 1785433860,
-          "expires_at_utc": "2026-07-30T17:51:00+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516833_1.flv?auth_key=1785434459-1614-0-03554205ad9f96d603c4d2afb65ef6f2",
+          "expires_at_epoch": 1785434459,
+          "expires_at_utc": "2026-07-30T18:00:59+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694081&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144694081.html"
         }
@@ -552,7 +611,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144709888&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -593,9 +652,9 @@
           "home": "FC 10",
           "away": "FK Kosmos Dolgoprudny",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516827_1.flv?auth_key=1785433865-8648-0-1f97bb0f8a0b0b039a5e37db9c0aa3b0",
-          "expires_at_epoch": 1785433865,
-          "expires_at_utc": "2026-07-30T17:51:05+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516827_1.flv?auth_key=1785434464-9515-0-84d73414e20cbf7aba9c200ed73f7690",
+          "expires_at_epoch": 1785434464,
+          "expires_at_utc": "2026-07-30T18:01:04+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144709888&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144709888.html"
         }
@@ -611,7 +670,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800743&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -652,9 +711,9 @@
           "home": "Pafos FC",
           "away": "HNK Hajduk Split",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585358_1.flv?auth_key=1785433870-3222-0-b79bd31af1c3a45cfc0d647010a857c4",
-          "expires_at_epoch": 1785433870,
-          "expires_at_utc": "2026-07-30T17:51:10+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585358_1.flv?auth_key=1785434469-7304-0-65156747eeb12d97926ad6689be32574",
+          "expires_at_epoch": 1785434469,
+          "expires_at_utc": "2026-07-30T18:01:09+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800743&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144800743.html"
         },
@@ -665,9 +724,9 @@
           "home": "Pafos FC",
           "away": "HNK Hajduk Split",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585358_2.flv?auth_key=1785433870-1650-0-bd5aba16f2798111ebb35420603b400d",
-          "expires_at_epoch": 1785433870,
-          "expires_at_utc": "2026-07-30T17:51:10+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585358_2.flv?auth_key=1785434469-9091-0-8c4cfb50ceeae2afd5bc66d16ad88b8a",
+          "expires_at_epoch": 1785434469,
+          "expires_at_utc": "2026-07-30T18:01:09+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800743&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144800743.html"
         }
@@ -683,7 +742,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804688&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -724,9 +783,9 @@
           "home": "Gyori ETO",
           "away": "FC Atert Bissen",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588738_1.flv?auth_key=1785433875-8358-0-6ea244282f30667c08500b7546b1ee61",
-          "expires_at_epoch": 1785433875,
-          "expires_at_utc": "2026-07-30T17:51:15+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588738_1.flv?auth_key=1785434474-1528-0-affbfbf5d7d9e4d0c25f12e8034fb032",
+          "expires_at_epoch": 1785434474,
+          "expires_at_utc": "2026-07-30T18:01:14+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804688&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804688.html"
         }
@@ -742,7 +801,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804691&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -783,9 +842,9 @@
           "home": "Dinamo Minsk",
           "away": "Neftchi Baku",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588737_1.flv?auth_key=1785433881-8534-0-676fd2c303c38011acb514f5b644bf96",
-          "expires_at_epoch": 1785433881,
-          "expires_at_utc": "2026-07-30T17:51:21+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588737_1.flv?auth_key=1785434480-8096-0-abaf569738704a747da5a67ffbe4f925",
+          "expires_at_epoch": 1785434480,
+          "expires_at_utc": "2026-07-30T18:01:20+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804691&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804691.html"
         }
@@ -801,7 +860,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804721&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -842,9 +901,9 @@
           "home": "FK Velez Mostar",
           "away": "DAC Dunajska Streda",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588736_1.flv?auth_key=1785433885-4714-0-60f6078ccd8765ca7924ffe71836ad42",
-          "expires_at_epoch": 1785433885,
-          "expires_at_utc": "2026-07-30T17:51:25+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588736_1.flv?auth_key=1785434484-4515-0-9793369895233980a20b292f6ab6a713",
+          "expires_at_epoch": 1785434484,
+          "expires_at_utc": "2026-07-30T18:01:24+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804721&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804721.html"
         }
@@ -860,7 +919,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804736&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -901,9 +960,9 @@
           "home": "Zalgiris Vilnius",
           "away": "Dinamo Tbilisi",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588734_1.flv?auth_key=1785433889-2359-0-cda563dadeaca3ff060868a47b5468fe",
-          "expires_at_epoch": 1785433889,
-          "expires_at_utc": "2026-07-30T17:51:29+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588734_1.flv?auth_key=1785434489-1259-0-82223a5033c0f2e256c9c66675383b1a",
+          "expires_at_epoch": 1785434489,
+          "expires_at_utc": "2026-07-30T18:01:29+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804736&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804736.html"
         }
@@ -919,7 +978,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804757&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -960,9 +1019,9 @@
           "home": "SK Brann",
           "away": "Universitatea Cluj",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588732_1.flv?auth_key=1785433894-2391-0-92f8290d4d9247464ea3353b984872eb",
-          "expires_at_epoch": 1785433894,
-          "expires_at_utc": "2026-07-30T17:51:34+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588732_1.flv?auth_key=1785434494-3368-0-1e05b503fc636eacedde554726db1de6",
+          "expires_at_epoch": 1785434494,
+          "expires_at_utc": "2026-07-30T18:01:34+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804757&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804757.html"
         }
@@ -978,7 +1037,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804769&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -1019,9 +1078,9 @@
           "home": "CS Petrocub Hincesti",
           "away": "Borac Banja Luka",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588731_1.flv?auth_key=1785433898-2839-0-3856dd8985a6cba499f1d5d4d1a67f2d",
-          "expires_at_epoch": 1785433898,
-          "expires_at_utc": "2026-07-30T17:51:38+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588731_1.flv?auth_key=1785434499-1179-0-44a633d6d137a899eb3ca0fe51fe0ea3",
+          "expires_at_epoch": 1785434499,
+          "expires_at_utc": "2026-07-30T18:01:39+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804769&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804769.html"
         }
@@ -1037,7 +1096,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144805435&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -1078,9 +1137,9 @@
           "home": "Senegal Women",
           "away": "Kenya Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5579774_1.flv?auth_key=1785433903-1254-0-beb1bc07db34eb6b3f4d23518567d392",
-          "expires_at_epoch": 1785433903,
-          "expires_at_utc": "2026-07-30T17:51:43+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5579774_1.flv?auth_key=1785434505-8156-0-c18450312b1badd3cb7173f0f3087948",
+          "expires_at_epoch": 1785434505,
+          "expires_at_utc": "2026-07-30T18:01:45+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144805435&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144805435.html"
         }
@@ -1096,7 +1155,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832507&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1137,9 +1196,9 @@
           "home": "Bnei Yehuda Tel Aviv",
           "away": "Ironi Modiin",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5574788_1.flv?auth_key=1785433908-4625-0-e825058da13e5ef58f78ea7fb7f11f0c",
-          "expires_at_epoch": 1785433908,
-          "expires_at_utc": "2026-07-30T17:51:48+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5574788_1.flv?auth_key=1785434510-5178-0-acbc011f8efd6e8d86f8225c685a6447",
+          "expires_at_epoch": 1785434510,
+          "expires_at_utc": "2026-07-30T18:01:50+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832507&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144832507.html"
         }
@@ -1155,7 +1214,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832525&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -1196,9 +1255,9 @@
           "home": "Ashdod",
           "away": "Maccabi Kiryat Gat",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5574786_1.flv?auth_key=1785433914-2067-0-98a5b3ecd35fbd1d372d7d927173f200",
-          "expires_at_epoch": 1785433914,
-          "expires_at_utc": "2026-07-30T17:51:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5574786_1.flv?auth_key=1785434514-2417-0-e430c4c293eb37d6e8bbd8bee2d08bce",
+          "expires_at_epoch": 1785434514,
+          "expires_at_utc": "2026-07-30T18:01:54+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832525&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144832525.html"
         }
@@ -1214,7 +1273,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837916&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -1255,9 +1314,9 @@
           "home": "Malaga",
           "away": "Al Ittihad Jeddah",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5621769_1.flv?auth_key=1785433919-3254-0-fcadf1ac0e8ffdc7ba9d909fdf09722b",
-          "expires_at_epoch": 1785433919,
-          "expires_at_utc": "2026-07-30T17:51:59+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5621769_1.flv?auth_key=1785434519-4425-0-41632351620ffdd59313aae8857cfb19",
+          "expires_at_epoch": 1785434519,
+          "expires_at_utc": "2026-07-30T18:01:59+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837916&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144837916.html"
         }
@@ -1273,7 +1332,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804682&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -1314,11 +1373,70 @@
           "home": "FCI Levadia Tallinn",
           "away": "IFK Goteborg",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588728_1.flv?auth_key=1785433923-1869-0-0a47071b9a594ef5fc46fcc8e2a5bf72",
-          "expires_at_epoch": 1785433923,
-          "expires_at_utc": "2026-07-30T17:52:03+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588728_1.flv?auth_key=1785434524-4446-0-272244723d32eab0d98873fd19a9a075",
+          "expires_at_epoch": 1785434524,
+          "expires_at_utc": "2026-07-30T18:02:04+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804682&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804682.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137860777",
+      "start_at": "2026-07-30T23:00:00+07:00",
+      "league": "EuroB",
+      "home": "Slovakia U18 (M)",
+      "away": "Estonia U18 (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860777&lan=2",
+          "status": 200,
+          "elapsed": 0.177,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "EuroB Slovakia U18 (M) vs Estonia U18 (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137860777",
+          "start_at": "2026-07-30T23:00:00+07:00",
+          "league": "EuroB",
+          "home": "Slovakia U18 (M)",
+          "away": "Estonia U18 (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5629354_1.flv?auth_key=1785434528-9241-0-d94048b9d8fd9df1760f581deeef0dd9",
+          "expires_at_epoch": 1785434528,
+          "expires_at_utc": "2026-07-30T18:02:08+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860777&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137860777.html"
         }
       ]
     },
@@ -1332,7 +1450,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144693979&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1373,9 +1491,9 @@
           "home": "FK Auda Riga",
           "away": "FCSB",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516849_1.flv?auth_key=1785433927-2419-0-7bd2e245089f45220df874df5f48abab",
-          "expires_at_epoch": 1785433927,
-          "expires_at_utc": "2026-07-30T17:52:07+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516849_1.flv?auth_key=1785434533-8492-0-1cb1f6437834b2f1d93961dd6fc52709",
+          "expires_at_epoch": 1785434533,
+          "expires_at_utc": "2026-07-30T18:02:13+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144693979&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144693979.html"
         }
@@ -1391,7 +1509,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694003&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1432,9 +1550,9 @@
           "home": "FK Jablonec",
           "away": "NK Varazdin",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516836_1.flv?auth_key=1785433932-6245-0-11fb21758d26e20d095a3b27971a6bdc",
-          "expires_at_epoch": 1785433932,
-          "expires_at_utc": "2026-07-30T17:52:12+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516836_1.flv?auth_key=1785434537-4668-0-8d9b7010ca5fede017f43ed942f1c6ed",
+          "expires_at_epoch": 1785434537,
+          "expires_at_utc": "2026-07-30T18:02:17+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694003&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144694003.html"
         }
@@ -1450,7 +1568,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694009&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1476,28 +1594,12 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
-        "title": "UEFA ECL FC Noah vs Zimbru Chisinau",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
+        "pid": 0,
+        "title": "UEFA ECL FC Noah 2-1 Zimbru Chisinau",
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
-      "streams": [
-        {
-          "player_id": "5144694009",
-          "start_at": "2026-07-30T23:00:00+07:00",
-          "league": "UEFA ECL",
-          "home": "FC Noah",
-          "away": "Zimbru Chisinau",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516834_1.flv?auth_key=1785433936-4570-0-e7ca467e6f947f3f58e4392fbd365790",
-          "expires_at_epoch": 1785433936,
-          "expires_at_utc": "2026-07-30T17:52:16+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694009&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144694009.html"
-        }
-      ]
+      "streams": []
     },
     {
       "player_id": "5144800740",
@@ -1509,7 +1611,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800740&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1535,41 +1637,12 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
-        "title": "UEFA EL Maccabi Tel Aviv vs Sheriff Tiraspol",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
+        "pid": 0,
+        "title": "UEFA EL Maccabi Tel Aviv 1-0 Sheriff Tiraspol",
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
-      "streams": [
-        {
-          "player_id": "5144800740",
-          "start_at": "2026-07-30T23:00:00+07:00",
-          "league": "UEFA EL",
-          "home": "Maccabi Tel Aviv",
-          "away": "Sheriff Tiraspol",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585357_1.flv?auth_key=1785433941-8601-0-8d6f624b44707bf78e9cb1c3880399d3",
-          "expires_at_epoch": 1785433941,
-          "expires_at_utc": "2026-07-30T17:52:21+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800740&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144800740.html"
-        },
-        {
-          "player_id": "5144800740",
-          "start_at": "2026-07-30T23:00:00+07:00",
-          "league": "UEFA EL",
-          "home": "Maccabi Tel Aviv",
-          "away": "Sheriff Tiraspol",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585357_3.flv?auth_key=1785433941-9219-0-a0a3630ed59408134ec0fac366be0a49",
-          "expires_at_epoch": 1785433941,
-          "expires_at_utc": "2026-07-30T17:52:21+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800740&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144800740.html"
-        }
-      ]
+      "streams": []
     },
     {
       "player_id": "5144804697",
@@ -1581,7 +1654,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804697&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1622,9 +1695,9 @@
           "home": "Inter Turku",
           "away": "Istanbul Basaksehir",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588727_1.flv?auth_key=1785433946-7211-0-797f7f21f791de9d05e495216c6a8f59",
-          "expires_at_epoch": 1785433946,
-          "expires_at_utc": "2026-07-30T17:52:26+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588727_1.flv?auth_key=1785434552-5607-0-032b22b9f310ae397a134db126efa318",
+          "expires_at_epoch": 1785434552,
+          "expires_at_utc": "2026-07-30T18:02:32+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804697&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804697.html"
         }
@@ -1640,7 +1713,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804709&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1681,9 +1754,9 @@
           "home": "Pyunik FC",
           "away": "Debreceni VSC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588726_1.flv?auth_key=1785433951-7736-0-e502a777d797ad8ea94b643a6749dc06",
-          "expires_at_epoch": 1785433951,
-          "expires_at_utc": "2026-07-30T17:52:31+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588726_1.flv?auth_key=1785434558-7353-0-9fe48382e7e30d5d78224f27e7b9563d",
+          "expires_at_epoch": 1785434558,
+          "expires_at_utc": "2026-07-30T18:02:38+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804709&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804709.html"
         }
@@ -1699,7 +1772,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804718&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1725,28 +1798,12 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
-        "title": "UEFA ECL Zira FK vs Paide Linnameeskond",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
+        "pid": 0,
+        "title": "UEFA ECL Zira FK 1-1 Paide Linnameeskond",
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
-      "streams": [
-        {
-          "player_id": "5144804718",
-          "start_at": "2026-07-30T23:00:00+07:00",
-          "league": "UEFA ECL",
-          "home": "Zira FK",
-          "away": "Paide Linnameeskond",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588725_1.flv?auth_key=1785433955-9322-0-6200cbe1813ef6e0c9556dd397398ebe",
-          "expires_at_epoch": 1785433955,
-          "expires_at_utc": "2026-07-30T17:52:35+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804718&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144804718.html"
-        }
-      ]
+      "streams": []
     },
     {
       "player_id": "5144804751",
@@ -1758,7 +1815,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804751&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1799,9 +1856,9 @@
           "home": "Nomme Kalju",
           "away": "Shelbourne",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588723_1.flv?auth_key=1785433960-7763-0-f1d933c9b351e7df0ae2222452916869",
-          "expires_at_epoch": 1785433960,
-          "expires_at_utc": "2026-07-30T17:52:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588723_1.flv?auth_key=1785434568-6031-0-e53c37101e0c426227cc92f00b25a0c0",
+          "expires_at_epoch": 1785434568,
+          "expires_at_utc": "2026-07-30T18:02:48+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804751&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804751.html"
         }
@@ -1817,7 +1874,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804754&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1858,70 +1915,11 @@
           "home": "Ilves Tampere",
           "away": "Stjarnan",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588724_1.flv?auth_key=1785433965-9024-0-8af9867438b82578984bfc8f56fb3c74",
-          "expires_at_epoch": 1785433965,
-          "expires_at_utc": "2026-07-30T17:52:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5588724_1.flv?auth_key=1785434573-6035-0-9a00aab159afe35fabf176f25c8bc09e",
+          "expires_at_epoch": 1785434573,
+          "expires_at_utc": "2026-07-30T18:02:53+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804754&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144804754.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144831796",
-      "start_at": "2026-07-30T23:00:00+07:00",
-      "league": "Friendly",
-      "home": "Trabzonspor",
-      "away": "Al Sadd SC(QAT)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144831796&lan=2",
-          "status": 200,
-          "elapsed": 0.122,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "Friendly Trabzonspor vs Al Sadd SC(QAT)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144831796",
-          "start_at": "2026-07-30T23:00:00+07:00",
-          "league": "Friendly",
-          "home": "Trabzonspor",
-          "away": "Al Sadd SC(QAT)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615005_1.flv?auth_key=1785433970-7020-0-96f997ee60991c277bdbf2c64191122f",
-          "expires_at_epoch": 1785433970,
-          "expires_at_utc": "2026-07-30T17:52:50+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144831796&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144831796.html"
         }
       ]
     },
@@ -1935,7 +1933,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837856&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1976,9 +1974,9 @@
           "home": "Monza",
           "away": "Aris Thessaloniki",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5620757_1.flv?auth_key=1785433974-2370-0-1d68a694bd652f8d77bc951d22999e14",
-          "expires_at_epoch": 1785433974,
-          "expires_at_utc": "2026-07-30T17:52:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5620757_1.flv?auth_key=1785434578-4000-0-5a6e3556232fd2ddec1fb7085ddd975d",
+          "expires_at_epoch": 1785434578,
+          "expires_at_utc": "2026-07-30T18:02:58+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837856&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144837856.html"
         }
@@ -1994,7 +1992,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837913&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -2035,25 +2033,25 @@
           "home": "Marseille",
           "away": "Nimes",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5621774_1.flv?auth_key=1785433979-5793-0-c154643e61a704e8527a07068b8301fd",
-          "expires_at_epoch": 1785433979,
-          "expires_at_utc": "2026-07-30T17:52:59+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5621774_1.flv?auth_key=1785434584-9343-0-bdc72970d2e717d2d00a97c78b0eac8f",
+          "expires_at_epoch": 1785434584,
+          "expires_at_utc": "2026-07-30T18:03:04+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837913&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144837913.html"
         }
       ]
     },
     {
-      "player_id": "5356283373",
+      "player_id": "5356128087",
       "start_at": "2026-07-30T23:00:00+07:00",
-      "league": "FriendlyB",
-      "home": "Lithuania (W)",
-      "away": "Sweden (W)",
+      "league": "EuroB",
+      "home": "Turkey U18 (M)",
+      "away": "Italy U18 (M)",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356283373&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356128087&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -2079,55 +2077,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "FriendlyB Lithuania (W) 65-59 Sweden (W)",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "EuroB Turkey U18 (M) vs Italy U18 (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
-    },
-    {
-      "player_id": "5144800746",
-      "start_at": "2026-07-31T00:45:00+07:00",
-      "league": "UEFA EL",
-      "home": "PAOK Thessaloniki",
-      "away": "Dynamo Kyiv",
-      "attempts": [
+      "streams": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800746&lan=2",
-          "status": 200,
-          "elapsed": 0.122,
-          "error": ""
+          "player_id": "5356128087",
+          "start_at": "2026-07-30T23:00:00+07:00",
+          "league": "EuroB",
+          "home": "Turkey U18 (M)",
+          "away": "Italy U18 (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5629467_1.flv?auth_key=1785434589-8507-0-4f27b7487bf06ab9938bf4d0393eed0a",
+          "expires_at_epoch": 1785434589,
+          "expires_at_utc": "2026-07-30T18:03:09+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356128087&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5356128087.html"
         }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "UEFA EL PAOK Thessaloniki vs Dynamo Kyiv",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
+      ]
     },
     {
       "player_id": "5144694006",
@@ -2139,7 +2110,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694006&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -2182,7 +2153,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800749&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.176,
           "error": ""
         }
       ],
@@ -2225,7 +2196,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804694&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -2268,7 +2239,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804724&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -2311,7 +2282,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804733&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -2345,16 +2316,16 @@
       "streams": []
     },
     {
-      "player_id": "5144804766",
+      "player_id": "5356267605",
       "start_at": "2026-07-31T01:00:00+07:00",
-      "league": "UEFA ECL",
-      "home": "AFC Ajax",
-      "away": "FK Vojvodina",
+      "league": "ARG RPBM",
+      "home": "CSD Flandria Reserves",
+      "away": "Sportivo Italiano Reserve",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804766&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356267605&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.176,
           "error": ""
         }
       ],
@@ -2381,7 +2352,7 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "UEFA ECL AFC Ajax vs FK Vojvodina",
+        "title": "ARG RPBM CSD Flandria Reserves vs Sportivo Italiano Reserve",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -2397,7 +2368,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804730&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -2440,7 +2411,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144804778&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.176,
           "error": ""
         }
       ],
@@ -2472,121 +2443,77 @@
         "stream_item_types": []
       },
       "streams": []
-    },
-    {
-      "player_id": "5144693997",
-      "start_at": "2026-07-31T01:30:00+07:00",
-      "league": "UEFA ECL",
-      "home": "Gent",
-      "away": "LNZ Cherkasy",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144693997&lan=2",
-          "status": 200,
-          "elapsed": 0.122,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "UEFA ECL Gent vs LNZ Cherkasy",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
     "matches_selected": 57,
-    "matches_processed": 44,
-    "valid_player_responses": 44,
+    "matches_processed": 43,
+    "valid_player_responses": 43,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": true,
-    "streams_returned_by_api": 36,
-    "fresh_streams_accepted": 36,
+    "streams_returned_by_api": 34,
+    "fresh_streams_accepted": 34,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.474,
-      5.179,
-      5.069,
-      4.609,
-      4.223,
-      4.226,
-      5.223,
-      4.549,
-      5.364,
-      4.746,
-      5.474,
-      4.309,
-      4.001,
-      4.362,
-      4.244,
-      4.557,
-      5.255,
-      5.405,
-      5.278,
-      4.258,
-      4.049,
-      4.11,
-      4.047,
-      5.125,
-      4.965,
-      4.315,
-      4.099,
-      5.434,
-      4.098,
-      4.804,
-      4.412,
-      4.309,
-      4.434,
-      4.711,
-      5.239,
-      4.053,
-      4.021,
-      5.128,
-      5.415,
-      5.32,
-      4.44,
-      5.075,
-      4.108,
-      4.243
+      4.017,
+      4.599,
+      5.186,
+      5.385,
+      4.333,
+      4.465,
+      4.494,
+      4.02,
+      5.036,
+      4.394,
+      5.058,
+      5.332,
+      4.32,
+      4.232,
+      5.034,
+      5.427,
+      5.192,
+      4.685,
+      4.633,
+      4.624,
+      4.173,
+      4.256,
+      4.883,
+      4.042,
+      5.115,
+      4.167,
+      5.067,
+      5.424,
+      4.522,
+      5.347,
+      4.618,
+      5.23,
+      5.193,
+      4.716,
+      5.186,
+      5.143,
+      5.046,
+      4.792,
+      4.824,
+      4.976,
+      5.453,
+      4.018,
+      4.575
     ],
-    "expires_at_min_epoch": 1785433826,
-    "expires_at_max_epoch": 1785433979,
-    "expires_at_span_seconds": 153,
-    "remaining_ttl_min_seconds": 360,
-    "remaining_ttl_max_seconds": 513,
+    "expires_at_min_epoch": 1785434421,
+    "expires_at_max_epoch": 1785434589,
+    "expires_at_span_seconds": 168,
+    "remaining_ttl_min_seconds": 357,
+    "remaining_ttl_max_seconds": 525,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 36,
-    "final_streams": 36,
-    "publish_reason": "published 36 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 34,
+    "publish_reason": "published 34 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 210.7
+    "elapsed_seconds": 213.66
   }
 }
