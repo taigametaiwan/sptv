@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-07-30T13:40:25+07:00",
+  "started_at": "2026-07-30T13:50:19+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.604,
+    "elapsed": 0.656,
     "error": ""
   },
   "schedule": {
@@ -49,11 +49,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.134,
+        "elapsed": 0.173,
         "error": ""
       }
     ],
-    "rows_selected": 2,
+    "rows_selected": 3,
     "window": "-150/+180"
   },
   "matches": [
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858410&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.184,
           "error": ""
         }
       ],
@@ -108,13 +108,56 @@
           "home": "Beijing Normal University (W)",
           "away": "Shaanxi Yulin Tianze (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5553509_1.flv?auth_key=1785394226-6741-0-5e306f176337e2cad59c900fd6b55cc3",
-          "expires_at_epoch": 1785394226,
-          "expires_at_utc": "2026-07-30T06:50:26+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5553509_1.flv?auth_key=1785394820-1442-0-ce588c7131aa5e920e09f72f5a9a45f0",
+          "expires_at_epoch": 1785394820,
+          "expires_at_utc": "2026-07-30T07:00:20+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858410&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137858410.html"
         }
       ]
+    },
+    {
+      "player_id": "5137860561",
+      "start_at": "2026-07-30T14:00:00+07:00",
+      "league": "NZNBL",
+      "home": "Wellington Saints BC",
+      "away": "Otago Nuggets BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860561&lan=2",
+          "status": 200,
+          "elapsed": 0.183,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "NZNBL Wellington Saints BC vs Otago Nuggets BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     },
     {
       "player_id": "5137859550",
@@ -126,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859550&lan=2",
           "status": 200,
-          "elapsed": 0.155,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -162,9 +205,9 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 2,
-    "matches_processed": 2,
-    "valid_player_responses": 2,
+    "matches_selected": 3,
+    "matches_processed": 3,
+    "valid_player_responses": 3,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 1,
@@ -174,19 +217,20 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.586
+      4.431,
+      4.567
     ],
-    "expires_at_min_epoch": 1785394226,
-    "expires_at_max_epoch": 1785394226,
+    "expires_at_min_epoch": 1785394820,
+    "expires_at_max_epoch": 1785394820,
     "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": 565,
-    "remaining_ttl_max_seconds": 565,
+    "remaining_ttl_min_seconds": 560,
+    "remaining_ttl_max_seconds": 560,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 1,
     "final_streams": 1,
     "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 5.63
+    "elapsed_seconds": 10.39
   }
 }
