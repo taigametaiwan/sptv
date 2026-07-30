@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-07-30T15:50:23+07:00",
+  "started_at": "2026-07-30T16:00:39+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.44,
+    "elapsed": 0.597,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.109,
+        "elapsed": 0.171,
         "error": ""
       }
     ],
-    "rows_selected": 4,
+    "rows_selected": 6,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137858443",
+      "start_at": "2026-07-30T16:00:00+07:00",
+      "league": "WNBL",
+      "home": "Wuhan Shengfan Huanghe (W)",
+      "away": "Xinjiang Tianshan (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858443&lan=2",
+          "status": 200,
+          "elapsed": 0.182,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WNBL Wuhan Shengfan Huanghe (W) vs Xinjiang Tianshan (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137858443",
+          "start_at": "2026-07-30T16:00:00+07:00",
+          "league": "WNBL",
+          "home": "Wuhan Shengfan Huanghe (W)",
+          "away": "Xinjiang Tianshan (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5553510_1.flv?auth_key=1785402639-5221-0-9e51b4039687c0061d337bce476da89c",
+          "expires_at_epoch": 1785402639,
+          "expires_at_utc": "2026-07-30T09:10:39+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858443&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137858443.html"
+        }
+      ]
+    },
     {
       "player_id": "5144831535",
       "start_at": "2026-07-30T15:00:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144831535&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -108,115 +167,13 @@
           "home": "Mallorca",
           "away": "Al Ittihad Jeddah",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5612006_1.flv?auth_key=1785402024-4532-0-fdaab69db5b3f6b0041820fe056c58fa",
-          "expires_at_epoch": 1785402024,
-          "expires_at_utc": "2026-07-30T09:00:24+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5612006_1.flv?auth_key=1785402645-9096-0-4fd64d6bee9c20ed316761c88fcabf92",
+          "expires_at_epoch": 1785402645,
+          "expires_at_utc": "2026-07-30T09:10:45+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144831535&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144831535.html"
         }
       ]
-    },
-    {
-      "player_id": "5137860561",
-      "start_at": "2026-07-30T14:00:00+07:00",
-      "league": "NZNBL",
-      "home": "Wellington Saints BC",
-      "away": "Otago Nuggets BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860561&lan=2",
-          "status": 200,
-          "elapsed": 0.121,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "NZNBL Wellington Saints BC vs Otago Nuggets BC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137860561",
-          "start_at": "2026-07-30T14:00:00+07:00",
-          "league": "NZNBL",
-          "home": "Wellington Saints BC",
-          "away": "Otago Nuggets BC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5618678_1.flv?auth_key=1785402029-2928-0-055b1e3d2969958a82c7854e0494f969",
-          "expires_at_epoch": 1785402029,
-          "expires_at_utc": "2026-07-30T09:00:29+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860561&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137860561.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137858443",
-      "start_at": "2026-07-30T16:00:00+07:00",
-      "league": "WNBL",
-      "home": "Wuhan Shengfan Huanghe (W)",
-      "away": "Xinjiang Tianshan (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137858443&lan=2",
-          "status": 200,
-          "elapsed": 0.12,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "WNBL Wuhan Shengfan Huanghe (W) vs Xinjiang Tianshan (W)",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5137860057",
@@ -228,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860057&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -260,13 +217,142 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5137860060",
+      "start_at": "2026-07-30T19:00:00+07:00",
+      "league": "MPBL",
+      "home": "San Juan Knights BC",
+      "away": "Quezon Huskers BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860060&lan=2",
+          "status": 200,
+          "elapsed": 0.182,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL San Juan Knights BC vs Quezon Huskers BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144589159",
+      "start_at": "2026-07-30T19:00:00+07:00",
+      "league": "KAZ D2",
+      "home": "Batyr Ekibastuz",
+      "away": "FK Yelimay Semey B",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589159&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "KAZ D2 Batyr Ekibastuz vs FK Yelimay Semey B",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144589174",
+      "start_at": "2026-07-30T19:00:00+07:00",
+      "league": "KAZ D2",
+      "home": "FK Taraz",
+      "away": "Akademiya Ontustik",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589174&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "KAZ D2 FK Taraz vs Akademiya Ontustik",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 4,
-    "matches_processed": 4,
-    "valid_player_responses": 4,
+    "matches_selected": 6,
+    "matches_processed": 6,
+    "valid_player_responses": 6,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 2,
@@ -276,21 +362,23 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.307,
-      5.481,
-      5.096
+      5.304,
+      4.335,
+      5.167,
+      4.823,
+      4.012
     ],
-    "expires_at_min_epoch": 1785402024,
-    "expires_at_max_epoch": 1785402029,
-    "expires_at_span_seconds": 5,
-    "remaining_ttl_min_seconds": 554,
-    "remaining_ttl_max_seconds": 559,
+    "expires_at_min_epoch": 1785402639,
+    "expires_at_max_epoch": 1785402645,
+    "expires_at_span_seconds": 6,
+    "remaining_ttl_min_seconds": 545,
+    "remaining_ttl_max_seconds": 551,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 3,
+    "expired_previous_removed": 2,
     "final_streams": 2,
     "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 16.93
+    "elapsed_seconds": 25.51
   }
 }
