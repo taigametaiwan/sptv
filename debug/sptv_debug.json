@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-07-31T07:00:32+07:00",
+  "started_at": "2026-07-31T07:10:26+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.41,
+    "elapsed": 0.478,
     "error": ""
   },
   "schedule": {
@@ -49,11 +49,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.109,
+        "elapsed": 0.12,
         "error": ""
       }
     ],
-    "rows_selected": 18,
+    "rows_selected": 17,
     "window": "-150/+180"
   },
   "matches": [
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809624&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -93,12 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "WNBA Toronto Tempo vs Minnesota Lynx",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5137809624",
+          "start_at": "2026-07-31T07:00:00+07:00",
+          "league": "WNBA",
+          "home": "Toronto Tempo",
+          "away": "Minnesota Lynx",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5251266_1.flv?auth_key=1785457226-8916-0-80cbbf857185d473a56be7f3b535d594",
+          "expires_at_epoch": 1785457226,
+          "expires_at_utc": "2026-07-31T00:20:26+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809624&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137809624.html"
+        }
+      ]
     },
     {
       "player_id": "5137809627",
@@ -110,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809627&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -136,55 +152,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "WNBA Chicago Sky vs Connecticut Sun",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
-    },
-    {
-      "player_id": "5137859289",
-      "start_at": "2026-07-31T07:00:00+07:00",
-      "league": "CLBL",
-      "home": "Universidad Concepcion BC",
-      "away": "Puente Alto BC",
-      "attempts": [
+      "streams": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859289&lan=2",
-          "status": 200,
-          "elapsed": 0.12,
-          "error": ""
+          "player_id": "5137809627",
+          "start_at": "2026-07-31T07:00:00+07:00",
+          "league": "WNBA",
+          "home": "Chicago Sky",
+          "away": "Connecticut Sun",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5251256_1.flv?auth_key=1785457231-4388-0-2a371522c13a8c4483f3794f29adbd66",
+          "expires_at_epoch": 1785457231,
+          "expires_at_utc": "2026-07-31T00:20:31+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809627&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137809627.html"
         }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CLBL Universidad Concepcion BC vs Puente Alto BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
+      ]
     },
     {
       "player_id": "5137859502",
@@ -196,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859502&lan=2",
           "status": 200,
-          "elapsed": 0.119,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -237,9 +226,9 @@
           "home": "Criollos de Caguas BC",
           "away": "Vaqueros de Bayamon BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5611605_1.flv?auth_key=1785456645-4649-0-6e63c3392f598000f8e351e4fe42c1fb",
-          "expires_at_epoch": 1785456645,
-          "expires_at_utc": "2026-07-31T00:10:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5611605_1.flv?auth_key=1785457236-2317-0-d95ba1e87294d17ebd9afed0cb150009",
+          "expires_at_epoch": 1785457236,
+          "expires_at_utc": "2026-07-31T00:20:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859502&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137859502.html"
         }
@@ -255,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144819790&lan=2",
           "status": 200,
-          "elapsed": 0.119,
+          "elapsed": 0.129,
           "error": ""
         }
       ],
@@ -298,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144426694&lan=2",
           "status": 200,
-          "elapsed": 0.119,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -339,9 +328,9 @@
           "home": "Corinthians Paulista/SP",
           "away": "Athletico Paranaense/PR",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5288950_1.flv?auth_key=1785456655-7643-0-e277431c8a3e2b9a874fe44d406dc10d",
-          "expires_at_epoch": 1785456655,
-          "expires_at_utc": "2026-07-31T00:10:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5288950_1.flv?auth_key=1785457245-1376-0-0f7ee840dfcb91f94f78ea6143e8554b",
+          "expires_at_epoch": 1785457245,
+          "expires_at_utc": "2026-07-31T00:20:45+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144426694&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144426694.html"
         }
@@ -357,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581770&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -400,7 +389,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581779&lan=2",
           "status": 200,
-          "elapsed": 0.119,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -443,7 +432,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144426697&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -486,7 +475,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669730&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -529,7 +518,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669739&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -572,7 +561,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729511&lan=2",
           "status": 200,
-          "elapsed": 0.119,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -615,7 +604,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767392&lan=2",
           "status": 200,
-          "elapsed": 0.119,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -658,7 +647,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855521&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -701,7 +690,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809630&lan=2",
           "status": 200,
-          "elapsed": 0.119,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -744,7 +733,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855524&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -787,7 +776,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855527&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -830,7 +819,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855530&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -866,47 +855,46 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 18,
-    "matches_processed": 18,
-    "valid_player_responses": 18,
+    "matches_selected": 17,
+    "matches_processed": 17,
+    "valid_player_responses": 17,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 2,
-    "fresh_streams_accepted": 2,
+    "streams_returned_by_api": 4,
+    "fresh_streams_accepted": 4,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.041,
-      4.044,
-      4.022,
-      4.912,
-      4.391,
-      5.499,
-      4.597,
-      4.364,
-      5.203,
-      4.912,
-      4.863,
-      4.55,
-      4.551,
-      5.036,
-      4.049,
-      4.681,
-      4.663
+      4.325,
+      5.053,
+      4.9,
+      4.327,
+      4.926,
+      5.039,
+      5.229,
+      5.28,
+      5.32,
+      4.919,
+      5.218,
+      4.101,
+      5.468,
+      4.683,
+      5.038,
+      4.427
     ],
-    "expires_at_min_epoch": 1785456645,
-    "expires_at_max_epoch": 1785456655,
-    "expires_at_span_seconds": 10,
-    "remaining_ttl_min_seconds": 502,
-    "remaining_ttl_max_seconds": 512,
+    "expires_at_min_epoch": 1785457226,
+    "expires_at_max_epoch": 1785457245,
+    "expires_at_span_seconds": 19,
+    "remaining_ttl_min_seconds": 489,
+    "remaining_ttl_max_seconds": 508,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 6,
-    "final_streams": 2,
-    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 2,
+    "final_streams": 4,
+    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 81.07
+    "elapsed_seconds": 81.08
   }
 }
