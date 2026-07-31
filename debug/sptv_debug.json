@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-07-31T12:00:32+07:00",
+  "started_at": "2026-07-31T12:10:24+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.598,
+    "elapsed": 0.521,
     "error": ""
   },
   "schedule": {
@@ -49,57 +49,14 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.138,
+        "elapsed": 0.132,
         "error": ""
       }
     ],
-    "rows_selected": 4,
+    "rows_selected": 3,
     "window": "-150/+180"
   },
   "matches": [
-    {
-      "player_id": "5137861488",
-      "start_at": "2026-07-31T12:00:00+07:00",
-      "league": "WKBA",
-      "home": "Busan BNK Sum (W)",
-      "away": "Bucheon Hana Bank (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861488&lan=2",
-          "status": 200,
-          "elapsed": 0.15,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "WKBA Busan BNK Sum (W) vs Bucheon Hana Bank (W)",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
     {
       "player_id": "5137855530",
       "start_at": "2026-07-31T10:00:00+07:00",
@@ -110,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855530&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -151,9 +108,9 @@
           "home": "Soles de Mexicali BC",
           "away": "Gambusinos de Fresnillo BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546650_1.flv?auth_key=1785474638-5913-0-9d56b88b839ea604e972d45e84ffa399",
-          "expires_at_epoch": 1785474638,
-          "expires_at_utc": "2026-07-31T05:10:38+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546650_1.flv?auth_key=1785475224-7989-0-52f9876cecefddee7e2a02458e371bb0",
+          "expires_at_epoch": 1785475224,
+          "expires_at_utc": "2026-07-31T05:20:24+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855530&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855530.html"
         }
@@ -169,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859553&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.144,
           "error": ""
         }
       ],
@@ -212,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861494&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.144,
           "error": ""
         }
       ],
@@ -248,9 +205,9 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 4,
-    "matches_processed": 4,
-    "valid_player_responses": 4,
+    "matches_selected": 3,
+    "matches_processed": 3,
+    "valid_player_responses": 3,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 1,
@@ -260,21 +217,20 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.141,
-      4.863,
-      4.872
+      4.485,
+      4.333
     ],
-    "expires_at_min_epoch": 1785474638,
-    "expires_at_max_epoch": 1785474638,
+    "expires_at_min_epoch": 1785475224,
+    "expires_at_max_epoch": 1785475224,
     "expires_at_span_seconds": 0,
     "remaining_ttl_min_seconds": 560,
     "remaining_ttl_max_seconds": 560,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 2,
+    "expired_previous_removed": 1,
     "final_streams": 1,
     "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 16.22
+    "elapsed_seconds": 9.91
   }
 }
