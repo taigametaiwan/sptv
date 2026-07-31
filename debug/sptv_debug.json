@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-07-31T13:40:25+07:00",
+  "started_at": "2026-07-31T13:50:22+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.482,
+    "elapsed": 0.637,
     "error": ""
   },
   "schedule": {
@@ -49,73 +49,14 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.119,
+        "elapsed": 0.166,
         "error": ""
       }
     ],
-    "rows_selected": 7,
+    "rows_selected": 6,
     "window": "-150/+180"
   },
   "matches": [
-    {
-      "player_id": "5137861488",
-      "start_at": "2026-07-31T12:00:00+07:00",
-      "league": "WKBA",
-      "home": "Busan BNK Sum (W)",
-      "away": "Bucheon Hana Bank (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861488&lan=2",
-          "status": 200,
-          "elapsed": 0.131,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WKBA Busan BNK Sum (W) vs Bucheon Hana Bank (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137861488",
-          "start_at": "2026-07-31T12:00:00+07:00",
-          "league": "WKBA",
-          "home": "Busan BNK Sum (W)",
-          "away": "Bucheon Hana Bank (W)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5632305_1.flv?auth_key=1785480626-7318-0-6225deb59a3cba9f6b9dd2c77a898c7f",
-          "expires_at_epoch": 1785480626,
-          "expires_at_utc": "2026-07-31T06:50:26+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861488&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137861488.html"
-        }
-      ]
-    },
     {
       "player_id": "5137859553",
       "start_at": "2026-07-31T14:00:00+07:00",
@@ -126,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859553&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -169,7 +110,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861494&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.19,
           "error": ""
         }
       ],
@@ -212,7 +153,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859670&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -255,7 +196,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410407&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -298,7 +239,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410410&lan=2",
           "status": 200,
-          "elapsed": 0.131,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -341,7 +282,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456994&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -376,37 +317,36 @@
     }
   ],
   "summary": {
-    "status": "PUBLISHED_FRESH",
-    "matches_selected": 7,
-    "matches_processed": 7,
-    "valid_player_responses": 7,
+    "status": "EMPTY_NO_VALID_KEY",
+    "matches_selected": 6,
+    "matches_processed": 6,
+    "valid_player_responses": 6,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 1,
-    "fresh_streams_accepted": 1,
+    "streams_returned_by_api": 0,
+    "fresh_streams_accepted": 0,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.735,
-      4.437,
-      5.279,
-      4.657,
-      4.975,
-      5.41
+      5.49,
+      4.351,
+      4.96,
+      4.241,
+      5.321
     ],
-    "expires_at_min_epoch": 1785480626,
-    "expires_at_max_epoch": 1785480626,
+    "expires_at_min_epoch": null,
+    "expires_at_max_epoch": null,
     "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": 540,
-    "remaining_ttl_max_seconds": 540,
+    "remaining_ttl_min_seconds": null,
+    "remaining_ttl_max_seconds": null,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 1,
-    "final_streams": 1,
-    "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 0,
+    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 1 expired streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 31.01
+    "elapsed_seconds": 26.25
   }
 }
