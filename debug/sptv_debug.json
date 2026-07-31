@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-07-31T17:30:34+07:00",
+  "started_at": "2026-07-31T17:40:28+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.53,
+    "elapsed": 0.634,
     "error": ""
   },
   "schedule": {
@@ -49,25 +49,25 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.121,
+        "elapsed": 0.175,
         "error": ""
       }
     ],
-    "rows_selected": 27,
+    "rows_selected": 25,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5144409210",
+      "player_id": "5137805262",
       "start_at": "2026-07-31T17:30:00+07:00",
-      "league": "AUS FQP1",
-      "home": "Broadbeach United SC",
-      "away": "Logan Lightning",
+      "league": "WEuroB",
+      "home": "Portugal U18 (W)",
+      "away": "Netherlands U18 (W)",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144409210&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805262&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.187,
           "error": ""
         }
       ],
@@ -93,12 +93,87 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "AUS FQP1 Broadbeach United SC vs Logan Lightning",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "WEuroB Portugal U18 (W) vs Netherlands U18 (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5137805262",
+          "start_at": "2026-07-31T17:30:00+07:00",
+          "league": "WEuroB",
+          "home": "Portugal U18 (W)",
+          "away": "Netherlands U18 (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5251264_1.flv?auth_key=1785495029-9389-0-ad26f2362fedc68d9da3d3b18830eb6c",
+          "expires_at_epoch": 1785495029,
+          "expires_at_utc": "2026-07-31T10:50:29+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805262&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137805262.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144409210",
+      "start_at": "2026-07-31T17:30:00+07:00",
+      "league": "AUS FQP1",
+      "home": "Broadbeach United SC",
+      "away": "Logan Lightning",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144409210&lan=2",
+          "status": 200,
+          "elapsed": 0.186,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS FQP1 Broadbeach United SC vs Logan Lightning",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144409210",
+          "start_at": "2026-07-31T17:30:00+07:00",
+          "league": "AUS FQP1",
+          "home": "Broadbeach United SC",
+          "away": "Logan Lightning",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251237_1.flv?auth_key=1785495033-8843-0-c6a2a1223147041af45e8bee123eb262",
+          "expires_at_epoch": 1785495033,
+          "expires_at_utc": "2026-07-31T10:50:33+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144409210&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144409210.html"
+        }
+      ]
     },
     {
       "player_id": "5144409213",
@@ -110,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144409213&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -136,98 +211,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "AUS FQP1 North Star vs Capalaba",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
-    },
-    {
-      "player_id": "5144441379",
-      "start_at": "2026-07-31T17:30:00+07:00",
-      "league": "AUS VPL1",
-      "home": "Northcote City SC",
-      "away": "Eltham Redbacks",
-      "attempts": [
+      "streams": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144441379&lan=2",
-          "status": 200,
-          "elapsed": 0.131,
-          "error": ""
+          "player_id": "5144409213",
+          "start_at": "2026-07-31T17:30:00+07:00",
+          "league": "AUS FQP1",
+          "home": "North Star",
+          "away": "Capalaba",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251236_1.flv?auth_key=1785495039-1634-0-28db3dd9b8a644fc6412fbaab8b5bd9a",
+          "expires_at_epoch": 1785495039,
+          "expires_at_utc": "2026-07-31T10:50:39+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144409213&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144409213.html"
         }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "AUS VPL1 Northcote City SC vs Eltham Redbacks",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144441397",
-      "start_at": "2026-07-31T17:30:00+07:00",
-      "league": "AUS VPL1",
-      "home": "Melbourne Knights",
-      "away": "Western United U21",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144441397&lan=2",
-          "status": 200,
-          "elapsed": 0.131,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "AUS VPL1 Melbourne Knights vs Western United U21",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
+      ]
     },
     {
       "player_id": "5144456997",
@@ -239,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456997&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -280,9 +285,9 @@
           "home": "Preston Lions",
           "away": "Green Gully SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251233_1.flv?auth_key=1785494455-8943-0-462aeb17a5a2387addbbe4df56f57eb7",
-          "expires_at_epoch": 1785494455,
-          "expires_at_utc": "2026-07-31T10:40:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251233_1.flv?auth_key=1785495044-3542-0-55593c4840250f2cef1265123675eac8",
+          "expires_at_epoch": 1785495044,
+          "expires_at_utc": "2026-07-31T10:50:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456997&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144456997.html"
         }
@@ -298,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144544837&lan=2",
           "status": 200,
-          "elapsed": 0.131,
+          "elapsed": 0.187,
           "error": ""
         }
       ],
@@ -324,55 +329,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "AUS FQP2 Brisbane Knights vs Mitchelton",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
-    },
-    {
-      "player_id": "5144841045",
-      "start_at": "2026-07-31T17:30:00+07:00",
-      "league": "AUS VPL2",
-      "home": "Whittlesea United SC",
-      "away": "Eastern Lions SC",
-      "attempts": [
+      "streams": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144841045&lan=2",
-          "status": 200,
-          "elapsed": 0.131,
-          "error": ""
+          "player_id": "5144544837",
+          "start_at": "2026-07-31T17:30:00+07:00",
+          "league": "AUS FQP2",
+          "home": "Brisbane Knights",
+          "away": "Mitchelton",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251230_1.flv?auth_key=1785495049-2548-0-dcfffdea265912303ebb94e54d2e6a11",
+          "expires_at_epoch": 1785495049,
+          "expires_at_utc": "2026-07-31T10:50:49+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144544837&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144544837.html"
         }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "AUS VPL2 Whittlesea United SC vs Eastern Lions SC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
+      ]
     },
     {
       "player_id": "5144842893",
@@ -384,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842893&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -425,9 +403,9 @@
           "home": "West Torrens Birkalla Women",
           "away": "Adelaide University Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5632261_1.flv?auth_key=1785494469-5270-0-85abc4d55220f3c6d33ded5a43073a3b",
-          "expires_at_epoch": 1785494469,
-          "expires_at_utc": "2026-07-31T10:41:09+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5632261_1.flv?auth_key=1785495053-4712-0-ff0ae365866db5af1541b704cbd9b3af",
+          "expires_at_epoch": 1785495053,
+          "expires_at_utc": "2026-07-31T10:50:53+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842893&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842893.html"
         }
@@ -443,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431587&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -484,9 +462,9 @@
           "home": "Campbelltown City",
           "away": "Adelaide City",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251226_1.flv?auth_key=1785494475-7698-0-1fed2813d0995469a4677ffb3e6872ad",
-          "expires_at_epoch": 1785494475,
-          "expires_at_utc": "2026-07-31T10:41:15+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251226_1.flv?auth_key=1785495058-7977-0-f9830648f76237ae0ccfd6832636a2ce",
+          "expires_at_epoch": 1785495058,
+          "expires_at_utc": "2026-07-31T10:50:58+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431587&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144431587.html"
         }
@@ -502,7 +480,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526540&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -543,9 +521,9 @@
           "home": "Cooks Hill United",
           "away": "Broadmeadow Magic",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5209814_1.flv?auth_key=1785494480-5057-0-e8fd7c7c7a7428e9b55102210758bc64",
-          "expires_at_epoch": 1785494480,
-          "expires_at_utc": "2026-07-31T10:41:20+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5209814_1.flv?auth_key=1785495064-1216-0-2f084dfef677ffbbb2f6145861115c46",
+          "expires_at_epoch": 1785495064,
+          "expires_at_utc": "2026-07-31T10:51:04+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526540&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144526540.html"
         }
@@ -561,7 +539,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144575251&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -602,9 +580,9 @@
           "home": "Incheon Hyundai Steel Red Angels Women",
           "away": "Hwacheon KSPO Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251228_1.flv?auth_key=1785494486-9424-0-06eda98c57034dd468d4dafb93c4949f",
-          "expires_at_epoch": 1785494486,
-          "expires_at_utc": "2026-07-31T10:41:26+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251228_1.flv?auth_key=1785495068-7214-0-8cbc3951f401447a9d0a1ccdcba637dd",
+          "expires_at_epoch": 1785495068,
+          "expires_at_utc": "2026-07-31T10:51:08+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144575251&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144575251.html"
         }
@@ -620,7 +598,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144575254&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.187,
           "error": ""
         }
       ],
@@ -661,9 +639,9 @@
           "home": "Suwon FC Women",
           "away": "Sejong Sportstoto Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251232_1.flv?auth_key=1785494491-2926-0-58c80889f5a4fe6ab6c0b34be9d252bc",
-          "expires_at_epoch": 1785494491,
-          "expires_at_utc": "2026-07-31T10:41:31+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251232_1.flv?auth_key=1785495073-1585-0-ff5b1ea634766914d73b60b25470018d",
+          "expires_at_epoch": 1785495073,
+          "expires_at_utc": "2026-07-31T10:51:13+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144575254&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144575254.html"
         }
@@ -679,7 +657,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144801019&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -720,9 +698,9 @@
           "home": "UCSA Tarasivka",
           "away": "FC Oleksandriya",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585378_1.flv?auth_key=1785494496-2654-0-4d1e440ba20e4b023f794efa58c8e768",
-          "expires_at_epoch": 1785494496,
-          "expires_at_utc": "2026-07-31T10:41:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585378_1.flv?auth_key=1785495078-3534-0-1d818e1de7a3060360471ac468294f8f",
+          "expires_at_epoch": 1785495078,
+          "expires_at_utc": "2026-07-31T10:51:18+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144801019&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144801019.html"
         }
@@ -738,7 +716,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837931&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -779,9 +757,9 @@
           "home": "Koln",
           "away": "Hertha BSC Berlin",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5621781_1.flv?auth_key=1785494501-5685-0-1ac08a4edd3665ec79ee140f12a38f06",
-          "expires_at_epoch": 1785494501,
-          "expires_at_utc": "2026-07-31T10:41:41+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5621781_1.flv?auth_key=1785495083-3479-0-796eb11adff17125268a570cc88badc4",
+          "expires_at_epoch": 1785495083,
+          "expires_at_utc": "2026-07-31T10:51:23+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837931&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144837931.html"
         }
@@ -797,7 +775,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356461255&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -838,9 +816,9 @@
           "home": "Victoria Select Team（W）",
           "away": "Aranmare Akita (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5632307_1.flv?auth_key=1785494506-8957-0-38c8020c39637b67358b6af3617aec7c",
-          "expires_at_epoch": 1785494506,
-          "expires_at_utc": "2026-07-31T10:41:46+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5632307_1.flv?auth_key=1785495089-8831-0-c08f8b5c0af7383e8db5020ca8085eb4",
+          "expires_at_epoch": 1785495089,
+          "expires_at_utc": "2026-07-31T10:51:29+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356461255&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5356461255.html"
         }
@@ -856,7 +834,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410407&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -897,9 +875,9 @@
           "home": "Rochedale Rovers",
           "away": "Eastern Suburbs FC (AUS)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251227_1.flv?auth_key=1785494511-3191-0-63fd53dbf987319ebfebfe3aa75e1777",
-          "expires_at_epoch": 1785494511,
-          "expires_at_utc": "2026-07-31T10:41:51+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251227_1.flv?auth_key=1785495093-3050-0-678e11a157919c68a39e179192998a43",
+          "expires_at_epoch": 1785495093,
+          "expires_at_utc": "2026-07-31T10:51:33+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410407&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144410407.html"
         }
@@ -915,7 +893,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410410&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.185,
           "error": ""
         }
       ],
@@ -956,9 +934,9 @@
           "home": "Wynnum Wolves",
           "away": "Brisbane City",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251225_1.flv?auth_key=1785494516-6866-0-f60c566082f141f260d0bdc8b70f1e4b",
-          "expires_at_epoch": 1785494516,
-          "expires_at_utc": "2026-07-31T10:41:56+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251225_1.flv?auth_key=1785495098-5746-0-4e9d8577bf69d4bfa3875108adddcf15",
+          "expires_at_epoch": 1785495098,
+          "expires_at_utc": "2026-07-31T10:51:38+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410410&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144410410.html"
         }
@@ -974,7 +952,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456994&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -1015,9 +993,9 @@
           "home": "Bentleigh Greens",
           "away": "Oakleigh Cannons",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251234_1.flv?auth_key=1785494521-6416-0-86c71369c57a5cee516947f5d91d731b",
-          "expires_at_epoch": 1785494521,
-          "expires_at_utc": "2026-07-31T10:42:01+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5251234_1.flv?auth_key=1785495103-6653-0-e88367f2e4e07a8a1e2b0e6ae6043723",
+          "expires_at_epoch": 1785495103,
+          "expires_at_utc": "2026-07-31T10:51:43+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456994&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144456994.html"
         }
@@ -1033,7 +1011,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855311&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.187,
           "error": ""
         }
       ],
@@ -1074,9 +1052,9 @@
           "home": "Rain Or Shine Elasto Painters BC",
           "away": "Magnolia Hotshots BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600010_1.flv?auth_key=1785494526-6397-0-26954ea3bf081b91d6026cd3d1fdbf93",
-          "expires_at_epoch": 1785494526,
-          "expires_at_utc": "2026-07-31T10:42:06+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600010_1.flv?auth_key=1785495108-2427-0-eca09c3ac230e5fa5a77cbcc6135c94b",
+          "expires_at_epoch": 1785495108,
+          "expires_at_utc": "2026-07-31T10:51:48+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855311&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855311.html"
         }
@@ -1092,7 +1070,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859670&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -1133,9 +1111,9 @@
           "home": "Sarangani Marlins BC",
           "away": "Caloocan Batang Kankaloo BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600009_1.flv?auth_key=1785494531-4469-0-75d7f0a6c937ff8a59cd6bfbc428c8ce",
-          "expires_at_epoch": 1785494531,
-          "expires_at_utc": "2026-07-31T10:42:11+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600009_1.flv?auth_key=1785495112-8297-0-e75096604aa04fc9b996dcaa406b31fe",
+          "expires_at_epoch": 1785495112,
+          "expires_at_utc": "2026-07-31T10:51:52+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859670&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137859670.html"
         }
@@ -1151,7 +1129,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837922&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -1192,9 +1170,9 @@
           "home": "Las Palmas",
           "away": "Neom SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5621777_1.flv?auth_key=1785494536-5146-0-1fbbf9208517fdae3f9305183f99bee3",
-          "expires_at_epoch": 1785494536,
-          "expires_at_utc": "2026-07-31T10:42:16+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5621777_1.flv?auth_key=1785495117-3631-0-c4cee488e4b8b1c7136f4445e4794e05",
+          "expires_at_epoch": 1785495117,
+          "expires_at_utc": "2026-07-31T10:51:57+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144837922&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144837922.html"
         }
@@ -1210,7 +1188,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356396062&lan=2",
           "status": 200,
-          "elapsed": 0.131,
+          "elapsed": 0.187,
           "error": ""
         }
       ],
@@ -1253,7 +1231,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859556&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.187,
           "error": ""
         }
       ],
@@ -1296,7 +1274,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528505&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -1339,7 +1317,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589165&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.188,
           "error": ""
         }
       ],
@@ -1382,7 +1360,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589177&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.188,
           "error": ""
         }
       ],
@@ -1425,7 +1403,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144801001&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.187,
           "error": ""
         }
       ],
@@ -1461,56 +1439,54 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 27,
-    "matches_processed": 27,
-    "valid_player_responses": 27,
+    "matches_selected": 25,
+    "matches_processed": 25,
+    "valid_player_responses": 25,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 15,
-    "fresh_streams_accepted": 15,
+    "streams_returned_by_api": 19,
+    "fresh_streams_accepted": 19,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.169,
-      4.97,
-      5.023,
-      4.239,
-      4.769,
-      4.861,
-      4.258,
-      5.467,
-      5.477,
-      5.413,
-      4.827,
-      4.875,
-      4.99,
-      4.888,
-      5.033,
-      5.295,
-      4.424,
-      4.573,
-      5.118,
-      4.748,
-      5.28,
-      4.989,
-      4.94,
-      5.306,
-      5.098,
-      4.709
+      4.421,
+      5.09,
+      5.236,
+      4.575,
+      4.081,
+      4.868,
+      5.242,
+      4.102,
+      4.912,
+      5.094,
+      4.83,
+      5.308,
+      4.298,
+      4.823,
+      4.959,
+      4.075,
+      4.136,
+      4.87,
+      5.324,
+      4.851,
+      4.3,
+      4.136,
+      4.663,
+      4.921
     ],
-    "expires_at_min_epoch": 1785494455,
-    "expires_at_max_epoch": 1785494536,
-    "expires_at_span_seconds": 81,
-    "remaining_ttl_min_seconds": 458,
-    "remaining_ttl_max_seconds": 539,
+    "expires_at_min_epoch": 1785495029,
+    "expires_at_max_epoch": 1785495117,
+    "expires_at_span_seconds": 88,
+    "remaining_ttl_min_seconds": 453,
+    "remaining_ttl_max_seconds": 541,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 15,
-    "final_streams": 15,
-    "publish_reason": "published 15 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 19,
+    "publish_reason": "published 19 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 132.98
+    "elapsed_seconds": 118.61
   }
 }
