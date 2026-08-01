@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-01T09:30:26+07:00",
+  "started_at": "2026-08-01T09:40:25+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.408,
+    "elapsed": 0.428,
     "error": ""
   },
   "schedule": {
@@ -49,57 +49,14 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.12,
+        "elapsed": 0.121,
         "error": ""
       }
     ],
-    "rows_selected": 37,
+    "rows_selected": 36,
     "window": "-150/+180"
   },
   "matches": [
-    {
-      "player_id": "5137855548",
-      "start_at": "2026-08-01T09:30:00+07:00",
-      "league": "MLNBP",
-      "home": "Panteras de Aguascalientes BC",
-      "away": "Fuerza Regia BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855548&lan=2",
-          "status": 200,
-          "elapsed": 0.129,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "MLNBP Panteras de Aguascalientes BC vs Fuerza Regia BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
     {
       "player_id": "5144793036",
       "start_at": "2026-08-01T09:30:00+07:00",
@@ -110,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793036&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -136,12 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "NZL NLC Miramar Rangers vs Waterside Karori",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144793036",
+          "start_at": "2026-08-01T09:30:00+07:00",
+          "league": "NZL NLC",
+          "home": "Miramar Rangers",
+          "away": "Waterside Karori",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5613087_1.flv?auth_key=1785552626-5514-0-409b671d2f9e13ae3b0a0f8207add018",
+          "expires_at_epoch": 1785552626,
+          "expires_at_utc": "2026-08-01T02:50:26+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793036&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144793036.html"
+        }
+      ]
     },
     {
       "player_id": "5137855545",
@@ -153,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855545&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -194,9 +167,9 @@
           "home": "Astros de Jalisco BC",
           "away": "Lobos Puebla BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546654_1.flv?auth_key=1785552036-9519-0-58caa3af466de4fb472fbe95ce67bca9",
-          "expires_at_epoch": 1785552036,
-          "expires_at_utc": "2026-08-01T02:40:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546654_1.flv?auth_key=1785552630-4254-0-8d270568e7f491a53c4109275d34e77f",
+          "expires_at_epoch": 1785552630,
+          "expires_at_utc": "2026-08-01T02:50:30+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855545&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855545.html"
         }
@@ -212,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144506950&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -253,9 +226,9 @@
           "home": "Pacific FC(CAN)",
           "away": "FC Supra du Quebec",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254351_1.flv?auth_key=1785552040-5996-0-453db771dec58df7a9074c51d478c754",
-          "expires_at_epoch": 1785552040,
-          "expires_at_utc": "2026-08-01T02:40:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254351_1.flv?auth_key=1785552636-4236-0-f1a270739dea4d13f84fe1862a954673",
+          "expires_at_epoch": 1785552636,
+          "expires_at_utc": "2026-08-01T02:50:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144506950&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144506950.html"
         }
@@ -271,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809639&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -312,9 +285,9 @@
           "home": "Portland Fire",
           "away": "Indiana Fever",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5254394_1.flv?auth_key=1785552045-1522-0-559eb20d7965085970b36ffb967814ff",
-          "expires_at_epoch": 1785552045,
-          "expires_at_utc": "2026-08-01T02:40:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5254394_1.flv?auth_key=1785552641-4955-0-cf15c9a9f2176867479e069c285611d9",
+          "expires_at_epoch": 1785552641,
+          "expires_at_utc": "2026-08-01T02:50:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809639&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137809639.html"
         }
@@ -330,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855539&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -371,9 +344,9 @@
           "home": "Dorados de Chihuahua BC",
           "away": "Diablos Rojos del Mexico BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546653_1.flv?auth_key=1785552049-9405-0-318a017aa627a96cf6010e3f8d910810",
-          "expires_at_epoch": 1785552049,
-          "expires_at_utc": "2026-08-01T02:40:49+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546653_1.flv?auth_key=1785552646-2465-0-acc47a3ccf10b4328cabb29d4a012b83",
+          "expires_at_epoch": 1785552646,
+          "expires_at_utc": "2026-08-01T02:50:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855539&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855539.html"
         }
@@ -389,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855542&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.139,
           "error": ""
         }
       ],
@@ -430,9 +403,9 @@
           "home": "Freseros Irapuato BC",
           "away": "Mineros de Zacatecas BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546655_1.flv?auth_key=1785552054-4345-0-bc2a130b4b20de974eab1dc55ef78175",
-          "expires_at_epoch": 1785552054,
-          "expires_at_utc": "2026-08-01T02:40:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546655_1.flv?auth_key=1785552650-4376-0-aed52d336df0538077c5c052fc4551e4",
+          "expires_at_epoch": 1785552650,
+          "expires_at_utc": "2026-08-01T02:50:50+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855542&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855542.html"
         }
@@ -448,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800923&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -489,9 +462,9 @@
           "home": "USA U20",
           "away": "Cuba U20",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585368_1.flv?auth_key=1785552059-3483-0-7d10013e2ae69673c76d9be0b7ea12ed",
-          "expires_at_epoch": 1785552059,
-          "expires_at_utc": "2026-08-01T02:40:59+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5585368_1.flv?auth_key=1785552655-4813-0-1dae3c782a2095854f9a50581d8cf9c9",
+          "expires_at_epoch": 1785552655,
+          "expires_at_utc": "2026-08-01T02:50:55+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800923&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144800923.html"
         }
@@ -507,7 +480,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823408&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -548,9 +521,9 @@
           "home": "Ventura County",
           "away": "North Texas SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5613086_1.flv?auth_key=1785552065-7659-0-9ff27a74e94f39a69ab9a13f4dc9dd2d",
-          "expires_at_epoch": 1785552065,
-          "expires_at_utc": "2026-08-01T02:41:05+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5613086_1.flv?auth_key=1785552659-8326-0-fca2d09351ab96de7e07683d2eccb925",
+          "expires_at_epoch": 1785552659,
+          "expires_at_utc": "2026-08-01T02:50:59+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823408&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144823408.html"
         }
@@ -566,7 +539,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823417&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -607,9 +580,9 @@
           "home": "Los Angeles FC II",
           "away": "Colorado Rapids II",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5613085_1.flv?auth_key=1785552070-2536-0-eca531e77d908b0c1be5cb9ff6631720",
-          "expires_at_epoch": 1785552070,
-          "expires_at_utc": "2026-08-01T02:41:10+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5613085_1.flv?auth_key=1785552664-4905-0-9f1053bd24307762f913d8ca130974a0",
+          "expires_at_epoch": 1785552664,
+          "expires_at_utc": "2026-08-01T02:51:04+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823417&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144823417.html"
         }
@@ -625,7 +598,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855518&lan=2",
           "status": 200,
-          "elapsed": 0.128,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -666,9 +639,9 @@
           "home": "Correcaminos UAT BC",
           "away": "Santos del Potosi BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546652_1.flv?auth_key=1785552075-2741-0-bdfddb97c099ef903cf0ec20dfc5cedc",
-          "expires_at_epoch": 1785552075,
-          "expires_at_utc": "2026-08-01T02:41:15+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546652_1.flv?auth_key=1785552669-8097-0-af166d973e3c6a2a3e4baea42609f604",
+          "expires_at_epoch": 1785552669,
+          "expires_at_utc": "2026-08-01T02:51:09+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855518&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855518.html"
         }
@@ -684,7 +657,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855533&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -725,9 +698,9 @@
           "home": "El Calor de Cancun BC",
           "away": "Abejas de Leon BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546651_1.flv?auth_key=1785552080-9856-0-cdcc4f90e3447473c42517c6a0fd4803",
-          "expires_at_epoch": 1785552080,
-          "expires_at_utc": "2026-08-01T02:41:20+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546651_1.flv?auth_key=1785552675-4836-0-83edef21d0bf14edef8c35e6a2d166af",
+          "expires_at_epoch": 1785552675,
+          "expires_at_utc": "2026-08-01T02:51:15+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855533&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855533.html"
         }
@@ -743,7 +716,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521818&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -784,9 +757,9 @@
           "home": "San Antonio FC",
           "away": "Indy Eleven",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5271379_1.flv?auth_key=1785552084-8281-0-89235a966b37f9fbaeb26115bd1580af",
-          "expires_at_epoch": 1785552084,
-          "expires_at_utc": "2026-08-01T02:41:24+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5271379_1.flv?auth_key=1785552679-8500-0-4f632155104e6b462a51c3b9b2e9322c",
+          "expires_at_epoch": 1785552679,
+          "expires_at_utc": "2026-08-01T02:51:19+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521818&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144521818.html"
         }
@@ -802,7 +775,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686275&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -843,9 +816,9 @@
           "home": "Puebla",
           "away": "Chivas Guadalajara",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516131_1.flv?auth_key=1785552090-6746-0-65e556d68c02bfd32a99af1ded5d7c8c",
-          "expires_at_epoch": 1785552090,
-          "expires_at_utc": "2026-08-01T02:41:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5516131_1.flv?auth_key=1785552684-2919-0-90f6a5845c134642fb1cbf44837c3457",
+          "expires_at_epoch": 1785552684,
+          "expires_at_utc": "2026-08-01T02:51:24+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686275&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144686275.html"
         }
@@ -861,7 +834,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729520&lan=2",
           "status": 200,
-          "elapsed": 0.128,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -902,9 +875,9 @@
           "home": "Fortaleza FC",
           "away": "Deportivo Pereira",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538386_1.flv?auth_key=1785552095-8489-0-db7c4724d6e753ad8cbede59e7d77ef0",
-          "expires_at_epoch": 1785552095,
-          "expires_at_utc": "2026-08-01T02:41:35+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538386_1.flv?auth_key=1785552689-5112-0-b4828cc8ec4e960c46be7c0da115d793",
+          "expires_at_epoch": 1785552689,
+          "expires_at_utc": "2026-08-01T02:51:29+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729520&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144729520.html"
         }
@@ -920,7 +893,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767398&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -961,9 +934,9 @@
           "home": "Correcaminos UAT",
           "away": "Tepatitlan FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5531724_1.flv?auth_key=1785552099-5409-0-e453c5ef4da4e8e7340c81971e8f1d5d",
-          "expires_at_epoch": 1785552099,
-          "expires_at_utc": "2026-08-01T02:41:39+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5531724_1.flv?auth_key=1785552694-2933-0-54a1a7de90008c09a86cd114eea1263d",
+          "expires_at_epoch": 1785552694,
+          "expires_at_utc": "2026-08-01T02:51:34+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767398&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144767398.html"
         }
@@ -979,7 +952,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767404&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1020,9 +993,9 @@
           "home": "Mineros de Zacatecas",
           "away": "Tlaxcala",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5531723_1.flv?auth_key=1785552105-5308-0-221d896f3bd1f7ee54b4f64f92e1eab6",
-          "expires_at_epoch": 1785552105,
-          "expires_at_utc": "2026-08-01T02:41:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5531723_1.flv?auth_key=1785552699-4868-0-88ef92ff5aaa20d7c7c403c0f628398e",
+          "expires_at_epoch": 1785552699,
+          "expires_at_utc": "2026-08-01T02:51:39+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767404&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144767404.html"
         }
@@ -1038,7 +1011,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832093&lan=2",
           "status": 200,
-          "elapsed": 0.147,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -1079,9 +1052,9 @@
           "home": "Cruz Azul Women",
           "away": "Atlas Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615011_1.flv?auth_key=1785552110-7092-0-8b6e0862a8aee571aa75119331badd41",
-          "expires_at_epoch": 1785552110,
-          "expires_at_utc": "2026-08-01T02:41:50+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615011_1.flv?auth_key=1785552704-9783-0-6dc6395c1d83045255985df6de34212d",
+          "expires_at_epoch": 1785552704,
+          "expires_at_utc": "2026-08-01T02:51:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832093&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144832093.html"
         }
@@ -1097,7 +1070,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855551&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1140,7 +1113,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686278&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1183,7 +1156,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686281&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -1226,7 +1199,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767407&lan=2",
           "status": 200,
-          "elapsed": 0.13,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -1269,7 +1242,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457000&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1312,7 +1285,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526537&lan=2",
           "status": 200,
-          "elapsed": 0.131,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -1355,7 +1328,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527179&lan=2",
           "status": 200,
-          "elapsed": 0.128,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -1398,7 +1371,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526879&lan=2",
           "status": 200,
-          "elapsed": 0.128,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -1441,7 +1414,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527182&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1484,7 +1457,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527185&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -1527,7 +1500,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457003&lan=2",
           "status": 200,
-          "elapsed": 0.128,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1570,7 +1543,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486793&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -1613,7 +1586,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526882&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1656,7 +1629,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526885&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -1699,7 +1672,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410413&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1742,7 +1715,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457006&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1785,7 +1758,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431590&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1828,7 +1801,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431593&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -1871,7 +1844,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431596&lan=2",
           "status": 200,
-          "elapsed": 0.129,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -1907,66 +1880,65 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 37,
-    "matches_processed": 37,
-    "valid_player_responses": 37,
+    "matches_selected": 36,
+    "matches_processed": 36,
+    "valid_player_responses": 36,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 16,
-    "fresh_streams_accepted": 16,
+    "streams_returned_by_api": 17,
+    "fresh_streams_accepted": 17,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.801,
-      4.37,
-      4.079,
-      4.323,
-      4.431,
-      4.416,
-      5.06,
-      5.294,
-      5.184,
-      4.794,
-      4.684,
-      4.642,
-      5.07,
-      5.003,
-      4.218,
-      5.36,
-      5.432,
-      4.002,
-      4.523,
-      4.083,
-      4.348,
-      4.904,
-      5.462,
-      4.706,
-      5.246,
-      5.389,
-      5.139,
-      5.331,
-      4.327,
-      4.243,
-      4.52,
-      4.956,
-      4.419,
-      5.382,
-      5.284,
-      5.463
+      4.56,
+      4.972,
+      5.31,
+      4.51,
+      4.165,
+      4.776,
+      4.036,
+      4.651,
+      4.963,
+      5.454,
+      4.489,
+      4.377,
+      5.394,
+      4.335,
+      5.28,
+      5.158,
+      4.683,
+      4.827,
+      5.434,
+      4.472,
+      4.954,
+      4.977,
+      4.058,
+      5.436,
+      5.004,
+      4.686,
+      4.36,
+      5.042,
+      4.335,
+      4.692,
+      4.519,
+      5.434,
+      5.126,
+      4.771,
+      5.131
     ],
-    "expires_at_min_epoch": 1785552036,
-    "expires_at_max_epoch": 1785552110,
-    "expires_at_span_seconds": 74,
-    "remaining_ttl_min_seconds": 402,
-    "remaining_ttl_max_seconds": 476,
+    "expires_at_min_epoch": 1785552626,
+    "expires_at_max_epoch": 1785552704,
+    "expires_at_span_seconds": 78,
+    "remaining_ttl_min_seconds": 397,
+    "remaining_ttl_max_seconds": 475,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 18,
-    "final_streams": 16,
-    "publish_reason": "published 16 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 16,
+    "final_streams": 17,
+    "publish_reason": "published 17 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 178.26
+    "elapsed_seconds": 173.69
   }
 }
