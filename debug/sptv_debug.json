@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-01T13:30:31+07:00",
+  "started_at": "2026-08-01T13:42:35+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.659,
+    "elapsed": 0.69,
     "error": ""
   },
   "schedule": {
@@ -49,100 +49,14 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.179,
+        "elapsed": 0.178,
         "error": ""
       }
     ],
-    "rows_selected": 32,
+    "rows_selected": 28,
     "window": "-150/+180"
   },
   "matches": [
-    {
-      "player_id": "5144512647",
-      "start_at": "2026-08-01T13:30:00+07:00",
-      "league": "AUS NVU23",
-      "home": "Dandenong Thunder U23",
-      "away": "Dandenong City U23",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144512647&lan=2",
-          "status": 200,
-          "elapsed": 0.19,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "AUS NVU23 Dandenong Thunder U23 vs Dandenong City U23",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144793024",
-      "start_at": "2026-08-01T13:30:00+07:00",
-      "league": "NZL NLN",
-      "home": "East Coast Bays",
-      "away": "Melville United",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793024&lan=2",
-          "status": 200,
-          "elapsed": 0.189,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "NZL NLN East Coast Bays vs Melville United",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
     {
       "player_id": "5144793027",
       "start_at": "2026-08-01T13:30:00+07:00",
@@ -153,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793027&lan=2",
           "status": 200,
-          "elapsed": 0.19,
+          "elapsed": 0.193,
           "error": ""
         }
       ],
@@ -179,55 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "NZL NLN Fencibles United vs Auckland City",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
-    },
-    {
-      "player_id": "5144793030",
-      "start_at": "2026-08-01T13:30:00+07:00",
-      "league": "NZL NLN",
-      "home": "Manukau United",
-      "away": "Auckland United",
-      "attempts": [
+      "streams": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793030&lan=2",
-          "status": 200,
-          "elapsed": 0.189,
-          "error": ""
+          "player_id": "5144793027",
+          "start_at": "2026-08-01T13:30:00+07:00",
+          "league": "NZL NLN",
+          "home": "Fencibles United",
+          "away": "Auckland City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5613096_1.flv?auth_key=1785567156-2994-0-9c433c21367fd3b5a9d24156a7747952",
+          "expires_at_epoch": 1785567156,
+          "expires_at_utc": "2026-08-01T06:52:36+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793027&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144793027.html"
         }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "NZL NLN Manukau United vs Auckland United",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
+      ]
     },
     {
       "player_id": "5144409216",
@@ -239,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144409216&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -280,9 +167,9 @@
           "home": "Holland Park Hawks",
           "away": "Robina City",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5288985_1.flv?auth_key=1785566452-5936-0-3e2f9db050a7a122c518fdc74f7a628a",
-          "expires_at_epoch": 1785566452,
-          "expires_at_utc": "2026-08-01T06:40:52+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5288985_1.flv?auth_key=1785567161-2125-0-f4026b4577042fee48ec99a5ae3de87a",
+          "expires_at_epoch": 1785567161,
+          "expires_at_utc": "2026-08-01T06:52:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144409216&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144409216.html"
         }
@@ -298,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486796&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -339,9 +226,9 @@
           "home": "Sutherland Sharks FC",
           "away": "Wollongong Wolves",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254364_1.flv?auth_key=1785566456-4614-0-b62509760be87e6525a2f231b9c5c27f",
-          "expires_at_epoch": 1785566456,
-          "expires_at_utc": "2026-08-01T06:40:56+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254364_1.flv?auth_key=1785567166-9912-0-6ced729e022281c84981a3a1c5b346f5",
+          "expires_at_epoch": 1785567166,
+          "expires_at_utc": "2026-08-01T06:52:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486796&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144486796.html"
         }
@@ -357,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431590&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -398,9 +285,9 @@
           "home": "Playford City Patriots",
           "away": "West Torrens Birkalla",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254371_1.flv?auth_key=1785566462-8513-0-e2100a359b17ec6b92f9bc2b63b94a71",
-          "expires_at_epoch": 1785566462,
-          "expires_at_utc": "2026-08-01T06:41:02+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254371_1.flv?auth_key=1785567171-4069-0-ecdd70591d28ad327c56377f2c95a4ce",
+          "expires_at_epoch": 1785567171,
+          "expires_at_utc": "2026-08-01T06:52:51+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431590&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144431590.html"
         }
@@ -416,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431596&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -457,9 +344,9 @@
           "home": "West Adelaide SC",
           "away": "Para Hills Knights SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254368_1.flv?auth_key=1785566466-1297-0-b5240484bd45547fa7455babcb632d14",
-          "expires_at_epoch": 1785566466,
-          "expires_at_utc": "2026-08-01T06:41:06+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254368_1.flv?auth_key=1785567177-2691-0-4cc39af9ba480148c8fb0f586ee48ae4",
+          "expires_at_epoch": 1785567177,
+          "expires_at_utc": "2026-08-01T06:52:57+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431596&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144431596.html"
         }
@@ -475,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144555811&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -516,9 +403,9 @@
           "home": "Fulham United",
           "away": "Eastern United",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254365_1.flv?auth_key=1785566471-4150-0-f34519d2a531d823f7eda9e2af6de5bf",
-          "expires_at_epoch": 1785566471,
-          "expires_at_utc": "2026-08-01T06:41:11+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254365_1.flv?auth_key=1785567182-9187-0-aad3dc09930d8324b0143d46f9c758de",
+          "expires_at_epoch": 1785567182,
+          "expires_at_utc": "2026-08-01T06:53:02+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144555811&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144555811.html"
         }
@@ -534,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144555814&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -575,9 +462,9 @@
           "home": "Adelaide Atletico VSC",
           "away": "Salisbury United",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254374_1.flv?auth_key=1785566476-4899-0-01288d3b0958b2d17299b87eab872b68",
-          "expires_at_epoch": 1785566476,
-          "expires_at_utc": "2026-08-01T06:41:16+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254374_1.flv?auth_key=1785567187-2145-0-c71938e7babe6b7850b6b9149ef404a1",
+          "expires_at_epoch": 1785567187,
+          "expires_at_utc": "2026-08-01T06:53:07+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144555814&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144555814.html"
         }
@@ -593,7 +480,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144555817&lan=2",
           "status": 200,
-          "elapsed": 0.189,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -634,9 +521,9 @@
           "home": "South Adelaide Panthers",
           "away": "Modbury Jets",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254366_1.flv?auth_key=1785566481-3717-0-2bc0e6de3820640bcb9e6d801744f4dd",
-          "expires_at_epoch": 1785566481,
-          "expires_at_utc": "2026-08-01T06:41:21+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254366_1.flv?auth_key=1785567191-3021-0-2f0ab5235a29a251ccdf6ef6852f5d1c",
+          "expires_at_epoch": 1785567191,
+          "expires_at_utc": "2026-08-01T06:53:11+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144555817&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144555817.html"
         }
@@ -652,7 +539,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144555820&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -693,9 +580,9 @@
           "home": "Adelaide Blue Eagles",
           "away": "Adelaide Croatia Raiders SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254373_1.flv?auth_key=1785566486-2789-0-6d70ab027e753a5c09c2d38e3f9d708c",
-          "expires_at_epoch": 1785566486,
-          "expires_at_utc": "2026-08-01T06:41:26+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254373_1.flv?auth_key=1785567196-3786-0-be07bba22dd03f300f276bd3b737b327",
+          "expires_at_epoch": 1785567196,
+          "expires_at_utc": "2026-08-01T06:53:16+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144555820&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144555820.html"
         }
@@ -711,7 +598,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793021&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -752,9 +639,9 @@
           "home": "Western Springs",
           "away": "Birkenhead United",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5613094_1.flv?auth_key=1785566491-3693-0-e8de95e06ed25d05983d2ddf2b0c8bab",
-          "expires_at_epoch": 1785566491,
-          "expires_at_utc": "2026-08-01T06:41:31+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5613094_1.flv?auth_key=1785567201-1988-0-8c25cb31445a4100db776f3db603770b",
+          "expires_at_epoch": 1785567201,
+          "expires_at_utc": "2026-08-01T06:53:21+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144793021&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144793021.html"
         }
@@ -770,7 +657,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410413&lan=2",
           "status": 200,
-          "elapsed": 0.186,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -811,9 +698,9 @@
           "home": "Gold Coast United",
           "away": "Gold Coast Knights SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254367_1.flv?auth_key=1785566496-2586-0-fb9f257a9f9c189985b30f887ae34ef5",
-          "expires_at_epoch": 1785566496,
-          "expires_at_utc": "2026-08-01T06:41:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254367_1.flv?auth_key=1785567207-1097-0-6d89e6407fcaf4a59f4edf148e575828",
+          "expires_at_epoch": 1785567207,
+          "expires_at_utc": "2026-08-01T06:53:27+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410413&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144410413.html"
         }
@@ -829,7 +716,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457006&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -870,9 +757,9 @@
           "home": "Altona Magic",
           "away": "Caroline Springs George Cross",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254359_1.flv?auth_key=1785566501-7676-0-0d1839910ed5bd55c91596884606e233",
-          "expires_at_epoch": 1785566501,
-          "expires_at_utc": "2026-08-01T06:41:41+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254359_1.flv?auth_key=1785567212-8664-0-89cc956667ae1414621afdcdc47a4c78",
+          "expires_at_epoch": 1785567212,
+          "expires_at_utc": "2026-08-01T06:53:32+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457006&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144457006.html"
         }
@@ -888,7 +775,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486793&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -929,9 +816,9 @@
           "home": "Western Sydney Wanderers Youth",
           "away": "University of New South Wales",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254358_1.flv?auth_key=1785566506-9001-0-d8281e06c31f7613ebdc650bc7417553",
-          "expires_at_epoch": 1785566506,
-          "expires_at_utc": "2026-08-01T06:41:46+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254358_1.flv?auth_key=1785567217-7628-0-2c0f8053563171d49ebaaf17b18c6082",
+          "expires_at_epoch": 1785567217,
+          "expires_at_utc": "2026-08-01T06:53:37+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486793&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144486793.html"
         }
@@ -947,7 +834,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526882&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -988,9 +875,9 @@
           "home": "Queanbeyan City",
           "away": "Brindabella Blues",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254362_1.flv?auth_key=1785566511-7447-0-31c0649d98facf5f0e19e087b8b46077",
-          "expires_at_epoch": 1785566511,
-          "expires_at_utc": "2026-08-01T06:41:51+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254362_1.flv?auth_key=1785567222-9989-0-1ab95346863211e4f20deded3667d4af",
+          "expires_at_epoch": 1785567222,
+          "expires_at_utc": "2026-08-01T06:53:42+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526882&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144526882.html"
         }
@@ -1006,7 +893,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526885&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -1047,70 +934,11 @@
           "home": "Belconnen United",
           "away": "Tigers FC(Aus)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5288987_1.flv?auth_key=1785566516-8934-0-99a2df336b73768665561ffdc0a9306d",
-          "expires_at_epoch": 1785566516,
-          "expires_at_utc": "2026-08-01T06:41:56+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5288987_1.flv?auth_key=1785567227-4785-0-849c7fe764644464e2e9d87f689642be",
+          "expires_at_epoch": 1785567227,
+          "expires_at_utc": "2026-08-01T06:53:47+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526885&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144526885.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144527185",
-      "start_at": "2026-08-01T11:30:00+07:00",
-      "league": "AUS NPLTA",
-      "home": "South East United",
-      "away": "Riverside Olympic",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527185&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AUS NPLTA South East United vs Riverside Olympic",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144527185",
-          "start_at": "2026-08-01T11:30:00+07:00",
-          "league": "AUS NPLTA",
-          "home": "South East United",
-          "away": "Riverside Olympic",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5254357_1.flv?auth_key=1785566521-6637-0-db93543f9ddc9a8d55fc192234d0b9d5",
-          "expires_at_epoch": 1785566521,
-          "expires_at_utc": "2026-08-01T06:42:01+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527185&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144527185.html"
         }
       ]
     },
@@ -1124,7 +952,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527188&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1167,7 +995,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859559&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1210,7 +1038,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356664313&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1253,7 +1081,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431599&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.184,
           "error": ""
         }
       ],
@@ -1296,7 +1124,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526888&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -1339,7 +1167,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144410416&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -1382,7 +1210,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578365&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -1425,7 +1253,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144801004&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1468,7 +1296,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860669&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1511,7 +1339,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486802&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1554,7 +1382,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859328&lan=2",
           "status": 200,
-          "elapsed": 0.186,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1597,7 +1425,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859562&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1640,7 +1468,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457009&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -1676,9 +1504,9 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 32,
-    "matches_processed": 32,
-    "valid_player_responses": 32,
+    "matches_selected": 28,
+    "matches_processed": 28,
+    "valid_player_responses": 28,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 15,
@@ -1688,49 +1516,45 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.743,
-      4.256,
-      4.459,
-      5.472,
-      4.422,
-      5.279,
-      4.284,
-      4.435,
-      4.701,
-      4.821,
-      5.303,
-      5.049,
-      4.581,
-      4.136,
-      5.1,
-      5.032,
-      4.531,
-      5.457,
-      4.046,
-      4.431,
-      5.077,
-      4.795,
-      4.878,
-      4.202,
-      4.741,
-      4.814,
-      4.604,
-      4.809,
-      4.941,
-      5.334,
-      4.52
+      4.548,
+      5.421,
+      4.637,
+      5.242,
+      5.159,
+      4.989,
+      4.193,
+      4.554,
+      4.735,
+      5.482,
+      5.169,
+      4.538,
+      4.917,
+      4.477,
+      5.154,
+      4.829,
+      4.967,
+      4.132,
+      4.926,
+      4.699,
+      5.113,
+      4.228,
+      4.711,
+      5.239,
+      4.696,
+      4.494,
+      4.712
     ],
-    "expires_at_min_epoch": 1785566452,
-    "expires_at_max_epoch": 1785566521,
-    "expires_at_span_seconds": 69,
-    "remaining_ttl_min_seconds": 437,
+    "expires_at_min_epoch": 1785567156,
+    "expires_at_max_epoch": 1785567227,
+    "expires_at_span_seconds": 71,
+    "remaining_ttl_min_seconds": 435,
     "remaining_ttl_max_seconds": 506,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 18,
+    "expired_previous_removed": 15,
     "final_streams": 15,
     "publish_reason": "published 15 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 154.14
+    "elapsed_seconds": 135.98
   }
 }
