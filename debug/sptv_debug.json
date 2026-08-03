@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-03T22:40:30+07:00",
+  "started_at": "2026-08-03T22:50:29+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.51,
+    "elapsed": 0.574,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,132 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.136,
+        "elapsed": 0.138,
         "error": ""
       }
     ],
-    "rows_selected": 26,
+    "rows_selected": 28,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144678817",
+      "start_at": "2026-08-03T22:45:00+07:00",
+      "league": "LIT D1",
+      "home": "Siauliai",
+      "away": "Banga Gargzdai",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144678817&lan=2",
+          "status": 200,
+          "elapsed": 0.142,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "LIT D1 Siauliai vs Banga Gargzdai",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144678817",
+          "start_at": "2026-08-03T22:45:00+07:00",
+          "league": "LIT D1",
+          "home": "Siauliai",
+          "away": "Banga Gargzdai",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5456003_1.flv?auth_key=1785772830-7453-0-64f8c58b28997b7f6d03f862a99d1c31",
+          "expires_at_epoch": 1785772830,
+          "expires_at_utc": "2026-08-03T16:00:30+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144678817&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144678817.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144745480",
+      "start_at": "2026-08-03T22:45:00+07:00",
+      "league": "BUL D2",
+      "home": "Etar Veliko Tarnovo",
+      "away": "Yantra Gabrovo",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144745480&lan=2",
+          "status": 200,
+          "elapsed": 0.142,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "BUL D2 Etar Veliko Tarnovo vs Yantra Gabrovo",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144745480",
+          "start_at": "2026-08-03T22:45:00+07:00",
+          "league": "BUL D2",
+          "home": "Etar Veliko Tarnovo",
+          "away": "Yantra Gabrovo",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5524197_1.flv?auth_key=1785772835-1797-0-5030e8ebb04c43104e4157baa1877f92",
+          "expires_at_epoch": 1785772835,
+          "expires_at_utc": "2026-08-03T16:00:35+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144745480&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144745480.html"
+        }
+      ]
+    },
     {
       "player_id": "5144493483",
       "start_at": "2026-08-03T22:30:00+07:00",
@@ -67,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493483&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -108,9 +226,9 @@
           "home": "Dinamo Samarqand",
           "away": "Neftchi Fargona",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5278872_1.flv?auth_key=1785772231-8734-0-ed563e52603e998534d685fac13ca8c8",
-          "expires_at_epoch": 1785772231,
-          "expires_at_utc": "2026-08-03T15:50:31+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5278872_1.flv?auth_key=1785772840-4776-0-1cab4e4ae49a35ed561d20450a5f5c3b",
+          "expires_at_epoch": 1785772840,
+          "expires_at_utc": "2026-08-03T16:00:40+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493483&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144493483.html"
         }
@@ -126,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725332&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -167,9 +285,9 @@
           "home": "Universitatea Cluj",
           "away": "Botosani",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5533841_1.flv?auth_key=1785772236-8702-0-898662421e87a89feb5d7684e773d9bd",
-          "expires_at_epoch": 1785772236,
-          "expires_at_utc": "2026-08-03T15:50:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5533841_1.flv?auth_key=1785772846-4140-0-2e1154a83509266e9bfd796efb7f0f2e",
+          "expires_at_epoch": 1785772846,
+          "expires_at_utc": "2026-08-03T16:00:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725332&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144725332.html"
         }
@@ -185,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493495&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -226,9 +344,9 @@
           "home": "FC OKMK",
           "away": "Nasaf Qarshi",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5278867_1.flv?auth_key=1785772241-6303-0-5d2bae6ac194444f75b44b8733989368",
-          "expires_at_epoch": 1785772241,
-          "expires_at_utc": "2026-08-03T15:50:41+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5278867_1.flv?auth_key=1785772850-5822-0-02e2316072b59742da4008ab233f63d5",
+          "expires_at_epoch": 1785772850,
+          "expires_at_utc": "2026-08-03T16:00:50+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493495&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144493495.html"
         }
@@ -278,6 +396,65 @@
       "streams": []
     },
     {
+      "player_id": "5144731983",
+      "start_at": "2026-08-03T22:00:00+07:00",
+      "league": "UKR D1",
+      "home": "Shakhtar Donetsk",
+      "away": "FC Kudrivka",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144731983&lan=2",
+          "status": 200,
+          "elapsed": 0.142,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UKR D1 Shakhtar Donetsk vs FC Kudrivka",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144731983",
+          "start_at": "2026-08-03T22:00:00+07:00",
+          "league": "UKR D1",
+          "home": "Shakhtar Donetsk",
+          "away": "FC Kudrivka",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5524160_1.flv?auth_key=1785772860-7591-0-4b4bcc8902e73a2c9f49f02d37eb786a",
+          "expires_at_epoch": 1785772860,
+          "expires_at_utc": "2026-08-03T16:01:00+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144731983&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144731983.html"
+        }
+      ]
+    },
+    {
       "player_id": "5144787663",
       "start_at": "2026-08-03T22:00:00+07:00",
       "league": "LIT D2",
@@ -287,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144787663&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -328,9 +505,9 @@
           "home": "TransINVEST B",
           "away": "FK Babrungas Plunge",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5564114_1.flv?auth_key=1785772251-1618-0-99972c987c36c67b70098bcd3c0bafd4",
-          "expires_at_epoch": 1785772251,
-          "expires_at_utc": "2026-08-03T15:50:51+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5564114_1.flv?auth_key=1785772865-8494-0-f06f269c3213702740200f7e7af4e0a3",
+          "expires_at_epoch": 1785772865,
+          "expires_at_utc": "2026-08-03T16:01:05+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144787663&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144787663.html"
         }
@@ -346,7 +523,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144807781&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -387,9 +564,9 @@
           "home": "Inter Bratislava",
           "away": "MSK Zilina B",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5592549_1.flv?auth_key=1785772257-2896-0-6b22754f37a635a4a90361d00cfb4f42",
-          "expires_at_epoch": 1785772257,
-          "expires_at_utc": "2026-08-03T15:50:57+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5592549_1.flv?auth_key=1785772870-4925-0-f1d08e1441c88bc9026e9151f3b2ea67",
+          "expires_at_epoch": 1785772870,
+          "expires_at_utc": "2026-08-03T16:01:10+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144807781&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144807781.html"
         }
@@ -446,9 +623,9 @@
           "home": "FK Kokand 1912",
           "away": "Surkhon Termiz",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5278871_1.flv?auth_key=1785772261-1425-0-e2b4a8da786bdb3b849e4b9f8d7bde3b",
-          "expires_at_epoch": 1785772261,
-          "expires_at_utc": "2026-08-03T15:51:01+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5278871_1.flv?auth_key=1785772875-1642-0-077f8ba73d58c164a7dcc6eb06e48a24",
+          "expires_at_epoch": 1785772875,
+          "expires_at_utc": "2026-08-03T16:01:15+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493486&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144493486.html"
         }
@@ -505,9 +682,9 @@
           "home": "IF Vestri",
           "away": "IF Grotta",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5274876_1.flv?auth_key=1785772266-4398-0-87134f2e0eba77eb0e7a7ee456d8fc9b",
-          "expires_at_epoch": 1785772266,
-          "expires_at_utc": "2026-08-03T15:51:06+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5274876_1.flv?auth_key=1785772880-8164-0-e79c12c4961cc26f1ae28814a67fce6d",
+          "expires_at_epoch": 1785772880,
+          "expires_at_utc": "2026-08-03T16:01:20+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144488002&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144488002.html"
         }
@@ -523,7 +700,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144759970&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -564,9 +741,9 @@
           "home": "FK Ufa",
           "away": "Kamaz Naberezhnye Chelny",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5533798_1.flv?auth_key=1785772272-6172-0-7a2f927963feb5c799577b692111f6cf",
-          "expires_at_epoch": 1785772272,
-          "expires_at_utc": "2026-08-03T15:51:12+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5533798_1.flv?auth_key=1785772885-9160-0-4614ec2afebe8f60a49be197099de393",
+          "expires_at_epoch": 1785772885,
+          "expires_at_utc": "2026-08-03T16:01:25+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144759970&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144759970.html"
         }
@@ -623,25 +800,25 @@
           "home": "Spain U18 (W)",
           "away": "Montenegro U18 (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5277992_1.flv?auth_key=1785772276-8167-0-f1ea6ef95a06edea7c35b2c9afba672c",
-          "expires_at_epoch": 1785772276,
-          "expires_at_utc": "2026-08-03T15:51:16+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5277992_1.flv?auth_key=1785772890-3263-0-b81e3a23979b85a7c19c3490f3dfe5de",
+          "expires_at_epoch": 1785772890,
+          "expires_at_utc": "2026-08-03T16:01:30+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805238&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137805238.html"
         }
       ]
     },
     {
-      "player_id": "5144678817",
-      "start_at": "2026-08-03T22:45:00+07:00",
-      "league": "LIT D1",
-      "home": "Siauliai",
-      "away": "Banga Gargzdai",
+      "player_id": "5144667453",
+      "start_at": "2026-08-03T20:30:00+07:00",
+      "league": "ASEAN C",
+      "home": "Indonesia",
+      "away": "Vietnam",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144678817&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144667453&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -667,53 +844,12 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "LIT D1 Siauliai vs Banga Gargzdai",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144745480",
-      "start_at": "2026-08-03T22:45:00+07:00",
-      "league": "BUL D2",
-      "home": "Etar Veliko Tarnovo",
-      "away": "Yantra Gabrovo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144745480&lan=2",
-          "status": 200,
-          "elapsed": 0.141,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "BUL D2 Etar Veliko Tarnovo vs Yantra Gabrovo",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "ASEAN C Indonesia 0-3 Vietnam",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
       "streams": []
     },
@@ -727,7 +863,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144435247&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -856,7 +992,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144428188&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -899,7 +1035,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144430867&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -942,7 +1078,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144430882&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -1028,7 +1164,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144690955&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -1071,7 +1207,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144703471&lan=2",
           "status": 200,
-          "elapsed": 0.142,
+          "elapsed": 0.141,
           "error": ""
         }
       ],
@@ -1200,7 +1336,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144679531&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -1243,7 +1379,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700321&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -1286,7 +1422,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725323&lan=2",
           "status": 200,
-          "elapsed": 0.141,
+          "elapsed": 0.142,
           "error": ""
         }
       ],
@@ -1322,55 +1458,57 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 26,
-    "matches_processed": 26,
-    "valid_player_responses": 26,
+    "matches_selected": 28,
+    "matches_processed": 28,
+    "valid_player_responses": 28,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 9,
-    "fresh_streams_accepted": 9,
+    "streams_returned_by_api": 12,
+    "fresh_streams_accepted": 12,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.047,
-      5.414,
-      4.39,
-      5.338,
-      5.129,
-      4.482,
-      5.029,
-      5.32,
-      4.324,
-      4.766,
-      4.661,
-      4.228,
-      5.099,
-      4.722,
-      5.253,
-      4.901,
-      4.815,
-      5.369,
-      4.444,
-      4.058,
-      5.353,
-      4.965,
-      4.99,
-      5.038,
-      5.29
+      4.919,
+      4.728,
+      5.438,
+      4.159,
+      5.348,
+      4.554,
+      4.862,
+      4.774,
+      5.087,
+      4.253,
+      5.207,
+      4.556,
+      5.394,
+      4.925,
+      4.067,
+      4.238,
+      5.139,
+      4.21,
+      4.792,
+      4.931,
+      5.18,
+      5.468,
+      4.576,
+      4.378,
+      4.576,
+      5.092,
+      4.916
     ],
-    "expires_at_min_epoch": 1785772231,
-    "expires_at_max_epoch": 1785772276,
-    "expires_at_span_seconds": 45,
-    "remaining_ttl_min_seconds": 444,
-    "remaining_ttl_max_seconds": 489,
+    "expires_at_min_epoch": 1785772830,
+    "expires_at_max_epoch": 1785772890,
+    "expires_at_span_seconds": 60,
+    "remaining_ttl_min_seconds": 436,
+    "remaining_ttl_max_seconds": 496,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 9,
-    "final_streams": 9,
-    "publish_reason": "published 9 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 12,
+    "publish_reason": "published 12 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 126.77
+    "elapsed_seconds": 134.47
   }
 }
