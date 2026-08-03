@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-03T16:10:24+07:00",
+  "started_at": "2026-08-03T16:22:46+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.39,
+    "elapsed": 0.589,
     "error": ""
   },
   "schedule": {
@@ -49,11 +49,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.1,
+        "elapsed": 0.143,
         "error": ""
       }
     ],
-    "rows_selected": 7,
+    "rows_selected": 8,
     "window": "-150/+180"
   },
   "matches": [
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859676&lan=2",
           "status": 200,
-          "elapsed": 0.104,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -93,12 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "MPBL Quezon Huskers BC vs Cebu Greats BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5137859676",
+          "start_at": "2026-08-03T16:00:00+07:00",
+          "league": "MPBL",
+          "home": "Quezon Huskers BC",
+          "away": "Cebu Greats BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600019_1.flv?auth_key=1785749567-2040-0-9fc6b852142b1ba98eb947022a2579af",
+          "expires_at_epoch": 1785749567,
+          "expires_at_utc": "2026-08-03T09:32:47+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859676&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137859676.html"
+        }
+      ]
     },
     {
       "player_id": "5144685801",
@@ -110,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685801&lan=2",
           "status": 200,
-          "elapsed": 0.104,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -151,11 +167,70 @@
           "home": "TP Ho Chi Minh Women",
           "away": "Ha Noi Watabe Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5519267_1.flv?auth_key=1785748829-2150-0-179b37ab4ebb9958677f197c2f0f6060",
-          "expires_at_epoch": 1785748829,
-          "expires_at_utc": "2026-08-03T09:20:29+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5519267_1.flv?auth_key=1785749571-5346-0-b8b9cdf82effcd5573c60c0838b1a479",
+          "expires_at_epoch": 1785749571,
+          "expires_at_utc": "2026-08-03T09:32:51+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685801&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144685801.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144685804",
+      "start_at": "2026-08-03T16:00:00+07:00",
+      "league": "VIE WNC",
+      "home": "TP Ho Chi Minh II Women",
+      "away": "Ha Noi II Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685804&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "VIE WNC TP Ho Chi Minh II Women vs Ha Noi II Women",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144685804",
+          "start_at": "2026-08-03T16:00:00+07:00",
+          "league": "VIE WNC",
+          "home": "TP Ho Chi Minh II Women",
+          "away": "Ha Noi II Women",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538410_1.flv?auth_key=1785749576-7498-0-46a4cef54595bfe79a14f70d858314d3",
+          "expires_at_epoch": 1785749576,
+          "expires_at_utc": "2026-08-03T09:32:56+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144685804&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144685804.html"
         }
       ]
     },
@@ -169,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357185947&lan=2",
           "status": 200,
-          "elapsed": 0.104,
+          "elapsed": 0.153,
           "error": ""
         }
       ],
@@ -210,9 +285,9 @@
           "home": "Chelyabinsk II",
           "away": "Dinamo Barnaul",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5289351_1.flv?auth_key=1785748834-7099-0-4b0d8371e9d893e9ec4510f72e1e3025",
-          "expires_at_epoch": 1785748834,
-          "expires_at_utc": "2026-08-03T09:20:34+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5289351_1.flv?auth_key=1785749581-1024-0-cc646049480e86f8f9fbdc99a39fa5ef",
+          "expires_at_epoch": 1785749581,
+          "expires_at_utc": "2026-08-03T09:33:01+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357185947&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5357185947.html"
         }
@@ -228,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357194161&lan=2",
           "status": 200,
-          "elapsed": 0.104,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -269,9 +344,9 @@
           "home": "Athletic Bilbao U17",
           "away": "Bayer Leverkusen U17",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538408_1.flv?auth_key=1785748839-1494-0-b0dcd6d29510c30e4d20e6749c04c7e6",
-          "expires_at_epoch": 1785748839,
-          "expires_at_utc": "2026-08-03T09:20:39+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538408_1.flv?auth_key=1785749587-1166-0-c18b47837a2a7ef96da24aa039e441a3",
+          "expires_at_epoch": 1785749587,
+          "expires_at_utc": "2026-08-03T09:33:07+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357194161&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5357194161.html"
         }
@@ -287,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144801007&lan=2",
           "status": 200,
-          "elapsed": 0.104,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -330,7 +405,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144441124&lan=2",
           "status": 200,
-          "elapsed": 0.104,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -373,7 +448,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859679&lan=2",
           "status": 200,
-          "elapsed": 0.104,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -409,36 +484,37 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 7,
-    "matches_processed": 7,
-    "valid_player_responses": 7,
+    "matches_selected": 8,
+    "matches_processed": 8,
+    "valid_player_responses": 8,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 3,
-    "fresh_streams_accepted": 3,
+    "streams_returned_by_api": 5,
+    "fresh_streams_accepted": 5,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.814,
-      4.024,
-      5.027,
-      5.407,
-      4.49,
-      4.233
+      4.081,
+      4.997,
+      5.117,
+      4.901,
+      4.629,
+      4.494,
+      4.111
     ],
-    "expires_at_min_epoch": 1785748829,
-    "expires_at_max_epoch": 1785748839,
-    "expires_at_span_seconds": 10,
-    "remaining_ttl_min_seconds": 546,
-    "remaining_ttl_max_seconds": 556,
+    "expires_at_min_epoch": 1785749567,
+    "expires_at_max_epoch": 1785749587,
+    "expires_at_span_seconds": 20,
+    "remaining_ttl_min_seconds": 537,
+    "remaining_ttl_max_seconds": 557,
     "playlist_changed": true,
-    "preserved_unexpired_previous": 1,
-    "expired_previous_removed": 1,
-    "final_streams": 4,
-    "publish_reason": "published 3 fresh streams + preserved 1 unexpired previous streams",
+    "preserved_unexpired_previous": 0,
+    "expired_previous_removed": 4,
+    "final_streams": 5,
+    "publish_reason": "published 5 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 29.22
+    "elapsed_seconds": 34.25
   }
 }
