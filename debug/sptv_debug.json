@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-03T08:20:22+07:00",
+  "started_at": "2026-08-03T08:30:31+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.437,
+    "elapsed": 0.632,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.117,
+        "elapsed": 0.165,
         "error": ""
       }
     ],
@@ -57,6 +57,108 @@
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5356962735",
+      "start_at": "2026-08-03T08:30:00+07:00",
+      "league": "HON D1",
+      "home": "CD Olimpia",
+      "away": "Lobos UPNFM",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5356962735&lan=2",
+          "status": 200,
+          "elapsed": 0.169,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "HON D1 CD Olimpia vs Lobos UPNFM",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144838309",
+      "start_at": "2026-08-03T08:15:00+07:00",
+      "league": "COL WPA",
+      "home": "America de Cali Women",
+      "away": "Llaneros Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144838309&lan=2",
+          "status": 200,
+          "elapsed": 0.17,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "COL WPA America de Cali Women vs Llaneros Women",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144838309",
+          "start_at": "2026-08-03T08:15:00+07:00",
+          "league": "COL WPA",
+          "home": "America de Cali Women",
+          "away": "Llaneros Women",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5622203_1.flv?auth_key=1785721237-9055-0-b6c2d6aafb5088047e57458ff38e0fce",
+          "expires_at_epoch": 1785721237,
+          "expires_at_utc": "2026-08-03T01:40:37+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144838309&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144838309.html"
+        }
+      ]
+    },
     {
       "player_id": "5144686299",
       "start_at": "2026-08-03T08:10:00+07:00",
@@ -67,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686299&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.17,
           "error": ""
         }
       ],
@@ -108,9 +210,9 @@
           "home": "Toluca",
           "away": "Necaxa",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538406_1.flv?auth_key=1785720622-8589-0-003b2ee73e23105f5bd3742409c624f8",
-          "expires_at_epoch": 1785720622,
-          "expires_at_utc": "2026-08-03T01:30:22+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538406_1.flv?auth_key=1785721242-6397-0-8540750c8a33ba9043596a8a63e28e89",
+          "expires_at_epoch": 1785721242,
+          "expires_at_utc": "2026-08-03T01:40:42+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686299&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144686299.html"
         }
@@ -126,7 +228,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565189&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.17,
           "error": ""
         }
       ],
@@ -167,9 +269,9 @@
           "home": "Denver Summit FC Women",
           "away": "Boston Legacy Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5274862_1.flv?auth_key=1785720627-8004-0-7cee9610b46b6f6703bd8c3531d3e385",
-          "expires_at_epoch": 1785720627,
-          "expires_at_utc": "2026-08-03T01:30:27+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5274862_1.flv?auth_key=1785721248-9896-0-33b07d44248a8fd21c9df9a889792aaf",
+          "expires_at_epoch": 1785721248,
+          "expires_at_utc": "2026-08-03T01:40:48+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565189&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144565189.html"
         }
@@ -185,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729532&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.17,
           "error": ""
         }
       ],
@@ -226,9 +328,9 @@
           "home": "Ind. Santa Fe",
           "away": "Once Caldas",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538407_1.flv?auth_key=1785720632-7643-0-86b69f81f7aff5a74ffc570f07d9f543",
-          "expires_at_epoch": 1785720632,
-          "expires_at_utc": "2026-08-03T01:30:32+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538407_1.flv?auth_key=1785721252-8356-0-6de68497333e3609b1f65cbe6b3876e8",
+          "expires_at_epoch": 1785721252,
+          "expires_at_utc": "2026-08-03T01:40:52+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729532&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144729532.html"
         }
@@ -244,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809657&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.169,
           "error": ""
         }
       ],
@@ -285,9 +387,9 @@
           "home": "Golden State Valkyries",
           "away": "Toronto Tempo",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5274891_1.flv?auth_key=1785720637-5125-0-b3ca81bd618fb33a9142cce970e6d06a",
-          "expires_at_epoch": 1785720637,
-          "expires_at_utc": "2026-08-03T01:30:37+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5274891_1.flv?auth_key=1785721258-2246-0-2fa7ce2e92984fa67b2e7fde47e8ff9d",
+          "expires_at_epoch": 1785721258,
+          "expires_at_utc": "2026-08-03T01:40:58+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809657&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137809657.html"
         }
@@ -303,7 +405,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860633&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.17,
           "error": ""
         }
       ],
@@ -344,9 +446,9 @@
           "home": "ABA Ancud BC",
           "away": "CD Valdivia BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5622318_1.flv?auth_key=1785720642-1804-0-34dc6796dedbebf7b52edfde66258e97",
-          "expires_at_epoch": 1785720642,
-          "expires_at_utc": "2026-08-03T01:30:42+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5622318_1.flv?auth_key=1785721262-6508-0-36888e0c94a2152adb3c61970d1c43a6",
+          "expires_at_epoch": 1785721262,
+          "expires_at_utc": "2026-08-03T01:41:02+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860633&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137860633.html"
         }
@@ -362,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581827&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.169,
           "error": ""
         }
       ],
@@ -403,9 +505,9 @@
           "home": "CA Lanus",
           "away": "Instituto ACC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5320724_1.flv?auth_key=1785720647-5409-0-e565ffb6540a951d162ec6f9f4390f43",
-          "expires_at_epoch": 1785720647,
-          "expires_at_utc": "2026-08-03T01:30:47+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5320724_1.flv?auth_key=1785721267-3034-0-d01c8045253bf1703664274a70371d84",
+          "expires_at_epoch": 1785721267,
+          "expires_at_utc": "2026-08-03T01:41:07+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581827&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144581827.html"
         }
@@ -421,7 +523,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860636&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.17,
           "error": ""
         }
       ],
@@ -462,9 +564,9 @@
           "home": "CEB Puerto Montt",
           "away": "CD Puerto Varas BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5622317_1.flv?auth_key=1785720652-4758-0-6a0be94bb3c8aab581f3812acee46420",
-          "expires_at_epoch": 1785720652,
-          "expires_at_utc": "2026-08-03T01:30:52+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5622317_1.flv?auth_key=1785721272-1387-0-752d753bd299cb31dfcee2ed1037451f",
+          "expires_at_epoch": 1785721272,
+          "expires_at_utc": "2026-08-03T01:41:12+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860636&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137860636.html"
         }
@@ -480,7 +582,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861347&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.17,
           "error": ""
         }
       ],
@@ -521,9 +623,9 @@
           "home": "Santeros de Aguada BC",
           "away": "Leones de Ponce BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5630268_1.flv?auth_key=1785720657-6439-0-dc3cb27f7d3ac309eb36291a0f58faed",
-          "expires_at_epoch": 1785720657,
-          "expires_at_utc": "2026-08-03T01:30:57+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5630268_1.flv?auth_key=1785721276-5573-0-66333638243af004e0141c965ed1a7e0",
+          "expires_at_epoch": 1785721276,
+          "expires_at_utc": "2026-08-03T01:41:16+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861347&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137861347.html"
         }
@@ -539,7 +641,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144659326&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.17,
           "error": ""
         }
       ],
@@ -580,129 +682,11 @@
           "home": "Oriente Petrolero",
           "away": "Nacional Potosi",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5377185_1.flv?auth_key=1785720662-8584-0-9ab8eb38c1433728fb88eb537895b4c5",
-          "expires_at_epoch": 1785720662,
-          "expires_at_utc": "2026-08-03T01:31:02+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5377185_1.flv?auth_key=1785721282-6366-0-1bb75c0b3a855f084cf7913aba5ba542",
+          "expires_at_epoch": 1785721282,
+          "expires_at_utc": "2026-08-03T01:41:22+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144659326&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144659326.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144724123",
-      "start_at": "2026-08-03T06:30:00+07:00",
-      "league": "PER D1",
-      "home": "Cienciano",
-      "away": "Universitario Deportes",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724123&lan=2",
-          "status": 200,
-          "elapsed": 0.121,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "PER D1 Cienciano vs Universitario Deportes",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144724123",
-          "start_at": "2026-08-03T06:30:00+07:00",
-          "league": "PER D1",
-          "home": "Cienciano",
-          "away": "Universitario Deportes",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5519256_1.flv?auth_key=1785720667-5587-0-0a5cd32ec39b348c54cfaa8cabae1450",
-          "expires_at_epoch": 1785720667,
-          "expires_at_utc": "2026-08-03T01:31:07+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724123&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144724123.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144832108",
-      "start_at": "2026-08-03T06:00:00+07:00",
-      "league": "MEX LMXW",
-      "home": "Atletico San Luis Women (MEX)",
-      "away": "Deportivo Toluca Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832108&lan=2",
-          "status": 200,
-          "elapsed": 0.121,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "MEX LMXW Atletico San Luis Women (MEX) vs Deportivo Toluca Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144832108",
-          "start_at": "2026-08-03T06:00:00+07:00",
-          "league": "MEX LMXW",
-          "home": "Atletico San Luis Women (MEX)",
-          "away": "Deportivo Toluca Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615124_1.flv?auth_key=1785720672-8961-0-1e6f85d75698746070c21d169e79eb74",
-          "expires_at_epoch": 1785720672,
-          "expires_at_utc": "2026-08-03T01:31:12+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832108&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144832108.html"
         }
       ]
     }
@@ -714,35 +698,35 @@
     "valid_player_responses": 11,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 11,
-    "fresh_streams_accepted": 11,
+    "streams_returned_by_api": 10,
+    "fresh_streams_accepted": 10,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.24,
-      4.995,
-      4.65,
-      4.873,
-      5.469,
-      4.939,
-      4.903,
-      4.562,
-      4.567,
-      5.226
+      5.126,
+      5.421,
+      5.217,
+      4.592,
+      5.125,
+      4.2,
+      5.1,
+      4.286,
+      4.233,
+      5.438
     ],
-    "expires_at_min_epoch": 1785720622,
-    "expires_at_max_epoch": 1785720672,
-    "expires_at_span_seconds": 50,
-    "remaining_ttl_min_seconds": 520,
+    "expires_at_min_epoch": 1785721237,
+    "expires_at_max_epoch": 1785721282,
+    "expires_at_span_seconds": 45,
+    "remaining_ttl_min_seconds": 525,
     "remaining_ttl_max_seconds": 570,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 11,
-    "final_streams": 11,
-    "publish_reason": "published 11 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 10,
+    "publish_reason": "published 10 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 50.33
+    "elapsed_seconds": 51.41
   }
 }
