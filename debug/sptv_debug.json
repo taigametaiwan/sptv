@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-05T00:50:29+07:00",
+  "started_at": "2026-08-05T01:00:34+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.502,
+    "elapsed": 0.422,
     "error": ""
   },
   "schedule": {
@@ -49,202 +49,25 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.138,
+        "elapsed": 0.11,
         "error": ""
       }
     ],
-    "rows_selected": 20,
+    "rows_selected": 34,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5144733339",
-      "start_at": "2026-08-05T00:45:00+07:00",
-      "league": "RUS Cup",
-      "home": "Lokomotiv Moscow",
-      "away": "CSKA Moscow",
+      "player_id": "5144498997",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG PCM",
+      "home": "Centro Espanol",
+      "away": "Leones de Rosario",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733339&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144498997&lan=2",
           "status": 200,
-          "elapsed": 0.142,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "RUS Cup Lokomotiv Moscow vs CSKA Moscow",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144733339",
-          "start_at": "2026-08-05T00:45:00+07:00",
-          "league": "RUS Cup",
-          "home": "Lokomotiv Moscow",
-          "away": "CSKA Moscow",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538429_1.flv?auth_key=1785866429-1046-0-bf33ecf6f7ae5c117b974ba9dcf25a02",
-          "expires_at_epoch": 1785866429,
-          "expires_at_utc": "2026-08-04T18:00:29+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733339&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144733339.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842071",
-      "start_at": "2026-08-05T00:30:00+07:00",
-      "league": "UEFA CL",
-      "home": "Hapoel Beer-Sheva",
-      "away": "Crvena Zvezda",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842071&lan=2",
-          "status": 200,
-          "elapsed": 0.142,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UEFA CL Hapoel Beer-Sheva vs Crvena Zvezda",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144842071",
-          "start_at": "2026-08-05T00:30:00+07:00",
-          "league": "UEFA CL",
-          "home": "Hapoel Beer-Sheva",
-          "away": "Crvena Zvezda",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629718_1.flv?auth_key=1785866433-4076-0-59bcddb96e52237c9a304514a48f93d6",
-          "expires_at_epoch": 1785866433,
-          "expires_at_utc": "2026-08-04T18:00:33+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842071&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842071.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842074",
-      "start_at": "2026-08-05T00:30:00+07:00",
-      "league": "UEFA CL",
-      "home": "Levski Sofia",
-      "away": "Kairat Almaty",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842074&lan=2",
-          "status": 200,
-          "elapsed": 0.143,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UEFA CL Levski Sofia vs Kairat Almaty",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144842074",
-          "start_at": "2026-08-05T00:30:00+07:00",
-          "league": "UEFA CL",
-          "home": "Levski Sofia",
-          "away": "Kairat Almaty",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629715_1.flv?auth_key=1785866438-5102-0-b7ad9069d8470c9a17751c1cb6047fb3",
-          "expires_at_epoch": 1785866438,
-          "expires_at_utc": "2026-08-04T18:00:38+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842074&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842074.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144844051",
-      "start_at": "2026-08-05T00:30:00+07:00",
-      "league": "Friendly",
-      "home": "CD Eldense",
-      "away": "Villarreal B",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844051&lan=2",
-          "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -271,23 +94,66 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "Friendly CD Eldense vs Villarreal B",
+        "title": "ARG PCM Centro Espanol vs Leones de Rosario",
         "stream_item_count": 0,
         "stream_item_types": []
       },
       "streams": []
     },
     {
-      "player_id": "5144861208",
-      "start_at": "2026-08-05T00:30:00+07:00",
-      "league": "Friendly",
-      "home": "CD Tenerife",
-      "away": "UD Tamaraceite",
+      "player_id": "5144499651",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG PCM",
+      "home": "CA Atlas",
+      "away": "Sacachispas",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861208&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499651&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.117,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ARG PCM CA Atlas vs Sacachispas",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144499654",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG PCM",
+      "home": "Berazategui",
+      "away": "Central Cordoba De Rosario",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499654&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -314,7 +180,7 @@
         ],
         "code": 0,
         "pid": 1,
-        "title": "Friendly CD Tenerife vs UD Tamaraceite",
+        "title": "ARG PCM Berazategui vs Central Cordoba De Rosario",
         "stream_item_count": 1,
         "stream_item_types": [
           "dict"
@@ -322,31 +188,31 @@
       },
       "streams": [
         {
-          "player_id": "5144861208",
-          "start_at": "2026-08-05T00:30:00+07:00",
-          "league": "Friendly",
-          "home": "CD Tenerife",
-          "away": "UD Tamaraceite",
+          "player_id": "5144499654",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "ARG PCM",
+          "home": "Berazategui",
+          "away": "Central Cordoba De Rosario",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5650478_1.flv?auth_key=1785866447-5723-0-6df2158ee3ed3eabae8e4a5ddc073ce3",
-          "expires_at_epoch": 1785866447,
-          "expires_at_utc": "2026-08-04T18:00:47+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861208&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144861208.html"
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5319670_1.flv?auth_key=1785867044-7521-0-1a31a189cbfc064536c3fb2d96a6fa6d",
+          "expires_at_epoch": 1785867044,
+          "expires_at_utc": "2026-08-04T18:10:44+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499654&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144499654.html"
         }
       ]
     },
     {
-      "player_id": "5137864116",
-      "start_at": "2026-08-05T00:00:00+07:00",
-      "league": "WAmerB",
-      "home": "Venezuela (W)",
-      "away": "Chile (W)",
+      "player_id": "5144499660",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG PCM",
+      "home": "Claypole",
+      "away": "Juventud Unida San Miguel",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864116&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499660&lan=2",
           "status": 200,
-          "elapsed": 0.142,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -373,7 +239,7 @@
         ],
         "code": 0,
         "pid": 1,
-        "title": "WAmerB Venezuela (W) vs Chile (W)",
+        "title": "ARG PCM Claypole vs Juventud Unida San Miguel",
         "stream_item_count": 1,
         "stream_item_types": [
           "dict"
@@ -381,31 +247,31 @@
       },
       "streams": [
         {
-          "player_id": "5137864116",
-          "start_at": "2026-08-05T00:00:00+07:00",
-          "league": "WAmerB",
-          "home": "Venezuela (W)",
-          "away": "Chile (W)",
+          "player_id": "5144499660",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "ARG PCM",
+          "home": "Claypole",
+          "away": "Juventud Unida San Miguel",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5649301_1.flv?auth_key=1785866452-8437-0-25ae121588cea9f92a87f78351d5268b",
-          "expires_at_epoch": 1785866452,
-          "expires_at_utc": "2026-08-04T18:00:52+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864116&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137864116.html"
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5319668_1.flv?auth_key=1785867049-2451-0-958a01960dfa67ad7cf9c51df7929fb2",
+          "expires_at_epoch": 1785867049,
+          "expires_at_utc": "2026-08-04T18:10:49+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499660&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144499660.html"
         }
       ]
     },
     {
-      "player_id": "5144699526",
-      "start_at": "2026-08-05T00:00:00+07:00",
-      "league": "ISR TCA",
-      "home": "Maccabi Haifa",
-      "away": "Ironi Tiberias",
+      "player_id": "5144499669",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG PCM",
+      "home": "Deportivo Paraguayo",
+      "away": "Central Ballester",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144699526&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499669&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -431,40 +297,24 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
-        "title": "ISR TCA Maccabi Haifa vs Ironi Tiberias",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
+        "pid": 0,
+        "title": "ARG PCM Deportivo Paraguayo vs Central Ballester",
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
-      "streams": [
-        {
-          "player_id": "5144699526",
-          "start_at": "2026-08-05T00:00:00+07:00",
-          "league": "ISR TCA",
-          "home": "Maccabi Haifa",
-          "away": "Ironi Tiberias",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538418_1.flv?auth_key=1785866458-5216-0-ad5c3b7523b5e26e6679d321cdfd4fe9",
-          "expires_at_epoch": 1785866458,
-          "expires_at_utc": "2026-08-04T18:00:58+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144699526&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144699526.html"
-        }
-      ]
+      "streams": []
     },
     {
-      "player_id": "5144699523",
-      "start_at": "2026-08-04T23:45:00+07:00",
-      "league": "ISR TCA",
-      "home": "Hapoel Ironi Kiryat Shmona",
-      "away": "Bnei Sakhnin",
+      "player_id": "5144499672",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG PCM",
+      "home": "Estrella del Sur de Alejandro Korn",
+      "away": "Club Lujan",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144699523&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499672&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -490,307 +340,10 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
-        "title": "ISR TCA Hapoel Ironi Kiryat Shmona vs Bnei Sakhnin",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144699523",
-          "start_at": "2026-08-04T23:45:00+07:00",
-          "league": "ISR TCA",
-          "home": "Hapoel Ironi Kiryat Shmona",
-          "away": "Bnei Sakhnin",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538419_1.flv?auth_key=1785866462-7506-0-c408b66989a8851640b9ee8b9f83f116",
-          "expires_at_epoch": 1785866462,
-          "expires_at_utc": "2026-08-04T18:01:02+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144699523&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144699523.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842056",
-      "start_at": "2026-08-04T23:00:00+07:00",
-      "league": "UEFA CL",
-      "home": "Ararat-Armenia",
-      "away": "NK Celje",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842056&lan=2",
-          "status": 200,
-          "elapsed": 0.143,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UEFA CL Ararat-Armenia vs NK Celje",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144842056",
-          "start_at": "2026-08-04T23:00:00+07:00",
-          "league": "UEFA CL",
-          "home": "Ararat-Armenia",
-          "away": "NK Celje",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629711_1.flv?auth_key=1785866467-8060-0-3c875fa254c71ab5541e22db3a0703de",
-          "expires_at_epoch": 1785866467,
-          "expires_at_utc": "2026-08-04T18:01:07+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842056&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842056.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842077",
-      "start_at": "2026-08-04T23:00:00+07:00",
-      "league": "UEFA CL",
-      "home": "Mjallby AIF",
-      "away": "Slovan Bratislava",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842077&lan=2",
-          "status": 200,
-          "elapsed": 0.143,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UEFA CL Mjallby AIF vs Slovan Bratislava",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144842077",
-          "start_at": "2026-08-04T23:00:00+07:00",
-          "league": "UEFA CL",
-          "home": "Mjallby AIF",
-          "away": "Slovan Bratislava",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629714_1.flv?auth_key=1785866472-7537-0-505d4a2e218877276b4a07b1f0195a83",
-          "expires_at_epoch": 1785866472,
-          "expires_at_utc": "2026-08-04T18:01:12+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842077&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842077.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144843544",
-      "start_at": "2026-08-04T23:00:00+07:00",
-      "league": "UEFA ECL",
-      "home": "FK Auda Riga",
-      "away": "Dinamo City",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843544&lan=2",
-          "status": 200,
-          "elapsed": 0.143,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UEFA ECL FK Auda Riga vs Dinamo City",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144843544",
-          "start_at": "2026-08-04T23:00:00+07:00",
-          "league": "UEFA ECL",
-          "home": "FK Auda Riga",
-          "away": "Dinamo City",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5632188_1.flv?auth_key=1785866477-5766-0-8980763b62187a8362766a0984b9565e",
-          "expires_at_epoch": 1785866477,
-          "expires_at_utc": "2026-08-04T18:01:17+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843544&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144843544.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5357220189",
-      "start_at": "2026-08-04T23:00:00+07:00",
-      "league": "Friendly",
-      "home": "Strasbourg",
-      "away": "SV 07 Elversberg",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357220189&lan=2",
-          "status": 200,
-          "elapsed": 0.143,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "Friendly Strasbourg vs SV 07 Elversberg",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5357220189",
-          "start_at": "2026-08-04T23:00:00+07:00",
-          "league": "Friendly",
-          "home": "Strasbourg",
-          "away": "SV 07 Elversberg",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5650711_1.flv?auth_key=1785866482-3508-0-7c01f57a87156005f4798efcb00fd2dd",
-          "expires_at_epoch": 1785866482,
-          "expires_at_utc": "2026-08-04T18:01:22+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357220189&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5357220189.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137805280",
-      "start_at": "2026-08-04T22:30:00+07:00",
-      "league": "WEuroB",
-      "home": "Romania U18 (W)",
-      "away": "Portugal U18 (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805280&lan=2",
-          "status": 200,
-          "elapsed": 0.143,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WEuroB Romania U18 (W) 62-46 Portugal U18 (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
+        "pid": 0,
+        "title": "ARG PCM Estrella del Sur de Alejandro Korn vs Club Lujan",
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
       "streams": []
     },
@@ -804,7 +357,66 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499759&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.115,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ARG PCM El Porvenir vs CA Fenix Buenos Aires",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144499759",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "ARG PCM",
+          "home": "El Porvenir",
+          "away": "CA Fenix Buenos Aires",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5271398_1.flv?auth_key=1785867064-4661-0-051951abb0a3d6812bb4fc6a76cef3e3",
+          "expires_at_epoch": 1785867064,
+          "expires_at_utc": "2026-08-04T18:11:04+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144499759&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144499759.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144834268",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "LUX D1",
+      "home": "FC Atert Bissen",
+      "away": "F91 Dudelange",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144834268&lan=2",
+          "status": 200,
+          "elapsed": 0.115,
           "error": ""
         }
       ],
@@ -831,7 +443,50 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "ARG PCM El Porvenir vs CA Fenix Buenos Aires",
+        "title": "LUX D1 FC Atert Bissen vs F91 Dudelange",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144834280",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "LUX D1",
+      "home": "UNA Strassen",
+      "away": "Victoria Rosport",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144834280&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "LUX D1 UNA Strassen vs Victoria Rosport",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -847,7 +502,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842059&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -890,7 +545,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842065&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -931,9 +586,9 @@
           "home": "Dinamo Zagreb",
           "away": "Kauno Zalgiris",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629716_1.flv?auth_key=1785866502-6302-0-5d7e46c5563f2a8a5cc7f3d3f6f5efa3",
-          "expires_at_epoch": 1785866502,
-          "expires_at_utc": "2026-08-04T18:01:42+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629716_1.flv?auth_key=1785867084-9017-0-574073875cddf7a099372e2380088902",
+          "expires_at_epoch": 1785867084,
+          "expires_at_utc": "2026-08-04T18:11:24+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842065&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842065.html"
         }
@@ -949,7 +604,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842080&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -975,28 +630,12 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
+        "pid": 0,
         "title": "UEFA CL Union Saint Gilloise vs Bodo Glimt",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
-      "streams": [
-        {
-          "player_id": "5144842080",
-          "start_at": "2026-08-05T01:00:00+07:00",
-          "league": "UEFA CL",
-          "home": "Union Saint Gilloise",
-          "away": "Bodo Glimt",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629719_1.flv?auth_key=1785866506-6815-0-ba23326a74383a3009d49701a89aaced",
-          "expires_at_epoch": 1785866506,
-          "expires_at_utc": "2026-08-04T18:01:46+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842080&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842080.html"
-        }
-      ]
+      "streams": []
     },
     {
       "player_id": "5144842083",
@@ -1008,7 +647,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842083&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.118,
           "error": ""
         }
       ],
@@ -1049,13 +688,1036 @@
           "home": "Sparta Praha",
           "away": "Lyon",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629720_1.flv?auth_key=1785866511-2047-0-62d22b59624f39708ec09318e7451eaa",
-          "expires_at_epoch": 1785866511,
-          "expires_at_utc": "2026-08-04T18:01:51+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629720_1.flv?auth_key=1785867093-2813-0-db6af41ae6aa460b5e96b1e9cad40ab3",
+          "expires_at_epoch": 1785867093,
+          "expires_at_utc": "2026-08-04T18:11:33+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842083&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842083.html"
         }
       ]
+    },
+    {
+      "player_id": "5144843991",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG Res",
+      "home": "CA Tucuman Reserve",
+      "away": "Sarmiento De Junin Reserve",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843991&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ARG Res CA Tucuman Reserve vs Sarmiento De Junin Reserve",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144843991",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "ARG Res",
+          "home": "CA Tucuman Reserve",
+          "away": "Sarmiento De Junin Reserve",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5640942_1.flv?auth_key=1785867098-3948-0-42014e5ad00aac173e0c69261fa073d7",
+          "expires_at_epoch": 1785867098,
+          "expires_at_utc": "2026-08-04T18:11:38+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843991&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144843991.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144843994",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG Res",
+      "home": "Banfield Reserve",
+      "away": "CA Tigre Reserve",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843994&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ARG Res Banfield Reserve vs CA Tigre Reserve",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144843994",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "ARG Res",
+          "home": "Banfield Reserve",
+          "away": "CA Tigre Reserve",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5640943_1.flv?auth_key=1785867104-2726-0-067f165042c08eb78c41b90b2e8ea1df",
+          "expires_at_epoch": 1785867104,
+          "expires_at_utc": "2026-08-04T18:11:44+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843994&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144843994.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144843997",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG Res",
+      "home": "Gimnasia La Plata Reserve",
+      "away": "Aldosivi Reserve",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843997&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ARG Res Gimnasia La Plata Reserve vs Aldosivi Reserve",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144843997",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "ARG Res",
+          "home": "Gimnasia La Plata Reserve",
+          "away": "Aldosivi Reserve",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5640941_1.flv?auth_key=1785867109-1890-0-71f10a0563c2bfdd146be453123adf2e",
+          "expires_at_epoch": 1785867109,
+          "expires_at_utc": "2026-08-04T18:11:49+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843997&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144843997.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144844000",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG Res",
+      "home": "Godoy Cruz Reserve",
+      "away": "Racing Club Reserve",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844000&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ARG Res Godoy Cruz Reserve vs Racing Club Reserve",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144844000",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "ARG Res",
+          "home": "Godoy Cruz Reserve",
+          "away": "Racing Club Reserve",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5640940_1.flv?auth_key=1785867114-4551-0-3803d8bb8d4cadb75ae4c1fb4aecf8a8",
+          "expires_at_epoch": 1785867114,
+          "expires_at_utc": "2026-08-04T18:11:54+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844000&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144844000.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144844003",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG Res",
+      "home": "Gimnasia Mendoza Reserves",
+      "away": "River Plate Reserve",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844003&lan=2",
+          "status": 200,
+          "elapsed": 0.115,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ARG Res Gimnasia Mendoza Reserves vs River Plate Reserve",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144844003",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "ARG Res",
+          "home": "Gimnasia Mendoza Reserves",
+          "away": "River Plate Reserve",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5640944_1.flv?auth_key=1785867119-7353-0-e34594164008b7418b99cc109a56ee95",
+          "expires_at_epoch": 1785867119,
+          "expires_at_utc": "2026-08-04T18:11:59+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844003&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144844003.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144844054",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "Friendly",
+      "home": "Newport County",
+      "away": "Roma",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844054&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Friendly Newport County vs Roma",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144844054",
+          "start_at": "2026-08-05T01:00:00+07:00",
+          "league": "Friendly",
+          "home": "Newport County",
+          "away": "Roma",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5640939_1.flv?auth_key=1785867124-9617-0-51c07a025b03ecccfcec955825b4afa0",
+          "expires_at_epoch": 1785867124,
+          "expires_at_utc": "2026-08-04T18:12:04+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844054&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144844054.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144844399",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ARG Res",
+      "home": "CA Huracan Reserve",
+      "away": "Belgrano Reserve",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844399&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ARG Res CA Huracan Reserve vs Belgrano Reserve",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5357221089",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "Friendly",
+      "home": "Waltham Abbey",
+      "away": "Leyton Orient",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357221089&lan=2",
+          "status": 200,
+          "elapsed": 0.117,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "Friendly Waltham Abbey vs Leyton Orient",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5357528598",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ICE LCC",
+      "home": "Dalvik Reynir",
+      "away": "UMF Alftanes",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357528598&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ICE LCC Dalvik Reynir vs UMF Alftanes",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5357528601",
+      "start_at": "2026-08-05T01:00:00+07:00",
+      "league": "ICE LCC",
+      "home": "Haukar",
+      "away": "Reynir Sandgerdi",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357528601&lan=2",
+          "status": 200,
+          "elapsed": 0.117,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ICE LCC Haukar vs Reynir Sandgerdi",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144733339",
+      "start_at": "2026-08-05T00:45:00+07:00",
+      "league": "RUS Cup",
+      "home": "Lokomotiv Moscow",
+      "away": "CSKA Moscow",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733339&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "RUS Cup Lokomotiv Moscow vs CSKA Moscow",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144733339",
+          "start_at": "2026-08-05T00:45:00+07:00",
+          "league": "RUS Cup",
+          "home": "Lokomotiv Moscow",
+          "away": "CSKA Moscow",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538429_1.flv?auth_key=1785867148-8885-0-2e7bebaff4529e03ee5701573b3f4757",
+          "expires_at_epoch": 1785867148,
+          "expires_at_utc": "2026-08-04T18:12:28+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733339&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144733339.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144842071",
+      "start_at": "2026-08-05T00:30:00+07:00",
+      "league": "UEFA CL",
+      "home": "Hapoel Beer-Sheva",
+      "away": "Crvena Zvezda",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842071&lan=2",
+          "status": 200,
+          "elapsed": 0.117,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UEFA CL Hapoel Beer-Sheva vs Crvena Zvezda",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144842071",
+          "start_at": "2026-08-05T00:30:00+07:00",
+          "league": "UEFA CL",
+          "home": "Hapoel Beer-Sheva",
+          "away": "Crvena Zvezda",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629718_1.flv?auth_key=1785867153-6291-0-fafe49c0bc6dedf7a3c6cf67986d2057",
+          "expires_at_epoch": 1785867153,
+          "expires_at_utc": "2026-08-04T18:12:33+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842071&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144842071.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144842074",
+      "start_at": "2026-08-05T00:30:00+07:00",
+      "league": "UEFA CL",
+      "home": "Levski Sofia",
+      "away": "Kairat Almaty",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842074&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UEFA CL Levski Sofia vs Kairat Almaty",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144842074",
+          "start_at": "2026-08-05T00:30:00+07:00",
+          "league": "UEFA CL",
+          "home": "Levski Sofia",
+          "away": "Kairat Almaty",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5629715_1.flv?auth_key=1785867158-9009-0-8f3563b0aa948201bcf8b33b3be9ceba",
+          "expires_at_epoch": 1785867158,
+          "expires_at_utc": "2026-08-04T18:12:38+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842074&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144842074.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144844051",
+      "start_at": "2026-08-05T00:30:00+07:00",
+      "league": "Friendly",
+      "home": "CD Eldense",
+      "away": "Villarreal B",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844051&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "Friendly CD Eldense vs Villarreal B",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144861208",
+      "start_at": "2026-08-05T00:30:00+07:00",
+      "league": "Friendly",
+      "home": "CD Tenerife",
+      "away": "UD Tamaraceite",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861208&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Friendly CD Tenerife vs UD Tamaraceite",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144861208",
+          "start_at": "2026-08-05T00:30:00+07:00",
+          "league": "Friendly",
+          "home": "CD Tenerife",
+          "away": "UD Tamaraceite",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5650478_1.flv?auth_key=1785867167-8747-0-af19afde426eb9bb64fa08d68161459a",
+          "expires_at_epoch": 1785867167,
+          "expires_at_utc": "2026-08-04T18:12:47+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861208&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144861208.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137864116",
+      "start_at": "2026-08-05T00:00:00+07:00",
+      "league": "WAmerB",
+      "home": "Venezuela (W)",
+      "away": "Chile (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864116&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WAmerB Venezuela (W) vs Chile (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137864116",
+          "start_at": "2026-08-05T00:00:00+07:00",
+          "league": "WAmerB",
+          "home": "Venezuela (W)",
+          "away": "Chile (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5649301_1.flv?auth_key=1785867172-2517-0-9a14ea577b3dc53d06390461a8b609f4",
+          "expires_at_epoch": 1785867172,
+          "expires_at_utc": "2026-08-04T18:12:52+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864116&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137864116.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144699526",
+      "start_at": "2026-08-05T00:00:00+07:00",
+      "league": "ISR TCA",
+      "home": "Maccabi Haifa",
+      "away": "Ironi Tiberias",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144699526&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ISR TCA Maccabi Haifa vs Ironi Tiberias",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144699526",
+          "start_at": "2026-08-05T00:00:00+07:00",
+          "league": "ISR TCA",
+          "home": "Maccabi Haifa",
+          "away": "Ironi Tiberias",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538418_1.flv?auth_key=1785867177-1030-0-f8906237056f67c625ef32483adbd831",
+          "expires_at_epoch": 1785867177,
+          "expires_at_utc": "2026-08-04T18:12:57+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144699526&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144699526.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144699523",
+      "start_at": "2026-08-04T23:45:00+07:00",
+      "league": "ISR TCA",
+      "home": "Hapoel Ironi Kiryat Shmona",
+      "away": "Bnei Sakhnin",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144699523&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ISR TCA Hapoel Ironi Kiryat Shmona vs Bnei Sakhnin",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144699523",
+          "start_at": "2026-08-04T23:45:00+07:00",
+          "league": "ISR TCA",
+          "home": "Hapoel Ironi Kiryat Shmona",
+          "away": "Bnei Sakhnin",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538419_1.flv?auth_key=1785867181-1649-0-4631184b3d6806bdb0de8494b09ef624",
+          "expires_at_epoch": 1785867181,
+          "expires_at_utc": "2026-08-04T18:13:01+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144699523&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144699523.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144775438",
+      "start_at": "2026-08-04T23:00:00+07:00",
+      "league": "DEN Cup",
+      "home": "Viby IF",
+      "away": "ASA Aarhus",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144775438&lan=2",
+          "status": 200,
+          "elapsed": 0.144,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     },
     {
       "player_id": "5144843424",
@@ -1067,7 +1729,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843424&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -1110,7 +1772,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843430&lan=2",
           "status": 200,
-          "elapsed": 0.143,
+          "elapsed": 0.117,
           "error": ""
         }
       ],
@@ -1146,49 +1808,63 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 20,
-    "matches_processed": 20,
-    "valid_player_responses": 20,
+    "matches_selected": 34,
+    "matches_processed": 34,
+    "valid_player_responses": 34,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 14,
-    "fresh_streams_accepted": 14,
+    "streams_returned_by_api": 18,
+    "fresh_streams_accepted": 18,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.063,
-      4.558,
+      4.332,
+      4.312,
+      5.113,
+      4.649,
+      5.496,
+      4.922,
+      4.938,
+      4.723,
+      4.702,
+      4.562,
+      4.548,
+      4.715,
+      5.125,
+      5.128,
+      5.104,
+      4.949,
+      5.27,
+      5.048,
+      4.671,
+      4.933,
       4.296,
-      4.556,
-      4.952,
-      4.944,
-      4.436,
-      4.91,
-      4.425,
-      5.209,
-      4.937,
-      5.388,
-      4.492,
-      4.862,
-      4.057,
-      4.764,
-      4.823,
-      5.368,
-      4.664
+      4.599,
+      4.417,
+      5.363,
+      4.444,
+      4.267,
+      4.119,
+      5.254,
+      4.687,
+      4.359,
+      5.364,
+      5.297,
+      5.187
     ],
-    "expires_at_min_epoch": 1785866429,
-    "expires_at_max_epoch": 1785866511,
-    "expires_at_span_seconds": 82,
-    "remaining_ttl_min_seconds": 477,
-    "remaining_ttl_max_seconds": 559,
+    "expires_at_min_epoch": 1785867044,
+    "expires_at_max_epoch": 1785867181,
+    "expires_at_span_seconds": 137,
+    "remaining_ttl_min_seconds": 416,
+    "remaining_ttl_max_seconds": 553,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 10,
-    "final_streams": 14,
-    "publish_reason": "published 14 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 14,
+    "final_streams": 18,
+    "publish_reason": "published 18 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 93.21
+    "elapsed_seconds": 163.43
   }
 }
