@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-04T09:00:37+07:00",
+  "started_at": "2026-08-04T09:10:27+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.613,
+    "elapsed": 0.418,
     "error": ""
   },
   "schedule": {
@@ -49,57 +49,14 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.178,
+        "elapsed": 0.121,
         "error": ""
       }
     ],
-    "rows_selected": 10,
+    "rows_selected": 7,
     "window": "-150/+180"
   },
   "matches": [
-    {
-      "player_id": "5144727909",
-      "start_at": "2026-08-04T09:00:00+07:00",
-      "league": "GUA D1",
-      "home": "CSD Xelaju MC",
-      "away": "Aurora FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144727909&lan=2",
-          "status": 200,
-          "elapsed": 0.181,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "GUA D1 CSD Xelaju MC vs Aurora FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
     {
       "player_id": "5144821794",
       "start_at": "2026-08-04T09:00:00+07:00",
@@ -110,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821794&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -136,12 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "CRC D1 Perez Zeledon vs CS Cartagines",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144821794",
+          "start_at": "2026-08-04T09:00:00+07:00",
+          "league": "CRC D1",
+          "home": "Perez Zeledon",
+          "away": "CS Cartagines",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538391_1.flv?auth_key=1785810028-2872-0-fca02e25be0bb4ad415aeea103274690",
+          "expires_at_epoch": 1785810028,
+          "expires_at_utc": "2026-08-04T02:20:28+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821794&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144821794.html"
+        }
+      ]
     },
     {
       "player_id": "5137809663",
@@ -153,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809663&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -194,9 +167,9 @@
           "home": "Chicago Sky",
           "away": "Phoenix Mercury",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5277999_1.flv?auth_key=1785809447-5579-0-dbe838714e171fa9b861075954a6750a",
-          "expires_at_epoch": 1785809447,
-          "expires_at_utc": "2026-08-04T02:10:47+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5277999_1.flv?auth_key=1785810034-1451-0-1bb86bdd0545736e4d6e4b6381a72b97",
+          "expires_at_epoch": 1785810034,
+          "expires_at_utc": "2026-08-04T02:20:34+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809663&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137809663.html"
         }
@@ -212,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729538&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -253,9 +226,9 @@
           "home": "Atletico Bucaramanga",
           "away": "Cucuta Deportivo",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5529698_1.flv?auth_key=1785809451-5674-0-920962733001602ce30f202d0ea158dc",
-          "expires_at_epoch": 1785809451,
-          "expires_at_utc": "2026-08-04T02:10:51+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5529698_1.flv?auth_key=1785810038-9099-0-a1d249532b90b6257022f762fab6e743",
+          "expires_at_epoch": 1785810038,
+          "expires_at_utc": "2026-08-04T02:20:38+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729538&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144729538.html"
         }
@@ -271,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137856727&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -312,9 +285,9 @@
           "home": "Colegio Los Leones Quilpue BC",
           "away": "Universidad Concepcion BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5565957_1.flv?auth_key=1785809456-2804-0-a883e3f19d89eaff074315691f2f5189",
-          "expires_at_epoch": 1785809456,
-          "expires_at_utc": "2026-08-04T02:10:56+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5565957_1.flv?auth_key=1785810043-2624-0-ee73091d623bc8d864495d0262afd095",
+          "expires_at_epoch": 1785810043,
+          "expires_at_utc": "2026-08-04T02:20:43+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137856727&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137856727.html"
         }
@@ -330,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137862916&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -371,70 +344,11 @@
           "home": "Puerto Rico (M)",
           "away": "Dominican Republic (M)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5649111_1.flv?auth_key=1785809462-7597-0-625d266cdefc8cac2996a0fc9694e09b",
-          "expires_at_epoch": 1785809462,
-          "expires_at_utc": "2026-08-04T02:11:02+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5649111_1.flv?auth_key=1785810048-6988-0-02d8f5cb2111936b5508ddf16116477d",
+          "expires_at_epoch": 1785810048,
+          "expires_at_utc": "2026-08-04T02:20:48+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137862916&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137862916.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144581809",
-      "start_at": "2026-08-04T07:15:00+07:00",
-      "league": "ARG D1",
-      "home": "CA Central Cordoba SDE",
-      "away": "San Lorenzo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581809&lan=2",
-          "status": 200,
-          "elapsed": 0.181,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ARG D1 CA Central Cordoba SDE vs San Lorenzo",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144581809",
-          "start_at": "2026-08-04T07:15:00+07:00",
-          "league": "ARG D1",
-          "home": "CA Central Cordoba SDE",
-          "away": "San Lorenzo",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5320730_1.flv?auth_key=1785809467-7517-0-cef1502eb28750aba458512e0c5ec817",
-          "expires_at_epoch": 1785809467,
-          "expires_at_utc": "2026-08-04T02:11:07+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581809&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144581809.html"
         }
       ]
     },
@@ -448,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581824&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -474,28 +388,12 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
-        "title": "ARG D1 CA Huracan vs Atletico Tucuman",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
+        "pid": 0,
+        "title": "ARG D1 CA Huracan 0-0 Atletico Tucuman",
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
-      "streams": [
-        {
-          "player_id": "5144581824",
-          "start_at": "2026-08-04T07:15:00+07:00",
-          "league": "ARG D1",
-          "home": "CA Huracan",
-          "away": "Atletico Tucuman",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5320725_1.flv?auth_key=1785809472-1441-0-75a88d4ce9034a6ae987d63dc7084d27",
-          "expires_at_epoch": 1785809472,
-          "expires_at_utc": "2026-08-04T02:11:12+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581824&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144581824.html"
-        }
-      ]
+      "streams": []
     },
     {
       "player_id": "5137860642",
@@ -507,7 +405,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860642&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -548,109 +446,47 @@
           "home": "Criollos de Caguas BC",
           "away": "Vaqueros de Bayamon BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5645787_1.flv?auth_key=1785809476-4103-0-a430e676a61f8aad02dfbc3f176932aa",
-          "expires_at_epoch": 1785809476,
-          "expires_at_utc": "2026-08-04T02:11:16+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5645787_1.flv?auth_key=1785810057-6564-0-7ff529059f5fe8698d78680c7c8b6b5d",
+          "expires_at_epoch": 1785810057,
+          "expires_at_utc": "2026-08-04T02:20:57+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137860642&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137860642.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144507829",
-      "start_at": "2026-08-04T07:00:00+07:00",
-      "league": "ECU D1",
-      "home": "LDU Quito",
-      "away": "Delfin SC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507829&lan=2",
-          "status": 200,
-          "elapsed": 0.181,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ECU D1 LDU Quito vs Delfin SC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144507829",
-          "start_at": "2026-08-04T07:00:00+07:00",
-          "league": "ECU D1",
-          "home": "LDU Quito",
-          "away": "Delfin SC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5274850_1.flv?auth_key=1785809481-6901-0-90af1b80338057749493aead77eeb333",
-          "expires_at_epoch": 1785809481,
-          "expires_at_utc": "2026-08-04T02:11:21+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507829&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144507829.html"
         }
       ]
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 10,
-    "matches_processed": 10,
-    "valid_player_responses": 10,
+    "matches_selected": 7,
+    "matches_processed": 7,
+    "valid_player_responses": 7,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 8,
-    "fresh_streams_accepted": 8,
+    "streams_returned_by_api": 6,
+    "fresh_streams_accepted": 6,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.045,
-      4.263,
-      4.318,
-      4.868,
-      5.273,
-      4.895,
-      4.634,
-      4.297,
-      4.706
+      5.492,
+      4.484,
+      4.934,
+      4.483,
+      4.886,
+      4.391
     ],
-    "expires_at_min_epoch": 1785809447,
-    "expires_at_max_epoch": 1785809481,
-    "expires_at_span_seconds": 34,
-    "remaining_ttl_min_seconds": 536,
-    "remaining_ttl_max_seconds": 570,
+    "expires_at_min_epoch": 1785810028,
+    "expires_at_max_epoch": 1785810057,
+    "expires_at_span_seconds": 29,
+    "remaining_ttl_min_seconds": 540,
+    "remaining_ttl_max_seconds": 569,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 10,
-    "final_streams": 8,
-    "publish_reason": "published 8 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 8,
+    "final_streams": 6,
+    "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 43.91
+    "elapsed_seconds": 30.09
   }
 }
