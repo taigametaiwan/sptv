@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-05T08:50:25+07:00",
+  "started_at": "2026-08-05T09:00:35+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.494,
+    "elapsed": 0.531,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,218 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.109,
+        "elapsed": 0.116,
         "error": ""
       }
     ],
-    "rows_selected": 9,
+    "rows_selected": 10,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137809669",
+      "start_at": "2026-08-05T09:00:00+07:00",
+      "league": "WNBA",
+      "home": "Golden State Valkyries",
+      "away": "Toronto Tempo",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809669&lan=2",
+          "status": 200,
+          "elapsed": 0.125,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "WNBA Golden State Valkyries vs Toronto Tempo",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144579364",
+      "start_at": "2026-08-05T09:00:00+07:00",
+      "league": "NAL Cup",
+      "home": "Tigres UANL",
+      "away": "Real Salt Lake",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579364&lan=2",
+          "status": 200,
+          "elapsed": 0.123,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NAL Cup Tigres UANL vs Real Salt Lake",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144579364",
+          "start_at": "2026-08-05T09:00:00+07:00",
+          "league": "NAL Cup",
+          "home": "Tigres UANL",
+          "away": "Real Salt Lake",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5285118_1.flv?auth_key=1785895841-8244-0-421d9da0ef88801581fb38d3e6875cd7",
+          "expires_at_epoch": 1785895841,
+          "expires_at_utc": "2026-08-05T02:10:41+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579364&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144579364.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144692176",
+      "start_at": "2026-08-05T09:00:00+07:00",
+      "league": "CAFU Cup",
+      "home": "Diriangen",
+      "away": "LD Alajuelense",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144692176&lan=2",
+          "status": 200,
+          "elapsed": 0.123,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "CAFU Cup Diriangen vs LD Alajuelense",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144692176",
+          "start_at": "2026-08-05T09:00:00+07:00",
+          "league": "CAFU Cup",
+          "home": "Diriangen",
+          "away": "LD Alajuelense",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538424_1.flv?auth_key=1785895846-7204-0-6a421a2310c703157db2183bb6ff25f0",
+          "expires_at_epoch": 1785895846,
+          "expires_at_utc": "2026-08-05T02:10:46+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144692176&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144692176.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144692206",
+      "start_at": "2026-08-05T09:00:00+07:00",
+      "league": "CAFU Cup",
+      "home": "Antigua GFC",
+      "away": "Real Esteli",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144692206&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CAFU Cup Antigua GFC vs Real Esteli",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
     {
       "player_id": "5144579352",
       "start_at": "2026-08-05T08:20:00+07:00",
@@ -67,7 +271,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579352&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -108,9 +312,9 @@
           "home": "Charlotte FC",
           "away": "Pumas UNAM",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5285122_1.flv?auth_key=1785895225-7080-0-756b26903bb0d11b1d9dd95fc2ecd9a0",
-          "expires_at_epoch": 1785895225,
-          "expires_at_utc": "2026-08-05T02:00:25+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5285122_1.flv?auth_key=1785895857-7068-0-c4d6ef85c265d31c5103baddb0d7d6d3",
+          "expires_at_epoch": 1785895857,
+          "expires_at_utc": "2026-08-05T02:10:57+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579352&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144579352.html"
         }
@@ -126,7 +330,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729556&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -167,9 +371,9 @@
           "home": "Millonarios",
           "away": "Deportivo Pasto",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5529694_1.flv?auth_key=1785895230-1331-0-42ad98f3ee0e79d8101fbd59763a52ec",
-          "expires_at_epoch": 1785895230,
-          "expires_at_utc": "2026-08-05T02:00:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5529694_1.flv?auth_key=1785895862-8751-0-0e56d0a46c8c35d16868a3d51e7e5ace",
+          "expires_at_epoch": 1785895862,
+          "expires_at_utc": "2026-08-05T02:11:02+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729556&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144729556.html"
         }
@@ -185,7 +389,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357221842&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -226,9 +430,9 @@
           "home": "USA U20",
           "away": "Guatemala U20",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5649376_1.flv?auth_key=1785895236-7311-0-306366f77b9035bc38c5ac71b9b50a6b",
-          "expires_at_epoch": 1785895236,
-          "expires_at_utc": "2026-08-05T02:00:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5649376_1.flv?auth_key=1785895866-7714-0-37e54c6baabc8e900da375b0d2d27c67",
+          "expires_at_epoch": 1785895866,
+          "expires_at_utc": "2026-08-05T02:11:06+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357221842&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5357221842.html"
         }
@@ -244,7 +448,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579361&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -285,9 +489,9 @@
           "home": "Minnesota United",
           "away": "Juarez",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5285119_1.flv?auth_key=1785895240-3677-0-aa08d2982edcd808a1dc17ab1976c84c",
-          "expires_at_epoch": 1785895240,
-          "expires_at_utc": "2026-08-05T02:00:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5285119_1.flv?auth_key=1785895871-6556-0-b03c7b579644d6777ed84f086b7cb2af",
+          "expires_at_epoch": 1785895871,
+          "expires_at_utc": "2026-08-05T02:11:11+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579361&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144579361.html"
         }
@@ -303,7 +507,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144667579&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -344,9 +548,9 @@
           "home": "Remo/PA",
           "away": "Santos/SP",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5406849_1.flv?auth_key=1785895245-7927-0-c6041d97fa47b95c4513624d1029aacb",
-          "expires_at_epoch": 1785895245,
-          "expires_at_utc": "2026-08-05T02:00:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5406849_1.flv?auth_key=1785895876-9295-0-3db25e838812bb1ae028f86fd9259b1d",
+          "expires_at_epoch": 1785895876,
+          "expires_at_utc": "2026-08-05T02:11:16+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144667579&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144667579.html"
         }
@@ -362,7 +566,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864167&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -403,181 +607,20 @@
           "home": "Leones de Ponce BC",
           "away": "Santeros de Aguada BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5652617_1.flv?auth_key=1785895249-5219-0-eed2cf7903abb13fca52345b16e8ef37",
-          "expires_at_epoch": 1785895249,
-          "expires_at_utc": "2026-08-05T02:00:49+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5652617_1.flv?auth_key=1785895881-7524-0-302244d97286b49f907a45338afb57ff",
+          "expires_at_epoch": 1785895881,
+          "expires_at_utc": "2026-08-05T02:11:21+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864167&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137864167.html"
         }
       ]
-    },
-    {
-      "player_id": "5144692173",
-      "start_at": "2026-08-05T07:00:00+07:00",
-      "league": "CAFU Cup",
-      "home": "CD Plaza Amador",
-      "away": "Luis Angel Firpo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144692173&lan=2",
-          "status": 200,
-          "elapsed": 0.114,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "CAFU Cup CD Plaza Amador vs Luis Angel Firpo",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144692173",
-          "start_at": "2026-08-05T07:00:00+07:00",
-          "league": "CAFU Cup",
-          "home": "CD Plaza Amador",
-          "away": "Luis Angel Firpo",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5525386_1.flv?auth_key=1785895254-4989-0-a1ed2c8115a93c74e21cd7729942283a",
-          "expires_at_epoch": 1785895254,
-          "expires_at_utc": "2026-08-05T02:00:54+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144692173&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144692173.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144844078",
-      "start_at": "2026-08-05T07:00:00+07:00",
-      "league": "CNCF CC",
-      "home": "Violette",
-      "away": "Defence Force FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844078&lan=2",
-          "status": 200,
-          "elapsed": 0.114,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "CNCF CC Violette vs Defence Force FC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144844078",
-          "start_at": "2026-08-05T07:00:00+07:00",
-          "league": "CNCF CC",
-          "home": "Violette",
-          "away": "Defence Force FC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5640947_1.flv?auth_key=1785895259-1554-0-615bbacf3a5fc68cac581034133f7bba",
-          "expires_at_epoch": 1785895259,
-          "expires_at_utc": "2026-08-05T02:00:59+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844078&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144844078.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137809669",
-      "start_at": "2026-08-05T09:00:00+07:00",
-      "league": "WNBA",
-      "home": "Golden State Valkyries",
-      "away": "Toronto Tempo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809669&lan=2",
-          "status": 200,
-          "elapsed": 0.116,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "WNBA Golden State Valkyries vs Toronto Tempo",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 9,
-    "matches_processed": 9,
-    "valid_player_responses": 9,
+    "matches_selected": 10,
+    "matches_processed": 10,
+    "valid_player_responses": 10,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 8,
@@ -587,26 +630,27 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.639,
-      5.473,
-      4.172,
-      4.571,
-      4.053,
-      5.467,
-      4.006,
-      5.47
+      5.46,
+      4.304,
+      5.213,
+      5.169,
+      5.041,
+      4.666,
+      4.408,
+      4.625,
+      5.302
     ],
-    "expires_at_min_epoch": 1785895225,
-    "expires_at_max_epoch": 1785895259,
-    "expires_at_span_seconds": 34,
-    "remaining_ttl_min_seconds": 531,
-    "remaining_ttl_max_seconds": 565,
+    "expires_at_min_epoch": 1785895841,
+    "expires_at_max_epoch": 1785895881,
+    "expires_at_span_seconds": 40,
+    "remaining_ttl_min_seconds": 530,
+    "remaining_ttl_max_seconds": 570,
     "playlist_changed": true,
-    "preserved_unexpired_previous": 2,
-    "expired_previous_removed": 0,
-    "final_streams": 10,
-    "publish_reason": "published 8 fresh streams + preserved 2 unexpired previous streams",
+    "preserved_unexpired_previous": 0,
+    "expired_previous_removed": 10,
+    "final_streams": 8,
+    "publish_reason": "published 8 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 39.49
+    "elapsed_seconds": 46.08
   }
 }
