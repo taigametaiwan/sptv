@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-05T22:50:33+07:00",
+  "started_at": "2026-08-05T23:00:43+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.558,
+    "elapsed": 0.422,
     "error": ""
   },
   "schedule": {
@@ -49,451 +49,25 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.139,
+        "elapsed": 0.109,
         "error": ""
       }
     ],
-    "rows_selected": 30,
+    "rows_selected": 39,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5137805289",
-      "start_at": "2026-08-05T22:30:00+07:00",
-      "league": "WEuroB",
-      "home": "Netherlands U18 (W)",
-      "away": "Romania U18 (W)",
+      "player_id": "5144523972",
+      "start_at": "2026-08-05T23:00:00+07:00",
+      "league": "FIN D2",
+      "home": "VJS Vantaa",
+      "away": "PKKU",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805289&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144523972&lan=2",
           "status": 200,
-          "elapsed": 0.148,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WEuroB Netherlands U18 (W) vs Romania U18 (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137805289",
-          "start_at": "2026-08-05T22:30:00+07:00",
-          "league": "WEuroB",
-          "home": "Netherlands U18 (W)",
-          "away": "Romania U18 (W)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5281388_1.flv?auth_key=1785945634-9620-0-c80012f62a488ff087cebbf7fc6cf0da",
-          "expires_at_epoch": 1785945634,
-          "expires_at_utc": "2026-08-05T16:00:34+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805289&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137805289.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144733231",
-      "start_at": "2026-08-05T22:30:00+07:00",
-      "league": "RUS Cup",
-      "home": "Spartak Moscow",
-      "away": "FC Orenburg",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733231&lan=2",
-          "status": 200,
-          "elapsed": 0.148,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "RUS Cup Spartak Moscow vs FC Orenburg",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144733231",
-          "start_at": "2026-08-05T22:30:00+07:00",
-          "league": "RUS Cup",
-          "home": "Spartak Moscow",
-          "away": "FC Orenburg",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538436_1.flv?auth_key=1785945639-3141-0-e728ff7ec7ab05ae37509866322d95d7",
-          "expires_at_epoch": 1785945639,
-          "expires_at_utc": "2026-08-05T16:00:39+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733231&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144733231.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144733264",
-      "start_at": "2026-08-05T22:30:00+07:00",
-      "league": "RUS Cup",
-      "home": "Fakel Voronezh",
-      "away": "Dynamo Moscow",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733264&lan=2",
-          "status": 200,
-          "elapsed": 0.148,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "RUS Cup Fakel Voronezh vs Dynamo Moscow",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144733264",
-          "start_at": "2026-08-05T22:30:00+07:00",
-          "league": "RUS Cup",
-          "home": "Fakel Voronezh",
-          "away": "Dynamo Moscow",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538434_1.flv?auth_key=1785945644-8511-0-db200713b809fca11341cce77753a315",
-          "expires_at_epoch": 1785945644,
-          "expires_at_utc": "2026-08-05T16:00:44+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733264&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144733264.html"
-        },
-        {
-          "player_id": "5144733264",
-          "start_at": "2026-08-05T22:30:00+07:00",
-          "league": "RUS Cup",
-          "home": "Fakel Voronezh",
-          "away": "Dynamo Moscow",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538434_2.flv?auth_key=1785945644-5802-0-a79c2edd279c158f04ef18e8d5d096c2",
-          "expires_at_epoch": 1785945644,
-          "expires_at_utc": "2026-08-05T16:00:44+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733264&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144733264.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144861370",
-      "start_at": "2026-08-05T22:30:00+07:00",
-      "league": "Friendly",
-      "home": "Olympique Marseille",
-      "away": "Al Shahaniya SC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861370&lan=2",
-          "status": 200,
-          "elapsed": 0.148,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "Friendly Olympique Marseille vs Al Shahaniya SC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144861370",
-          "start_at": "2026-08-05T22:30:00+07:00",
-          "league": "Friendly",
-          "home": "Olympique Marseille",
-          "away": "Al Shahaniya SC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5654303_1.flv?auth_key=1785945649-8391-0-086701b66c6cd9b774fed1d4c696bd0a",
-          "expires_at_epoch": 1785945649,
-          "expires_at_utc": "2026-08-05T16:00:49+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861370&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144861370.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144603394",
-      "start_at": "2026-08-05T22:00:00+07:00",
-      "league": "BLR D1",
-      "home": "FK Ostrovets",
-      "away": "FK Osipovichi",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603394&lan=2",
-          "status": 200,
-          "elapsed": 0.148,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "BLR D1 FK Ostrovets vs FK Osipovichi",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144603394",
-          "start_at": "2026-08-05T22:00:00+07:00",
-          "league": "BLR D1",
-          "home": "FK Ostrovets",
-          "away": "FK Osipovichi",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5281365_1.flv?auth_key=1785945654-9318-0-47d7cb2c3b741c7fead4c8f743d74647",
-          "expires_at_epoch": 1785945654,
-          "expires_at_utc": "2026-08-05T16:00:54+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603394&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144603394.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144607348",
-      "start_at": "2026-08-05T22:00:00+07:00",
-      "league": "UZB PL",
-      "home": "Olympic MobiUZ",
-      "away": "QMU Jayxun",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607348&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UZB PL Olympic MobiUZ vs QMU Jayxun",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144607348",
-          "start_at": "2026-08-05T22:00:00+07:00",
-          "league": "UZB PL",
-          "home": "Olympic MobiUZ",
-          "away": "QMU Jayxun",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5289324_1.flv?auth_key=1785945659-7704-0-bd216139d001395d2a18b1bfc30560fc",
-          "expires_at_epoch": 1785945659,
-          "expires_at_utc": "2026-08-05T16:00:59+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607348&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144607348.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144670984",
-      "start_at": "2026-08-05T21:30:00+07:00",
-      "league": "POL Cup",
-      "home": "NKP Podhale Nowy Targ",
-      "away": "Chojniczanka Chojnice",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670984&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "POL Cup NKP Podhale Nowy Targ vs Chojniczanka Chojnice",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144670984",
-          "start_at": "2026-08-05T21:30:00+07:00",
-          "league": "POL Cup",
-          "home": "NKP Podhale Nowy Targ",
-          "away": "Chojniczanka Chojnice",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5421505_1.flv?auth_key=1785945665-6140-0-19acbbb48f8bfb5f98318afd2ab8aebe",
-          "expires_at_epoch": 1785945665,
-          "expires_at_utc": "2026-08-05T16:01:05+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670984&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144670984.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144844237",
-      "start_at": "2026-08-05T21:30:00+07:00",
-      "league": "ROM Cup",
-      "home": "Lotus Baile Felix",
-      "away": "Crisul Santandrei",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844237&lan=2",
-          "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -520,82 +94,23 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "ROM Cup Lotus Baile Felix vs Crisul Santandrei",
+        "title": "FIN D2 VJS Vantaa vs PKKU",
         "stream_item_count": 0,
         "stream_item_types": []
       },
       "streams": []
     },
     {
-      "player_id": "5144844315",
-      "start_at": "2026-08-05T21:30:00+07:00",
-      "league": "UEFA WCL",
-      "home": "Ferencvarosi TC Women",
-      "away": "PAOK Thessaloniki Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844315&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UEFA WCL Ferencvarosi TC Women vs PAOK Thessaloniki Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144844315",
-          "start_at": "2026-08-05T21:30:00+07:00",
-          "league": "UEFA WCL",
-          "home": "Ferencvarosi TC Women",
-          "away": "PAOK Thessaloniki Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641518_1.flv?auth_key=1785945675-7000-0-82b1ca19c3d0cb53874644221fe946cd",
-          "expires_at_epoch": 1785945675,
-          "expires_at_utc": "2026-08-05T16:01:15+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844315&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144844315.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144603376",
-      "start_at": "2026-08-05T21:00:00+07:00",
+      "player_id": "5144603400",
+      "start_at": "2026-08-05T23:00:00+07:00",
       "league": "BLR D1",
-      "home": "FK Niva Dolbizno",
-      "away": "FC Slutsk",
+      "home": "Uni X-Labs Minsk",
+      "away": "FK Smorgon",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603376&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603400&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -622,7 +137,7 @@
         ],
         "code": 0,
         "pid": 1,
-        "title": "BLR D1 FK Niva Dolbizno vs FC Slutsk",
+        "title": "BLR D1 Uni X-Labs Minsk vs FK Smorgon",
         "stream_item_count": 1,
         "stream_item_types": [
           "dict"
@@ -630,178 +145,17 @@
       },
       "streams": [
         {
-          "player_id": "5144603376",
-          "start_at": "2026-08-05T21:00:00+07:00",
+          "player_id": "5144603400",
+          "start_at": "2026-08-05T23:00:00+07:00",
           "league": "BLR D1",
-          "home": "FK Niva Dolbizno",
-          "away": "FC Slutsk",
+          "home": "Uni X-Labs Minsk",
+          "away": "FK Smorgon",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5281370_1.flv?auth_key=1785945681-2403-0-3a2c8259ea57b7c228574b6c10ad90cb",
-          "expires_at_epoch": 1785945681,
-          "expires_at_utc": "2026-08-05T16:01:21+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603376&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144603376.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144607336",
-      "start_at": "2026-08-05T21:00:00+07:00",
-      "league": "UZB PL",
-      "home": "BuxDU",
-      "away": "FK Shortan Guzar",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607336&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "UZB PL BuxDU 2-4 FK Shortan Guzar",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144668830",
-      "start_at": "2026-08-05T21:00:00+07:00",
-      "league": "POL Cup",
-      "home": "Znicz Pruszkow",
-      "away": "LKS Lodz II",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144668830&lan=2",
-          "status": 200,
-          "elapsed": 0.148,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "POL Cup Znicz Pruszkow vs LKS Lodz II",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144668830",
-          "start_at": "2026-08-05T21:00:00+07:00",
-          "league": "POL Cup",
-          "home": "Znicz Pruszkow",
-          "away": "LKS Lodz II",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5414368_1.flv?auth_key=1785945691-5578-0-ec3385e7dcd905f53d9ccb687ea24288",
-          "expires_at_epoch": 1785945691,
-          "expires_at_utc": "2026-08-05T16:01:31+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144668830&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144668830.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144844312",
-      "start_at": "2026-08-05T21:00:00+07:00",
-      "league": "UEFA WCL",
-      "home": "Apollon Limassol Women",
-      "away": "KKS Czarni Sosnowiec Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844312&lan=2",
-          "status": 200,
-          "elapsed": 0.148,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UEFA WCL Apollon Limassol Women vs KKS Czarni Sosnowiec Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144844312",
-          "start_at": "2026-08-05T21:00:00+07:00",
-          "league": "UEFA WCL",
-          "home": "Apollon Limassol Women",
-          "away": "KKS Czarni Sosnowiec Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641516_1.flv?auth_key=1785945696-5341-0-7e2e84af13b9babae5933961fc6fad24",
-          "expires_at_epoch": 1785945696,
-          "expires_at_utc": "2026-08-05T16:01:36+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844312&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144844312.html"
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5281363_1.flv?auth_key=1785946249-3731-0-4fc221b826e52339ec2389d2033496cc",
+          "expires_at_epoch": 1785946249,
+          "expires_at_utc": "2026-08-05T16:10:49+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603400&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144603400.html"
         }
       ]
     },
@@ -815,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670966&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -841,12 +195,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "POL Cup GKS Gornik Leczna vs KKS 1925 Kalisz",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144670966",
+          "start_at": "2026-08-05T23:00:00+07:00",
+          "league": "POL Cup",
+          "home": "GKS Gornik Leczna",
+          "away": "KKS 1925 Kalisz",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5421511_1.flv?auth_key=1785946254-9973-0-10cdf03d937a0bcd007d3f7d2512de34",
+          "expires_at_epoch": 1785946254,
+          "expires_at_utc": "2026-08-05T16:10:54+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670966&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144670966.html"
+        }
+      ]
     },
     {
       "player_id": "5144670987",
@@ -858,7 +228,66 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670987&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "POL Cup Sandecja Nowy Sacz vs BTS Rekord Bielsko-Biala",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144670987",
+          "start_at": "2026-08-05T23:00:00+07:00",
+          "league": "POL Cup",
+          "home": "Sandecja Nowy Sacz",
+          "away": "BTS Rekord Bielsko-Biala",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5421504_1.flv?auth_key=1785946260-2739-0-3ad82bcea9dfef383ba5b4f710e91be2",
+          "expires_at_epoch": 1785946260,
+          "expires_at_utc": "2026-08-05T16:11:00+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670987&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144670987.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144775363",
+      "start_at": "2026-08-05T23:00:00+07:00",
+      "league": "DEN Cup",
+      "home": "Hobro IK",
+      "away": "Vendsyssel FF",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144775363&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -885,7 +314,50 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "POL Cup Sandecja Nowy Sacz vs BTS Rekord Bielsko-Biala",
+        "title": "DEN Cup Hobro IK vs Vendsyssel FF",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144775399",
+      "start_at": "2026-08-05T23:00:00+07:00",
+      "league": "DEN Cup",
+      "home": "Odder IGF",
+      "away": "Skive IK",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144775399&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "DEN Cup Odder IGF vs Skive IK",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -901,7 +373,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800464&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -944,7 +416,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800479&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -978,6 +450,974 @@
       "streams": []
     },
     {
+      "player_id": "5144861394",
+      "start_at": "2026-08-05T23:00:00+07:00",
+      "league": "Friendly",
+      "home": "Stade Briochin",
+      "away": "Stade Brestois",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861394&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Friendly Stade Briochin vs Stade Brestois",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144861394",
+          "start_at": "2026-08-05T23:00:00+07:00",
+          "league": "Friendly",
+          "home": "Stade Briochin",
+          "away": "Stade Brestois",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5651790_1.flv?auth_key=1785946285-2895-0-346f8a45bee3185d9ad99f784ba25fd2",
+          "expires_at_epoch": 1785946285,
+          "expires_at_utc": "2026-08-05T16:11:25+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861394&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144861394.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144863530",
+      "start_at": "2026-08-05T23:00:00+07:00",
+      "league": "Friendly",
+      "home": "Lazio",
+      "away": "Ostia Mare",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144863530&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Friendly Lazio vs Ostia Mare",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144863530",
+          "start_at": "2026-08-05T23:00:00+07:00",
+          "league": "Friendly",
+          "home": "Lazio",
+          "away": "Ostia Mare",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653988_1.flv?auth_key=1785946291-7527-0-cde02c2ccd5c9a3284ea645e3a1e269e",
+          "expires_at_epoch": 1785946291,
+          "expires_at_utc": "2026-08-05T16:11:31+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144863530&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144863530.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144863551",
+      "start_at": "2026-08-05T23:00:00+07:00",
+      "league": "Friendly",
+      "home": "Pro Palazzolo",
+      "away": "ASD Brusaporto",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144863551&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "Friendly Pro Palazzolo vs ASD Brusaporto",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5357485026",
+      "start_at": "2026-08-05T23:00:00+07:00",
+      "league": "BLR D1",
+      "home": "Dinamo-2 Minsk",
+      "away": "FK Lida",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357485026&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "BLR D1 Dinamo-2 Minsk vs FK Lida",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5357485026",
+          "start_at": "2026-08-05T23:00:00+07:00",
+          "league": "BLR D1",
+          "home": "Dinamo-2 Minsk",
+          "away": "FK Lida",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5281367_1.flv?auth_key=1785946301-7784-0-15e3dc1d2408ac57048409954b1dfa97",
+          "expires_at_epoch": 1785946301,
+          "expires_at_utc": "2026-08-05T16:11:41+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357485026&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5357485026.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5357501901",
+      "start_at": "2026-08-05T23:00:00+07:00",
+      "league": "Friendly",
+      "home": "Skenderbeu",
+      "away": "KS Kukesi",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357501901&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "Friendly Skenderbeu vs KS Kukesi",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5137805289",
+      "start_at": "2026-08-05T22:30:00+07:00",
+      "league": "WEuroB",
+      "home": "Netherlands U18 (W)",
+      "away": "Romania U18 (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805289&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WEuroB Netherlands U18 (W) vs Romania U18 (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137805289",
+          "start_at": "2026-08-05T22:30:00+07:00",
+          "league": "WEuroB",
+          "home": "Netherlands U18 (W)",
+          "away": "Romania U18 (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5281388_1.flv?auth_key=1785946310-7921-0-11828f593018480f78212a2c45d95edd",
+          "expires_at_epoch": 1785946310,
+          "expires_at_utc": "2026-08-05T16:11:50+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805289&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137805289.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137805316",
+      "start_at": "2026-08-05T22:30:00+07:00",
+      "league": "WEuroB",
+      "home": "Norway U18 (W)",
+      "away": "Bulgaria U18 (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805316&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WEuroB Norway U18 (W) vs Bulgaria U18 (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137805316",
+          "start_at": "2026-08-05T22:30:00+07:00",
+          "league": "WEuroB",
+          "home": "Norway U18 (W)",
+          "away": "Bulgaria U18 (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5281386_1.flv?auth_key=1785946315-1183-0-5e50f30c96cd9683db38b54ca7564763",
+          "expires_at_epoch": 1785946315,
+          "expires_at_utc": "2026-08-05T16:11:55+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805316&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137805316.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144733231",
+      "start_at": "2026-08-05T22:30:00+07:00",
+      "league": "RUS Cup",
+      "home": "Spartak Moscow",
+      "away": "FC Orenburg",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733231&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "RUS Cup Spartak Moscow vs FC Orenburg",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144733231",
+          "start_at": "2026-08-05T22:30:00+07:00",
+          "league": "RUS Cup",
+          "home": "Spartak Moscow",
+          "away": "FC Orenburg",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538436_1.flv?auth_key=1785946320-1055-0-ab485c3951104fec3e95dfe11a6bce4c",
+          "expires_at_epoch": 1785946320,
+          "expires_at_utc": "2026-08-05T16:12:00+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733231&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144733231.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144733264",
+      "start_at": "2026-08-05T22:30:00+07:00",
+      "league": "RUS Cup",
+      "home": "Fakel Voronezh",
+      "away": "Dynamo Moscow",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733264&lan=2",
+          "status": 200,
+          "elapsed": 0.119,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "RUS Cup Fakel Voronezh vs Dynamo Moscow",
+        "stream_item_count": 2,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144733264",
+          "start_at": "2026-08-05T22:30:00+07:00",
+          "league": "RUS Cup",
+          "home": "Fakel Voronezh",
+          "away": "Dynamo Moscow",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538434_1.flv?auth_key=1785946325-9510-0-023b03bf2ec0f8643c576368a879aff2",
+          "expires_at_epoch": 1785946325,
+          "expires_at_utc": "2026-08-05T16:12:05+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733264&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144733264.html"
+        },
+        {
+          "player_id": "5144733264",
+          "start_at": "2026-08-05T22:30:00+07:00",
+          "league": "RUS Cup",
+          "home": "Fakel Voronezh",
+          "away": "Dynamo Moscow",
+          "line_number": 2,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538434_2.flv?auth_key=1785946325-1409-0-1e79a3acfbef76fb13dd370b971c17e7",
+          "expires_at_epoch": 1785946325,
+          "expires_at_utc": "2026-08-05T16:12:05+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733264&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144733264.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144861370",
+      "start_at": "2026-08-05T22:30:00+07:00",
+      "league": "Friendly",
+      "home": "Olympique Marseille",
+      "away": "Al Shahaniya SC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861370&lan=2",
+          "status": 200,
+          "elapsed": 0.119,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Friendly Olympique Marseille vs Al Shahaniya SC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144861370",
+          "start_at": "2026-08-05T22:30:00+07:00",
+          "league": "Friendly",
+          "home": "Olympique Marseille",
+          "away": "Al Shahaniya SC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5654303_1.flv?auth_key=1785946330-1016-0-280dd5ba9888303d759437cd09b97a1d",
+          "expires_at_epoch": 1785946330,
+          "expires_at_utc": "2026-08-05T16:12:10+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861370&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144861370.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144603394",
+      "start_at": "2026-08-05T22:00:00+07:00",
+      "league": "BLR D1",
+      "home": "FK Ostrovets",
+      "away": "FK Osipovichi",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603394&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "BLR D1 FK Ostrovets vs FK Osipovichi",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144603394",
+          "start_at": "2026-08-05T22:00:00+07:00",
+          "league": "BLR D1",
+          "home": "FK Ostrovets",
+          "away": "FK Osipovichi",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5281365_1.flv?auth_key=1785946335-4442-0-ac09966c0ec7596a2ae7f092544b7b4b",
+          "expires_at_epoch": 1785946335,
+          "expires_at_utc": "2026-08-05T16:12:15+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603394&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144603394.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144607348",
+      "start_at": "2026-08-05T22:00:00+07:00",
+      "league": "UZB PL",
+      "home": "Olympic MobiUZ",
+      "away": "QMU Jayxun",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607348&lan=2",
+          "status": 200,
+          "elapsed": 0.119,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UZB PL Olympic MobiUZ vs QMU Jayxun",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144607348",
+          "start_at": "2026-08-05T22:00:00+07:00",
+          "league": "UZB PL",
+          "home": "Olympic MobiUZ",
+          "away": "QMU Jayxun",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5289324_1.flv?auth_key=1785946340-5622-0-7ca8b59306548521a50798ee0fb910e2",
+          "expires_at_epoch": 1785946340,
+          "expires_at_utc": "2026-08-05T16:12:20+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607348&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144607348.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144670984",
+      "start_at": "2026-08-05T21:30:00+07:00",
+      "league": "POL Cup",
+      "home": "NKP Podhale Nowy Targ",
+      "away": "Chojniczanka Chojnice",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670984&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "POL Cup NKP Podhale Nowy Targ vs Chojniczanka Chojnice",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144670984",
+          "start_at": "2026-08-05T21:30:00+07:00",
+          "league": "POL Cup",
+          "home": "NKP Podhale Nowy Targ",
+          "away": "Chojniczanka Chojnice",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5421505_1.flv?auth_key=1785946345-9092-0-d1d8f1569471a08b6bf992e1efc6902f",
+          "expires_at_epoch": 1785946345,
+          "expires_at_utc": "2026-08-05T16:12:25+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670984&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144670984.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144844237",
+      "start_at": "2026-08-05T21:30:00+07:00",
+      "league": "ROM Cup",
+      "home": "Lotus Baile Felix",
+      "away": "Crisul Santandrei",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844237&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ROM Cup Lotus Baile Felix vs Crisul Santandrei",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144844315",
+      "start_at": "2026-08-05T21:30:00+07:00",
+      "league": "UEFA WCL",
+      "home": "Ferencvarosi TC Women",
+      "away": "PAOK Thessaloniki Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844315&lan=2",
+          "status": 200,
+          "elapsed": 0.121,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UEFA WCL Ferencvarosi TC Women vs PAOK Thessaloniki Women",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144844315",
+          "start_at": "2026-08-05T21:30:00+07:00",
+          "league": "UEFA WCL",
+          "home": "Ferencvarosi TC Women",
+          "away": "PAOK Thessaloniki Women",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641518_1.flv?auth_key=1785946355-8416-0-f27dd6e9074e245e1b35f9154abcbf46",
+          "expires_at_epoch": 1785946355,
+          "expires_at_utc": "2026-08-05T16:12:35+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844315&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144844315.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144668830",
+      "start_at": "2026-08-05T21:00:00+07:00",
+      "league": "POL Cup",
+      "home": "Znicz Pruszkow",
+      "away": "LKS Lodz II",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144668830&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "POL Cup Znicz Pruszkow vs LKS Lodz II",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144668830",
+          "start_at": "2026-08-05T21:00:00+07:00",
+          "league": "POL Cup",
+          "home": "Znicz Pruszkow",
+          "away": "LKS Lodz II",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5414368_1.flv?auth_key=1785946360-4521-0-a8511652207ddc29e25b39e979911448",
+          "expires_at_epoch": 1785946360,
+          "expires_at_utc": "2026-08-05T16:12:40+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144668830&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144668830.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144844312",
+      "start_at": "2026-08-05T21:00:00+07:00",
+      "league": "UEFA WCL",
+      "home": "Apollon Limassol Women",
+      "away": "KKS Czarni Sosnowiec Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844312&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UEFA WCL Apollon Limassol Women vs KKS Czarni Sosnowiec Women",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144844312",
+          "start_at": "2026-08-05T21:00:00+07:00",
+          "league": "UEFA WCL",
+          "home": "Apollon Limassol Women",
+          "away": "KKS Czarni Sosnowiec Women",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641516_1.flv?auth_key=1785946364-5178-0-bab4431a07a105261a66d81fe7219d7b",
+          "expires_at_epoch": 1785946364,
+          "expires_at_utc": "2026-08-05T16:12:44+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844312&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144844312.html"
+        }
+      ]
+    },
+    {
       "player_id": "5144842062",
       "start_at": "2026-08-05T23:30:00+07:00",
       "league": "UEFA CL",
@@ -987,7 +1427,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842062&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -1030,7 +1470,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670969&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -1073,7 +1513,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800446&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -1116,7 +1556,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800467&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -1159,7 +1599,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843481&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.121,
           "error": ""
         }
       ],
@@ -1202,7 +1642,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357476224&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -1245,7 +1685,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670990&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.121,
           "error": ""
         }
       ],
@@ -1288,7 +1728,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144443764&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -1331,7 +1771,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800458&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.121,
           "error": ""
         }
       ],
@@ -1374,7 +1814,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842068&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -1417,7 +1857,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843664&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -1460,7 +1900,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843517&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.121,
           "error": ""
         }
       ],
@@ -1503,7 +1943,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844321&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -1535,63 +1975,115 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144800455",
+      "start_at": "2026-08-06T02:00:00+07:00",
+      "league": "UEFA WCL",
+      "home": "Juventus FC Women",
+      "away": "SCU Torreense Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800455&lan=2",
+          "status": 200,
+          "elapsed": 0.12,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "UEFA WCL Juventus FC Women vs SCU Torreense Women",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 30,
-    "matches_processed": 30,
-    "valid_player_responses": 30,
+    "matches_selected": 39,
+    "matches_processed": 39,
+    "valid_player_responses": 39,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 12,
-    "fresh_streams_accepted": 12,
+    "streams_returned_by_api": 18,
+    "fresh_streams_accepted": 18,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.477,
-      4.689,
-      4.948,
-      4.239,
-      5.408,
-      5.027,
-      5.337,
-      5.31,
-      4.92,
-      4.944,
-      5.352,
-      4.459,
-      4.251,
-      5.188,
-      5.287,
-      4.57,
-      4.054,
-      4.487,
-      5.475,
-      4.354,
-      5.426,
-      4.955,
-      4.433,
-      4.188,
-      4.325,
-      4.324,
-      4.556,
-      4.23,
-      5.164
+      4.769,
+      5.105,
+      5.425,
+      4.922,
+      5.458,
+      4.414,
+      5.242,
+      4.986,
+      5.484,
+      4.216,
+      5.469,
+      4.402,
+      4.969,
+      4.396,
+      5.215,
+      4.687,
+      4.279,
+      5.131,
+      4.905,
+      4.675,
+      5.468,
+      4.336,
+      5.036,
+      4.141,
+      4.916,
+      5.322,
+      5.077,
+      5.268,
+      5.398,
+      4.467,
+      4.669,
+      5.075,
+      4.733,
+      5.072,
+      5.12,
+      5.294,
+      4.703,
+      4.892
     ],
-    "expires_at_min_epoch": 1785945634,
-    "expires_at_max_epoch": 1785945696,
-    "expires_at_span_seconds": 62,
-    "remaining_ttl_min_seconds": 426,
-    "remaining_ttl_max_seconds": 488,
+    "expires_at_min_epoch": 1785946249,
+    "expires_at_max_epoch": 1785946364,
+    "expires_at_span_seconds": 115,
+    "remaining_ttl_min_seconds": 383,
+    "remaining_ttl_max_seconds": 498,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 12,
-    "final_streams": 12,
-    "publish_reason": "published 12 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 18,
+    "publish_reason": "published 18 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 144.55
+    "elapsed_seconds": 192.38
   }
 }
