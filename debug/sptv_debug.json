@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-05T15:00:37+07:00",
+  "started_at": "2026-08-05T15:10:24+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.501,
+    "elapsed": 0.403,
     "error": ""
   },
   "schedule": {
@@ -49,68 +49,25 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.112,
+        "elapsed": 0.117,
         "error": ""
       }
     ],
-    "rows_selected": 10,
+    "rows_selected": 9,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5144844306",
-      "start_at": "2026-08-05T15:00:00+07:00",
-      "league": "UEFA WCL",
-      "home": "SK Brann Women",
-      "away": "KFF Mitrovica Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844306&lan=2",
-          "status": 200,
-          "elapsed": 0.118,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "UEFA WCL SK Brann Women vs KFF Mitrovica Women",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144861358",
+      "player_id": "5144844186",
       "start_at": "2026-08-05T15:00:00+07:00",
       "league": "Friendly",
-      "home": "CD Toledo",
-      "away": "CDA Navalcarnero",
+      "home": "Villarreal CF",
+      "away": "Levante UD",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861358&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844186&lan=2",
           "status": 200,
-          "elapsed": 0.118,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -136,12 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "Friendly CD Toledo vs CDA Navalcarnero",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "Friendly Villarreal CF vs Levante UD",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144844186",
+          "start_at": "2026-08-05T15:00:00+07:00",
+          "league": "Friendly",
+          "home": "Villarreal CF",
+          "away": "Levante UD",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641513_1.flv?auth_key=1785918024-3450-0-cd092ebba0e8748aad9187a131f8d0fd",
+          "expires_at_epoch": 1785918024,
+          "expires_at_utc": "2026-08-05T08:20:24+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844186&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144844186.html"
+        }
+      ]
     },
     {
       "player_id": "5137864302",
@@ -153,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864302&lan=2",
           "status": 200,
-          "elapsed": 0.117,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -194,9 +167,9 @@
           "home": "Cheongju KB Stars (W)",
           "away": "Yongin Samsung Life BlueMinx (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656457_1.flv?auth_key=1785917446-9602-0-78126dde95476e5af63c85a841bf45c9",
-          "expires_at_epoch": 1785917446,
-          "expires_at_utc": "2026-08-05T08:10:46+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656457_1.flv?auth_key=1785918029-7185-0-e2b578b5ce7fb70695b941c26b2fa377",
+          "expires_at_epoch": 1785918029,
+          "expires_at_utc": "2026-08-05T08:20:29+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864302&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137864302.html"
         }
@@ -212,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357702976&lan=2",
           "status": 200,
-          "elapsed": 0.118,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -253,9 +226,9 @@
           "home": "Queanbeyan City U23",
           "away": "Tuggeranong United U23",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5654279_1.flv?auth_key=1785917450-2940-0-55cbca46c71586735b864cca393d9326",
-          "expires_at_epoch": 1785917450,
-          "expires_at_utc": "2026-08-05T08:10:50+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5654279_1.flv?auth_key=1785918033-9619-0-05cbdceb9bc5294219505e6409c7daa7",
+          "expires_at_epoch": 1785918033,
+          "expires_at_utc": "2026-08-05T08:20:33+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357702976&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5357702976.html"
         }
@@ -271,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578311&lan=2",
           "status": 200,
-          "elapsed": 0.118,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -314,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578320&lan=2",
           "status": 200,
-          "elapsed": 0.117,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -357,7 +330,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800437&lan=2",
           "status": 200,
-          "elapsed": 0.117,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -400,7 +373,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526837&lan=2",
           "status": 200,
-          "elapsed": 0.117,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -443,7 +416,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800470&lan=2",
           "status": 200,
-          "elapsed": 0.117,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -486,7 +459,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800482&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -522,39 +495,38 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 10,
-    "matches_processed": 10,
-    "valid_player_responses": 10,
+    "matches_selected": 9,
+    "matches_processed": 9,
+    "valid_player_responses": 9,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 2,
-    "fresh_streams_accepted": 2,
+    "streams_returned_by_api": 3,
+    "fresh_streams_accepted": 3,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.031,
-      4.313,
-      4.001,
-      5.485,
-      4.492,
-      4.691,
-      5.472,
-      4.978,
-      5.486
+      4.493,
+      4.017,
+      5.151,
+      4.264,
+      4.343,
+      5.289,
+      5.263,
+      5.179
     ],
-    "expires_at_min_epoch": 1785917446,
-    "expires_at_max_epoch": 1785917450,
-    "expires_at_span_seconds": 4,
-    "remaining_ttl_min_seconds": 534,
-    "remaining_ttl_max_seconds": 538,
+    "expires_at_min_epoch": 1785918024,
+    "expires_at_max_epoch": 1785918033,
+    "expires_at_span_seconds": 9,
+    "remaining_ttl_min_seconds": 531,
+    "remaining_ttl_max_seconds": 540,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 2,
-    "final_streams": 2,
-    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 3,
+    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 44.75
+    "elapsed_seconds": 39.64
   }
 }
