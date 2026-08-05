@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-05T15:20:22+07:00",
+  "started_at": "2026-08-05T15:30:24+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.554,
+    "elapsed": 0.597,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.165,
+        "elapsed": 0.141,
         "error": ""
       }
     ],
-    "rows_selected": 9,
+    "rows_selected": 12,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144578311",
+      "start_at": "2026-08-05T15:30:00+07:00",
+      "league": "CHN D2N",
+      "home": "Shanghai Port B",
+      "away": "Shanxi Chongde Ronghai",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578311&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "CHN D2N Shanghai Port B vs Shanxi Chongde Ronghai",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144578311",
+          "start_at": "2026-08-05T15:30:00+07:00",
+          "league": "CHN D2N",
+          "home": "Shanghai Port B",
+          "away": "Shanxi Chongde Ronghai",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5319497_1.flv?auth_key=1785919225-5273-0-9d984c8df12152ce779f05d0b98bf249",
+          "expires_at_epoch": 1785919225,
+          "expires_at_utc": "2026-08-05T08:40:25+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578311&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144578311.html"
+        }
+      ]
+    },
     {
       "player_id": "5144844186",
       "start_at": "2026-08-05T15:00:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844186&lan=2",
           "status": 200,
-          "elapsed": 0.172,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -108,70 +167,11 @@
           "home": "Villarreal CF",
           "away": "Levante UD",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641513_1.flv?auth_key=1785918623-5414-0-d99e2babc9c39ed32f859a0d70f31dc8",
-          "expires_at_epoch": 1785918623,
-          "expires_at_utc": "2026-08-05T08:30:23+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641513_1.flv?auth_key=1785919230-6904-0-f988af0ce1693bf9b4f1765e31b4b240",
+          "expires_at_epoch": 1785919230,
+          "expires_at_utc": "2026-08-05T08:40:30+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844186&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144844186.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137864302",
-      "start_at": "2026-08-05T14:30:00+07:00",
-      "league": "FriendlyB",
-      "home": "Cheongju KB Stars (W)",
-      "away": "Yongin Samsung Life BlueMinx (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864302&lan=2",
-          "status": 200,
-          "elapsed": 0.171,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FriendlyB Cheongju KB Stars (W) vs Yongin Samsung Life BlueMinx (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137864302",
-          "start_at": "2026-08-05T14:30:00+07:00",
-          "league": "FriendlyB",
-          "home": "Cheongju KB Stars (W)",
-          "away": "Yongin Samsung Life BlueMinx (W)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656457_1.flv?auth_key=1785918627-8091-0-5d544f5ae9f1527aa068ed1af934bff3",
-          "expires_at_epoch": 1785918627,
-          "expires_at_utc": "2026-08-05T08:30:27+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864302&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137864302.html"
         }
       ]
     },
@@ -185,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357702976&lan=2",
           "status": 200,
-          "elapsed": 0.171,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -226,25 +226,25 @@
           "home": "Queanbeyan City U23",
           "away": "Tuggeranong United U23",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5654279_1.flv?auth_key=1785918632-5772-0-6b849243c795adeefbf802f449560df2",
-          "expires_at_epoch": 1785918632,
-          "expires_at_utc": "2026-08-05T08:30:32+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5654279_1.flv?auth_key=1785919236-8148-0-50945231e79dc0b409316e28f6a5d807",
+          "expires_at_epoch": 1785919236,
+          "expires_at_utc": "2026-08-05T08:40:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357702976&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5357702976.html"
         }
       ]
     },
     {
-      "player_id": "5144578311",
-      "start_at": "2026-08-05T15:30:00+07:00",
-      "league": "CHN D2N",
-      "home": "Shanghai Port B",
-      "away": "Shanxi Chongde Ronghai",
+      "player_id": "5137864302",
+      "start_at": "2026-08-05T14:20:00+07:00",
+      "league": "FriendlyB",
+      "home": "Cheongju KB Stars (W)",
+      "away": "Yongin Samsung Life BlueMinx (W)",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578311&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864302&lan=2",
           "status": 200,
-          "elapsed": 0.171,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -270,12 +270,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "CHN D2N Shanghai Port B vs Shanxi Chongde Ronghai",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "FriendlyB Cheongju KB Stars (W) vs Yongin Samsung Life BlueMinx (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5137864302",
+          "start_at": "2026-08-05T14:20:00+07:00",
+          "league": "FriendlyB",
+          "home": "Cheongju KB Stars (W)",
+          "away": "Yongin Samsung Life BlueMinx (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656457_1.flv?auth_key=1785919241-4841-0-b1baa8e9bd1385648b5f426a76f15c36",
+          "expires_at_epoch": 1785919241,
+          "expires_at_utc": "2026-08-05T08:40:41+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864302&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137864302.html"
+        }
+      ]
     },
     {
       "player_id": "5144578320",
@@ -287,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578320&lan=2",
           "status": 200,
-          "elapsed": 0.171,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -330,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800437&lan=2",
           "status": 200,
-          "elapsed": 0.171,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -373,7 +389,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526837&lan=2",
           "status": 200,
-          "elapsed": 0.172,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -416,7 +432,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800470&lan=2",
           "status": 200,
-          "elapsed": 0.171,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -459,7 +475,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800482&lan=2",
           "status": 200,
-          "elapsed": 0.173,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -491,42 +507,174 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144577918",
+      "start_at": "2026-08-05T18:30:00+07:00",
+      "league": "CHN D2S",
+      "home": "Wenzhou Professional FC",
+      "away": "Guizhou Guiyang Athletic FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144577918&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN D2S Wenzhou Professional FC vs Guizhou Guiyang Athletic FC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144577921",
+      "start_at": "2026-08-05T18:30:00+07:00",
+      "league": "CHN D2S",
+      "home": "Hubei Istar FC",
+      "away": "Jiangxi Lushan",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144577921&lan=2",
+          "status": 200,
+          "elapsed": 0.147,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN D2S Hubei Istar FC vs Jiangxi Lushan",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144578251",
+      "start_at": "2026-08-05T18:30:00+07:00",
+      "league": "CHN D2N",
+      "home": "Lanzhou Longyuan Athletic FC",
+      "away": "Beijing BIT FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578251&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN D2N Lanzhou Longyuan Athletic FC vs Beijing BIT FC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 9,
-    "matches_processed": 9,
-    "valid_player_responses": 9,
+    "matches_selected": 12,
+    "matches_processed": 12,
+    "valid_player_responses": 12,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 3,
-    "fresh_streams_accepted": 3,
+    "streams_returned_by_api": 4,
+    "fresh_streams_accepted": 4,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.337,
-      4.557,
-      5.356,
-      5.016,
-      4.2,
-      4.425,
-      4.911,
-      4.376
+      5.23,
+      4.996,
+      5.462,
+      4.443,
+      5.43,
+      4.544,
+      5.272,
+      5.078,
+      5.37,
+      4.243,
+      4.134
     ],
-    "expires_at_min_epoch": 1785918623,
-    "expires_at_max_epoch": 1785918632,
-    "expires_at_span_seconds": 9,
-    "remaining_ttl_min_seconds": 531,
-    "remaining_ttl_max_seconds": 540,
+    "expires_at_min_epoch": 1785919225,
+    "expires_at_max_epoch": 1785919241,
+    "expires_at_span_seconds": 16,
+    "remaining_ttl_min_seconds": 514,
+    "remaining_ttl_max_seconds": 530,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 3,
-    "final_streams": 3,
-    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 4,
+    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 39.45
+    "elapsed_seconds": 56.71
   }
 }
