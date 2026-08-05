@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-05T18:10:22+07:00",
+  "started_at": "2026-08-05T18:20:22+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.631,
+    "elapsed": 0.512,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.17,
+        "elapsed": 0.138,
         "error": ""
       }
     ],
@@ -59,7 +59,7 @@
   "matches": [
     {
       "player_id": "5144856723",
-      "start_at": "2026-08-05T18:00:00+07:00",
+      "start_at": "2026-08-05T18:10:00+07:00",
       "league": "Friendly",
       "home": "AC Milan",
       "away": "Inter Milan",
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144856723&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -103,29 +103,88 @@
       "streams": [
         {
           "player_id": "5144856723",
-          "start_at": "2026-08-05T18:00:00+07:00",
+          "start_at": "2026-08-05T18:10:00+07:00",
           "league": "Friendly",
           "home": "AC Milan",
           "away": "Inter Milan",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5337311_1.flv?auth_key=1785928823-4420-0-9ab52d62998be4910536776aba0c3e8c",
-          "expires_at_epoch": 1785928823,
-          "expires_at_utc": "2026-08-05T11:20:23+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5337311_1.flv?auth_key=1785929422-2277-0-26c0d8b9a1e0add06f68975f4812b302",
+          "expires_at_epoch": 1785929422,
+          "expires_at_utc": "2026-08-05T11:30:22+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144856723&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144856723.html"
         },
         {
           "player_id": "5144856723",
-          "start_at": "2026-08-05T18:00:00+07:00",
+          "start_at": "2026-08-05T18:10:00+07:00",
           "league": "Friendly",
           "home": "AC Milan",
           "away": "Inter Milan",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5337311_2.flv?auth_key=1785928823-8390-0-1efd15a60e3f1c7bf6adac74beea7516",
-          "expires_at_epoch": 1785928823,
-          "expires_at_utc": "2026-08-05T11:20:23+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5337311_2.flv?auth_key=1785929422-1437-0-6df61a9ac9d22c847c44638ab847251c",
+          "expires_at_epoch": 1785929422,
+          "expires_at_utc": "2026-08-05T11:30:22+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144856723&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144856723.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144800482",
+      "start_at": "2026-08-05T18:00:00+07:00",
+      "league": "UEFA WCL",
+      "home": "Valerenga Women",
+      "away": "Malmo FF Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800482&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UEFA WCL Valerenga Women vs Malmo FF Women",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144800482",
+          "start_at": "2026-08-05T18:00:00+07:00",
+          "league": "UEFA WCL",
+          "home": "Valerenga Women",
+          "away": "Malmo FF Women",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5584657_1.flv?auth_key=1785929426-8605-0-449a49caa9762eaa469be7ab42040437",
+          "expires_at_epoch": 1785929426,
+          "expires_at_utc": "2026-08-05T11:30:26+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800482&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144800482.html"
         }
       ]
     },
@@ -139,7 +198,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805319&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -180,9 +239,9 @@
           "home": "Switzerland U18 (W)",
           "away": "Ukraine U18 (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5641856_1.flv?auth_key=1785928828-8848-0-afe560df4e6ca220aa384b7abde6519a",
-          "expires_at_epoch": 1785928828,
-          "expires_at_utc": "2026-08-05T11:20:28+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5641856_1.flv?auth_key=1785929431-3518-0-15b01fdf2506de8afd6780cf5e6975d4",
+          "expires_at_epoch": 1785929431,
+          "expires_at_utc": "2026-08-05T11:30:31+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137805319&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137805319.html"
         }
@@ -198,7 +257,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861476&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -239,9 +298,9 @@
           "home": "Estonia U18 (W)",
           "away": "Luxembourg U18 (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5632642_1.flv?auth_key=1785928833-5289-0-2e407741c9344d63fb98a92f364f6b57",
-          "expires_at_epoch": 1785928833,
-          "expires_at_utc": "2026-08-05T11:20:33+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5632642_1.flv?auth_key=1785929435-6425-0-d75adb9bc7305e5c749a9ff6a50ec675",
+          "expires_at_epoch": 1785929435,
+          "expires_at_utc": "2026-08-05T11:30:35+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861476&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137861476.html"
         }
@@ -257,7 +316,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844174&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -298,9 +357,9 @@
           "home": "Ugyen Academy",
           "away": "BFF Academy U19",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641514_1.flv?auth_key=1785928838-3474-0-db9abffd51228b024c33e98b58de9acc",
-          "expires_at_epoch": 1785928838,
-          "expires_at_utc": "2026-08-05T11:20:38+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5641514_1.flv?auth_key=1785929440-3623-0-af63ef5efb7b334c3d7f2822bc662827",
+          "expires_at_epoch": 1785929440,
+          "expires_at_utc": "2026-08-05T11:30:40+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844174&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144844174.html"
         }
@@ -316,7 +375,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526837&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -357,25 +416,25 @@
           "home": "Queanbeyan City",
           "away": "Tuggeranong United",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5151876_1.flv?auth_key=1785928843-2093-0-f08277c749373b64f2821a7910320021",
-          "expires_at_epoch": 1785928843,
-          "expires_at_utc": "2026-08-05T11:20:43+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5151876_1.flv?auth_key=1785929444-1801-0-54aef393031c4245228e8ae08ea51a43",
+          "expires_at_epoch": 1785929444,
+          "expires_at_utc": "2026-08-05T11:30:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526837&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144526837.html"
         }
       ]
     },
     {
-      "player_id": "5137855323",
-      "start_at": "2026-08-05T16:15:00+07:00",
-      "league": "PBAGC",
-      "home": "Blackwater Bossing BC",
-      "away": "Phoenix Fuel Masters BC",
+      "player_id": "5144577918",
+      "start_at": "2026-08-05T18:30:00+07:00",
+      "league": "CHN D2S",
+      "home": "Wenzhou Professional FC",
+      "away": "Guizhou Guiyang Athletic FC",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855323&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144577918&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -402,7 +461,7 @@
         ],
         "code": 0,
         "pid": 1,
-        "title": "PBAGC Blackwater Bossing BC vs Phoenix Fuel Masters BC",
+        "title": "CHN D2S Wenzhou Professional FC vs Guizhou Guiyang Athletic FC",
         "stream_item_count": 1,
         "stream_item_types": [
           "dict"
@@ -410,62 +469,19 @@
       },
       "streams": [
         {
-          "player_id": "5137855323",
-          "start_at": "2026-08-05T16:15:00+07:00",
-          "league": "PBAGC",
-          "home": "Blackwater Bossing BC",
-          "away": "Phoenix Fuel Masters BC",
+          "player_id": "5144577918",
+          "start_at": "2026-08-05T18:30:00+07:00",
+          "league": "CHN D2S",
+          "home": "Wenzhou Professional FC",
+          "away": "Guizhou Guiyang Athletic FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5599392_1.flv?auth_key=1785928848-8395-0-7bf5546b7bedc46062a84896b77ffa73",
-          "expires_at_epoch": 1785928848,
-          "expires_at_utc": "2026-08-05T11:20:48+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855323&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137855323.html"
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5319532_1.flv?auth_key=1785929450-5126-0-98106a59be86a1d131c1de9eadbb1b0d",
+          "expires_at_epoch": 1785929450,
+          "expires_at_utc": "2026-08-05T11:30:50+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144577918&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144577918.html"
         }
       ]
-    },
-    {
-      "player_id": "5144577918",
-      "start_at": "2026-08-05T18:30:00+07:00",
-      "league": "CHN D2S",
-      "home": "Wenzhou Professional FC",
-      "away": "Guizhou Guiyang Athletic FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144577918&lan=2",
-          "status": 200,
-          "elapsed": 0.178,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CHN D2S Wenzhou Professional FC vs Guizhou Guiyang Athletic FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144577921",
@@ -477,7 +493,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144577921&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -503,12 +519,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "CHN D2S Hubei Istar FC vs Jiangxi Lushan",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144577921",
+          "start_at": "2026-08-05T18:30:00+07:00",
+          "league": "CHN D2S",
+          "home": "Hubei Istar FC",
+          "away": "Jiangxi Lushan",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5230790_1.flv?auth_key=1785929455-1892-0-475362f77bf83286da664449bb04c7cf",
+          "expires_at_epoch": 1785929455,
+          "expires_at_utc": "2026-08-05T11:30:55+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144577921&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144577921.html"
+        }
+      ]
     },
     {
       "player_id": "5144578251",
@@ -520,7 +552,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578251&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -546,12 +578,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "CHN D2N Lanzhou Longyuan Athletic FC vs Beijing BIT FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144578251",
+          "start_at": "2026-08-05T18:30:00+07:00",
+          "league": "CHN D2N",
+          "home": "Lanzhou Longyuan Athletic FC",
+          "away": "Beijing BIT FC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5094380_1.flv?auth_key=1785929460-1748-0-ec1d6a98b0d51a8cef73fc1cd1fd8a4c",
+          "expires_at_epoch": 1785929460,
+          "expires_at_utc": "2026-08-05T11:31:00+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578251&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144578251.html"
+        }
+      ]
     },
     {
       "player_id": "5144800476",
@@ -563,7 +611,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800476&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -606,7 +654,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800434&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -649,7 +697,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800449&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -692,7 +740,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800452&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -735,7 +783,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144668830&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -778,7 +826,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670978&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -821,7 +869,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144670981&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -864,7 +912,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844312&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -905,41 +953,41 @@
     "valid_player_responses": 17,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 7,
-    "fresh_streams_accepted": 7,
+    "streams_returned_by_api": 10,
+    "fresh_streams_accepted": 10,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.765,
-      5.108,
-      4.677,
-      4.754,
-      4.162,
-      5.349,
-      4.037,
-      5.345,
-      4.485,
-      4.999,
-      5.111,
-      4.726,
-      4.032,
-      4.224,
-      4.194,
-      5.304
+      4.084,
+      4.079,
+      4.305,
+      4.307,
+      4.571,
+      5.109,
+      4.9,
+      5.215,
+      4.366,
+      4.171,
+      4.076,
+      4.906,
+      5.352,
+      4.748,
+      4.41,
+      5.346
     ],
-    "expires_at_min_epoch": 1785928823,
-    "expires_at_max_epoch": 1785928848,
-    "expires_at_span_seconds": 25,
-    "remaining_ttl_min_seconds": 492,
-    "remaining_ttl_max_seconds": 517,
+    "expires_at_min_epoch": 1785929422,
+    "expires_at_max_epoch": 1785929460,
+    "expires_at_span_seconds": 38,
+    "remaining_ttl_min_seconds": 493,
+    "remaining_ttl_max_seconds": 531,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 7,
-    "final_streams": 7,
-    "publish_reason": "published 7 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 10,
+    "publish_reason": "published 10 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 79.11
+    "elapsed_seconds": 77.09
   }
 }
