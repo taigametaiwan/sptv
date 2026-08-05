@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-05T11:40:21+07:00",
+  "started_at": "2026-08-05T14:30:25+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.491,
+    "elapsed": 0.635,
     "error": ""
   },
   "schedule": {
@@ -49,39 +49,320 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.131,
+        "elapsed": 0.17,
         "error": ""
       }
     ],
-    "rows_selected": 0,
+    "rows_selected": 6,
     "window": "-150/+180"
   },
-  "matches": [],
+  "matches": [
+    {
+      "player_id": "5357702976",
+      "start_at": "2026-08-05T14:30:00+07:00",
+      "league": "AUS ACTU23",
+      "home": "Queanbeyan City U23",
+      "away": "Tuggeranong United U23",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357702976&lan=2",
+          "status": 200,
+          "elapsed": 0.177,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS ACTU23 Queanbeyan City U23 vs Tuggeranong United U23",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5357702976",
+          "start_at": "2026-08-05T14:30:00+07:00",
+          "league": "AUS ACTU23",
+          "home": "Queanbeyan City U23",
+          "away": "Tuggeranong United U23",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5654279_1.flv?auth_key=1785915626-5820-0-664c9ef5dfbf388207358d040a32dcda",
+          "expires_at_epoch": 1785915626,
+          "expires_at_utc": "2026-08-05T07:40:26+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357702976&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5357702976.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144844306",
+      "start_at": "2026-08-05T15:00:00+07:00",
+      "league": "UEFA WCL",
+      "home": "SK Brann Women",
+      "away": "KFF Mitrovica Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844306&lan=2",
+          "status": 200,
+          "elapsed": 0.176,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "UEFA WCL SK Brann Women vs KFF Mitrovica Women",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144578311",
+      "start_at": "2026-08-05T15:30:00+07:00",
+      "league": "CHN D2N",
+      "home": "Shanghai Port B",
+      "away": "Shanxi Chongde Ronghai",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578311&lan=2",
+          "status": 200,
+          "elapsed": 0.175,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN D2N Shanghai Port B vs Shanxi Chongde Ronghai",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144578320",
+      "start_at": "2026-08-05T16:00:00+07:00",
+      "league": "CHN D2N",
+      "home": "Changchun Xidu",
+      "away": "Dalian Yingbo B",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578320&lan=2",
+          "status": 200,
+          "elapsed": 0.175,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN D2N Changchun Xidu vs Dalian Yingbo B",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144800437",
+      "start_at": "2026-08-05T16:00:00+07:00",
+      "league": "UEFA WCL",
+      "home": "FK Austria Wien Women",
+      "away": "HNK Hajduk Split Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144800437&lan=2",
+          "status": 200,
+          "elapsed": 0.175,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "UEFA WCL FK Austria Wien Women vs HNK Hajduk Split Women",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144526837",
+      "start_at": "2026-08-05T16:30:00+07:00",
+      "league": "AUS NPLACT",
+      "home": "Queanbeyan City",
+      "away": "Tuggeranong United",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526837&lan=2",
+          "status": 200,
+          "elapsed": 0.175,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLACT Queanbeyan City vs Tuggeranong United",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    }
+  ],
   "summary": {
-    "status": "EMPTY_NO_VALID_KEY",
-    "matches_selected": 0,
-    "matches_processed": 0,
-    "valid_player_responses": 0,
+    "status": "PUBLISHED_FRESH",
+    "matches_selected": 6,
+    "matches_processed": 6,
+    "valid_player_responses": 6,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 0,
-    "fresh_streams_accepted": 0,
+    "streams_returned_by_api": 1,
+    "fresh_streams_accepted": 1,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
-    "request_delays_seconds": [],
-    "expires_at_min_epoch": null,
-    "expires_at_max_epoch": null,
+    "request_delays_seconds": [
+      5.265,
+      5.338,
+      4.74,
+      4.538,
+      4.748
+    ],
+    "expires_at_min_epoch": 1785915626,
+    "expires_at_max_epoch": 1785915626,
     "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": null,
-    "remaining_ttl_max_seconds": null,
+    "remaining_ttl_min_seconds": 544,
+    "remaining_ttl_max_seconds": 544,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 1,
-    "final_streams": 0,
-    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 1 expired streams",
+    "expired_previous_removed": 0,
+    "final_streams": 1,
+    "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 0.63
+    "elapsed_seconds": 26.5
   }
 }
