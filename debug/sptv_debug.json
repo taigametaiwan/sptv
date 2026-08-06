@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-06T14:00:31+07:00",
+  "started_at": "2026-08-06T14:10:25+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.589,
+    "elapsed": 0.504,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.171,
+        "elapsed": 0.139,
         "error": ""
       }
     ],
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859568&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.15,
           "error": ""
         }
       ],
@@ -93,12 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "MPBL Pasig City BC vs Bulacan Kuyas BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5137859568",
+          "start_at": "2026-08-06T14:00:00+07:00",
+          "league": "MPBL",
+          "home": "Pasig City BC",
+          "away": "Bulacan Kuyas BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600024_1.flv?auth_key=1786000826-6845-0-5c6831db897d6f3f7fd080fa114f4bee",
+          "expires_at_epoch": 1786000826,
+          "expires_at_utc": "2026-08-06T07:20:26+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859568&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137859568.html"
+        }
+      ]
     },
     {
       "player_id": "5137864305",
@@ -110,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864305&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.15,
           "error": ""
         }
       ],
@@ -151,9 +167,9 @@
           "home": "Peking University (M)",
           "away": "Shanghai Jiao Tong University (M)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656591_1.flv?auth_key=1786000237-6650-0-850a9724fbcac79876eae7bdd727ae12",
-          "expires_at_epoch": 1786000237,
-          "expires_at_utc": "2026-08-06T07:10:37+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656591_1.flv?auth_key=1786000831-7152-0-c38abda9b1de056000df30bb06148c10",
+          "expires_at_epoch": 1786000831,
+          "expires_at_utc": "2026-08-06T07:20:31+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864305&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137864305.html"
         },
@@ -164,9 +180,9 @@
           "home": "Peking University (M)",
           "away": "Shanghai Jiao Tong University (M)",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656591_2.flv?auth_key=1786000237-9549-0-c2ff4cf4b76aa8e781d63649ac4bade8",
-          "expires_at_epoch": 1786000237,
-          "expires_at_utc": "2026-08-06T07:10:37+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656591_2.flv?auth_key=1786000831-6815-0-94721a6a062afda33ee79239dd82f640",
+          "expires_at_epoch": 1786000831,
+          "expires_at_utc": "2026-08-06T07:20:31+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864305&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137864305.html"
         }
@@ -182,7 +198,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859571&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.149,
           "error": ""
         }
       ],
@@ -225,7 +241,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861338&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.148,
           "error": ""
         }
       ],
@@ -266,28 +282,28 @@
     "valid_player_responses": 4,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 2,
-    "fresh_streams_accepted": 2,
+    "streams_returned_by_api": 3,
+    "fresh_streams_accepted": 3,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.969,
-      4.844,
-      5.097
+      4.601,
+      4.276,
+      5.116
     ],
-    "expires_at_min_epoch": 1786000237,
-    "expires_at_max_epoch": 1786000237,
-    "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": 560,
-    "remaining_ttl_max_seconds": 560,
+    "expires_at_min_epoch": 1786000826,
+    "expires_at_max_epoch": 1786000831,
+    "expires_at_span_seconds": 5,
+    "remaining_ttl_min_seconds": 556,
+    "remaining_ttl_max_seconds": 561,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 2,
-    "final_streams": 2,
-    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 3,
+    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 16.41
+    "elapsed_seconds": 15.25
   }
 }
