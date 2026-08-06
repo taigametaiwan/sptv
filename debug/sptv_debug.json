@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-06T18:20:27+07:00",
+  "started_at": "2026-08-06T18:30:30+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.518,
+    "elapsed": 0.45,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.138,
+        "elapsed": 0.119,
         "error": ""
       }
     ],
@@ -57,6 +57,137 @@
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137864074",
+      "start_at": "2026-08-06T18:30:00+07:00",
+      "league": "ANBL",
+      "home": "Rockingham Flames BC",
+      "away": "Perry Lakes Hawks BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864074&lan=2",
+          "status": 200,
+          "elapsed": 0.132,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ANBL Rockingham Flames BC vs Perry Lakes Hawks BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137864074",
+          "start_at": "2026-08-06T18:30:00+07:00",
+          "league": "ANBL",
+          "home": "Rockingham Flames BC",
+          "away": "Perry Lakes Hawks BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5649304_1.flv?auth_key=1786016430-2243-0-9aa3d50ce16663ba547807141a7a7021",
+          "expires_at_epoch": 1786016430,
+          "expires_at_utc": "2026-08-06T11:40:30+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864074&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137864074.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137864308",
+      "start_at": "2026-08-06T18:30:00+07:00",
+      "league": "AUBL",
+      "home": "Tsinghua University (M)",
+      "away": "Philippines University (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864308&lan=2",
+          "status": 200,
+          "elapsed": 0.132,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUBL Tsinghua University (M) vs Philippines University (M)",
+        "stream_item_count": 2,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137864308",
+          "start_at": "2026-08-06T18:30:00+07:00",
+          "league": "AUBL",
+          "home": "Tsinghua University (M)",
+          "away": "Philippines University (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656592_1.flv?auth_key=1786016435-8049-0-0893ed842a6d0f47c587e8204adcb630",
+          "expires_at_epoch": 1786016435,
+          "expires_at_utc": "2026-08-06T11:40:35+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864308&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137864308.html"
+        },
+        {
+          "player_id": "5137864308",
+          "start_at": "2026-08-06T18:30:00+07:00",
+          "league": "AUBL",
+          "home": "Tsinghua University (M)",
+          "away": "Philippines University (M)",
+          "line_number": 2,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5656592_2.flv?auth_key=1786016435-7003-0-6e17b2ba80bcd92a40a070330f3feb74",
+          "expires_at_epoch": 1786016435,
+          "expires_at_utc": "2026-08-06T11:40:35+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864308&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137864308.html"
+        }
+      ]
+    },
     {
       "player_id": "5137859574",
       "start_at": "2026-08-06T18:00:00+07:00",
@@ -67,7 +198,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859574&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -110,7 +241,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861713&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -153,7 +284,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357742747&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -194,115 +325,13 @@
           "home": "Salisbury United",
           "away": "South Adelaide Panthers",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294532_1.flv?auth_key=1786015838-5292-0-1d50e656e855c0816f3930c0b158c411",
-          "expires_at_epoch": 1786015838,
-          "expires_at_utc": "2026-08-06T11:30:38+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294532_1.flv?auth_key=1786016450-3404-0-c4b6093a3df1b3d5b7ec3d4c46469351",
+          "expires_at_epoch": 1786016450,
+          "expires_at_utc": "2026-08-06T11:40:50+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5357742747&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5357742747.html"
         }
       ]
-    },
-    {
-      "player_id": "5137859571",
-      "start_at": "2026-08-06T16:00:00+07:00",
-      "league": "MPBL",
-      "home": "Abra Weavers BC",
-      "away": "Bataan Risers BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859571&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "MPBL Abra Weavers BC vs Bataan Risers BC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137859571",
-          "start_at": "2026-08-06T16:00:00+07:00",
-          "league": "MPBL",
-          "home": "Abra Weavers BC",
-          "away": "Bataan Risers BC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600025_1.flv?auth_key=1786015843-9808-0-f1d9c148aefbd3e688d6ec19b878312f",
-          "expires_at_epoch": 1786015843,
-          "expires_at_utc": "2026-08-06T11:30:43+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859571&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137859571.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137864308",
-      "start_at": "2026-08-06T18:30:00+07:00",
-      "league": "AUBL",
-      "home": "Tsinghua University (M)",
-      "away": "Philippines University (M)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864308&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "AUBL Tsinghua University (M) vs Philippines University (M)",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144589180",
@@ -314,7 +343,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589180&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -357,7 +386,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589198&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -400,7 +429,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589183&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -443,7 +472,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589192&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -486,7 +515,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493516&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -527,34 +556,34 @@
     "valid_player_responses": 10,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 2,
-    "fresh_streams_accepted": 2,
+    "streams_returned_by_api": 4,
+    "fresh_streams_accepted": 4,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.879,
-      5.313,
-      5.062,
-      5.071,
-      5.404,
-      4.849,
-      4.988,
-      5.379,
-      5.269
+      4.641,
+      5.181,
+      4.265,
+      5.209,
+      4.266,
+      5.055,
+      4.107,
+      5.32,
+      5.313
     ],
-    "expires_at_min_epoch": 1786015838,
-    "expires_at_max_epoch": 1786015843,
-    "expires_at_span_seconds": 5,
-    "remaining_ttl_min_seconds": 533,
-    "remaining_ttl_max_seconds": 538,
+    "expires_at_min_epoch": 1786016430,
+    "expires_at_max_epoch": 1786016450,
+    "expires_at_span_seconds": 20,
+    "remaining_ttl_min_seconds": 525,
+    "remaining_ttl_max_seconds": 545,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 2,
-    "final_streams": 2,
-    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 4,
+    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 48.37
+    "elapsed_seconds": 45.25
   }
 }
