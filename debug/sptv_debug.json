@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-08T04:00:34+07:00",
+  "started_at": "2026-08-08T04:10:28+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.585,
+    "elapsed": 0.626,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.136,
+        "elapsed": 0.163,
         "error": ""
       }
     ],
-    "rows_selected": 15,
+    "rows_selected": 14,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144865432",
+      "start_at": "2026-08-08T04:00:00+07:00",
+      "league": "CNCF U20",
+      "home": "Costa Rica U20",
+      "away": "USA U20",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144865432&lan=2",
+          "status": 200,
+          "elapsed": 0.178,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "CNCF U20 Costa Rica U20 vs USA U20",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144865432",
+          "start_at": "2026-08-08T04:00:00+07:00",
+          "league": "CNCF U20",
+          "home": "Costa Rica U20",
+          "away": "USA U20",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5659196_1.flv?auth_key=1786137629-2682-0-d62751b6c7fb905c328ec73fb002faa1",
+          "expires_at_epoch": 1786137629,
+          "expires_at_utc": "2026-08-07T21:20:29+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144865432&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144865432.html"
+        }
+      ]
+    },
     {
       "player_id": "5144724168",
       "start_at": "2026-08-08T03:15:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724168&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -108,9 +167,9 @@
           "home": "Comerciantes Unidos",
           "away": "Cusco FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5536424_1.flv?auth_key=1786137034-9909-0-8c2997993597c9401d8a75ab0d004726",
-          "expires_at_epoch": 1786137034,
-          "expires_at_utc": "2026-08-07T21:10:34+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5536424_1.flv?auth_key=1786137634-3368-0-1e7f3b862d889bb80702cf8c0553db2a",
+          "expires_at_epoch": 1786137634,
+          "expires_at_utc": "2026-08-07T21:20:34+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724168&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144724168.html"
         }
@@ -126,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844666&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -167,129 +226,11 @@
           "home": "Union Comercio",
           "away": "AD Cantolao",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5587217_1.flv?auth_key=1786137040-8848-0-9fc984c5a08b15159ccde9fb16496e3f",
-          "expires_at_epoch": 1786137040,
-          "expires_at_utc": "2026-08-07T21:10:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5587217_1.flv?auth_key=1786137639-4827-0-a68cd7e0e2fc5eff96162af0474e141e",
+          "expires_at_epoch": 1786137639,
+          "expires_at_utc": "2026-08-07T21:20:39+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844666&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144844666.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144488008",
-      "start_at": "2026-08-08T02:15:00+07:00",
-      "league": "ICE D1",
-      "home": "UMF Afturelding",
-      "away": "UMF Grindavik",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144488008&lan=2",
-          "status": 200,
-          "elapsed": 0.151,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ICE D1 UMF Afturelding vs UMF Grindavik",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144488008",
-          "start_at": "2026-08-08T02:15:00+07:00",
-          "league": "ICE D1",
-          "home": "UMF Afturelding",
-          "away": "UMF Grindavik",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294502_1.flv?auth_key=1786137044-3155-0-c43136df6566e86efda3891aea97140c",
-          "expires_at_epoch": 1786137044,
-          "expires_at_utc": "2026-08-07T21:10:44+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144488008&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144488008.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144764500",
-      "start_at": "2026-08-08T02:15:00+07:00",
-      "league": "POR PL",
-      "home": "GD Estoril Praia",
-      "away": "FC Famalicao",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144764500&lan=2",
-          "status": 200,
-          "elapsed": 0.15,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "POR PL GD Estoril Praia vs FC Famalicao",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144764500",
-          "start_at": "2026-08-08T02:15:00+07:00",
-          "league": "POR PL",
-          "home": "GD Estoril Praia",
-          "away": "FC Famalicao",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5536529_1.flv?auth_key=1786137049-1618-0-8332bfd5889bb4515dd246df72257bf9",
-          "expires_at_epoch": 1786137049,
-          "expires_at_utc": "2026-08-07T21:10:49+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144764500&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144764500.html"
         }
       ]
     },
@@ -303,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144865453&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -346,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514543&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -389,7 +330,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581878&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -432,7 +373,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144443965&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -475,7 +416,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144506959&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -518,7 +459,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565204&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -561,7 +502,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809693&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -604,7 +545,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809696&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -647,7 +588,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514528&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -690,7 +631,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507841&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -733,7 +674,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565195&lan=2",
           "status": 200,
-          "elapsed": 0.15,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -769,44 +710,43 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 15,
-    "matches_processed": 15,
-    "valid_player_responses": 15,
+    "matches_selected": 14,
+    "matches_processed": 14,
+    "valid_player_responses": 14,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 4,
-    "fresh_streams_accepted": 4,
+    "streams_returned_by_api": 3,
+    "fresh_streams_accepted": 3,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.262,
-      4.345,
-      4.469,
-      4.813,
-      4.339,
-      5.267,
-      4.055,
-      4.663,
-      4.834,
-      5.192,
-      4.713,
-      5.497,
-      4.96,
-      5.208
+      4.971,
+      4.655,
+      4.588,
+      5.32,
+      4.828,
+      4.5,
+      4.603,
+      4.145,
+      4.021,
+      5.221,
+      4.635,
+      4.563,
+      4.963
     ],
-    "expires_at_min_epoch": 1786137034,
-    "expires_at_max_epoch": 1786137049,
-    "expires_at_span_seconds": 15,
-    "remaining_ttl_min_seconds": 500,
-    "remaining_ttl_max_seconds": 515,
+    "expires_at_min_epoch": 1786137629,
+    "expires_at_max_epoch": 1786137639,
+    "expires_at_span_seconds": 10,
+    "remaining_ttl_min_seconds": 507,
+    "remaining_ttl_max_seconds": 517,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 6,
-    "final_streams": 4,
-    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 4,
+    "final_streams": 3,
+    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 70.61
+    "elapsed_seconds": 64.3
   }
 }
