@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-08T10:30:32+07:00",
+  "started_at": "2026-08-08T10:40:24+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.494,
+    "elapsed": 0.5,
     "error": ""
   },
   "schedule": {
@@ -49,11 +49,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.136,
+        "elapsed": 0.139,
         "error": ""
       }
     ],
-    "rows_selected": 17,
+    "rows_selected": 19,
     "window": "-150/+180"
   },
   "matches": [
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813397&lan=2",
           "status": 200,
-          "elapsed": 0.152,
+          "elapsed": 0.155,
           "error": ""
         }
       ],
@@ -99,6 +99,124 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144813361",
+      "start_at": "2026-08-08T10:00:00+07:00",
+      "league": "NZL NLN",
+      "home": "Auckland United",
+      "away": "Tauranga City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813361&lan=2",
+          "status": 200,
+          "elapsed": 0.152,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NZL NLN Auckland United vs Tauranga City",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144813361",
+          "start_at": "2026-08-08T10:00:00+07:00",
+          "league": "NZL NLN",
+          "home": "Auckland United",
+          "away": "Tauranga City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5643651_1.flv?auth_key=1786161029-6428-0-fe2be49aa259d66d94652c2019f90b8b",
+          "expires_at_epoch": 1786161029,
+          "expires_at_utc": "2026-08-08T03:50:29+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813361&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144813361.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144813382",
+      "start_at": "2026-08-08T10:00:00+07:00",
+      "league": "NZL NLC",
+      "home": "Wellington Phoenix Reserves",
+      "away": "Wellington Olympic",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813382&lan=2",
+          "status": 200,
+          "elapsed": 0.153,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NZL NLC Wellington Phoenix Reserves vs Wellington Olympic",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144813382",
+          "start_at": "2026-08-08T10:00:00+07:00",
+          "league": "NZL NLC",
+          "home": "Wellington Phoenix Reserves",
+          "away": "Wellington Olympic",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5643652_1.flv?auth_key=1786161033-9166-0-4e9dada43d6691030ed0bd2b8aef6c59",
+          "expires_at_epoch": 1786161033,
+          "expires_at_utc": "2026-08-08T03:50:33+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813382&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144813382.html"
+        }
+      ]
     },
     {
       "player_id": "5144866473",
@@ -151,9 +269,9 @@
           "home": "Canada U20",
           "away": "Mexico U20",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5659567_1.flv?auth_key=1786160438-8927-0-143248d82d0faaaf810b8d1a5172d717",
-          "expires_at_epoch": 1786160438,
-          "expires_at_utc": "2026-08-08T03:40:38+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5659567_1.flv?auth_key=1786161038-2144-0-411e3975bfab707b30ce0e6b7b773393",
+          "expires_at_epoch": 1786161038,
+          "expires_at_utc": "2026-08-08T03:50:38+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144866473&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144866473.html"
         }
@@ -169,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579415&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.152,
           "error": ""
         }
       ],
@@ -210,11 +328,70 @@
           "home": "Vancouver Whitecaps",
           "away": "Juarez",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297128_1.flv?auth_key=1786160443-5081-0-e46df015306628a8eb3b46c5459f2ad3",
-          "expires_at_epoch": 1786160443,
-          "expires_at_utc": "2026-08-08T03:40:43+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297128_1.flv?auth_key=1786161043-1303-0-0f42514c77f360f9b475ce289262b885",
+          "expires_at_epoch": 1786161043,
+          "expires_at_utc": "2026-08-08T03:50:43+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579415&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144579415.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144813379",
+      "start_at": "2026-08-08T09:30:00+07:00",
+      "league": "NZL NLC",
+      "home": "Miramar Rangers",
+      "away": "FC Western",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813379&lan=2",
+          "status": 200,
+          "elapsed": 0.155,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NZL NLC Miramar Rangers vs FC Western",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144813379",
+          "start_at": "2026-08-08T09:30:00+07:00",
+          "league": "NZL NLC",
+          "home": "Miramar Rangers",
+          "away": "FC Western",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5643649_1.flv?auth_key=1786161048-3323-0-0927f0039fdbd3b10a433ef4186ebc27",
+          "expires_at_epoch": 1786161048,
+          "expires_at_utc": "2026-08-08T03:50:48+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813379&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144813379.html"
         }
       ]
     },
@@ -269,25 +446,25 @@
           "home": "CS Cartagines",
           "away": "Sporting FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538640_1.flv?auth_key=1786160448-8556-0-cdfff4c5781810c808a545f2fed67d2c",
-          "expires_at_epoch": 1786160448,
-          "expires_at_utc": "2026-08-08T03:40:48+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538640_1.flv?auth_key=1786161052-1693-0-113db791f39863b011389982d9c42fdc",
+          "expires_at_epoch": 1786161052,
+          "expires_at_utc": "2026-08-08T03:50:52+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821797&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144821797.html"
         }
       ]
     },
     {
-      "player_id": "5137809699",
-      "start_at": "2026-08-08T08:30:00+07:00",
-      "league": "WNBA",
-      "home": "Dallas Wings",
-      "away": "Golden State Valkyries",
+      "player_id": "5144813394",
+      "start_at": "2026-08-08T10:45:00+07:00",
+      "league": "NZL NLC",
+      "home": "Island Bay United",
+      "away": "Upper Hutt City",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809699&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813394&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.155,
           "error": ""
         }
       ],
@@ -313,100 +490,12 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
-        "title": "WNBA Dallas Wings vs Golden State Valkyries",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
+        "pid": 0,
+        "title": "NZL NLC Island Bay United vs Upper Hutt City",
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
-      "streams": [
-        {
-          "player_id": "5137809699",
-          "start_at": "2026-08-08T08:30:00+07:00",
-          "league": "WNBA",
-          "home": "Dallas Wings",
-          "away": "Golden State Valkyries",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5293276_1.flv?auth_key=1786160453-6508-0-e9aef15c4ec42464a52a44dd5bfee329",
-          "expires_at_epoch": 1786160453,
-          "expires_at_utc": "2026-08-08T03:40:53+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809699&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137809699.html"
-        },
-        {
-          "player_id": "5137809699",
-          "start_at": "2026-08-08T08:30:00+07:00",
-          "league": "WNBA",
-          "home": "Dallas Wings",
-          "away": "Golden State Valkyries",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5293276_2.flv?auth_key=1786160453-5878-0-907c3cf0556c7f5c6fb047d7b2d0b829",
-          "expires_at_epoch": 1786160453,
-          "expires_at_utc": "2026-08-08T03:40:53+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809699&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137809699.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144832120",
-      "start_at": "2026-08-08T08:05:00+07:00",
-      "league": "MEX LMXW",
-      "home": "Atlas Women",
-      "away": "Pachuca Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832120&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "MEX LMXW Atlas Women vs Pachuca Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144832120",
-          "start_at": "2026-08-08T08:05:00+07:00",
-          "league": "MEX LMXW",
-          "home": "Atlas Women",
-          "away": "Pachuca Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615132_1.flv?auth_key=1786160458-7426-0-d7bb0bb5ad4d7946dea4a4d87aca7b71",
-          "expires_at_epoch": 1786160458,
-          "expires_at_utc": "2026-08-08T03:40:58+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832120&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144832120.html"
-        }
-      ]
+      "streams": []
     },
     {
       "player_id": "5144527194",
@@ -418,7 +507,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527194&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.516,
           "error": ""
         }
       ],
@@ -461,7 +550,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526894&lan=2",
           "status": 200,
-          "elapsed": 0.155,
+          "elapsed": 0.152,
           "error": ""
         }
       ],
@@ -547,7 +636,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527200&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.154,
           "error": ""
         }
       ],
@@ -590,7 +679,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527203&lan=2",
           "status": 200,
-          "elapsed": 0.151,
+          "elapsed": 0.156,
           "error": ""
         }
       ],
@@ -633,7 +722,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144527206&lan=2",
           "status": 200,
-          "elapsed": 0.152,
+          "elapsed": 0.156,
           "error": ""
         }
       ],
@@ -676,7 +765,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431611&lan=2",
           "status": 200,
-          "elapsed": 0.152,
+          "elapsed": 0.151,
           "error": ""
         }
       ],
@@ -719,7 +808,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144441247&lan=2",
           "status": 200,
-          "elapsed": 0.155,
+          "elapsed": 0.152,
           "error": ""
         }
       ],
@@ -762,7 +851,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144431617&lan=2",
           "status": 200,
-          "elapsed": 0.154,
+          "elapsed": 0.155,
           "error": ""
         }
       ],
@@ -805,7 +894,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486823&lan=2",
           "status": 200,
-          "elapsed": 0.152,
+          "elapsed": 0.155,
           "error": ""
         }
       ],
@@ -884,9 +973,9 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 17,
-    "matches_processed": 17,
-    "valid_player_responses": 17,
+    "matches_selected": 19,
+    "matches_processed": 19,
+    "valid_player_responses": 19,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 6,
@@ -896,34 +985,36 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.383,
-      4.488,
-      5.169,
-      5.129,
-      4.433,
-      5.181,
+      4.071,
+      4.266,
+      4.579,
+      5.03,
+      4.788,
+      4.031,
       4.934,
-      4.509,
-      5.102,
-      5.238,
-      5.351,
-      4.494,
-      5.394,
-      5.125,
-      4.528,
-      4.141
+      4.525,
+      4.433,
+      4.799,
+      5.082,
+      4.512,
+      4.876,
+      4.434,
+      5.142,
+      4.564,
+      5.138,
+      4.268
     ],
-    "expires_at_min_epoch": 1786160438,
-    "expires_at_max_epoch": 1786160458,
-    "expires_at_span_seconds": 20,
-    "remaining_ttl_min_seconds": 494,
-    "remaining_ttl_max_seconds": 514,
+    "expires_at_min_epoch": 1786161029,
+    "expires_at_max_epoch": 1786161052,
+    "expires_at_span_seconds": 23,
+    "remaining_ttl_min_seconds": 488,
+    "remaining_ttl_max_seconds": 511,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 7,
+    "expired_previous_removed": 6,
     "final_streams": 6,
     "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 81.85
+    "elapsed_seconds": 87.42
   }
 }
