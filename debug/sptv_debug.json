@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-09T12:10:26+07:00",
+  "started_at": "2026-08-09T12:20:21+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.396,
+    "elapsed": 0.607,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.109,
+        "elapsed": 0.17,
         "error": ""
       }
     ],
-    "rows_selected": 13,
+    "rows_selected": 11,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144526588",
+      "start_at": "2026-08-09T12:10:00+07:00",
+      "league": "AUS NNNPL",
+      "home": "Charlestown Azzurri FC",
+      "away": "Maitland",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526588&lan=2",
+          "status": 200,
+          "elapsed": 0.178,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS NNNPL Charlestown Azzurri FC vs Maitland",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144526588",
+          "start_at": "2026-08-09T12:10:00+07:00",
+          "league": "AUS NNNPL",
+          "home": "Charlestown Azzurri FC",
+          "away": "Maitland",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297196_1.flv?auth_key=1786253422-1914-0-efda05b3bc4e386511eeb47d809ff89e",
+          "expires_at_epoch": 1786253422,
+          "expires_at_utc": "2026-08-09T05:30:22+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526588&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144526588.html"
+        }
+      ]
+    },
     {
       "player_id": "5144486838",
       "start_at": "2026-08-09T12:00:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486838&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -108,70 +167,11 @@
           "home": "Wollongong Wolves",
           "away": "Sydney United 58",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297193_1.flv?auth_key=1786252826-8192-0-7200e66bf1ffe5dea5bf6ba2ddca2441",
-          "expires_at_epoch": 1786252826,
-          "expires_at_utc": "2026-08-09T05:20:26+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297193_1.flv?auth_key=1786253427-9956-0-8a4e58601b5b1378534e49728e3fc74b",
+          "expires_at_epoch": 1786253427,
+          "expires_at_utc": "2026-08-09T05:30:27+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486838&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144486838.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144526588",
-      "start_at": "2026-08-09T12:00:00+07:00",
-      "league": "AUS NNNPL",
-      "home": "Charlestown Azzurri FC",
-      "away": "Maitland",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526588&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AUS NNNPL Charlestown Azzurri FC vs Maitland",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144526588",
-          "start_at": "2026-08-09T12:00:00+07:00",
-          "league": "AUS NNNPL",
-          "home": "Charlestown Azzurri FC",
-          "away": "Maitland",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297196_1.flv?auth_key=1786252831-1508-0-17a9d63fe9d9c10025e82407fd68d9e3",
-          "expires_at_epoch": 1786252831,
-          "expires_at_utc": "2026-08-09T05:20:31+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526588&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144526588.html"
         }
       ]
     },
@@ -185,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576715&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -226,9 +226,9 @@
           "home": "Macarthur Rams Women",
           "away": "University of New South Wales Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294527_1.flv?auth_key=1786252836-5092-0-da60e510960ad34e987d7ba2d2f347a6",
-          "expires_at_epoch": 1786252836,
-          "expires_at_utc": "2026-08-09T05:20:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294527_1.flv?auth_key=1786253431-9950-0-44fe6c4d2331239b41f2eb8309ed6f65",
+          "expires_at_epoch": 1786253431,
+          "expires_at_utc": "2026-08-09T05:30:31+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576715&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144576715.html"
         }
@@ -244,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144639730&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -285,9 +285,9 @@
           "home": "Melbourne Victory Youth Women",
           "away": "Spring Hills Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5295451_1.flv?auth_key=1786252840-9051-0-17bf4f01aaf4b55de249c9b49fc97235",
-          "expires_at_epoch": 1786252840,
-          "expires_at_utc": "2026-08-09T05:20:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5295451_1.flv?auth_key=1786253436-4335-0-a17e63fd343ef441fe380143e028fb8e",
+          "expires_at_epoch": 1786253436,
+          "expires_at_utc": "2026-08-09T05:30:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144639730&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144639730.html"
         }
@@ -303,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144759991&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -344,9 +344,9 @@
           "home": "SKA Khabarovsk",
           "away": "Spartak Kostroma",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5536544_1.flv?auth_key=1786252845-7397-0-e971ac7be4539c69e9af1ce6e5ee694b",
-          "expires_at_epoch": 1786252845,
-          "expires_at_utc": "2026-08-09T05:20:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5536544_1.flv?auth_key=1786253441-3506-0-c679c25695e43fc68241d908880208d2",
+          "expires_at_epoch": 1786253441,
+          "expires_at_utc": "2026-08-09T05:30:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144759991&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144759991.html"
         }
@@ -362,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576712&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -403,9 +403,9 @@
           "home": "Bulls Academy Women",
           "away": "Sydney University Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294526_1.flv?auth_key=1786252850-6403-0-d2342ece03e7d0e22a53a901f15b9f7e",
-          "expires_at_epoch": 1786252850,
-          "expires_at_utc": "2026-08-09T05:20:50+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294526_1.flv?auth_key=1786253446-7976-0-465bbd1f6dd14e2fd8550138c109bbb7",
+          "expires_at_epoch": 1786253446,
+          "expires_at_utc": "2026-08-09T05:30:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576712&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144576712.html"
         }
@@ -421,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144867103&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -462,9 +462,9 @@
           "home": "Taroona Women",
           "away": "Glenorchy Knights Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5663028_1.flv?auth_key=1786252855-7993-0-14560d3eaddc6bbf69d94d25a76104ff",
-          "expires_at_epoch": 1786252855,
-          "expires_at_utc": "2026-08-09T05:20:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5663028_1.flv?auth_key=1786253450-2592-0-4256ba18b5aa7d1e3cde08dcb11479cd",
+          "expires_at_epoch": 1786253450,
+          "expires_at_utc": "2026-08-09T05:30:50+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144867103&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144867103.html"
         }
@@ -480,7 +480,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861341&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -521,9 +521,9 @@
           "home": "Melbourne United BC",
           "away": "B League Utd BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5630271_1.flv?auth_key=1786252860-7809-0-0717eb78facc49130d46adcd52ef8dc1",
-          "expires_at_epoch": 1786252860,
-          "expires_at_utc": "2026-08-09T05:21:00+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5630271_1.flv?auth_key=1786253454-1432-0-fa0e1d7a845e6896bb734eb6814302d3",
+          "expires_at_epoch": 1786253454,
+          "expires_at_utc": "2026-08-09T05:30:54+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861341&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137861341.html"
         }
@@ -539,7 +539,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137874067&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -580,129 +580,11 @@
           "home": "Joondalup Wolves BC",
           "away": "Geraldton Buccaneers BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5665790_1.flv?auth_key=1786252864-9959-0-9dd56286395dcfcf2b6fab81285d3e55",
-          "expires_at_epoch": 1786252864,
-          "expires_at_utc": "2026-08-09T05:21:04+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5665790_1.flv?auth_key=1786253459-3967-0-5bd7e97114c6465056a26dd0bc18f093",
+          "expires_at_epoch": 1786253459,
+          "expires_at_utc": "2026-08-09T05:30:59+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137874067&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137874067.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144579433",
-      "start_at": "2026-08-09T10:20:00+07:00",
-      "league": "NAL Cup",
-      "home": "Toluca",
-      "away": "Los Angeles FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579433&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "NAL Cup Toluca vs Los Angeles FC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144579433",
-          "start_at": "2026-08-09T10:20:00+07:00",
-          "league": "NAL Cup",
-          "home": "Toluca",
-          "away": "Los Angeles FC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301300_1.flv?auth_key=1786252869-7505-0-26fbf0d942d8b6169241443e521da662",
-          "expires_at_epoch": 1786252869,
-          "expires_at_utc": "2026-08-09T05:21:09+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579433&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144579433.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137864068",
-      "start_at": "2026-08-09T10:00:00+07:00",
-      "league": "NZNBL",
-      "home": "Southland Sharks BC",
-      "away": "Wellington Saints BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864068&lan=2",
-          "status": 200,
-          "elapsed": 0.114,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "NZNBL Southland Sharks BC vs Wellington Saints BC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137864068",
-          "start_at": "2026-08-09T10:00:00+07:00",
-          "league": "NZNBL",
-          "home": "Southland Sharks BC",
-          "away": "Wellington Saints BC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5649817_1.flv?auth_key=1786252874-3502-0-bfeb67c6da8c3abce1e4336d8d72bbd7",
-          "expires_at_epoch": 1786252874,
-          "expires_at_utc": "2026-08-09T05:21:14+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864068&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137864068.html"
         }
       ]
     },
@@ -716,7 +598,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859976&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -759,7 +641,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576727&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -795,42 +677,40 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 13,
-    "matches_processed": 13,
-    "valid_player_responses": 13,
+    "matches_selected": 11,
+    "matches_processed": 11,
+    "valid_player_responses": 11,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 11,
-    "fresh_streams_accepted": 11,
+    "streams_returned_by_api": 9,
+    "fresh_streams_accepted": 9,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.106,
-      4.946,
-      4.055,
-      5.062,
-      4.76,
-      4.651,
-      5.392,
-      4.131,
-      4.848,
-      5.022,
-      4.437,
-      5.403
+      4.7,
+      4.059,
+      4.399,
+      4.619,
+      4.832,
+      4.035,
+      4.209,
+      4.639,
+      5.225,
+      5.468
     ],
-    "expires_at_min_epoch": 1786252826,
-    "expires_at_max_epoch": 1786252874,
-    "expires_at_span_seconds": 48,
-    "remaining_ttl_min_seconds": 511,
+    "expires_at_min_epoch": 1786253422,
+    "expires_at_max_epoch": 1786253459,
+    "expires_at_span_seconds": 37,
+    "remaining_ttl_min_seconds": 522,
     "remaining_ttl_max_seconds": 559,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 10,
-    "final_streams": 11,
-    "publish_reason": "published 11 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 11,
+    "final_streams": 9,
+    "publish_reason": "published 9 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 58.83
+    "elapsed_seconds": 48.94
   }
 }
