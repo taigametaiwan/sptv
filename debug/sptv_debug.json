@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-09T15:10:21+07:00",
+  "started_at": "2026-08-09T15:20:29+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.594,
+    "elapsed": 0.369,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,309 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.141,
+        "elapsed": 0.111,
         "error": ""
       }
     ],
-    "rows_selected": 25,
+    "rows_selected": 26,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144722548",
+      "start_at": "2026-08-09T15:15:00+07:00",
+      "league": "CZE D3B",
+      "home": "Hradec Kralove B",
+      "away": "FK Pardubice II",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144722548&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "CZE D3B Hradec Kralove B vs FK Pardubice II",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144722548",
+          "start_at": "2026-08-09T15:15:00+07:00",
+          "league": "CZE D3B",
+          "home": "Hradec Kralove B",
+          "away": "FK Pardubice II",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5536630_1.flv?auth_key=1786264230-1586-0-879f47ff4e8c468a63fa9446aa1c690f",
+          "expires_at_epoch": 1786264230,
+          "expires_at_utc": "2026-08-09T08:30:30+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144722548&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144722548.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144722551",
+      "start_at": "2026-08-09T15:15:00+07:00",
+      "league": "CZE D3B",
+      "home": "FK Jablonec B",
+      "away": "FK Horni Redice",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144722551&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "CZE D3B FK Jablonec B vs FK Horni Redice",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144722551",
+          "start_at": "2026-08-09T15:15:00+07:00",
+          "league": "CZE D3B",
+          "home": "FK Jablonec B",
+          "away": "FK Horni Redice",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5536629_1.flv?auth_key=1786264234-2928-0-4a7b8cc086efd4ee1184ee65a1e3bcda",
+          "expires_at_epoch": 1786264234,
+          "expires_at_utc": "2026-08-09T08:30:34+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144722551&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144722551.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144823678",
+      "start_at": "2026-08-09T15:15:00+07:00",
+      "league": "Cze D3M",
+      "home": "Zbrojovka Brno B",
+      "away": "FK Frydek-Mistek",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823678&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Cze D3M Zbrojovka Brno B vs FK Frydek-Mistek",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144823678",
+          "start_at": "2026-08-09T15:15:00+07:00",
+          "league": "Cze D3M",
+          "home": "Zbrojovka Brno B",
+          "away": "FK Frydek-Mistek",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5612030_1.flv?auth_key=1786264239-2457-0-3a0c3af5f065a1c92fbafaad11a9afee",
+          "expires_at_epoch": 1786264239,
+          "expires_at_utc": "2026-08-09T08:30:39+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823678&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144823678.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144823681",
+      "start_at": "2026-08-09T15:15:00+07:00",
+      "league": "Cze D3M",
+      "home": "Sigma Olomouc B",
+      "away": "FC Slovacko B",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823681&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Cze D3M Sigma Olomouc B vs FC Slovacko B",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144823681",
+          "start_at": "2026-08-09T15:15:00+07:00",
+          "league": "Cze D3M",
+          "home": "Sigma Olomouc B",
+          "away": "FC Slovacko B",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5612029_1.flv?auth_key=1786264244-1322-0-70ae7ccb31f6c5e214823f7ee8bc0aa8",
+          "expires_at_epoch": 1786264244,
+          "expires_at_utc": "2026-08-09T08:30:44+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823681&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144823681.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144823684",
+      "start_at": "2026-08-09T15:15:00+07:00",
+      "league": "Cze D3M",
+      "home": "MFK Karvina B",
+      "away": "CSK Uhersky Brod",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823684&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Cze D3M MFK Karvina B vs CSK Uhersky Brod",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144823684",
+          "start_at": "2026-08-09T15:15:00+07:00",
+          "league": "Cze D3M",
+          "home": "MFK Karvina B",
+          "away": "CSK Uhersky Brod",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5612028_1.flv?auth_key=1786264249-8772-0-b8fb4556b6c4e2376595bf257adbc53b",
+          "expires_at_epoch": 1786264249,
+          "expires_at_utc": "2026-08-09T08:30:49+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823684&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144823684.html"
+        }
+      ]
+    },
     {
       "player_id": "5137873077",
       "start_at": "2026-08-09T15:00:00+07:00",
@@ -67,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137873077&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -108,9 +403,9 @@
           "home": "Azerbaijan U18 (W)",
           "away": "Norway U18 (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5663293_1.flv?auth_key=1786263622-4560-0-766d58d7206cd11fa23d5fb29a4ee588",
-          "expires_at_epoch": 1786263622,
-          "expires_at_utc": "2026-08-09T08:20:22+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5663293_1.flv?auth_key=1786264254-9767-0-1cf855ed1d84fc76da40d4917c603cd1",
+          "expires_at_epoch": 1786264254,
+          "expires_at_utc": "2026-08-09T08:30:54+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137873077&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137873077.html"
         }
@@ -126,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576727&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -167,9 +462,9 @@
           "home": "Sydney Olympic Women",
           "away": "Northern Tigers Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294522_1.flv?auth_key=1786263627-3353-0-208a0ba15bee2fee4b0053c689ef5dc0",
-          "expires_at_epoch": 1786263627,
-          "expires_at_utc": "2026-08-09T08:20:27+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294522_1.flv?auth_key=1786264258-5995-0-2cdfeb2a74486f627ce4a9e6b97a9745",
+          "expires_at_epoch": 1786264258,
+          "expires_at_utc": "2026-08-09T08:30:58+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576727&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144576727.html"
         }
@@ -185,7 +480,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859976&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -226,9 +521,9 @@
           "home": "Zhejiang Lions BC",
           "away": "Shenzhen Leopards BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5605120_1.flv?auth_key=1786263632-9662-0-f7cf75fd2346bf5301e7efa1cbdd5354",
-          "expires_at_epoch": 1786263632,
-          "expires_at_utc": "2026-08-09T08:20:32+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5605120_1.flv?auth_key=1786264262-6828-0-8470f7a1cf5f2bd0b5316d345af578ee",
+          "expires_at_epoch": 1786264262,
+          "expires_at_utc": "2026-08-09T08:31:02+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859976&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137859976.html"
         }
@@ -244,7 +539,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576721&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -285,9 +580,9 @@
           "home": "Manly United Women",
           "away": "Illawarra Stingrays Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294524_1.flv?auth_key=1786263636-7614-0-ddecdc9227ed3005644f469ec0a47eb3",
-          "expires_at_epoch": 1786263636,
-          "expires_at_utc": "2026-08-09T08:20:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294524_1.flv?auth_key=1786264267-2358-0-f0ef0102047ff47b4856a2095a588032",
+          "expires_at_epoch": 1786264267,
+          "expires_at_utc": "2026-08-09T08:31:07+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576721&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144576721.html"
         }
@@ -303,7 +598,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843112&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -344,9 +639,9 @@
           "home": "Brisbane Roar",
           "away": "Sydney FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5632617_1.flv?auth_key=1786263642-7949-0-e3e271a17cd73ac93a77857b1efdf181",
-          "expires_at_epoch": 1786263642,
-          "expires_at_utc": "2026-08-09T08:20:42+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5632617_1.flv?auth_key=1786264271-2994-0-375eb2871a156164a772b9bb263447f4",
+          "expires_at_epoch": 1786264271,
+          "expires_at_utc": "2026-08-09T08:31:11+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843112&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144843112.html"
         }
@@ -362,7 +657,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5358522603&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -403,9 +698,9 @@
           "home": "Estonia U18 (W)",
           "away": "North Macedonia U18 (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5663636_1.flv?auth_key=1786263646-3794-0-7677e0bc86080485b321fa774f4870c3",
-          "expires_at_epoch": 1786263646,
-          "expires_at_utc": "2026-08-09T08:20:46+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5663636_1.flv?auth_key=1786264275-4606-0-272c32d48834eb0fef60b0be4212496f",
+          "expires_at_epoch": 1786264275,
+          "expires_at_utc": "2026-08-09T08:31:15+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5358522603&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5358522603.html"
         }
@@ -421,7 +716,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576718&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -462,185 +757,13 @@
           "home": "APIA Leichhardt Women",
           "away": "Gladesville Ravens SC Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294525_1.flv?auth_key=1786263652-8842-0-139a43ed5e0b68404361511f0e212339",
-          "expires_at_epoch": 1786263652,
-          "expires_at_utc": "2026-08-09T08:20:52+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5294525_1.flv?auth_key=1786264281-5269-0-b0d46c4748ac95833b13981408775937",
+          "expires_at_epoch": 1786264281,
+          "expires_at_utc": "2026-08-09T08:31:21+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144576718&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144576718.html"
         }
       ]
-    },
-    {
-      "player_id": "5144722548",
-      "start_at": "2026-08-09T15:15:00+07:00",
-      "league": "CZE D3B",
-      "home": "Hradec Kralove B",
-      "away": "FK Pardubice II",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144722548&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CZE D3B Hradec Kralove B vs FK Pardubice II",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144722551",
-      "start_at": "2026-08-09T15:15:00+07:00",
-      "league": "CZE D3B",
-      "home": "FK Jablonec B",
-      "away": "FK Horni Redice",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144722551&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CZE D3B FK Jablonec B vs FK Horni Redice",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144823681",
-      "start_at": "2026-08-09T15:15:00+07:00",
-      "league": "Cze D3M",
-      "home": "Sigma Olomouc B",
-      "away": "FC Slovacko B",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823681&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "Cze D3M Sigma Olomouc B vs FC Slovacko B",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144823684",
-      "start_at": "2026-08-09T15:15:00+07:00",
-      "league": "Cze D3M",
-      "home": "MFK Karvina B",
-      "away": "CSK Uhersky Brod",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144823684&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "Cze D3M MFK Karvina B vs CSK Uhersky Brod",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144578383",
@@ -652,7 +775,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578383&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -695,7 +818,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694249&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -738,7 +861,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695407&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -781,7 +904,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144801046&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -824,7 +947,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578395&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -867,7 +990,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144549034&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -910,7 +1033,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694255&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -953,7 +1076,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695410&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -996,7 +1119,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144731638&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -1039,7 +1162,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144765433&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -1082,7 +1205,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144682513&lan=2",
           "status": 200,
-          "elapsed": 0.148,
+          "elapsed": 0.117,
           "error": ""
         }
       ],
@@ -1125,7 +1248,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528544&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -1168,7 +1291,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144549037&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -1211,7 +1334,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144801043&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -1247,54 +1370,55 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 25,
-    "matches_processed": 25,
-    "valid_player_responses": 25,
+    "matches_selected": 26,
+    "matches_processed": 26,
+    "valid_player_responses": 26,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 7,
-    "fresh_streams_accepted": 7,
+    "streams_returned_by_api": 12,
+    "fresh_streams_accepted": 12,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.838,
-      4.707,
-      4.016,
-      5.405,
-      4.676,
-      4.943,
-      4.692,
-      4.35,
-      4.955,
-      5.424,
-      4.173,
-      4.522,
-      4.159,
-      5.112,
-      5.072,
-      5.436,
-      4.541,
-      4.454,
-      5.108,
-      4.524,
-      4.453,
-      4.576,
-      4.558,
-      4.32
+      4.598,
+      4.393,
+      5.457,
+      4.309,
+      4.587,
+      4.338,
+      4.266,
+      4.12,
+      4.188,
+      4.439,
+      5.21,
+      5.181,
+      5.221,
+      4.092,
+      5.473,
+      5.28,
+      4.872,
+      4.405,
+      5.128,
+      4.473,
+      5.024,
+      4.759,
+      4.129,
+      4.648,
+      4.919
     ],
-    "expires_at_min_epoch": 1786263622,
-    "expires_at_max_epoch": 1786263652,
-    "expires_at_span_seconds": 30,
-    "remaining_ttl_min_seconds": 453,
-    "remaining_ttl_max_seconds": 483,
+    "expires_at_min_epoch": 1786264230,
+    "expires_at_max_epoch": 1786264281,
+    "expires_at_span_seconds": 51,
+    "remaining_ttl_min_seconds": 450,
+    "remaining_ttl_max_seconds": 501,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 6,
-    "final_streams": 7,
-    "publish_reason": "published 7 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 7,
+    "final_streams": 12,
+    "publish_reason": "published 12 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 117.49
+    "elapsed_seconds": 121.03
   }
 }
