@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-09T07:10:26+07:00",
+  "started_at": "2026-08-09T07:20:24+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.366,
+    "elapsed": 0.566,
     "error": ""
   },
   "schedule": {
@@ -49,103 +49,17 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.101,
+        "elapsed": 0.17,
         "error": ""
       }
     ],
-    "rows_selected": 48,
+    "rows_selected": 44,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5144426718",
-      "start_at": "2026-08-09T07:00:00+07:00",
-      "league": "BRA D1",
-      "home": "Botafogo/RJ",
-      "away": "Fluminense/RJ",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144426718&lan=2",
-          "status": 200,
-          "elapsed": 0.108,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "BRA D1 Botafogo/RJ vs Fluminense/RJ",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144473011",
-      "start_at": "2026-08-09T07:00:00+07:00",
-      "league": "CHI D2",
-      "home": "Deportes Temuco",
-      "away": "CD Magallanes",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144473011&lan=2",
-          "status": 200,
-          "elapsed": 0.108,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CHI D2 Deportes Temuco vs CD Magallanes",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
       "player_id": "5144506968",
-      "start_at": "2026-08-09T07:00:00+07:00",
+      "start_at": "2026-08-09T07:10:00+07:00",
       "league": "CAN CPL",
       "home": "FC Supra du Quebec",
       "away": "Cavalry FC",
@@ -153,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144506968&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -187,16 +101,16 @@
       "streams": []
     },
     {
-      "player_id": "5144507847",
-      "start_at": "2026-08-09T07:00:00+07:00",
-      "league": "ECU D1",
-      "home": "Barcelona SC",
-      "away": "Macara",
+      "player_id": "5144579421",
+      "start_at": "2026-08-09T07:10:00+07:00",
+      "league": "NAL Cup",
+      "home": "Inter Miami",
+      "away": "Monterrey",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507847&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579421&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -222,12 +136,87 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "ECU D1 Barcelona SC vs Macara",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "NAL Cup Inter Miami vs Monterrey",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144579421",
+          "start_at": "2026-08-09T07:10:00+07:00",
+          "league": "NAL Cup",
+          "home": "Inter Miami",
+          "away": "Monterrey",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301305_1.flv?auth_key=1786235430-1309-0-eb8bd7ddbddbab76602e6f859a8e288a",
+          "expires_at_epoch": 1786235430,
+          "expires_at_utc": "2026-08-09T00:30:30+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579421&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144579421.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144426718",
+      "start_at": "2026-08-09T07:00:00+07:00",
+      "league": "BRA D1",
+      "home": "Botafogo/RJ",
+      "away": "Fluminense/RJ",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144426718&lan=2",
+          "status": 200,
+          "elapsed": 0.178,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "BRA D1 Botafogo/RJ vs Fluminense/RJ",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144426718",
+          "start_at": "2026-08-09T07:00:00+07:00",
+          "league": "BRA D1",
+          "home": "Botafogo/RJ",
+          "away": "Fluminense/RJ",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301290_1.flv?auth_key=1786235435-8002-0-13de48f82e36e199c0d79b93f08e944f",
+          "expires_at_epoch": 1786235435,
+          "expires_at_utc": "2026-08-09T00:30:35+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144426718&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144426718.html"
+        }
+      ]
     },
     {
       "player_id": "5144521845",
@@ -239,7 +228,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521845&lan=2",
           "status": 200,
-          "elapsed": 0.107,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -265,98 +254,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "USA USLC Louisville City vs San Antonio FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
-    },
-    {
-      "player_id": "5144579421",
-      "start_at": "2026-08-09T07:00:00+07:00",
-      "league": "NAL Cup",
-      "home": "Inter Miami",
-      "away": "Monterrey",
-      "attempts": [
+      "streams": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579421&lan=2",
-          "status": 200,
-          "elapsed": 0.108,
-          "error": ""
+          "player_id": "5144521845",
+          "start_at": "2026-08-09T07:00:00+07:00",
+          "league": "USA USLC",
+          "home": "Louisville City",
+          "away": "San Antonio FC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297141_1.flv?auth_key=1786235439-6213-0-a041caf13888706168703709a8b6053c",
+          "expires_at_epoch": 1786235439,
+          "expires_at_utc": "2026-08-09T00:30:39+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521845&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144521845.html"
         }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "NAL Cup Inter Miami vs Monterrey",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144788143",
-      "start_at": "2026-08-09T07:00:00+07:00",
-      "league": "NCA D1",
-      "home": "Diriangen",
-      "away": "Rancho Santana",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144788143&lan=2",
-          "status": 200,
-          "elapsed": 0.108,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "NCA D1 Diriangen vs Rancho Santana",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
+      ]
     },
     {
       "player_id": "5144813409",
@@ -368,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144813409&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -411,7 +330,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821806&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -437,12 +356,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "CRC D1 Escorpiones Belen vs Perez Zeledon",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144821806",
+          "start_at": "2026-08-09T07:00:00+07:00",
+          "league": "CRC D1",
+          "home": "Escorpiones Belen",
+          "away": "Perez Zeledon",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538637_1.flv?auth_key=1786235450-9911-0-5de7eb1b5cbae62295bf802b1d3b5e0b",
+          "expires_at_epoch": 1786235450,
+          "expires_at_utc": "2026-08-09T00:30:50+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821806&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144821806.html"
+        }
+      ]
     },
     {
       "player_id": "5144853180",
@@ -454,7 +389,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144853180&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -480,55 +415,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "USA MLSNP Minnesota United II vs The Town FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
-    },
-    {
-      "player_id": "5144862096",
-      "start_at": "2026-08-09T07:00:00+07:00",
-      "league": "CRC D2",
-      "home": "Municipal Grecia",
-      "away": "Quepos Cambute FC",
-      "attempts": [
+      "streams": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144862096&lan=2",
-          "status": 200,
-          "elapsed": 0.108,
-          "error": ""
+          "player_id": "5144853180",
+          "start_at": "2026-08-09T07:00:00+07:00",
+          "league": "USA MLSNP",
+          "home": "Minnesota United II",
+          "away": "The Town FC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5647811_1.flv?auth_key=1786235455-1283-0-1a30a5a275c61a4a007bbe2cdde9e233",
+          "expires_at_epoch": 1786235455,
+          "expires_at_utc": "2026-08-09T00:30:55+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144853180&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144853180.html"
         }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CRC D2 Municipal Grecia vs Quepos Cambute FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
+      ]
     },
     {
       "player_id": "5358283452",
@@ -540,7 +448,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5358283452&lan=2",
           "status": 200,
-          "elapsed": 0.109,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -583,7 +491,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560152&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -624,9 +532,9 @@
           "home": "Portland Hearts of Pine",
           "away": "Corpus Christi",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297180_1.flv?auth_key=1786234886-2005-0-0b32dd5af1aed3bd0119dcbf7db93e74",
-          "expires_at_epoch": 1786234886,
-          "expires_at_utc": "2026-08-09T00:21:26+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297180_1.flv?auth_key=1786235465-3398-0-e20f64a3094568a386dc57828ac7eedb",
+          "expires_at_epoch": 1786235465,
+          "expires_at_utc": "2026-08-09T00:31:05+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560152&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144560152.html"
         }
@@ -642,7 +550,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144851302&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -683,9 +591,9 @@
           "home": "Houston Dynamo II",
           "away": "Real Monarchs",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5645346_1.flv?auth_key=1786234892-5973-0-4266e7289d98c808b10caebd4c22599a",
-          "expires_at_epoch": 1786234892,
-          "expires_at_utc": "2026-08-09T00:21:32+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5645346_1.flv?auth_key=1786235470-3099-0-45bfb07e8fc2f29d85bef06986620423",
+          "expires_at_epoch": 1786235470,
+          "expires_at_utc": "2026-08-09T00:31:10+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144851302&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144851302.html"
         }
@@ -701,7 +609,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144426724&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -742,9 +650,9 @@
           "home": "Coritiba/PR",
           "away": "Chapecoense/SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301289_1.flv?auth_key=1786234896-2566-0-64c990cc1c1701ebc5d986ec2cb3309c",
-          "expires_at_epoch": 1786234896,
-          "expires_at_utc": "2026-08-09T00:21:36+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301289_1.flv?auth_key=1786235476-7014-0-0d054a81ef5cbfd2a623ec0d9881cf16",
+          "expires_at_epoch": 1786235476,
+          "expires_at_utc": "2026-08-09T00:31:16+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144426724&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144426724.html"
         }
@@ -760,7 +668,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521860&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -801,9 +709,9 @@
           "home": "Rhode Island FC",
           "away": "Colorado Springs Switchbacks",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297139_1.flv?auth_key=1786234902-3914-0-968938a6cd7dfda39de67702d9154408",
-          "expires_at_epoch": 1786234902,
-          "expires_at_utc": "2026-08-09T00:21:42+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297139_1.flv?auth_key=1786235481-3825-0-cf128c5e747a36a56f598cb7e95e189f",
+          "expires_at_epoch": 1786235481,
+          "expires_at_utc": "2026-08-09T00:31:21+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521860&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144521860.html"
         }
@@ -819,7 +727,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560149&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -860,9 +768,9 @@
           "home": "One Knoxville SC",
           "away": "Sarasota Paradise",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297181_1.flv?auth_key=1786234906-4185-0-5a3dcd1331520def34a4ecca45eac491",
-          "expires_at_epoch": 1786234906,
-          "expires_at_utc": "2026-08-09T00:21:46+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297181_1.flv?auth_key=1786235487-1605-0-5564fe6832a653972a4073de1914119f",
+          "expires_at_epoch": 1786235487,
+          "expires_at_utc": "2026-08-09T00:31:27+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560149&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144560149.html"
         }
@@ -878,7 +786,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767413&lan=2",
           "status": 200,
-          "elapsed": 0.107,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -919,9 +827,9 @@
           "home": "Venados FC",
           "away": "Tapatio",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5532708_1.flv?auth_key=1786234912-1624-0-80372837ad0766d4224ca7bc45a843b7",
-          "expires_at_epoch": 1786234912,
-          "expires_at_utc": "2026-08-09T00:21:52+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5532708_1.flv?auth_key=1786235491-5426-0-6642fb2ab58e5c1a9838156964678a41",
+          "expires_at_epoch": 1786235491,
+          "expires_at_utc": "2026-08-09T00:31:31+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767413&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144767413.html"
         }
@@ -937,7 +845,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144851305&lan=2",
           "status": 200,
-          "elapsed": 0.109,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -980,7 +888,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729574&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1021,9 +929,9 @@
           "home": "Deportes Tolima",
           "away": "Internacional de Bogota",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538633_1.flv?auth_key=1786234921-9906-0-ac913576d33f24a84f79a67d8654acfd",
-          "expires_at_epoch": 1786234921,
-          "expires_at_utc": "2026-08-09T00:22:01+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538633_1.flv?auth_key=1786235501-6760-0-6e4b10e085392fba03959e83329149ed",
+          "expires_at_epoch": 1786235501,
+          "expires_at_utc": "2026-08-09T00:31:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729574&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144729574.html"
         }
@@ -1039,7 +947,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521830&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1082,7 +990,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521839&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1123,9 +1031,9 @@
           "home": "Lexington SC",
           "away": "Phoenix Rising",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297140_1.flv?auth_key=1786234931-5970-0-96f89ba8b72b6e5fa1db72efdbeca7d0",
-          "expires_at_epoch": 1786234931,
-          "expires_at_utc": "2026-08-09T00:22:11+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297140_1.flv?auth_key=1786235511-3174-0-bca843cce82f847d84ddc5e6ac75803f",
+          "expires_at_epoch": 1786235511,
+          "expires_at_utc": "2026-08-09T00:31:51+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521839&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144521839.html"
         }
@@ -1141,7 +1049,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521842&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1182,9 +1090,9 @@
           "home": "Loudoun United",
           "away": "Charleston Battery",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297138_1.flv?auth_key=1786234935-7006-0-00f9e5510db71cc72e68525fbb6abf16",
-          "expires_at_epoch": 1786234935,
-          "expires_at_utc": "2026-08-09T00:22:15+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297138_1.flv?auth_key=1786235515-2725-0-fd5a336b6d09df9e17b9f4c446030772",
+          "expires_at_epoch": 1786235515,
+          "expires_at_utc": "2026-08-09T00:31:55+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521842&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144521842.html"
         }
@@ -1200,7 +1108,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521848&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1241,9 +1149,9 @@
           "home": "Miami FC",
           "away": "Las Vegas Lights FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297142_1.flv?auth_key=1786234940-9285-0-4c00a20ccf2f564b03a9ad90799dea3e",
-          "expires_at_epoch": 1786234940,
-          "expires_at_utc": "2026-08-09T00:22:20+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297142_1.flv?auth_key=1786235519-5581-0-3d217ca379376cbb614e5b62bbd103a9",
+          "expires_at_epoch": 1786235519,
+          "expires_at_utc": "2026-08-09T00:31:59+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521848&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144521848.html"
         }
@@ -1259,7 +1167,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521857&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1300,9 +1208,9 @@
           "home": "Pittsburgh Riverhounds",
           "away": "Sacramento Republic",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297136_1.flv?auth_key=1786234945-7889-0-f4a0baa18d1d1b2f4bf44866f9da146c",
-          "expires_at_epoch": 1786234945,
-          "expires_at_utc": "2026-08-09T00:22:25+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297136_1.flv?auth_key=1786235524-9150-0-6526f82d61b46d92ef56583b7047bb2b",
+          "expires_at_epoch": 1786235524,
+          "expires_at_utc": "2026-08-09T00:32:04+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521857&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144521857.html"
         }
@@ -1318,7 +1226,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560140&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1359,9 +1267,9 @@
           "home": "Charlotte Independence",
           "away": "Greenville Triumph",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297184_1.flv?auth_key=1786234949-8472-0-6338e7845d51db3a86d51ad848a2d6bc",
-          "expires_at_epoch": 1786234949,
-          "expires_at_utc": "2026-08-09T00:22:29+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297184_1.flv?auth_key=1786235528-7222-0-16b8ada32be84a492a3d154f057dbf9f",
+          "expires_at_epoch": 1786235528,
+          "expires_at_utc": "2026-08-09T00:32:08+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560140&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144560140.html"
         }
@@ -1377,7 +1285,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560143&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1418,9 +1326,9 @@
           "home": "Chattanooga Red Wolves",
           "away": "Union Omaha",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297183_1.flv?auth_key=1786234954-5133-0-982b6d348f3f03b090971b9201e2791d",
-          "expires_at_epoch": 1786234954,
-          "expires_at_utc": "2026-08-09T00:22:34+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297183_1.flv?auth_key=1786235533-1404-0-e538a28abcea083ff76d0919e26107ca",
+          "expires_at_epoch": 1786235533,
+          "expires_at_utc": "2026-08-09T00:32:13+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560143&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144560143.html"
         }
@@ -1436,7 +1344,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560146&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1479,7 +1387,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144851296&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1520,9 +1428,9 @@
           "home": "Chattanooga(USA)",
           "away": "Atlanta United II",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5645348_1.flv?auth_key=1786234964-9020-0-de35eb58227e0ba9da078664def42231",
-          "expires_at_epoch": 1786234964,
-          "expires_at_utc": "2026-08-09T00:22:44+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5645348_1.flv?auth_key=1786235543-1349-0-2bc3e4993022997a07876120fe48ce54",
+          "expires_at_epoch": 1786235543,
+          "expires_at_utc": "2026-08-09T00:32:23+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144851296&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144851296.html"
         }
@@ -1538,7 +1446,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579424&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1579,9 +1487,9 @@
           "home": "Orlando City",
           "away": "Club Leon",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301304_1.flv?auth_key=1786234969-3596-0-e495c12ef17faf58537831c2c91cc787",
-          "expires_at_epoch": 1786234969,
-          "expires_at_utc": "2026-08-09T00:22:49+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301304_1.flv?auth_key=1786235548-1286-0-a556b8d627ba407ada709c5bf4c6e85d",
+          "expires_at_epoch": 1786235548,
+          "expires_at_utc": "2026-08-09T00:32:28+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579424&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144579424.html"
         }
@@ -1597,7 +1505,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144542326&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1638,9 +1546,9 @@
           "home": "Inter de Limeira/SP",
           "away": "Volta Redonda/RJ",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297162_1.flv?auth_key=1786234974-7622-0-9b2169e798d4bd95feeee7510dbb0486",
-          "expires_at_epoch": 1786234974,
-          "expires_at_utc": "2026-08-09T00:22:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297162_1.flv?auth_key=1786235552-7334-0-abed5148ca2e1dbc8854dafb1493dc4e",
+          "expires_at_epoch": 1786235552,
+          "expires_at_utc": "2026-08-09T00:32:32+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144542326&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144542326.html"
         }
@@ -1656,7 +1564,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144542332&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1697,9 +1605,9 @@
           "home": "Ituano/SP",
           "away": "Barra/SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297160_1.flv?auth_key=1786234980-5858-0-b29a4d4c5e452502e88095b4141db6c0",
-          "expires_at_epoch": 1786234980,
-          "expires_at_utc": "2026-08-09T00:23:00+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297160_1.flv?auth_key=1786235557-6764-0-9b5a01fb43d489668fad2a0fdd2286b4",
+          "expires_at_epoch": 1786235557,
+          "expires_at_utc": "2026-08-09T00:32:37+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144542332&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144542332.html"
         }
@@ -1715,7 +1623,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565201&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1756,9 +1664,9 @@
           "home": "Washington Spirit Women",
           "away": "North Carolina Courage Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297188_1.flv?auth_key=1786234984-7158-0-1656b030761a3c8fbbab48abcfbedd64",
-          "expires_at_epoch": 1786234984,
-          "expires_at_utc": "2026-08-09T00:23:04+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297188_1.flv?auth_key=1786235562-3933-0-383fd7860a69532e301f1e04dfa6298f",
+          "expires_at_epoch": 1786235562,
+          "expires_at_utc": "2026-08-09T00:32:42+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565201&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144565201.html"
         }
@@ -1774,7 +1682,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144865462&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1815,9 +1723,9 @@
           "home": "Montevideo City Torque",
           "away": "Penarol",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5659203_1.flv?auth_key=1786234989-3558-0-633a236205a203cbd05c8136e29d9af6",
-          "expires_at_epoch": 1786234989,
-          "expires_at_utc": "2026-08-09T00:23:09+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5659203_1.flv?auth_key=1786235567-5987-0-8b8cb1c2bf98eb6d7cc45572e5e28eb9",
+          "expires_at_epoch": 1786235567,
+          "expires_at_utc": "2026-08-09T00:32:47+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144865462&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144865462.html"
         }
@@ -1833,7 +1741,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144851293&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -1874,9 +1782,9 @@
           "home": "Columbus Crew II",
           "away": "New York Red Bulls II",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5645344_1.flv?auth_key=1786234994-7955-0-7468ce2eb09210337de0bda0692370cf",
-          "expires_at_epoch": 1786234994,
-          "expires_at_utc": "2026-08-09T00:23:14+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5645344_1.flv?auth_key=1786235572-9018-0-8712f31deace7bf9ec2a71e50fee5e1d",
+          "expires_at_epoch": 1786235572,
+          "expires_at_utc": "2026-08-09T00:32:52+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144851293&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144851293.html"
         }
@@ -1892,7 +1800,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809708&lan=2",
           "status": 200,
-          "elapsed": 0.109,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -1935,7 +1843,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521836&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -1978,7 +1886,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581869&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -2021,7 +1929,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581875&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -2064,7 +1972,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565207&lan=2",
           "status": 200,
-          "elapsed": 0.109,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -2107,7 +2015,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521833&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -2150,7 +2058,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724147&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.178,
           "error": ""
         }
       ],
@@ -2193,7 +2101,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767419&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -2236,7 +2144,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767425&lan=2",
           "status": 200,
-          "elapsed": 0.108,
+          "elapsed": 0.177,
           "error": ""
         }
       ],
@@ -2268,78 +2176,206 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144729577",
+      "start_at": "2026-08-09T08:30:00+07:00",
+      "league": "COL D1",
+      "home": "Deportivo Pasto",
+      "away": "Deportivo Cali",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729577&lan=2",
+          "status": 200,
+          "elapsed": 0.177,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "COL D1 Deportivo Pasto vs Deportivo Cali",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144521851",
+      "start_at": "2026-08-09T09:00:00+07:00",
+      "league": "USA USLC",
+      "home": "Monterey Bay FC",
+      "away": "New Mexico United",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521851&lan=2",
+          "status": 200,
+          "elapsed": 0.178,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "USA USLC Monterey Bay FC vs New Mexico United",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144521854",
+      "start_at": "2026-08-09T09:00:00+07:00",
+      "league": "USA USLC",
+      "home": "Orange County SC",
+      "away": "Tampa Bay Rowdies",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144521854&lan=2",
+          "status": 200,
+          "elapsed": 0.177,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "USA USLC Orange County SC vs Tampa Bay Rowdies",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 48,
-    "matches_processed": 44,
-    "valid_player_responses": 44,
+    "matches_selected": 44,
+    "matches_processed": 43,
+    "valid_player_responses": 43,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": true,
-    "streams_returned_by_api": 20,
-    "fresh_streams_accepted": 20,
+    "streams_returned_by_api": 25,
+    "fresh_streams_accepted": 25,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.415,
-      4.945,
-      5.437,
-      4.435,
-      5.27,
-      4.877,
-      5.315,
-      4.051,
-      5.104,
-      4.554,
-      4.624,
-      5.389,
-      5.472,
-      4.56,
-      5.345,
-      4.229,
-      5.463,
-      4.113,
-      5.151,
-      4.823,
-      4.506,
-      4.252,
-      5.297,
-      4.46,
-      4.058,
-      4.955,
-      4.143,
-      4.969,
-      5.055,
-      5.262,
-      5.42,
-      4.361,
-      5.242,
-      4.024,
-      4.591,
-      4.386,
-      4.029,
-      5.001,
-      4.498,
-      5.154,
-      4.39,
+      4.71,
+      5.04,
+      4.135,
+      4.723,
+      5.382,
+      4.655,
+      4.558,
+      5.426,
+      5.119,
+      5.454,
+      5.388,
+      5.112,
+      4.445,
+      4.939,
+      4.642,
+      4.518,
+      4.406,
+      4.023,
+      4.313,
+      4.165,
+      4.23,
+      4.723,
+      4.088,
+      5.41,
+      4.742,
+      4.138,
+      5.253,
+      4.804,
+      4.722,
+      4.254,
+      4.09,
+      4.592,
+      4.465,
+      5.484,
+      4.239,
+      4.77,
+      5.425,
       4.223,
-      4.364,
-      5.499
+      4.209,
+      4.714,
+      5.298,
+      4.613,
+      5.263
     ],
-    "expires_at_min_epoch": 1786234886,
-    "expires_at_max_epoch": 1786234994,
-    "expires_at_span_seconds": 108,
-    "remaining_ttl_min_seconds": 415,
-    "remaining_ttl_max_seconds": 523,
+    "expires_at_min_epoch": 1786235430,
+    "expires_at_max_epoch": 1786235572,
+    "expires_at_span_seconds": 142,
+    "remaining_ttl_min_seconds": 365,
+    "remaining_ttl_max_seconds": 507,
     "playlist_changed": true,
-    "preserved_unexpired_previous": 1,
-    "expired_previous_removed": 4,
-    "final_streams": 21,
-    "publish_reason": "published 20 fresh streams + preserved 1 unexpired previous streams",
+    "preserved_unexpired_previous": 0,
+    "expired_previous_removed": 21,
+    "final_streams": 25,
+    "publish_reason": "published 25 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 214.97
+    "elapsed_seconds": 211.31
   }
 }
