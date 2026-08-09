@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-09T11:20:26+07:00",
+  "started_at": "2026-08-09T11:30:27+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.379,
+    "elapsed": 0.664,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,132 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.11,
+        "elapsed": 0.166,
         "error": ""
       }
     ],
-    "rows_selected": 7,
+    "rows_selected": 9,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137861341",
+      "start_at": "2026-08-09T11:00:00+07:00",
+      "league": "ABA",
+      "home": "Melbourne United BC",
+      "away": "B League Utd BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861341&lan=2",
+          "status": 200,
+          "elapsed": 0.173,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ABA Melbourne United BC vs B League Utd BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137861341",
+          "start_at": "2026-08-09T11:00:00+07:00",
+          "league": "ABA",
+          "home": "Melbourne United BC",
+          "away": "B League Utd BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5630271_1.flv?auth_key=1786250428-8634-0-92e4dcd60e52cda272423cc1ede393a2",
+          "expires_at_epoch": 1786250428,
+          "expires_at_utc": "2026-08-09T04:40:28+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137861341&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137861341.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137874067",
+      "start_at": "2026-08-09T11:00:00+07:00",
+      "league": "ANBL",
+      "home": "Joondalup Wolves BC",
+      "away": "Geraldton Buccaneers BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137874067&lan=2",
+          "status": 200,
+          "elapsed": 0.173,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ANBL Joondalup Wolves BC vs Geraldton Buccaneers BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137874067",
+          "start_at": "2026-08-09T11:00:00+07:00",
+          "league": "ANBL",
+          "home": "Joondalup Wolves BC",
+          "away": "Geraldton Buccaneers BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5665790_1.flv?auth_key=1786250433-9405-0-22299d4f7905f6f64558dec2a8bb47b3",
+          "expires_at_epoch": 1786250433,
+          "expires_at_utc": "2026-08-09T04:40:33+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137874067&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137874067.html"
+        }
+      ]
+    },
     {
       "player_id": "5144579433",
       "start_at": "2026-08-09T10:20:00+07:00",
@@ -67,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579433&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -108,9 +226,9 @@
           "home": "Toluca",
           "away": "Los Angeles FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301300_1.flv?auth_key=1786249827-5369-0-c75948b67034403cfc65ae82af605940",
-          "expires_at_epoch": 1786249827,
-          "expires_at_utc": "2026-08-09T04:30:27+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301300_1.flv?auth_key=1786250439-4509-0-3f210d6614d0bddca35d3c281426d6d8",
+          "expires_at_epoch": 1786250439,
+          "expires_at_utc": "2026-08-09T04:40:39+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579433&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144579433.html"
         }
@@ -126,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864068&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -167,9 +285,9 @@
           "home": "Southland Sharks BC",
           "away": "Wellington Saints BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5649817_1.flv?auth_key=1786249832-3891-0-eea11d9d11fe947e1f73b88a91a38150",
-          "expires_at_epoch": 1786249832,
-          "expires_at_utc": "2026-08-09T04:30:32+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5649817_1.flv?auth_key=1786250444-9225-0-9e69746f813ebf05bc561a0411092532",
+          "expires_at_epoch": 1786250444,
+          "expires_at_utc": "2026-08-09T04:40:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864068&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137864068.html"
         }
@@ -185,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526585&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.173,
           "error": ""
         }
       ],
@@ -226,9 +344,9 @@
           "home": "Broadmeadow Magic",
           "away": "Kahibah",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297192_1.flv?auth_key=1786249837-7652-0-b6ef115970b95296337a48575350b370",
-          "expires_at_epoch": 1786249837,
-          "expires_at_utc": "2026-08-09T04:30:37+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297192_1.flv?auth_key=1786250449-7377-0-2b2c3b70bfa2b7a5387314ade0a54bf3",
+          "expires_at_epoch": 1786250449,
+          "expires_at_utc": "2026-08-09T04:40:49+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526585&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144526585.html"
         }
@@ -244,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560134&lan=2",
           "status": 200,
-          "elapsed": 0.117,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -285,9 +403,9 @@
           "home": "AV Alta FC",
           "away": "Fort Wayne FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297186_1.flv?auth_key=1786249843-2508-0-daad0b4b8fb8ec56191c00dc76ea4af5",
-          "expires_at_epoch": 1786249843,
-          "expires_at_utc": "2026-08-09T04:30:43+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297186_1.flv?auth_key=1786250454-9928-0-5f9a9a8e5f542f2899b724bc344d8777",
+          "expires_at_epoch": 1786250454,
+          "expires_at_utc": "2026-08-09T04:40:54+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144560134&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144560134.html"
         }
@@ -303,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486838&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -346,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144759991&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -389,7 +507,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859976&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -425,36 +543,38 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 7,
-    "matches_processed": 7,
-    "valid_player_responses": 7,
+    "matches_selected": 9,
+    "matches_processed": 9,
+    "valid_player_responses": 9,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 4,
-    "fresh_streams_accepted": 4,
+    "streams_returned_by_api": 6,
+    "fresh_streams_accepted": 6,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.36,
-      4.408,
-      5.415,
-      5.147,
-      4.752,
-      4.099
+      4.811,
+      5.46,
+      4.853,
+      5.433,
+      4.329,
+      4.555,
+      4.229,
+      4.974
     ],
-    "expires_at_min_epoch": 1786249827,
-    "expires_at_max_epoch": 1786249843,
-    "expires_at_span_seconds": 16,
-    "remaining_ttl_min_seconds": 540,
+    "expires_at_min_epoch": 1786250428,
+    "expires_at_max_epoch": 1786250454,
+    "expires_at_span_seconds": 26,
+    "remaining_ttl_min_seconds": 530,
     "remaining_ttl_max_seconds": 556,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 4,
-    "final_streams": 4,
-    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 6,
+    "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 30.5
+    "elapsed_seconds": 41.06
   }
 }
