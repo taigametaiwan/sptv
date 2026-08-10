@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-11T05:20:30+07:00",
+  "started_at": "2026-08-11T05:30:34+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.692,
+    "elapsed": 0.363,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,116 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.17,
+        "elapsed": 0.11,
         "error": ""
       }
     ],
-    "rows_selected": 16,
+    "rows_selected": 15,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144514534",
+      "start_at": "2026-08-11T05:30:00+07:00",
+      "league": "BRA D2",
+      "home": "Goias/GO",
+      "away": "Londrina/PR",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514534&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "BRA D2 Goias/GO vs Londrina/PR",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144514534",
+          "start_at": "2026-08-11T05:30:00+07:00",
+          "league": "BRA D2",
+          "home": "Goias/GO",
+          "away": "Londrina/PR",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297122_1.flv?auth_key=1786401635-1104-0-8501e3f2868dad2d7c7f5e0c478a958e",
+          "expires_at_epoch": 1786401635,
+          "expires_at_utc": "2026-08-10T22:40:35+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514534&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144514534.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144867085",
+      "start_at": "2026-08-11T05:30:00+07:00",
+      "league": "VEN D1",
+      "home": "Caracas",
+      "away": "Deportivo La Guaira",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144867085&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "VEN D1 Caracas vs Deportivo La Guaira",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
     {
       "player_id": "5144581854",
       "start_at": "2026-08-11T05:00:00+07:00",
@@ -67,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581854&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -95,7 +197,7 @@
         "code": 0,
         "pid": 1,
         "title": "ARG D1 Banfield vs CA Belgrano",
-        "stream_item_count": 2,
+        "stream_item_count": 1,
         "stream_item_types": [
           "dict"
         ]
@@ -108,22 +210,9 @@
           "home": "Banfield",
           "away": "CA Belgrano",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5320746_1.flv?auth_key=1786401031-3222-0-dfe6584520709598c8acb089f8d1c9fd",
-          "expires_at_epoch": 1786401031,
-          "expires_at_utc": "2026-08-10T22:30:31+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581854&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144581854.html"
-        },
-        {
-          "player_id": "5144581854",
-          "start_at": "2026-08-11T05:00:00+07:00",
-          "league": "ARG D1",
-          "home": "Banfield",
-          "away": "CA Belgrano",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5320746_2.flv?auth_key=1786401031-6594-0-cd932de722411144769ab6d8a3df1f61",
-          "expires_at_epoch": 1786401031,
-          "expires_at_utc": "2026-08-10T22:30:31+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5320746_1.flv?auth_key=1786401644-8906-0-a4cdba5fea5f1512b7a66f9304bce9cb",
+          "expires_at_epoch": 1786401644,
+          "expires_at_utc": "2026-08-10T22:40:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581854&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144581854.html"
         }
@@ -139,7 +228,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144865474&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -180,9 +269,9 @@
           "home": "Deportivo Maldonado",
           "away": "Racing Club Montevideo",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5659565_1.flv?auth_key=1786401035-9695-0-9cca2da69d1d56ea24e7a526bd17769c",
-          "expires_at_epoch": 1786401035,
-          "expires_at_utc": "2026-08-10T22:30:35+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5659565_1.flv?auth_key=1786401648-3299-0-68e420b0e898f79521c808e223441517",
+          "expires_at_epoch": 1786401648,
+          "expires_at_utc": "2026-08-10T22:40:48+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144865474&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144865474.html"
         }
@@ -198,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507850&lan=2",
           "status": 200,
-          "elapsed": 0.173,
+          "elapsed": 0.117,
           "error": ""
         }
       ],
@@ -239,9 +328,9 @@
           "home": "Libertad FC",
           "away": "Universidad Catolica Quito(ECU)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301309_1.flv?auth_key=1786401040-4953-0-915f9d8c7bbf5578edafaa97e89046a0",
-          "expires_at_epoch": 1786401040,
-          "expires_at_utc": "2026-08-10T22:30:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5301309_1.flv?auth_key=1786401653-6657-0-b2df53045d456175d980cd4a990eae3d",
+          "expires_at_epoch": 1786401653,
+          "expires_at_utc": "2026-08-10T22:40:53+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507850&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144507850.html"
         }
@@ -257,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861643&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -298,9 +387,9 @@
           "home": "Libertad",
           "away": "Sportivo Trinidense",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653129_1.flv?auth_key=1786401044-8570-0-7713cb5fbe947a576af6369fed2e49e6",
-          "expires_at_epoch": 1786401044,
-          "expires_at_utc": "2026-08-10T22:30:44+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653129_1.flv?auth_key=1786401658-9895-0-f08b92d63b0ed5124a0b76a4e7180180",
+          "expires_at_epoch": 1786401658,
+          "expires_at_utc": "2026-08-10T22:40:58+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144861643&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144861643.html"
         }
@@ -316,7 +405,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729565&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -350,151 +439,6 @@
       "streams": []
     },
     {
-      "player_id": "5358794034",
-      "start_at": "2026-08-11T03:00:00+07:00",
-      "league": "COL WPA",
-      "home": "Atletico Bucaramanga Women",
-      "away": "Once Caldas Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5358794034&lan=2",
-          "status": 200,
-          "elapsed": 0.174,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "COL WPA Atletico Bucaramanga Women vs Once Caldas Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5358794034",
-          "start_at": "2026-08-11T03:00:00+07:00",
-          "league": "COL WPA",
-          "home": "Atletico Bucaramanga Women",
-          "away": "Once Caldas Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653120_1.flv?auth_key=1786401054-9458-0-6602f2317a66fb7fffad22eb68b91f51",
-          "expires_at_epoch": 1786401054,
-          "expires_at_utc": "2026-08-10T22:30:54+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5358794034&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5358794034.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144514534",
-      "start_at": "2026-08-11T05:30:00+07:00",
-      "league": "BRA D2",
-      "home": "Goias/GO",
-      "away": "Londrina/PR",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514534&lan=2",
-          "status": 200,
-          "elapsed": 0.174,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "BRA D2 Goias/GO vs Londrina/PR",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144867085",
-      "start_at": "2026-08-11T05:30:00+07:00",
-      "league": "VEN D1",
-      "home": "Caracas",
-      "away": "Deportivo La Guaira",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144867085&lan=2",
-          "status": 200,
-          "elapsed": 0.174,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "VEN D1 Caracas vs Deportivo La Guaira",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
       "player_id": "5144729583",
       "start_at": "2026-08-11T06:00:00+07:00",
       "league": "COL D1",
@@ -504,7 +448,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729583&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -547,7 +491,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809723&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -590,7 +534,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457810&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -633,7 +577,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507832&lan=2",
           "status": 200,
-          "elapsed": 0.173,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -676,7 +620,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144511975&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -719,7 +663,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581890&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.115,
           "error": ""
         }
       ],
@@ -762,7 +706,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729589&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -805,7 +749,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855605&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.115,
           "error": ""
         }
       ],
@@ -841,45 +785,44 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 16,
-    "matches_processed": 16,
-    "valid_player_responses": 16,
+    "matches_selected": 15,
+    "matches_processed": 15,
+    "valid_player_responses": 15,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 6,
-    "fresh_streams_accepted": 6,
+    "streams_returned_by_api": 5,
+    "fresh_streams_accepted": 5,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.091,
-      4.651,
-      4.207,
-      4.325,
-      4.853,
-      5.459,
-      5.466,
-      5.271,
-      4.518,
-      5.045,
-      5.028,
-      5.411,
-      5.146,
-      5.252,
-      4.404
+      4.906,
+      4.082,
+      4.128,
+      4.963,
+      4.196,
+      4.893,
+      5.321,
+      4.488,
+      4.151,
+      4.271,
+      4.186,
+      5.417,
+      4.734,
+      4.057
     ],
-    "expires_at_min_epoch": 1786401031,
-    "expires_at_max_epoch": 1786401054,
+    "expires_at_min_epoch": 1786401635,
+    "expires_at_max_epoch": 1786401658,
     "expires_at_span_seconds": 23,
-    "remaining_ttl_min_seconds": 495,
-    "remaining_ttl_max_seconds": 518,
+    "remaining_ttl_min_seconds": 505,
+    "remaining_ttl_max_seconds": 528,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 6,
-    "final_streams": 6,
-    "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 5,
+    "publish_reason": "published 5 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 76.78
+    "elapsed_seconds": 66.02
   }
 }
