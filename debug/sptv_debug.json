@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-10T19:20:25+07:00",
+  "started_at": "2026-08-10T19:30:29+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.37,
+    "elapsed": 0.426,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,116 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.111,
+        "elapsed": 0.107,
         "error": ""
       }
     ],
-    "rows_selected": 4,
+    "rows_selected": 6,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144607363",
+      "start_at": "2026-08-10T19:30:00+07:00",
+      "league": "UZB PL",
+      "home": "FC Lochin",
+      "away": "TerDU",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607363&lan=2",
+          "status": 200,
+          "elapsed": 0.112,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "UZB PL FC Lochin vs TerDU",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5358773115",
+      "start_at": "2026-08-10T19:30:00+07:00",
+      "league": "UKR D1",
+      "home": "Polissya Zhytomyr",
+      "away": "FC Kharkiv",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5358773115&lan=2",
+          "status": 200,
+          "elapsed": 0.112,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "UKR D1 Polissya Zhytomyr vs FC Kharkiv",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5358773115",
+          "start_at": "2026-08-10T19:30:00+07:00",
+          "league": "UKR D1",
+          "home": "Polissya Zhytomyr",
+          "away": "FC Kharkiv",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5536550_1.flv?auth_key=1786365635-6638-0-8f56e46de12a7420221e9cdefdbcae3b",
+          "expires_at_epoch": 1786365635,
+          "expires_at_utc": "2026-08-10T12:40:35+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5358773115&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5358773115.html"
+        }
+      ]
+    },
     {
       "player_id": "5359058319",
       "start_at": "2026-08-10T18:30:00+07:00",
@@ -67,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359058319&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.112,
           "error": ""
         }
       ],
@@ -108,9 +210,9 @@
           "home": "Shanghai Port FC U20",
           "away": "Hubei Istar FC U20",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538653_1.flv?auth_key=1786365026-3213-0-5b07bf152d781da9b9ffa1c0e80be74a",
-          "expires_at_epoch": 1786365026,
-          "expires_at_utc": "2026-08-10T12:30:26+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538653_1.flv?auth_key=1786365640-2383-0-fb9886076e71782d73d1165949c7bf36",
+          "expires_at_epoch": 1786365640,
+          "expires_at_utc": "2026-08-10T12:40:40+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359058319&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5359058319.html"
         }
@@ -126,7 +228,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859589&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.111,
           "error": ""
         }
       ],
@@ -167,56 +269,13 @@
           "home": "Manila Batang Quiapo BC",
           "away": "San Juan Knights BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600031_1.flv?auth_key=1786365030-4263-0-7dd94fb967b3590afaa2d8cf52e3f40c",
-          "expires_at_epoch": 1786365030,
-          "expires_at_utc": "2026-08-10T12:30:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600031_1.flv?auth_key=1786365645-4052-0-931c690fe16aa311407f81eb171b73a5",
+          "expires_at_epoch": 1786365645,
+          "expires_at_utc": "2026-08-10T12:40:45+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859589&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137859589.html"
         }
       ]
-    },
-    {
-      "player_id": "5358773115",
-      "start_at": "2026-08-10T19:30:00+07:00",
-      "league": "UKR D1",
-      "home": "Polissya Zhytomyr",
-      "away": "FC Kharkiv",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5358773115&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "UKR D1 Polissya Zhytomyr vs FC Kharkiv",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144731641",
@@ -228,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144731641&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.112,
           "error": ""
         }
       ],
@@ -260,37 +319,82 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144725347",
+      "start_at": "2026-08-10T22:30:00+07:00",
+      "league": "ROM D1",
+      "home": "Botosani",
+      "away": "Corvinul Hunedoara",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725347&lan=2",
+          "status": 200,
+          "elapsed": 0.111,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ROM D1 Botosani vs Corvinul Hunedoara",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 4,
-    "matches_processed": 4,
-    "valid_player_responses": 4,
+    "matches_selected": 6,
+    "matches_processed": 6,
+    "valid_player_responses": 6,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 2,
-    "fresh_streams_accepted": 2,
+    "streams_returned_by_api": 3,
+    "fresh_streams_accepted": 3,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.378,
-      4.96,
-      4.369
+      4.55,
+      5.438,
+      5.079,
+      4.31,
+      4.21
     ],
-    "expires_at_min_epoch": 1786365026,
-    "expires_at_max_epoch": 1786365030,
-    "expires_at_span_seconds": 4,
-    "remaining_ttl_min_seconds": 556,
-    "remaining_ttl_max_seconds": 560,
+    "expires_at_min_epoch": 1786365635,
+    "expires_at_max_epoch": 1786365645,
+    "expires_at_span_seconds": 10,
+    "remaining_ttl_min_seconds": 551,
+    "remaining_ttl_max_seconds": 561,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 4,
-    "final_streams": 2,
-    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 2,
+    "final_streams": 3,
+    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 14.66
+    "elapsed_seconds": 24.8
   }
 }
