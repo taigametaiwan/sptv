@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-10T10:50:22+07:00",
+  "started_at": "2026-08-10T11:00:36+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.595,
+    "elapsed": 0.463,
     "error": ""
   },
   "schedule": {
@@ -49,11 +49,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.141,
+        "elapsed": 0.118,
         "error": ""
       }
     ],
-    "rows_selected": 2,
+    "rows_selected": 3,
     "window": "-150/+180"
   },
   "matches": [
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579442&lan=2",
           "status": 200,
-          "elapsed": 0.146,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -108,9 +108,9 @@
           "home": "Club America",
           "away": "Portland Timbers",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5304899_1.flv?auth_key=1786334423-6760-0-b1d1fed7f65f0cdf5c284dca641f6629",
-          "expires_at_epoch": 1786334423,
-          "expires_at_utc": "2026-08-10T04:00:23+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5304899_1.flv?auth_key=1786335036-6568-0-78b82a175ab9daccd50dcc5f691cd838",
+          "expires_at_epoch": 1786335036,
+          "expires_at_utc": "2026-08-10T04:10:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579442&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144579442.html"
         }
@@ -126,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579454&lan=2",
           "status": 200,
-          "elapsed": 0.147,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -167,20 +167,63 @@
           "home": "San Diego FC",
           "away": "Club Tijuana",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5304897_1.flv?auth_key=1786334428-9443-0-9aadd7a960d86d746cc99aa125153c21",
-          "expires_at_epoch": 1786334428,
-          "expires_at_utc": "2026-08-10T04:00:28+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5304897_1.flv?auth_key=1786335041-1724-0-85ef2d134560badfdd467b155511b942",
+          "expires_at_epoch": 1786335041,
+          "expires_at_utc": "2026-08-10T04:10:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144579454&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144579454.html"
         }
       ]
+    },
+    {
+      "player_id": "5137859583",
+      "start_at": "2026-08-10T14:00:00+07:00",
+      "league": "MPBL",
+      "home": "Paranaque Patriots BC",
+      "away": "Binan Tatak Gel BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859583&lan=2",
+          "status": 200,
+          "elapsed": 0.123,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Paranaque Patriots BC vs Binan Tatak Gel BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 2,
-    "matches_processed": 2,
-    "valid_player_responses": 2,
+    "matches_selected": 3,
+    "matches_processed": 3,
+    "valid_player_responses": 3,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 2,
@@ -190,19 +233,20 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.342
+      4.532,
+      4.707
     ],
-    "expires_at_min_epoch": 1786334423,
-    "expires_at_max_epoch": 1786334428,
+    "expires_at_min_epoch": 1786335036,
+    "expires_at_max_epoch": 1786335041,
     "expires_at_span_seconds": 5,
-    "remaining_ttl_min_seconds": 565,
-    "remaining_ttl_max_seconds": 570,
+    "remaining_ttl_min_seconds": 560,
+    "remaining_ttl_max_seconds": 565,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 2,
     "final_streams": 2,
     "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 6.38
+    "elapsed_seconds": 10.2
   }
 }
