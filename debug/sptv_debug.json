@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-12T04:30:28+07:00",
+  "started_at": "2026-08-12T05:00:34+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.52,
+    "elapsed": 0.37,
     "error": ""
   },
   "schedule": {
@@ -49,11 +49,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.138,
+        "elapsed": 0.11,
         "error": ""
       }
     ],
-    "rows_selected": 7,
+    "rows_selected": 8,
     "window": "-150/+180"
   },
   "matches": [
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669670&lan=2",
           "status": 200,
-          "elapsed": 0.144,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -93,12 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "CON CL Fluminense/RJ vs Independiente Rivadavia",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144669670",
+          "start_at": "2026-08-12T05:00:00+07:00",
+          "league": "CON CL",
+          "home": "Fluminense/RJ",
+          "away": "Independiente Rivadavia",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5599050_1.flv?auth_key=1786486235-1575-0-ac39ca06e13dc178d9c42144f3ccb309",
+          "expires_at_epoch": 1786486235,
+          "expires_at_utc": "2026-08-11T22:10:35+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669670&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144669670.html"
+        }
+      ]
     },
     {
       "player_id": "5144843073",
@@ -110,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843073&lan=2",
           "status": 200,
-          "elapsed": 0.144,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -136,12 +152,87 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "CON CSA Boca Juniors(ARG) vs Deportivo Recoleta",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144843073",
+          "start_at": "2026-08-12T05:00:00+07:00",
+          "league": "CON CSA",
+          "home": "Boca Juniors(ARG)",
+          "away": "Deportivo Recoleta",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5656885_1.flv?auth_key=1786486240-3575-0-b40a554dfbd4a4f747884ec823cb8192",
+          "expires_at_epoch": 1786486240,
+          "expires_at_utc": "2026-08-11T22:10:40+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843073&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144843073.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144867925",
+      "start_at": "2026-08-12T05:00:00+07:00",
+      "league": "ARG Res",
+      "home": "River Plate Reserve",
+      "away": "Godoy Cruz Reserve",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144867925&lan=2",
+          "status": 200,
+          "elapsed": 0.116,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ARG Res River Plate Reserve vs Godoy Cruz Reserve",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144867925",
+          "start_at": "2026-08-12T05:00:00+07:00",
+          "league": "ARG Res",
+          "home": "River Plate Reserve",
+          "away": "Godoy Cruz Reserve",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5667032_1.flv?auth_key=1786486245-8021-0-fea65b35989827b7be16de561cb1b517",
+          "expires_at_epoch": 1786486245,
+          "expires_at_utc": "2026-08-11T22:10:45+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144867925&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144867925.html"
+        }
+      ]
     },
     {
       "player_id": "5144514522",
@@ -153,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514522&lan=2",
           "status": 200,
-          "elapsed": 0.144,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -196,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809729&lan=2",
           "status": 200,
-          "elapsed": 0.144,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -239,7 +330,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581884&lan=2",
           "status": 200,
-          "elapsed": 0.144,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -282,7 +373,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669664&lan=2",
           "status": 200,
-          "elapsed": 0.145,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -325,7 +416,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843067&lan=2",
           "status": 200,
-          "elapsed": 0.144,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -360,37 +451,38 @@
     }
   ],
   "summary": {
-    "status": "EMPTY_NO_VALID_KEY",
-    "matches_selected": 7,
-    "matches_processed": 7,
-    "valid_player_responses": 7,
+    "status": "PUBLISHED_FRESH",
+    "matches_selected": 8,
+    "matches_processed": 8,
+    "valid_player_responses": 8,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 0,
-    "fresh_streams_accepted": 0,
+    "streams_returned_by_api": 3,
+    "fresh_streams_accepted": 3,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.047,
-      5.104,
-      4.779,
-      4.929,
-      5.448,
-      4.707
+      4.689,
+      4.621,
+      4.568,
+      5.027,
+      5.029,
+      4.155,
+      4.562
     ],
-    "expires_at_min_epoch": null,
-    "expires_at_max_epoch": null,
-    "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": null,
-    "remaining_ttl_max_seconds": null,
+    "expires_at_min_epoch": 1786486235,
+    "expires_at_max_epoch": 1786486245,
+    "expires_at_span_seconds": 10,
+    "remaining_ttl_min_seconds": 537,
+    "remaining_ttl_max_seconds": 547,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 1,
-    "final_streams": 0,
-    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 1 expired streams",
+    "expired_previous_removed": 0,
+    "final_streams": 3,
+    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 31.69
+    "elapsed_seconds": 34.07
   }
 }
