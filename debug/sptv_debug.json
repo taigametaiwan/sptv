@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-11T14:50:30+07:00",
+  "started_at": "2026-08-11T15:00:39+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.393,
+    "elapsed": 0.587,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.118,
+        "elapsed": 0.137,
         "error": ""
       }
     ],
-    "rows_selected": 5,
+    "rows_selected": 7,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144788602",
+      "start_at": "2026-08-11T15:00:00+07:00",
+      "league": "AFC CL",
+      "home": "FC Ulaanbaatar",
+      "away": "Hang Yuan FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144788602&lan=2",
+          "status": 200,
+          "elapsed": 0.143,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AFC CL FC Ulaanbaatar vs Hang Yuan FC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144788602",
+          "start_at": "2026-08-11T15:00:00+07:00",
+          "league": "AFC CL",
+          "home": "FC Ulaanbaatar",
+          "away": "Hang Yuan FC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5564662_1.flv?auth_key=1786435840-4477-0-d039217aee412c54b5ca81c0aaf58bb5",
+          "expires_at_epoch": 1786435840,
+          "expires_at_utc": "2026-08-11T08:10:40+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144788602&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144788602.html"
+        }
+      ]
+    },
     {
       "player_id": "5359235799",
       "start_at": "2026-08-11T14:30:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359235799&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.143,
           "error": ""
         }
       ],
@@ -108,9 +167,9 @@
           "home": "Waseda University (M)",
           "away": "Tsinghua University (M)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5666823_1.flv?auth_key=1786435230-9912-0-a37beb790b0d1a7282ca6275b42e2a86",
-          "expires_at_epoch": 1786435230,
-          "expires_at_utc": "2026-08-11T08:00:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5666823_1.flv?auth_key=1786435845-3819-0-c69342f4e5b38c24d99aa4a4295592c2",
+          "expires_at_epoch": 1786435845,
+          "expires_at_utc": "2026-08-11T08:10:45+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359235799&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5359235799.html"
         },
@@ -121,9 +180,9 @@
           "home": "Waseda University (M)",
           "away": "Tsinghua University (M)",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5666823_2.flv?auth_key=1786435230-2577-0-ea07495691d7a4171f88361fe46edf85",
-          "expires_at_epoch": 1786435230,
-          "expires_at_utc": "2026-08-11T08:00:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5666823_2.flv?auth_key=1786435845-5767-0-f401d893aa53cea0b471887e99259f64",
+          "expires_at_epoch": 1786435845,
+          "expires_at_utc": "2026-08-11T08:10:45+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359235799&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5359235799.html"
         }
@@ -139,7 +198,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859592&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.143,
           "error": ""
         }
       ],
@@ -180,9 +239,9 @@
           "home": "Bataan Risers BC",
           "away": "Sarangani Marlins BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600032_1.flv?auth_key=1786435235-1840-0-fa1a8c19d1804c43d9572fb5bfd21945",
-          "expires_at_epoch": 1786435235,
-          "expires_at_utc": "2026-08-11T08:00:35+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600032_1.flv?auth_key=1786435849-9320-0-03da408edde7c8e6c4daa14e98a5dc76",
+          "expires_at_epoch": 1786435849,
+          "expires_at_utc": "2026-08-11T08:10:49+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859592&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137859592.html"
         }
@@ -198,7 +257,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859691&lan=2",
           "status": 200,
-          "elapsed": 0.113,
+          "elapsed": 0.143,
           "error": ""
         }
       ],
@@ -241,7 +300,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725986&lan=2",
           "status": 200,
-          "elapsed": 0.113,
+          "elapsed": 0.143,
           "error": ""
         }
       ],
@@ -284,7 +343,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725992&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.143,
           "error": ""
         }
       ],
@@ -316,38 +375,83 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5137859595",
+      "start_at": "2026-08-11T18:00:00+07:00",
+      "league": "MPBL",
+      "home": "Caloocan Batang Kankaloo BC",
+      "away": "GenSan Warriors BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859595&lan=2",
+          "status": 200,
+          "elapsed": 0.143,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Caloocan Batang Kankaloo BC vs GenSan Warriors BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 5,
-    "matches_processed": 5,
-    "valid_player_responses": 5,
+    "matches_selected": 7,
+    "matches_processed": 7,
+    "valid_player_responses": 7,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 3,
-    "fresh_streams_accepted": 3,
+    "streams_returned_by_api": 4,
+    "fresh_streams_accepted": 4,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.648,
-      4.313,
-      5.425,
-      4.471
+      4.806,
+      4.297,
+      5.323,
+      5.314,
+      5.364,
+      5.102
     ],
-    "expires_at_min_epoch": 1786435230,
-    "expires_at_max_epoch": 1786435235,
-    "expires_at_span_seconds": 5,
-    "remaining_ttl_min_seconds": 550,
-    "remaining_ttl_max_seconds": 555,
+    "expires_at_min_epoch": 1786435840,
+    "expires_at_max_epoch": 1786435849,
+    "expires_at_span_seconds": 9,
+    "remaining_ttl_min_seconds": 539,
+    "remaining_ttl_max_seconds": 548,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 1,
-    "final_streams": 3,
-    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 3,
+    "final_streams": 4,
+    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 19.95
+    "elapsed_seconds": 31.94
   }
 }
