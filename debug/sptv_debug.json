@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-11T12:30:31+07:00",
+  "started_at": "2026-08-11T14:00:42+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.366,
+    "elapsed": 0.374,
     "error": ""
   },
   "schedule": {
@@ -49,11 +49,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.108,
+        "elapsed": 0.11,
         "error": ""
       }
     ],
-    "rows_selected": 1,
+    "rows_selected": 3,
     "window": "-150/+180"
   },
   "matches": [
@@ -67,7 +67,66 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859592&lan=2",
           "status": 200,
-          "elapsed": 0.113,
+          "elapsed": 0.115,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "MPBL Bataan Risers BC vs Sarangani Marlins BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137859592",
+          "start_at": "2026-08-11T14:00:00+07:00",
+          "league": "MPBL",
+          "home": "Bataan Risers BC",
+          "away": "Sarangani Marlins BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600032_1.flv?auth_key=1786432243-4583-0-0a2e7223b26f7f8a05fd1e079e7291a6",
+          "expires_at_epoch": 1786432243,
+          "expires_at_utc": "2026-08-11T07:10:43+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859592&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137859592.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137859691",
+      "start_at": "2026-08-11T16:00:00+07:00",
+      "league": "MPBL",
+      "home": "Zamboanga Sikat BC",
+      "away": "Valenzuela City Darkhorse BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859691&lan=2",
+          "status": 200,
+          "elapsed": 0.115,
           "error": ""
         }
       ],
@@ -94,7 +153,50 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "MPBL Bataan Risers BC vs Sarangani Marlins BC",
+        "title": "MPBL Zamboanga Sikat BC vs Valenzuela City Darkhorse BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144725986",
+      "start_at": "2026-08-11T16:30:00+07:00",
+      "league": "AFC CLE",
+      "home": "Adelaide United",
+      "away": "Cong An Hanoi",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725986&lan=2",
+          "status": 200,
+          "elapsed": 0.115,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AFC CLE Adelaide United vs Cong An Hanoi",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -102,30 +204,33 @@
     }
   ],
   "summary": {
-    "status": "EMPTY_NO_VALID_KEY",
-    "matches_selected": 1,
-    "matches_processed": 1,
-    "valid_player_responses": 1,
+    "status": "PUBLISHED_FRESH",
+    "matches_selected": 3,
+    "matches_processed": 3,
+    "valid_player_responses": 3,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 0,
-    "fresh_streams_accepted": 0,
+    "streams_returned_by_api": 1,
+    "fresh_streams_accepted": 1,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
-    "request_delays_seconds": [],
-    "expires_at_min_epoch": null,
-    "expires_at_max_epoch": null,
+    "request_delays_seconds": [
+      4.755,
+      5.323
+    ],
+    "expires_at_min_epoch": 1786432243,
+    "expires_at_max_epoch": 1786432243,
     "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": null,
-    "remaining_ttl_max_seconds": null,
+    "remaining_ttl_min_seconds": 560,
+    "remaining_ttl_max_seconds": 560,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 1,
-    "final_streams": 0,
-    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 1 expired streams",
+    "expired_previous_removed": 0,
+    "final_streams": 1,
+    "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 0.59
+    "elapsed_seconds": 10.91
   }
 }
