@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-11T12:20:21+07:00",
+  "started_at": "2026-08-11T12:30:31+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.651,
+    "elapsed": 0.366,
     "error": ""
   },
   "schedule": {
@@ -49,73 +49,14 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.168,
+        "elapsed": 0.108,
         "error": ""
       }
     ],
-    "rows_selected": 2,
+    "rows_selected": 1,
     "window": "-150/+180"
   },
   "matches": [
-    {
-      "player_id": "5144788608",
-      "start_at": "2026-08-11T10:00:00+07:00",
-      "league": "AFC CL",
-      "home": "Central Stallions FC",
-      "away": "Tainan City Steel",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144788608&lan=2",
-          "status": 200,
-          "elapsed": 0.173,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AFC CL Central Stallions FC vs Tainan City Steel",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144788608",
-          "start_at": "2026-08-11T10:00:00+07:00",
-          "league": "AFC CL",
-          "home": "Central Stallions FC",
-          "away": "Tainan City Steel",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5564661_1.flv?auth_key=1786426222-4974-0-daf9622d7da4010dc8cfcff3c70c0aae",
-          "expires_at_epoch": 1786426222,
-          "expires_at_utc": "2026-08-11T05:30:22+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144788608&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144788608.html"
-        }
-      ]
-    },
     {
       "player_id": "5137859592",
       "start_at": "2026-08-11T14:00:00+07:00",
@@ -126,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859592&lan=2",
           "status": 200,
-          "elapsed": 0.174,
+          "elapsed": 0.113,
           "error": ""
         }
       ],
@@ -161,32 +102,30 @@
     }
   ],
   "summary": {
-    "status": "PUBLISHED_FRESH",
-    "matches_selected": 2,
-    "matches_processed": 2,
-    "valid_player_responses": 2,
+    "status": "EMPTY_NO_VALID_KEY",
+    "matches_selected": 1,
+    "matches_processed": 1,
+    "valid_player_responses": 1,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 1,
-    "fresh_streams_accepted": 1,
+    "streams_returned_by_api": 0,
+    "fresh_streams_accepted": 0,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
-    "request_delays_seconds": [
-      5.464
-    ],
-    "expires_at_min_epoch": 1786426222,
-    "expires_at_max_epoch": 1786426222,
+    "request_delays_seconds": [],
+    "expires_at_min_epoch": null,
+    "expires_at_max_epoch": null,
     "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": 564,
-    "remaining_ttl_max_seconds": 564,
+    "remaining_ttl_min_seconds": null,
+    "remaining_ttl_max_seconds": null,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 1,
-    "final_streams": 1,
-    "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 0,
+    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 1 expired streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 6.64
+    "elapsed_seconds": 0.59
   }
 }
