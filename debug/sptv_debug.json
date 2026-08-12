@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-13T05:50:23+07:00",
+  "started_at": "2026-08-13T06:00:32+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.674,
+    "elapsed": 0.663,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,116 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.172,
+        "elapsed": 0.174,
         "error": ""
       }
     ],
-    "rows_selected": 9,
+    "rows_selected": 12,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144868450",
+      "start_at": "2026-08-13T06:00:00+07:00",
+      "league": "USA LC",
+      "home": "Charlotte Independence",
+      "away": "Hartford Athletic",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868450&lan=2",
+          "status": 200,
+          "elapsed": 0.186,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "USA LC Charlotte Independence vs Hartford Athletic",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144868453",
+      "start_at": "2026-08-13T06:00:00+07:00",
+      "league": "USA LC",
+      "home": "Tampa Bay Rowdies",
+      "away": "Louisville City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868453&lan=2",
+          "status": 200,
+          "elapsed": 0.186,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "USA LC Tampa Bay Rowdies vs Louisville City",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144868453",
+          "start_at": "2026-08-13T06:00:00+07:00",
+          "league": "USA LC",
+          "home": "Tampa Bay Rowdies",
+          "away": "Louisville City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5666440_1.flv?auth_key=1786576238-1428-0-030831fb6d072c8e36cb744c9ea1d921",
+          "expires_at_epoch": 1786576238,
+          "expires_at_utc": "2026-08-12T23:10:38+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868453&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144868453.html"
+        }
+      ]
+    },
     {
       "player_id": "5144693265",
       "start_at": "2026-08-13T05:15:00+07:00",
@@ -67,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144693265&lan=2",
           "status": 200,
-          "elapsed": 0.184,
+          "elapsed": 0.185,
           "error": ""
         }
       ],
@@ -108,9 +210,9 @@
           "home": "Atletico Tucuman",
           "away": "CA Independiente",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5449047_1.flv?auth_key=1786575624-7649-0-4eb1cae5d5ae529835b617fe4824208f",
-          "expires_at_epoch": 1786575624,
-          "expires_at_utc": "2026-08-12T23:00:24+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5449047_1.flv?auth_key=1786576243-5065-0-d26ce2bfa1e1dc5b2b5c3aa74357193f",
+          "expires_at_epoch": 1786576243,
+          "expires_at_utc": "2026-08-12T23:10:43+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144693265&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144693265.html"
         }
@@ -126,7 +228,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669658&lan=2",
           "status": 200,
-          "elapsed": 0.184,
+          "elapsed": 0.185,
           "error": ""
         }
       ],
@@ -167,9 +269,9 @@
           "home": "Palmeiras/SP",
           "away": "Cerro Porteno",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5599054_1.flv?auth_key=1786575629-2653-0-1c31f1a639a73eea25573b5a3696acbc",
-          "expires_at_epoch": 1786575629,
-          "expires_at_utc": "2026-08-12T23:00:29+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5599054_1.flv?auth_key=1786576247-7246-0-a5628019dae467cf106e02114e98c283",
+          "expires_at_epoch": 1786576247,
+          "expires_at_utc": "2026-08-12T23:10:47+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669658&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144669658.html"
         }
@@ -185,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669667&lan=2",
           "status": 200,
-          "elapsed": 0.184,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -226,9 +328,9 @@
           "home": "CA Platense",
           "away": "Coquimbo Unido",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5599053_1.flv?auth_key=1786575634-4046-0-50af58430c2e86212f7af1be114317a0",
-          "expires_at_epoch": 1786575634,
-          "expires_at_utc": "2026-08-12T23:00:34+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5599053_1.flv?auth_key=1786576252-9438-0-44adb29e8844265c9d45d846ed14a1b0",
+          "expires_at_epoch": 1786576252,
+          "expires_at_utc": "2026-08-12T23:10:52+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669667&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144669667.html"
         }
@@ -244,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842728&lan=2",
           "status": 200,
-          "elapsed": 0.184,
+          "elapsed": 0.185,
           "error": ""
         }
       ],
@@ -285,9 +387,9 @@
           "home": "CA Tigre",
           "away": "Montevideo City Torque",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5626224_1.flv?auth_key=1786575639-2089-0-e486ebec0e588a2d5b5962f95a5eea07",
-          "expires_at_epoch": 1786575639,
-          "expires_at_utc": "2026-08-12T23:00:39+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5626224_1.flv?auth_key=1786576257-3752-0-8b43265ce7f0f09104eb6089e64402c1",
+          "expires_at_epoch": 1786576257,
+          "expires_at_utc": "2026-08-12T23:10:57+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842728&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842728.html"
         }
@@ -303,7 +405,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843064&lan=2",
           "status": 200,
-          "elapsed": 0.184,
+          "elapsed": 0.185,
           "error": ""
         }
       ],
@@ -344,70 +446,11 @@
           "home": "RB Bragantino/SP",
           "away": "Atletico Mineiro/MG",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5631022_1.flv?auth_key=1786575644-3830-0-6d8e725cf5c6cb4cfb8729678df97e97",
-          "expires_at_epoch": 1786575644,
-          "expires_at_utc": "2026-08-12T23:00:44+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5631022_1.flv?auth_key=1786576262-9171-0-7be068abdccfe50a076ac53039a20468",
+          "expires_at_epoch": 1786576262,
+          "expires_at_utc": "2026-08-12T23:11:02+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843064&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144843064.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5359535034",
-      "start_at": "2026-08-13T04:00:00+07:00",
-      "league": "GUA D2",
-      "home": "Fraijanes",
-      "away": "AFF Guatemala",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359535034&lan=2",
-          "status": 200,
-          "elapsed": 0.184,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "GUA D2 Fraijanes vs AFF Guatemala",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5359535034",
-          "start_at": "2026-08-13T04:00:00+07:00",
-          "league": "GUA D2",
-          "home": "Fraijanes",
-          "away": "AFF Guatemala",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5679566_1.flv?auth_key=1786575649-7003-0-0c4aefadf4866fd125d8b3cd1fdc1b45",
-          "expires_at_epoch": 1786575649,
-          "expires_at_utc": "2026-08-12T23:00:49+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359535034&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5359535034.html"
         }
       ]
     },
@@ -421,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809738&lan=2",
           "status": 200,
-          "elapsed": 0.185,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -464,7 +507,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144655471&lan=2",
           "status": 200,
-          "elapsed": 0.184,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -507,7 +550,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144669655&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.186,
           "error": ""
         }
       ],
@@ -539,13 +582,99 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5137809741",
+      "start_at": "2026-08-13T09:00:00+07:00",
+      "league": "WNBA",
+      "home": "Golden State Valkyries",
+      "away": "Chicago Sky",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809741&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "WNBA Golden State Valkyries vs Chicago Sky",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5137809744",
+      "start_at": "2026-08-13T09:00:00+07:00",
+      "league": "WNBA",
+      "home": "Portland Fire",
+      "away": "Minnesota Lynx",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809744&lan=2",
+          "status": 200,
+          "elapsed": 0.186,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "WNBA Portland Fire vs Minnesota Lynx",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 9,
-    "matches_processed": 9,
-    "valid_player_responses": 9,
+    "matches_selected": 12,
+    "matches_processed": 12,
+    "valid_player_responses": 12,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 6,
@@ -555,26 +684,29 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.705,
-      4.762,
-      4.654,
-      5.1,
-      5.007,
-      5.238,
-      4.564,
-      5.422
+      4.516,
+      4.577,
+      4.538,
+      4.496,
+      4.752,
+      4.636,
+      4.196,
+      4.783,
+      4.225,
+      4.257,
+      4.38
     ],
-    "expires_at_min_epoch": 1786575624,
-    "expires_at_max_epoch": 1786575649,
-    "expires_at_span_seconds": 25,
-    "remaining_ttl_min_seconds": 529,
-    "remaining_ttl_max_seconds": 554,
+    "expires_at_min_epoch": 1786576238,
+    "expires_at_max_epoch": 1786576262,
+    "expires_at_span_seconds": 24,
+    "remaining_ttl_min_seconds": 523,
+    "remaining_ttl_max_seconds": 547,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 5,
+    "expired_previous_removed": 6,
     "final_streams": 6,
     "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 41.96
+    "elapsed_seconds": 52.43
   }
 }
