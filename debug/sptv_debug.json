@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-12T19:10:25+07:00",
+  "started_at": "2026-08-12T19:20:25+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.423,
+    "elapsed": 0.485,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.12,
+        "elapsed": 0.138,
         "error": ""
       }
     ],
-    "rows_selected": 10,
+    "rows_selected": 9,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144868531",
+      "start_at": "2026-08-12T19:00:00+07:00",
+      "league": "Friendly",
+      "home": "PKR Svay Rieng",
+      "away": "Geylang International",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868531&lan=2",
+          "status": 200,
+          "elapsed": 0.145,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Friendly PKR Svay Rieng vs Geylang International",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144868531",
+          "start_at": "2026-08-12T19:00:00+07:00",
+          "league": "Friendly",
+          "home": "PKR Svay Rieng",
+          "away": "Geylang International",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5667038_1.flv?auth_key=1786537825-4218-0-55e6da226c49e2d6a9136b753f47fd98",
+          "expires_at_epoch": 1786537825,
+          "expires_at_utc": "2026-08-12T12:30:25+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868531&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144868531.html"
+        }
+      ]
+    },
     {
       "player_id": "5144868690",
       "start_at": "2026-08-12T19:00:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868690&lan=2",
           "status": 200,
-          "elapsed": 0.127,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -108,56 +167,13 @@
           "home": "KDV Tomsk",
           "away": "FC Sibir Novosibirsk",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5649386_1.flv?auth_key=1786537225-4924-0-befb450c79a72d59ea4fc89786741b1c",
-          "expires_at_epoch": 1786537225,
-          "expires_at_utc": "2026-08-12T12:20:25+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5649386_1.flv?auth_key=1786537830-2011-0-0d7ef08f58b3c501e2c05b18fb6c3f89",
+          "expires_at_epoch": 1786537830,
+          "expires_at_utc": "2026-08-12T12:30:30+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868690&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144868690.html"
         }
       ]
-    },
-    {
-      "player_id": "5359513344",
-      "start_at": "2026-08-12T19:00:00+07:00",
-      "league": "ARG U20",
-      "home": "Deportivo Moron U20",
-      "away": "Los Andes U20",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359513344&lan=2",
-          "status": 200,
-          "elapsed": 0.128,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ARG U20 Deportivo Moron U20 vs Los Andes U20",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5137855335",
@@ -169,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855335&lan=2",
           "status": 200,
-          "elapsed": 0.127,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -210,9 +226,9 @@
           "home": "Magnolia Hotshots BC",
           "away": "Phoenix Fuel Masters BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5599403_1.flv?auth_key=1786537235-1300-0-e33538a376f2426f7515bd1b318c3c69",
-          "expires_at_epoch": 1786537235,
-          "expires_at_utc": "2026-08-12T12:20:35+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5599403_1.flv?auth_key=1786537836-7877-0-6b05b0739ea47082892a9b39663c3960",
+          "expires_at_epoch": 1786537836,
+          "expires_at_utc": "2026-08-12T12:30:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855335&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855335.html"
         }
@@ -228,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864317&lan=2",
           "status": 200,
-          "elapsed": 0.128,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -269,9 +285,9 @@
           "home": "China (W)",
           "away": "Nigeria (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5578744_1.flv?auth_key=1786537241-4551-0-007fa765c884482387472569a405fa7c",
-          "expires_at_epoch": 1786537241,
-          "expires_at_utc": "2026-08-12T12:20:41+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5578744_1.flv?auth_key=1786537840-6408-0-38234274a78e7775cbd2ab08ba81141f",
+          "expires_at_epoch": 1786537840,
+          "expires_at_utc": "2026-08-12T12:30:40+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864317&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137864317.html"
         }
@@ -287,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859694&lan=2",
           "status": 200,
-          "elapsed": 0.127,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -328,9 +344,9 @@
           "home": "Batangas City Tanduay Rum Masters BC",
           "away": "Imus Bandera Yangkee BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600037_1.flv?auth_key=1786537245-7067-0-254261d06f781322c0dc4024c0d2d555",
-          "expires_at_epoch": 1786537245,
-          "expires_at_utc": "2026-08-12T12:20:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600037_1.flv?auth_key=1786537846-1087-0-9f2db2d360366fc6762f167f2e809427",
+          "expires_at_epoch": 1786537846,
+          "expires_at_utc": "2026-08-12T12:30:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859694&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137859694.html"
         }
@@ -346,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868684&lan=2",
           "status": 200,
-          "elapsed": 0.128,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -387,9 +403,9 @@
           "home": "Dinamo Barnaul",
           "away": "Dinamo Vladivostok",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5649385_1.flv?auth_key=1786537250-6422-0-9fdeb014485fb6de0e628795a11b3c22",
-          "expires_at_epoch": 1786537250,
-          "expires_at_utc": "2026-08-12T12:20:50+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5649385_1.flv?auth_key=1786537851-8030-0-900fe87c2464a0416461c265b974c4be",
+          "expires_at_epoch": 1786537851,
+          "expires_at_utc": "2026-08-12T12:30:51+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868684&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144868684.html"
         }
@@ -405,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733411&lan=2",
           "status": 200,
-          "elapsed": 0.127,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -446,56 +462,13 @@
           "home": "FK Volna Nizhegorodskaya",
           "away": "Tyumen",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538694_1.flv?auth_key=1786537255-9361-0-15c06fd1360d0d750314dea30dad88ba",
-          "expires_at_epoch": 1786537255,
-          "expires_at_utc": "2026-08-12T12:20:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538694_1.flv?auth_key=1786537855-9577-0-0abbedb0f788f936a9b84e8c3bac7c17",
+          "expires_at_epoch": 1786537855,
+          "expires_at_utc": "2026-08-12T12:30:55+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733411&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144733411.html"
         }
       ]
-    },
-    {
-      "player_id": "5144868696",
-      "start_at": "2026-08-12T17:00:00+07:00",
-      "league": "RUS Cup",
-      "home": "Avangard Kursk",
-      "away": "Kristall‑MEZT Borisoglebsk",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868696&lan=2",
-          "status": 200,
-          "elapsed": 0.127,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "RUS Cup Avangard Kursk 1-1 Kristall&#8209;MEZT Borisoglebsk",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144868900",
@@ -507,7 +480,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868900&lan=2",
           "status": 200,
-          "elapsed": 0.128,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -550,7 +523,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725998&lan=2",
           "status": 200,
-          "elapsed": 0.127,
+          "elapsed": 0.145,
           "error": ""
         }
       ],
@@ -586,39 +559,38 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 10,
-    "matches_processed": 10,
-    "valid_player_responses": 10,
+    "matches_selected": 9,
+    "matches_processed": 9,
+    "valid_player_responses": 9,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 6,
-    "fresh_streams_accepted": 6,
+    "streams_returned_by_api": 7,
+    "fresh_streams_accepted": 7,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.923,
-      4.823,
-      5.32,
-      4.331,
-      4.814,
-      4.551,
-      5.134,
-      4.765,
-      4.998
+      4.725,
+      5.139,
+      4.677,
+      5.446,
+      4.622,
+      4.105,
+      4.254,
+      4.227
     ],
-    "expires_at_min_epoch": 1786537225,
-    "expires_at_max_epoch": 1786537255,
+    "expires_at_min_epoch": 1786537825,
+    "expires_at_max_epoch": 1786537855,
     "expires_at_span_seconds": 30,
-    "remaining_ttl_min_seconds": 525,
-    "remaining_ttl_max_seconds": 555,
+    "remaining_ttl_min_seconds": 531,
+    "remaining_ttl_max_seconds": 561,
     "playlist_changed": true,
-    "preserved_unexpired_previous": 2,
-    "expired_previous_removed": 1,
-    "final_streams": 8,
-    "publish_reason": "published 6 fresh streams + preserved 2 unexpired previous streams",
+    "preserved_unexpired_previous": 0,
+    "expired_previous_removed": 8,
+    "final_streams": 7,
+    "publish_reason": "published 7 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 45.48
+    "elapsed_seconds": 39.13
   }
 }
