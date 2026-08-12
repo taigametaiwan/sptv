@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-12T13:00:37+07:00",
+  "started_at": "2026-08-12T14:00:34+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.587,
+    "elapsed": 0.464,
     "error": ""
   },
   "schedule": {
@@ -49,11 +49,11 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.169,
+        "elapsed": 0.116,
         "error": ""
       }
     ],
-    "rows_selected": 4,
+    "rows_selected": 9,
     "window": "-150/+180"
   },
   "matches": [
@@ -67,7 +67,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859598&lan=2",
           "status": 200,
-          "elapsed": 0.176,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -110,7 +110,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144655492&lan=2",
           "status": 200,
-          "elapsed": 0.176,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -136,12 +136,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "OFC OCL Lae City FC vs ABM Galaxy",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144655492",
+          "start_at": "2026-08-12T14:00:00+07:00",
+          "league": "OFC OCL",
+          "home": "Lae City FC",
+          "away": "ABM Galaxy",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5364942_1.flv?auth_key=1786518639-2191-0-a02a434c691b35d6d8b2ef87e014bbde",
+          "expires_at_epoch": 1786518639,
+          "expires_at_utc": "2026-08-12T07:10:39+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144655492&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144655492.html"
+        }
+      ]
     },
     {
       "player_id": "5144526897",
@@ -153,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526897&lan=2",
           "status": 200,
-          "elapsed": 0.176,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -196,7 +212,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859601&lan=2",
           "status": 200,
-          "elapsed": 0.176,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -228,37 +244,257 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144843094",
+      "start_at": "2026-08-12T16:30:00+07:00",
+      "league": "AUS CUP",
+      "home": "Brunswick Juventus FC",
+      "away": "Preston Lions",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843094&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS CUP Brunswick Juventus FC vs Preston Lions",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144843097",
+      "start_at": "2026-08-12T16:30:00+07:00",
+      "league": "AUS CUP",
+      "home": "APIA Leichhardt",
+      "away": "Sydney United 58",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843097&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS CUP APIA Leichhardt vs Sydney United 58",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144843106",
+      "start_at": "2026-08-12T16:45:00+07:00",
+      "league": "AUS CUP",
+      "home": "North Sunshine Eagles",
+      "away": "Heidelberg United",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843106&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS CUP North Sunshine Eagles vs Heidelberg United",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144526516",
+      "start_at": "2026-08-12T17:00:00+07:00",
+      "league": "AUS NNNPL",
+      "home": "Kahibah",
+      "away": "Maitland",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526516&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NNNPL Kahibah vs Maitland",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144526552",
+      "start_at": "2026-08-12T17:00:00+07:00",
+      "league": "AUS NNNPL",
+      "home": "Charlestown Azzurri FC",
+      "away": "Edgeworth Eagles",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526552&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NNNPL Charlestown Azzurri FC vs Edgeworth Eagles",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
-    "status": "EMPTY_NO_VALID_KEY",
-    "matches_selected": 4,
-    "matches_processed": 4,
-    "valid_player_responses": 4,
+    "status": "PUBLISHED_FRESH",
+    "matches_selected": 9,
+    "matches_processed": 9,
+    "valid_player_responses": 9,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 0,
-    "fresh_streams_accepted": 0,
+    "streams_returned_by_api": 1,
+    "fresh_streams_accepted": 1,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.16,
-      5.384,
-      4.185
+      4.167,
+      4.03,
+      5.34,
+      5.38,
+      4.764,
+      5.47,
+      5.146,
+      4.376
     ],
-    "expires_at_min_epoch": null,
-    "expires_at_max_epoch": null,
+    "expires_at_min_epoch": 1786518639,
+    "expires_at_max_epoch": 1786518639,
     "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": null,
-    "remaining_ttl_max_seconds": null,
+    "remaining_ttl_min_seconds": 535,
+    "remaining_ttl_max_seconds": 535,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 1,
-    "final_streams": 0,
-    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 1 expired streams",
+    "expired_previous_removed": 0,
+    "final_streams": 1,
+    "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 15.2
+    "elapsed_seconds": 40.38
   }
 }
