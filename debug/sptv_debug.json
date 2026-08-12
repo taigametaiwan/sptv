@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-12T20:20:25+07:00",
+  "started_at": "2026-08-12T20:30:29+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.398,
+    "elapsed": 0.538,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.107,
+        "elapsed": 0.137,
         "error": ""
       }
     ],
@@ -57,6 +57,65 @@
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144868900",
+      "start_at": "2026-08-12T20:30:00+07:00",
+      "league": "AFC CLT",
+      "home": "East Bengal FC",
+      "away": "Al-Arabi Kuwait",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868900&lan=2",
+          "status": 200,
+          "elapsed": 0.147,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AFC CLT East Bengal FC vs Al-Arabi Kuwait",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144868900",
+          "start_at": "2026-08-12T20:30:00+07:00",
+          "league": "AFC CLT",
+          "home": "East Bengal FC",
+          "away": "Al-Arabi Kuwait",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538691_1.flv?auth_key=1786542030-1036-0-1821e6a43023486f59f22bee3761e167",
+          "expires_at_epoch": 1786542030,
+          "expires_at_utc": "2026-08-12T13:40:30+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868900&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144868900.html"
+        }
+      ]
+    },
     {
       "player_id": "5144733375",
       "start_at": "2026-08-12T20:00:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733375&lan=2",
           "status": 200,
-          "elapsed": 0.117,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -108,9 +167,9 @@
           "home": "Angusht Nazran",
           "away": "Druzhba Maykop",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538703_1.flv?auth_key=1786541425-8046-0-8cfe843fe45a7159fb08d944dc1e8713",
-          "expires_at_epoch": 1786541425,
-          "expires_at_utc": "2026-08-12T13:30:25+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538703_1.flv?auth_key=1786542034-6861-0-9c00c1c9acb87ed3b1c44fc3d678cecc",
+          "expires_at_epoch": 1786542034,
+          "expires_at_utc": "2026-08-12T13:40:34+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733375&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144733375.html"
         }
@@ -126,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733402&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -167,9 +226,9 @@
           "home": "Irtysh Omsk",
           "away": "Saturn Ramenskoye",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538710_1.flv?auth_key=1786541430-4490-0-d3d66d2123340a472f1f803f5b1abb95",
-          "expires_at_epoch": 1786541430,
-          "expires_at_utc": "2026-08-12T13:30:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538710_1.flv?auth_key=1786542040-8155-0-be43cc04e4d931764f378f998365df37",
+          "expires_at_epoch": 1786542040,
+          "expires_at_utc": "2026-08-12T13:40:40+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144733402&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144733402.html"
         }
@@ -185,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868531&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -226,9 +285,9 @@
           "home": "PKR Svay Rieng",
           "away": "Geylang International",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5667038_1.flv?auth_key=1786541434-4022-0-552be0a05b75ff7eeb5b6c9411840539",
-          "expires_at_epoch": 1786541434,
-          "expires_at_utc": "2026-08-12T13:30:34+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5667038_1.flv?auth_key=1786542044-7221-0-df4af7a4c70bbf2b491ea0e9a6e798fb",
+          "expires_at_epoch": 1786542044,
+          "expires_at_utc": "2026-08-12T13:40:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868531&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144868531.html"
         }
@@ -244,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868690&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -285,9 +344,9 @@
           "home": "KDV Tomsk",
           "away": "FC Sibir Novosibirsk",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5649386_1.flv?auth_key=1786541439-4331-0-a7552c82e78e00704395448d8d476827",
-          "expires_at_epoch": 1786541439,
-          "expires_at_utc": "2026-08-12T13:30:39+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5649386_1.flv?auth_key=1786542049-1986-0-bf3a9ef49970d70594b1ec8747b1e214",
+          "expires_at_epoch": 1786542049,
+          "expires_at_utc": "2026-08-12T13:40:49+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868690&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144868690.html"
         }
@@ -303,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855335&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -344,56 +403,13 @@
           "home": "Magnolia Hotshots BC",
           "away": "Phoenix Fuel Masters BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5599403_1.flv?auth_key=1786541444-7382-0-cae8526a6bfa84e49b2ac32847d420ca",
-          "expires_at_epoch": 1786541444,
-          "expires_at_utc": "2026-08-12T13:30:44+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5599403_1.flv?auth_key=1786542053-5971-0-f8f85cf68ef2090ec22fba36233481a7",
+          "expires_at_epoch": 1786542053,
+          "expires_at_utc": "2026-08-12T13:40:53+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855335&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855335.html"
         }
       ]
-    },
-    {
-      "player_id": "5144868900",
-      "start_at": "2026-08-12T20:30:00+07:00",
-      "league": "AFC CLT",
-      "home": "East Bengal FC",
-      "away": "Al-Arabi Kuwait",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144868900&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "AFC CLT East Bengal FC vs Al-Arabi Kuwait",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144725998",
@@ -405,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725998&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -448,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843556&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -491,7 +507,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843565&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -534,7 +550,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843598&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -575,34 +591,34 @@
     "valid_player_responses": 10,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 5,
-    "fresh_streams_accepted": 5,
+    "streams_returned_by_api": 6,
+    "fresh_streams_accepted": 6,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.437,
-      4.219,
-      4.907,
-      4.772,
-      5.043,
-      4.492,
+      4.343,
+      5.49,
+      4.031,
+      4.323,
+      4.494,
+      4.19,
+      4.96,
       5.167,
-      5.138,
-      4.311
+      4.308
     ],
-    "expires_at_min_epoch": 1786541425,
-    "expires_at_max_epoch": 1786541444,
-    "expires_at_span_seconds": 19,
-    "remaining_ttl_min_seconds": 526,
-    "remaining_ttl_max_seconds": 545,
+    "expires_at_min_epoch": 1786542030,
+    "expires_at_max_epoch": 1786542053,
+    "expires_at_span_seconds": 23,
+    "remaining_ttl_min_seconds": 527,
+    "remaining_ttl_max_seconds": 550,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 7,
-    "final_streams": 5,
-    "publish_reason": "published 5 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 5,
+    "final_streams": 6,
+    "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 44.15
+    "elapsed_seconds": 43.46
   }
 }
