@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-13T20:40:29+07:00",
+  "started_at": "2026-08-13T20:50:27+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.588,
+    "elapsed": 0.44,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,86 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.171,
+        "elapsed": 0.121,
         "error": ""
       }
     ],
-    "rows_selected": 15,
+    "rows_selected": 16,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5359865958",
+      "start_at": "2026-08-13T20:15:00+07:00",
+      "league": "Friendly",
+      "home": "FC Liefering",
+      "away": "Aris Limassol",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359865958&lan=2",
+          "status": 200,
+          "elapsed": 0.133,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "Friendly FC Liefering vs Aris Limassol",
+        "stream_item_count": 2,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5359865958",
+          "start_at": "2026-08-13T20:15:00+07:00",
+          "league": "Friendly",
+          "home": "FC Liefering",
+          "away": "Aris Limassol",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5684261_1.flv?auth_key=1786629627-4509-0-dd5f16e049c598551450fe33c48bd56e",
+          "expires_at_epoch": 1786629627,
+          "expires_at_utc": "2026-08-13T14:00:27+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359865958&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5359865958.html"
+        },
+        {
+          "player_id": "5359865958",
+          "start_at": "2026-08-13T20:15:00+07:00",
+          "league": "Friendly",
+          "home": "FC Liefering",
+          "away": "Aris Limassol",
+          "line_number": 2,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5684261_2.flv?auth_key=1786629627-4381-0-103ab99fee63a5ebc9cd7b8488594761",
+          "expires_at_epoch": 1786629627,
+          "expires_at_utc": "2026-08-13T14:00:27+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359865958&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5359865958.html"
+        }
+      ]
+    },
     {
       "player_id": "5144589201",
       "start_at": "2026-08-13T20:00:00+07:00",
@@ -67,7 +139,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589201&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -95,7 +167,7 @@
         "code": 0,
         "pid": 1,
         "title": "KAZ D2 Aktobe Youth vs Shakhter Karagandy",
-        "stream_item_count": 1,
+        "stream_item_count": 2,
         "stream_item_types": [
           "dict"
         ]
@@ -108,9 +180,22 @@
           "home": "Aktobe Youth",
           "away": "Shakhter Karagandy",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5311799_1.flv?auth_key=1786629030-4666-0-894d91c5f58323c3a556c30d9dde4d52",
-          "expires_at_epoch": 1786629030,
-          "expires_at_utc": "2026-08-13T13:50:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5311799_1.flv?auth_key=1786629632-3806-0-3ea6688ffc6e6cdb973e06aa1bb66298",
+          "expires_at_epoch": 1786629632,
+          "expires_at_utc": "2026-08-13T14:00:32+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589201&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144589201.html"
+        },
+        {
+          "player_id": "5144589201",
+          "start_at": "2026-08-13T20:00:00+07:00",
+          "league": "KAZ D2",
+          "home": "Aktobe Youth",
+          "away": "Shakhter Karagandy",
+          "line_number": 2,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5311799_2.flv?auth_key=1786629632-2666-0-aff39b5e733f490ab2fb04e565df8d70",
+          "expires_at_epoch": 1786629632,
+          "expires_at_utc": "2026-08-13T14:00:32+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589201&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144589201.html"
         }
@@ -126,7 +211,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137843974&lan=2",
           "status": 200,
-          "elapsed": 0.184,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -154,7 +239,7 @@
         "code": 0,
         "pid": 1,
         "title": "VBA Danang Dragons BC vs Nha Trang Dolphins BC",
-        "stream_item_count": 1,
+        "stream_item_count": 2,
         "stream_item_types": [
           "dict"
         ]
@@ -167,9 +252,22 @@
           "home": "Danang Dragons BC",
           "away": "Nha Trang Dolphins BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5338532_1.flv?auth_key=1786629035-8984-0-2ce0e9540b3b409c72d050017732f39e",
-          "expires_at_epoch": 1786629035,
-          "expires_at_utc": "2026-08-13T13:50:35+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5338532_1.flv?auth_key=1786629637-4970-0-4253995944f28b8f3e113589eb6f815f",
+          "expires_at_epoch": 1786629637,
+          "expires_at_utc": "2026-08-13T14:00:37+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137843974&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137843974.html"
+        },
+        {
+          "player_id": "5137843974",
+          "start_at": "2026-08-13T19:30:00+07:00",
+          "league": "VBA",
+          "home": "Danang Dragons BC",
+          "away": "Nha Trang Dolphins BC",
+          "line_number": 2,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5338532_2.flv?auth_key=1786629637-4376-0-1f80820c13fd1b87707441d1f4a90a38",
+          "expires_at_epoch": 1786629637,
+          "expires_at_utc": "2026-08-13T14:00:37+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137843974&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137843974.html"
         }
@@ -185,7 +283,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359550430&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -226,9 +324,9 @@
           "home": "Bali United FC",
           "away": "Sabah FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5682037_1.flv?auth_key=1786629040-6422-0-c37af0b697a9adc010a95ee33ec38a0e",
-          "expires_at_epoch": 1786629040,
-          "expires_at_utc": "2026-08-13T13:50:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5682037_1.flv?auth_key=1786629642-6877-0-17bc6564c1b863f33dca55ff6b155bb5",
+          "expires_at_epoch": 1786629642,
+          "expires_at_utc": "2026-08-13T14:00:42+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5359550430&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5359550430.html"
         }
@@ -244,7 +342,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864515&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -285,9 +383,9 @@
           "home": "Xinjiang Flying Tigers BC",
           "away": "Ningbo Rockets BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5622326_1.flv?auth_key=1786629046-8665-0-b577eb6e6d60e639c938d6604d7ed520",
-          "expires_at_epoch": 1786629046,
-          "expires_at_utc": "2026-08-13T13:50:46+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5622326_1.flv?auth_key=1786629647-4101-0-93a409d4a92287545da8aee9ac5d4b83",
+          "expires_at_epoch": 1786629647,
+          "expires_at_utc": "2026-08-13T14:00:47+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864515&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137864515.html"
         }
@@ -303,7 +401,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589210&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -331,7 +429,7 @@
         "code": 0,
         "pid": 1,
         "title": "KAZ D2 Kairat Zhastar vs Akademiya Ontustik",
-        "stream_item_count": 1,
+        "stream_item_count": 2,
         "stream_item_types": [
           "dict"
         ]
@@ -344,9 +442,22 @@
           "home": "Kairat Zhastar",
           "away": "Akademiya Ontustik",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5311798_1.flv?auth_key=1786629051-9843-0-7c33ddfc653aff8ab882328ef52ede5e",
-          "expires_at_epoch": 1786629051,
-          "expires_at_utc": "2026-08-13T13:50:51+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5311798_1.flv?auth_key=1786629652-6750-0-b96a9753c0aec6610629803e3a47006c",
+          "expires_at_epoch": 1786629652,
+          "expires_at_utc": "2026-08-13T14:00:52+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589210&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144589210.html"
+        },
+        {
+          "player_id": "5144589210",
+          "start_at": "2026-08-13T19:00:00+07:00",
+          "league": "KAZ D2",
+          "home": "Kairat Zhastar",
+          "away": "Akademiya Ontustik",
+          "line_number": 2,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5311798_2.flv?auth_key=1786629652-6029-0-2916e5459060f31d37cb6968f73c86b8",
+          "expires_at_epoch": 1786629652,
+          "expires_at_utc": "2026-08-13T14:00:52+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589210&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144589210.html"
         }
@@ -362,7 +473,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493525&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -405,7 +516,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493546&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.135,
           "error": ""
         }
       ],
@@ -448,7 +559,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589207&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -491,7 +602,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843586&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -534,7 +645,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493528&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -577,7 +688,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843505&lan=2",
           "status": 200,
-          "elapsed": 0.184,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -620,7 +731,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843559&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -663,7 +774,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843625&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -706,7 +817,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144834997&lan=2",
           "status": 200,
-          "elapsed": 0.182,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -749,7 +860,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144843580&lan=2",
           "status": 200,
-          "elapsed": 0.183,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -785,44 +896,45 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 15,
-    "matches_processed": 15,
-    "valid_player_responses": 15,
+    "matches_selected": 16,
+    "matches_processed": 16,
+    "valid_player_responses": 16,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 5,
-    "fresh_streams_accepted": 5,
+    "streams_returned_by_api": 10,
+    "fresh_streams_accepted": 10,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.369,
-      5.325,
-      5.467,
-      4.432,
-      4.394,
-      5.368,
-      4.201,
-      4.73,
-      5.046,
-      4.947,
-      5.189,
-      4.756,
-      4.673,
-      4.138
+      4.798,
+      4.879,
+      4.934,
+      4.747,
+      4.997,
+      4.065,
+      5.49,
+      4.176,
+      5.237,
+      5.002,
+      4.538,
+      4.603,
+      4.24,
+      4.364,
+      4.03
     ],
-    "expires_at_min_epoch": 1786629030,
-    "expires_at_max_epoch": 1786629051,
-    "expires_at_span_seconds": 21,
-    "remaining_ttl_min_seconds": 500,
-    "remaining_ttl_max_seconds": 521,
+    "expires_at_min_epoch": 1786629627,
+    "expires_at_max_epoch": 1786629652,
+    "expires_at_span_seconds": 25,
+    "remaining_ttl_min_seconds": 498,
+    "remaining_ttl_max_seconds": 523,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 5,
-    "final_streams": 5,
-    "publish_reason": "published 5 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 10,
+    "publish_reason": "published 10 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 70.55
+    "elapsed_seconds": 72.81
   }
 }
