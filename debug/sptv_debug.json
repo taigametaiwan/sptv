@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-14T12:19:59+07:00",
+  "started_at": "2026-08-14T16:30:47+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.604,
+    "elapsed": 0.708,
     "error": ""
   },
   "schedule": {
@@ -49,23 +49,522 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.172,
+        "elapsed": 0.175,
         "error": ""
       }
     ],
-    "rows_selected": 2,
+    "rows_selected": 30,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5137859697",
-      "start_at": "2026-08-14T14:00:00+07:00",
-      "league": "MPBL",
-      "home": "Mindoro Tamaraws BC",
-      "away": "Quezon City Black Bulls BC",
+      "player_id": "5144411289",
+      "start_at": "2026-08-14T16:30:00+07:00",
+      "league": "AUS NPLQ",
+      "home": "Brisbane Roar Youth",
+      "away": "Gold Coast Knights SC",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859697&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411289&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS NPLQ Brisbane Roar Youth vs Gold Coast Knights SC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144411289",
+          "start_at": "2026-08-14T16:30:00+07:00",
+          "league": "AUS NPLQ",
+          "home": "Brisbane Roar Youth",
+          "away": "Gold Coast Knights SC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315077_1.flv?auth_key=1786700448-7718-0-5f17b22f5b798af528a94b038e94b888",
+          "expires_at_epoch": 1786700448,
+          "expires_at_utc": "2026-08-14T09:40:48+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411289&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144411289.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144411292",
+      "start_at": "2026-08-14T16:30:00+07:00",
+      "league": "AUS NPLQ",
+      "home": "Gold Coast United",
+      "away": "Eastern Suburbs FC (AUS)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411292&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS NPLQ Gold Coast United vs Eastern Suburbs FC (AUS)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144411292",
+          "start_at": "2026-08-14T16:30:00+07:00",
+          "league": "AUS NPLQ",
+          "home": "Gold Coast United",
+          "away": "Eastern Suburbs FC (AUS)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315076_1.flv?auth_key=1786700453-2704-0-04d5e0a7a01e86fcb4d15884aa228ed3",
+          "expires_at_epoch": 1786700453,
+          "expires_at_utc": "2026-08-14T09:40:53+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411292&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144411292.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144411295",
+      "start_at": "2026-08-14T16:30:00+07:00",
+      "league": "AUS NPLQ",
+      "home": "Moreton City Excelsior FC",
+      "away": "Queensland Lions",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411295&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLQ Moreton City Excelsior FC vs Queensland Lions",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144411298",
+      "start_at": "2026-08-14T16:30:00+07:00",
+      "league": "AUS NPLQ",
+      "home": "Olympic FC",
+      "away": "Rochedale Rovers",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411298&lan=2",
+          "status": 200,
+          "elapsed": 0.188,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS NPLQ Olympic FC vs Rochedale Rovers",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144411298",
+          "start_at": "2026-08-14T16:30:00+07:00",
+          "league": "AUS NPLQ",
+          "home": "Olympic FC",
+          "away": "Rochedale Rovers",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315074_1.flv?auth_key=1786700463-4164-0-4c61a12104bd046ce5eaddf58e8a375b",
+          "expires_at_epoch": 1786700463,
+          "expires_at_utc": "2026-08-14T09:41:03+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411298&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144411298.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144411301",
+      "start_at": "2026-08-14T16:30:00+07:00",
+      "league": "AUS NPLQ",
+      "home": "Peninsula Power",
+      "away": "Brisbane City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411301&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS NPLQ Peninsula Power vs Brisbane City",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144411301",
+          "start_at": "2026-08-14T16:30:00+07:00",
+          "league": "AUS NPLQ",
+          "home": "Peninsula Power",
+          "away": "Brisbane City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315073_1.flv?auth_key=1786700468-1270-0-37e78e49bc652e4cbe2eff4540d6c52e",
+          "expires_at_epoch": 1786700468,
+          "expires_at_utc": "2026-08-14T09:41:08+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411301&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144411301.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144411304",
+      "start_at": "2026-08-14T16:30:00+07:00",
+      "league": "AUS NPLQ",
+      "home": "Wynnum Wolves",
+      "away": "Magic United FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411304&lan=2",
+          "status": 200,
+          "elapsed": 0.189,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS NPLQ Wynnum Wolves vs Magic United FC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144411304",
+          "start_at": "2026-08-14T16:30:00+07:00",
+          "league": "AUS NPLQ",
+          "home": "Wynnum Wolves",
+          "away": "Magic United FC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315072_1.flv?auth_key=1786700472-6194-0-8163db58acf2590261aad0ee8d62b9a3",
+          "expires_at_epoch": 1786700472,
+          "expires_at_utc": "2026-08-14T09:41:12+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144411304&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144411304.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144486841",
+      "start_at": "2026-08-14T16:30:00+07:00",
+      "league": "AUS NPLNS",
+      "home": "Sydney FC Youth",
+      "away": "St George City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486841&lan=2",
+          "status": 200,
+          "elapsed": 0.188,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS NPLNS Sydney FC Youth vs St George City",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144486841",
+          "start_at": "2026-08-14T16:30:00+07:00",
+          "league": "AUS NPLNS",
+          "home": "Sydney FC Youth",
+          "away": "St George City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315070_1.flv?auth_key=1786700477-9388-0-06e130407379860deb1a3150e5b2baac",
+          "expires_at_epoch": 1786700477,
+          "expires_at_utc": "2026-08-14T09:41:17+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486841&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144486841.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144886054",
+      "start_at": "2026-08-14T16:30:00+07:00",
+      "league": "AUS VPL2",
+      "home": "Nunawading City",
+      "away": "Bayside Argonauts",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886054&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS VPL2 Nunawading City vs Bayside Argonauts",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5137855236",
+      "start_at": "2026-08-14T16:15:00+07:00",
+      "league": "PBAGC",
+      "home": "Converge FiberXers BC",
+      "away": "NLEX Road Warriors BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855236&lan=2",
+          "status": 200,
+          "elapsed": 0.186,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "PBAGC Converge FiberXers BC vs NLEX Road Warriors BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137855236",
+          "start_at": "2026-08-14T16:15:00+07:00",
+          "league": "PBAGC",
+          "home": "Converge FiberXers BC",
+          "away": "NLEX Road Warriors BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5599404_1.flv?auth_key=1786700487-3090-0-da976081a5e1183d75383f80a1832c4c",
+          "expires_at_epoch": 1786700487,
+          "expires_at_utc": "2026-08-14T09:41:27+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855236&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137855236.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137859700",
+      "start_at": "2026-08-14T16:00:00+07:00",
+      "league": "MPBL",
+      "home": "Zamboanga Sikat BC",
+      "away": "Caloocan Batang Kankaloo BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859700&lan=2",
           "status": 200,
           "elapsed": 0.188,
           "error": ""
@@ -94,23 +593,390 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "MPBL Mindoro Tamaraws BC vs Quezon City Black Bulls BC",
+        "title": "MPBL Zamboanga Sikat BC vs Caloocan Batang Kankaloo BC",
         "stream_item_count": 0,
         "stream_item_types": []
       },
       "streams": []
     },
     {
-      "player_id": "5137878624",
-      "start_at": "2026-08-14T14:00:00+07:00",
-      "league": "JonB",
-      "home": "Malaysia (M)",
-      "away": "Jordan (M)",
+      "player_id": "5137864518",
+      "start_at": "2026-08-14T16:00:00+07:00",
+      "league": "CBASL",
+      "home": "Ningbo Rockets BC",
+      "away": "Jiangsu Dragons BC",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137878624&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864518&lan=2",
           "status": 200,
-          "elapsed": 0.185,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "CBASL Ningbo Rockets BC vs Jiangsu Dragons BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137864518",
+          "start_at": "2026-08-14T16:00:00+07:00",
+          "league": "CBASL",
+          "home": "Ningbo Rockets BC",
+          "away": "Jiangsu Dragons BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5622327_1.flv?auth_key=1786700497-1307-0-f14b2222380464ae69b520849d3e993e",
+          "expires_at_epoch": 1786700497,
+          "expires_at_utc": "2026-08-14T09:41:37+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864518&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137864518.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137878627",
+      "start_at": "2026-08-14T16:00:00+07:00",
+      "league": "JonB",
+      "home": "Chinese Taipei White Team (M)",
+      "away": "U.California Irvine",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137878627&lan=2",
+          "status": 200,
+          "elapsed": 0.188,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "JonB Chinese Taipei White Team (M) vs U.California Irvine",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137878627",
+          "start_at": "2026-08-14T16:00:00+07:00",
+          "league": "JonB",
+          "home": "Chinese Taipei White Team (M)",
+          "away": "U.California Irvine",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5683708_1.flv?auth_key=1786700502-6170-0-95ecc4445cddbb3caef1e9d4b719eeb0",
+          "expires_at_epoch": 1786700502,
+          "expires_at_utc": "2026-08-14T09:41:42+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137878627&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137878627.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144551833",
+      "start_at": "2026-08-14T16:00:00+07:00",
+      "league": "RUS U19",
+      "home": "Pari Nizhny Novgorod U19",
+      "away": "Akademiya Konoplev U19",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144551833&lan=2",
+          "status": 200,
+          "elapsed": 0.191,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "RUS U19 Pari Nizhny Novgorod U19 vs Akademiya Konoplev U19",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144551833",
+          "start_at": "2026-08-14T16:00:00+07:00",
+          "league": "RUS U19",
+          "home": "Pari Nizhny Novgorod U19",
+          "away": "Akademiya Konoplev U19",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315090_1.flv?auth_key=1786700507-9624-0-6fc1b52af1a0ff6e8a2a6d95d7d60aa6",
+          "expires_at_epoch": 1786700507,
+          "expires_at_utc": "2026-08-14T09:41:47+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144551833&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144551833.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5360019441",
+      "start_at": "2026-08-14T16:00:00+07:00",
+      "league": "KOR KC",
+      "home": "Busan Transportation",
+      "away": "Ulsan Citizen",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360019441&lan=2",
+          "status": 200,
+          "elapsed": 0.191,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "KOR KC Busan Transportation vs Ulsan Citizen",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5360019441",
+          "start_at": "2026-08-14T16:00:00+07:00",
+          "league": "KOR KC",
+          "home": "Busan Transportation",
+          "away": "Ulsan Citizen",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5685798_1.flv?auth_key=1786700513-6913-0-89980212eaf331d0fe211821ff7a977c",
+          "expires_at_epoch": 1786700513,
+          "expires_at_utc": "2026-08-14T09:41:53+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360019441&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5360019441.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144551842",
+      "start_at": "2026-08-14T15:00:00+07:00",
+      "league": "RUS U19",
+      "home": "FK Ural U19",
+      "away": "Rostov U19",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144551842&lan=2",
+          "status": 200,
+          "elapsed": 0.189,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "RUS U19 FK Ural U19 vs Rostov U19",
+        "stream_item_count": 2,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144551842",
+          "start_at": "2026-08-14T15:00:00+07:00",
+          "league": "RUS U19",
+          "home": "FK Ural U19",
+          "away": "Rostov U19",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315087_1.flv?auth_key=1786700518-2144-0-cfb93ad52a2e5bad0c0e565268666a77",
+          "expires_at_epoch": 1786700518,
+          "expires_at_utc": "2026-08-14T09:41:58+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144551842&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144551842.html"
+        },
+        {
+          "player_id": "5144551842",
+          "start_at": "2026-08-14T15:00:00+07:00",
+          "league": "RUS U19",
+          "home": "FK Ural U19",
+          "away": "Rostov U19",
+          "line_number": 2,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5315087_2.flv?auth_key=1786700518-2044-0-e0ad0c9e73b2036f65491205b8c62aaa",
+          "expires_at_epoch": 1786700518,
+          "expires_at_utc": "2026-08-14T09:41:58+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144551842&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144551842.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144812524",
+      "start_at": "2026-08-14T15:00:00+07:00",
+      "league": "POL YL",
+      "home": "Arkonia Szczecin U19",
+      "away": "Gornik Zabrze U19",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144812524&lan=2",
+          "status": 200,
+          "elapsed": 0.188,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "POL YL Arkonia Szczecin U19 vs Gornik Zabrze U19",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144812524",
+          "start_at": "2026-08-14T15:00:00+07:00",
+          "league": "POL YL",
+          "home": "Arkonia Szczecin U19",
+          "away": "Gornik Zabrze U19",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5599064_1.flv?auth_key=1786700522-5577-0-bdb824097269a7fdfa31387a70674292",
+          "expires_at_epoch": 1786700522,
+          "expires_at_utc": "2026-08-14T09:42:02+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144812524&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144812524.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144457018",
+      "start_at": "2026-08-14T16:45:00+07:00",
+      "league": "AUS NPLV",
+      "home": "Dandenong City",
+      "away": "Altona Magic",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457018&lan=2",
+          "status": 200,
+          "elapsed": 0.189,
           "error": ""
         }
       ],
@@ -137,7 +1003,566 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "JonB Malaysia (M) vs Jordan (M)",
+        "title": "AUS NPLV Dandenong City vs Altona Magic",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144695413",
+      "start_at": "2026-08-14T17:00:00+07:00",
+      "league": "JAP D1",
+      "home": "Tokyo Verdy",
+      "away": "Kashiwa Reysol",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695413&lan=2",
+          "status": 200,
+          "elapsed": 0.188,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "JAP D1 Tokyo Verdy vs Kashiwa Reysol",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144801049",
+      "start_at": "2026-08-14T17:00:00+07:00",
+      "league": "UKR D2",
+      "home": "Ahrobiznes Volochysk",
+      "away": "Lokomotiv Kyiv",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144801049&lan=2",
+          "status": 200,
+          "elapsed": 0.189,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "UKR D2 Ahrobiznes Volochysk vs Lokomotiv Kyiv",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5360019564",
+      "start_at": "2026-08-14T17:00:00+07:00",
+      "league": "AUS NSL2",
+      "home": "Fraser Park FC",
+      "away": "Central Coast United FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360019564&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NSL2 Fraser Park FC vs Central Coast United FC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144457021",
+      "start_at": "2026-08-14T17:15:00+07:00",
+      "league": "AUS NPLV",
+      "home": "Oakleigh Cannons",
+      "away": "Green Gully SC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457021&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLV Oakleigh Cannons vs Green Gully SC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144457024",
+      "start_at": "2026-08-14T17:30:00+07:00",
+      "league": "AUS NPLV",
+      "home": "St Albans Dinamo SC",
+      "away": "Bentleigh Greens",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457024&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLV St Albans Dinamo SC vs Bentleigh Greens",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5137859613",
+      "start_at": "2026-08-14T18:00:00+07:00",
+      "league": "MPBL",
+      "home": "Bataan Risers BC",
+      "away": "GenSan Warriors BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859613&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Bataan Risers BC vs GenSan Warriors BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144870490",
+      "start_at": "2026-08-14T18:00:00+07:00",
+      "league": "BDI PL",
+      "home": "Muzinga FC",
+      "away": "Never Give Up Academy",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144870490&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "BDI PL Muzinga FC vs Never Give Up Academy",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144549049",
+      "start_at": "2026-08-14T18:30:00+07:00",
+      "league": "CHN D1",
+      "home": "Shaanxi Union",
+      "away": "Changchun Yatai",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144549049&lan=2",
+          "status": 200,
+          "elapsed": 0.188,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN D1 Shaanxi Union vs Changchun Yatai",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144528553",
+      "start_at": "2026-08-14T18:35:00+07:00",
+      "league": "CHN SL",
+      "home": "Shandong Taishan",
+      "away": "Qingdao Hainiu",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528553&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN SL Shandong Taishan vs Qingdao Hainiu",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144528556",
+      "start_at": "2026-08-14T18:35:00+07:00",
+      "league": "CHN SL",
+      "home": "Wuhan Three Towns",
+      "away": "Shanghai Port FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528556&lan=2",
+          "status": 200,
+          "elapsed": 0.188,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN SL Wuhan Three Towns vs Shanghai Port FC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5137864521",
+      "start_at": "2026-08-14T19:00:00+07:00",
+      "league": "CBASL",
+      "home": "Qingdao Eagles BC",
+      "away": "Beijing Royal Fighters BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137864521&lan=2",
+          "status": 200,
+          "elapsed": 0.187,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CBASL Qingdao Eagles BC vs Beijing Royal Fighters BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144528559",
+      "start_at": "2026-08-14T19:00:00+07:00",
+      "league": "CHN SL",
+      "home": "Qingdao West Coast",
+      "away": "Chongqing Tongliang Long FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528559&lan=2",
+          "status": 200,
+          "elapsed": 0.189,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHN SL Qingdao West Coast vs Chongqing Tongliang Long FC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144589204",
+      "start_at": "2026-08-14T19:00:00+07:00",
+      "league": "KAZ D2",
+      "home": "Batyr Ekibastuz",
+      "away": "FC Jaiyq",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589204&lan=2",
+          "status": 200,
+          "elapsed": 0.188,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "KAZ D2 Batyr Ekibastuz vs FC Jaiyq",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -145,32 +1570,60 @@
     }
   ],
   "summary": {
-    "status": "EMPTY_NO_VALID_KEY",
-    "matches_selected": 2,
-    "matches_processed": 2,
-    "valid_player_responses": 2,
+    "status": "PUBLISHED_FRESH",
+    "matches_selected": 30,
+    "matches_processed": 30,
+    "valid_player_responses": 30,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 0,
-    "fresh_streams_accepted": 0,
+    "streams_returned_by_api": 14,
+    "fresh_streams_accepted": 14,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.347
+      4.08,
+      4.204,
+      5.301,
+      5.269,
+      4.27,
+      4.357,
+      4.278,
+      5.356,
+      5.008,
+      5.103,
+      4.837,
+      4.326,
+      5.415,
+      5.362,
+      4.114,
+      5.206,
+      4.899,
+      4.098,
+      4.27,
+      5.173,
+      4.2,
+      4.976,
+      4.57,
+      4.038,
+      5.174,
+      4.1,
+      4.76,
+      4.998,
+      4.702
     ],
-    "expires_at_min_epoch": null,
-    "expires_at_max_epoch": null,
-    "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": null,
-    "remaining_ttl_max_seconds": null,
+    "expires_at_min_epoch": 1786700448,
+    "expires_at_max_epoch": 1786700522,
+    "expires_at_span_seconds": 74,
+    "remaining_ttl_min_seconds": 428,
+    "remaining_ttl_max_seconds": 502,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 5,
-    "final_streams": 0,
-    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 5 expired streams",
+    "expired_previous_removed": 0,
+    "final_streams": 14,
+    "publish_reason": "published 14 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 6.51
+    "elapsed_seconds": 142.99
   }
 }
