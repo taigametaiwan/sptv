@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-15T03:03:28+07:00",
+  "started_at": "2026-08-15T04:01:50+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.668,
+    "elapsed": 0.494,
     "error": ""
   },
   "schedule": {
@@ -49,25 +49,25 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.173,
+        "elapsed": 0.133,
         "error": ""
       }
     ],
-    "rows_selected": 36,
+    "rows_selected": 19,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5144572119",
-      "start_at": "2026-08-15T03:00:00+07:00",
-      "league": "ECU D2",
-      "home": "22 de Julio FC",
-      "away": "Cuenca Juniors",
+      "player_id": "5144869026",
+      "start_at": "2026-08-15T03:30:00+07:00",
+      "league": "USA MLSNP",
+      "home": "Atlanta United II",
+      "away": "New York Red Bulls II",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144572119&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144869026&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.148,
           "error": ""
         }
       ],
@@ -93,12 +93,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "ECU D2 22 de Julio FC vs Cuenca Juniors",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "USA MLSNP Atlanta United II vs New York Red Bulls II",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144869026",
+          "start_at": "2026-08-15T03:30:00+07:00",
+          "league": "USA MLSNP",
+          "home": "Atlanta United II",
+          "away": "New York Red Bulls II",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5666545_1.flv?auth_key=1786741911-8437-0-0f2a64fa07fcd6832ccb74917c57b915",
+          "expires_at_epoch": 1786741911,
+          "expires_at_utc": "2026-08-14T21:11:51+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144869026&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144869026.html"
+        }
+      ]
     },
     {
       "player_id": "5144724192",
@@ -110,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724192&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.148,
           "error": ""
         }
       ],
@@ -151,70 +167,11 @@
           "home": "Atletico Grau",
           "away": "Comerciantes Unidos",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539192_1.flv?auth_key=1786738414-1120-0-8a8edd8239144f61579ad0e95c01ac68",
-          "expires_at_epoch": 1786738414,
-          "expires_at_utc": "2026-08-14T20:13:34+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539192_1.flv?auth_key=1786741916-2951-0-27fc59199087c82a180ae1508ade39b8",
+          "expires_at_epoch": 1786741916,
+          "expires_at_utc": "2026-08-14T21:11:56+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724192&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144724192.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144869026",
-      "start_at": "2026-08-15T03:00:00+07:00",
-      "league": "USA MLSNP",
-      "home": "Atlanta United II",
-      "away": "New York Red Bulls II",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144869026&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "USA MLSNP Atlanta United II vs New York Red Bulls II",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144869026",
-          "start_at": "2026-08-15T03:00:00+07:00",
-          "league": "USA MLSNP",
-          "home": "Atlanta United II",
-          "away": "New York Red Bulls II",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5666545_1.flv?auth_key=1786738419-9582-0-4f5baad300429534be0312c46624a8d3",
-          "expires_at_epoch": 1786738419,
-          "expires_at_utc": "2026-08-14T20:13:39+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144869026&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144869026.html"
         }
       ]
     },
@@ -228,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144869209&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.148,
           "error": ""
         }
       ],
@@ -269,9 +226,9 @@
           "home": "UD Santarem",
           "away": "UD Oliveirense",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5666544_1.flv?auth_key=1786738423-4589-0-2f0dffbc2e67e5de67aeb78963ee8619",
-          "expires_at_epoch": 1786738423,
-          "expires_at_utc": "2026-08-14T20:13:43+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5666544_1.flv?auth_key=1786741921-4035-0-833bf0b93392442399a9eb32d7778648",
+          "expires_at_epoch": 1786741921,
+          "expires_at_utc": "2026-08-14T21:12:01+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144869209&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144869209.html"
         }
@@ -287,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144764548&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.148,
           "error": ""
         }
       ],
@@ -328,9 +285,9 @@
           "home": "Sporting CP",
           "away": "Vitoria Guimaraes",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539252_1.flv?auth_key=1786738428-7053-0-144f65dafe5e3728411b3e60caac6d57",
-          "expires_at_epoch": 1786738428,
-          "expires_at_utc": "2026-08-14T20:13:48+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539252_1.flv?auth_key=1786741925-5942-0-ff84a7bcdcd8a41da3a5995e1f286d31",
+          "expires_at_epoch": 1786741925,
+          "expires_at_utc": "2026-08-14T21:12:05+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144764548&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144764548.html"
         }
@@ -346,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144878968&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.146,
           "error": ""
         }
       ],
@@ -387,9 +344,9 @@
           "home": "Fiorentina",
           "away": "Benevento",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5673435_1.flv?auth_key=1786738434-9459-0-9060db42c5bd6803fdbb185768fe8232",
-          "expires_at_epoch": 1786738434,
-          "expires_at_utc": "2026-08-14T20:13:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5673435_1.flv?auth_key=1786741930-7537-0-fc6c843de5c284d004b6b61270de106c",
+          "expires_at_epoch": 1786741930,
+          "expires_at_utc": "2026-08-14T21:12:10+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144878968&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144878968.html"
         },
@@ -400,25 +357,25 @@
           "home": "Fiorentina",
           "away": "Benevento",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5673435_2.flv?auth_key=1786738434-2372-0-9c7bf8bcf92430b3bb544594d34fcf32",
-          "expires_at_epoch": 1786738434,
-          "expires_at_utc": "2026-08-14T20:13:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5673435_2.flv?auth_key=1786741930-5613-0-330c1b78576ce74ffa29cc83f68c543d",
+          "expires_at_epoch": 1786741930,
+          "expires_at_utc": "2026-08-14T21:12:10+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144878968&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144878968.html"
         }
       ]
     },
     {
-      "player_id": "5144709057",
+      "player_id": "5144864283",
       "start_at": "2026-08-15T02:00:00+07:00",
-      "league": "POL D1",
-      "home": "Ruch Chorzow",
-      "away": "Lechia Gdansk",
+      "league": "ITA SCC",
+      "home": "Vado FC",
+      "away": "Inter Milan U23",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144709057&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144864283&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -438,1315 +395,6 @@
           "code",
           "data",
           "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "POL D1 Ruch Chorzow vs Lechia Gdansk",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144709057",
-          "start_at": "2026-08-15T02:00:00+07:00",
-          "league": "POL D1",
-          "home": "Ruch Chorzow",
-          "away": "Lechia Gdansk",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539047_1.flv?auth_key=1786738440-2932-0-54b29b5f54692a01c95b66d00e10c2a9",
-          "expires_at_epoch": 1786738440,
-          "expires_at_utc": "2026-08-14T20:14:00+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144709057&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144709057.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144718660",
-      "start_at": "2026-08-15T02:00:00+07:00",
-      "league": "ENG LCh",
-      "home": "Wolverhampton Wanderers",
-      "away": "Blackburn Rovers",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718660&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ENG LCh Wolverhampton Wanderers vs Blackburn Rovers",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144718660",
-          "start_at": "2026-08-15T02:00:00+07:00",
-          "league": "ENG LCh",
-          "home": "Wolverhampton Wanderers",
-          "away": "Blackburn Rovers",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538826_1.flv?auth_key=1786738445-2570-0-18334397339a77a8d56c34c3ebe7bf66",
-          "expires_at_epoch": 1786738445,
-          "expires_at_utc": "2026-08-14T20:14:05+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718660&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144718660.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144871492",
-      "start_at": "2026-08-15T02:00:00+07:00",
-      "league": "BOL D1",
-      "home": "Universitario De Vinto",
-      "away": "CD Real Tomayapo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144871492&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "BOL D1 Universitario De Vinto vs CD Real Tomayapo",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144871492",
-          "start_at": "2026-08-15T02:00:00+07:00",
-          "league": "BOL D1",
-          "home": "Universitario De Vinto",
-          "away": "CD Real Tomayapo",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5670105_1.flv?auth_key=1786738449-5416-0-10876f2cb334976d54e46a965732a5f9",
-          "expires_at_epoch": 1786738449,
-          "expires_at_utc": "2026-08-14T20:14:09+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144871492&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144871492.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687247",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "Annecy FC",
-      "away": "Rodez AF",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687247&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 Annecy FC vs Rodez AF",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687247",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "Annecy FC",
-          "away": "Rodez AF",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538815_1.flv?auth_key=1786738454-2994-0-bc716434d04f5f288cb3b5c7920fd059",
-          "expires_at_epoch": 1786738454,
-          "expires_at_utc": "2026-08-14T20:14:14+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687247&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687247.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687250",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "Dijon FCO",
-      "away": "PAU FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687250&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 Dijon FCO vs PAU FC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687250",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "Dijon FCO",
-          "away": "PAU FC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538814_1.flv?auth_key=1786738458-1741-0-a1f526169ff413231089417db73c7412",
-          "expires_at_epoch": 1786738458,
-          "expires_at_utc": "2026-08-14T20:14:18+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687250&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687250.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687253",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "Grenoble Foot 38",
-      "away": "FC Metz",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687253&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 Grenoble Foot 38 vs FC Metz",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687253",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "Grenoble Foot 38",
-          "away": "FC Metz",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538813_1.flv?auth_key=1786738462-5270-0-7df6eeb381406f01826ed833d59277ba",
-          "expires_at_epoch": 1786738462,
-          "expires_at_utc": "2026-08-14T20:14:22+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687253&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687253.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687256",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "EA Guingamp",
-      "away": "US Boulogne",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687256&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 EA Guingamp vs US Boulogne",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687256",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "EA Guingamp",
-          "away": "US Boulogne",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538812_1.flv?auth_key=1786738467-7370-0-671d4ef5c4923cfc4c216b90c629c35b",
-          "expires_at_epoch": 1786738467,
-          "expires_at_utc": "2026-08-14T20:14:27+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687256&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687256.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687259",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "Stade Lavallois",
-      "away": "FC Nantes",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687259&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 Stade Lavallois vs FC Nantes",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687259",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "Stade Lavallois",
-          "away": "FC Nantes",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538811_1.flv?auth_key=1786738472-8042-0-4c12302db53b6d2501c67bd203d35fa1",
-          "expires_at_epoch": 1786738472,
-          "expires_at_utc": "2026-08-14T20:14:32+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687259&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687259.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687262",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "AS Nancy-Lorraine",
-      "away": "Montpellier HSC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687262&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 AS Nancy-Lorraine vs Montpellier HSC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687262",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "AS Nancy-Lorraine",
-          "away": "Montpellier HSC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538810_1.flv?auth_key=1786738477-5617-0-f82b2d902c92a8d5abceea98c3cd8886",
-          "expires_at_epoch": 1786738477,
-          "expires_at_utc": "2026-08-14T20:14:37+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687262&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687262.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687265",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "Red Star FC",
-      "away": "FC Sochaux",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687265&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 Red Star FC vs FC Sochaux",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687265",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "Red Star FC",
-          "away": "FC Sochaux",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538809_1.flv?auth_key=1786738482-8564-0-1adab5cff5e4322d2ba92773d3c77bea",
-          "expires_at_epoch": 1786738482,
-          "expires_at_utc": "2026-08-14T20:14:42+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687265&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687265.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687268",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "Stade Reims",
-      "away": "USL Dunkerque",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687268&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 Stade Reims vs USL Dunkerque",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687268",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "Stade Reims",
-          "away": "USL Dunkerque",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538808_1.flv?auth_key=1786738487-5405-0-d906c7f9b325dadb9a490034b6bf6e6a",
-          "expires_at_epoch": 1786738487,
-          "expires_at_utc": "2026-08-14T20:14:47+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687268&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687268.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144687271",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "FRA D2",
-      "home": "AS Saint-Etienne",
-      "away": "Clermont Foot",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687271&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "FRA D2 AS Saint-Etienne vs Clermont Foot",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144687271",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "FRA D2",
-          "home": "AS Saint-Etienne",
-          "away": "Clermont Foot",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538807_1.flv?auth_key=1786738491-1246-0-313eefb1f06d8c78ab07b3495e14847d",
-          "expires_at_epoch": 1786738491,
-          "expires_at_utc": "2026-08-14T20:14:51+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144687271&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144687271.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144704794",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "BEL D1",
-      "home": "Cercle Brugge",
-      "away": "Sint-Truidense VV",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144704794&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "BEL D1 Cercle Brugge vs Sint-Truidense VV",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144704794",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "BEL D1",
-          "home": "Cercle Brugge",
-          "away": "Sint-Truidense VV",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538816_1.flv?auth_key=1786738496-5768-0-8cfb98373976c839571f1f149b485e0f",
-          "expires_at_epoch": 1786738496,
-          "expires_at_utc": "2026-08-14T20:14:56+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144704794&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144704794.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144720505",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "ITA Cup",
-      "home": "Monza",
-      "away": "Avellino",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144720505&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ITA Cup Monza vs Avellino",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144720505",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "ITA Cup",
-          "home": "Monza",
-          "away": "Avellino",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538806_1.flv?auth_key=1786738501-1037-0-5919c8e7266a1430a4fa8159db76baa0",
-          "expires_at_epoch": 1786738501,
-          "expires_at_utc": "2026-08-14T20:15:01+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144720505&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144720505.html"
-        },
-        {
-          "player_id": "5144720505",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "ITA Cup",
-          "home": "Monza",
-          "away": "Avellino",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538806_2.flv?auth_key=1786738501-4512-0-e34356b8c01900dadaff19ce94f65562",
-          "expires_at_epoch": 1786738501,
-          "expires_at_utc": "2026-08-14T20:15:01+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144720505&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144720505.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144841606",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "SCO LC",
-      "home": "Kilmarnock FC",
-      "away": "Ayr United",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144841606&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "SCO LC Kilmarnock FC vs Ayr United",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144841606",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "SCO LC",
-          "home": "Kilmarnock FC",
-          "away": "Ayr United",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5622247_1.flv?auth_key=1786738505-9855-0-fb18c0f969dd09ce442a1f0323325d10",
-          "expires_at_epoch": 1786738505,
-          "expires_at_utc": "2026-08-14T20:15:05+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144841606&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144841606.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144869239",
-      "start_at": "2026-08-15T01:45:00+07:00",
-      "league": "Friendly",
-      "home": "Atalanta",
-      "away": "Athletic Bilbao",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144869239&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "Friendly Atalanta vs Athletic Bilbao",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144869239",
-          "start_at": "2026-08-15T01:45:00+07:00",
-          "league": "Friendly",
-          "home": "Atalanta",
-          "away": "Athletic Bilbao",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5666540_1.flv?auth_key=1786738511-1731-0-78148c72719d157d839d50205d0e14f0",
-          "expires_at_epoch": 1786738511,
-          "expires_at_utc": "2026-08-14T20:15:11+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144869239&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144869239.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144703534",
-      "start_at": "2026-08-15T01:30:00+07:00",
-      "league": "POL PR",
-      "home": "Legia Warszawa",
-      "away": "RKS Radomiak Radom",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144703534&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "POL PR Legia Warszawa vs RKS Radomiak Radom",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144703534",
-          "start_at": "2026-08-15T01:30:00+07:00",
-          "league": "POL PR",
-          "home": "Legia Warszawa",
-          "away": "RKS Radomiak Radom",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539123_1.flv?auth_key=1786738515-4718-0-63f8fc4d430f9f1f6d021e44b0c6485e",
-          "expires_at_epoch": 1786738515,
-          "expires_at_utc": "2026-08-14T20:15:15+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144703534&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144703534.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144725368",
-      "start_at": "2026-08-15T01:30:00+07:00",
-      "league": "ROM D1",
-      "home": "FC Arges Pitesti",
-      "away": "FCV Farul Constanta",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725368&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ROM D1 FC Arges Pitesti vs FCV Farul Constanta",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144725368",
-          "start_at": "2026-08-15T01:30:00+07:00",
-          "league": "ROM D1",
-          "home": "FC Arges Pitesti",
-          "away": "FCV Farul Constanta",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539131_1.flv?auth_key=1786738520-1379-0-6ed47ff7805f5ad92b9d23c3e3a9145a",
-          "expires_at_epoch": 1786738520,
-          "expires_at_utc": "2026-08-14T20:15:20+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144725368&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144725368.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144736294",
-      "start_at": "2026-08-15T01:30:00+07:00",
-      "league": "SPA D2",
-      "home": "Real Sociedad B",
-      "away": "CD Castellon",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144736294&lan=2",
-          "status": 200,
-          "elapsed": 0.189,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "SPA D2 Real Sociedad B vs CD Castellon",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144736294",
-          "start_at": "2026-08-15T01:30:00+07:00",
-          "league": "SPA D2",
-          "home": "Real Sociedad B",
-          "away": "CD Castellon",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539243_1.flv?auth_key=1786738525-1832-0-54b8d544190b481f1ed81e152dc009e3",
-          "expires_at_epoch": 1786738525,
-          "expires_at_utc": "2026-08-14T20:15:25+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144736294&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144736294.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144747841",
-      "start_at": "2026-08-15T01:30:00+07:00",
-      "league": "AUT D2",
-      "home": "SKN St. Polten",
-      "away": "Blau Weiss Linz",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144747841&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AUT D2 SKN St. Polten vs Blau Weiss Linz",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144747841",
-          "start_at": "2026-08-15T01:30:00+07:00",
-          "league": "AUT D2",
-          "home": "SKN St. Polten",
-          "away": "Blau Weiss Linz",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538729_1.flv?auth_key=1786738530-2653-0-2010b963c83cd4687ff2d3ca1177e174",
-          "expires_at_epoch": 1786738530,
-          "expires_at_utc": "2026-08-14T20:15:30+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144747841&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144747841.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144774277",
-      "start_at": "2026-08-15T01:30:00+07:00",
-      "league": "TUR SL",
-      "home": "Galatasaray SK",
-      "away": "Corum FK",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144774277&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "TUR SL Galatasaray SK vs Corum FK",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144774277",
-          "start_at": "2026-08-15T01:30:00+07:00",
-          "league": "TUR SL",
-          "home": "Galatasaray SK",
-          "away": "Corum FK",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556916_1.flv?auth_key=1786738535-6100-0-1eaa44a5fe9597ebf37d991e47247a85",
-          "expires_at_epoch": 1786738535,
-          "expires_at_utc": "2026-08-14T20:15:35+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144774277&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144774277.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144784495",
-      "start_at": "2026-08-15T01:30:00+07:00",
-      "league": "TUR L1",
-      "home": "Esenler Erokspor",
-      "away": "Sariyer SK",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144784495&lan=2",
-          "status": 200,
-          "elapsed": 0.187,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "TUR L1 Esenler Erokspor vs Sariyer SK",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144784495",
-          "start_at": "2026-08-15T01:30:00+07:00",
-          "league": "TUR L1",
-          "home": "Esenler Erokspor",
-          "away": "Sariyer SK",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5560678_1.flv?auth_key=1786738540-8024-0-b5909ce730a7a8c3ba5e35e9fe9991db",
-          "expires_at_epoch": 1786738540,
-          "expires_at_utc": "2026-08-14T20:15:40+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144784495&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144784495.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144877498",
-      "start_at": "2026-08-15T01:30:00+07:00",
-      "league": "IRQ D1",
-      "home": "Newroz SC (IRQ)",
-      "away": "Quwa Al Jawiya",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144877498&lan=2",
-          "status": 200,
-          "elapsed": 0.199,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
           "msg",
           "pid",
           "purl",
@@ -1754,129 +402,11 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "",
+        "title": "ITA SCC Vado FC vs Inter Milan U23",
         "stream_item_count": 0,
         "stream_item_types": []
       },
       "streams": []
-    },
-    {
-      "player_id": "5144689557",
-      "start_at": "2026-08-15T01:15:00+07:00",
-      "league": "BUL D1",
-      "home": "CSKA 1948 Sofia",
-      "away": "Cherno More",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144689557&lan=2",
-          "status": 200,
-          "elapsed": 0.208,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "BUL D1 CSKA 1948 Sofia vs Cherno More",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144689557",
-          "start_at": "2026-08-15T01:15:00+07:00",
-          "league": "BUL D1",
-          "home": "CSKA 1948 Sofia",
-          "away": "Cherno More",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539035_1.flv?auth_key=1786738549-3631-0-17933e76739a788424a4a7734eb9944b",
-          "expires_at_epoch": 1786738549,
-          "expires_at_utc": "2026-08-14T20:15:49+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144689557&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144689557.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144835009",
-      "start_at": "2026-08-15T01:00:00+07:00",
-      "league": "KSA PL",
-      "home": "Al Ettifaq (KSA)",
-      "away": "Al Riyadh SC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144835009&lan=2",
-          "status": 200,
-          "elapsed": 0.188,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "KSA PL Al Ettifaq (KSA) vs Al Riyadh SC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144835009",
-          "start_at": "2026-08-15T01:00:00+07:00",
-          "league": "KSA PL",
-          "home": "Al Ettifaq (KSA)",
-          "away": "Al Riyadh SC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615175_1.flv?auth_key=1786738554-9269-0-22066ef1a4d5ce2eb3c68c7039254a41",
-          "expires_at_epoch": 1786738554,
-          "expires_at_utc": "2026-08-14T20:15:54+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144835009&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144835009.html"
-        }
-      ]
     },
     {
       "player_id": "5144879388",
@@ -1888,7 +418,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144879388&lan=2",
           "status": 200,
-          "elapsed": 0.188,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -1931,7 +461,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514570&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.149,
           "error": ""
         }
       ],
@@ -1974,7 +504,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514573&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.148,
           "error": ""
         }
       ],
@@ -2017,7 +547,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457855&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -2060,7 +590,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724195&lan=2",
           "status": 200,
-          "elapsed": 0.187,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -2092,69 +622,396 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5137809756",
+      "start_at": "2026-08-15T06:30:00+07:00",
+      "league": "WNBA",
+      "home": "Indiana Fever",
+      "away": "Dallas Wings",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809756&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "WNBA Indiana Fever vs Dallas Wings",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144443986",
+      "start_at": "2026-08-15T06:30:00+07:00",
+      "league": "ARG D2",
+      "home": "Atletico Rafaela",
+      "away": "Defensores De Belgrano",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144443986&lan=2",
+          "status": 200,
+          "elapsed": 0.145,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ARG D2 Atletico Rafaela vs Defensores De Belgrano",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144514576",
+      "start_at": "2026-08-15T06:30:00+07:00",
+      "league": "BRA D2",
+      "home": "Sport Club Recife/PE",
+      "away": "Londrina/PR",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144514576&lan=2",
+          "status": 200,
+          "elapsed": 0.147,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "BRA D2 Sport Club Recife/PE vs Londrina/PR",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144581923",
+      "start_at": "2026-08-15T06:30:00+07:00",
+      "league": "ARG D1",
+      "home": "Racing Club",
+      "away": "Banfield",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581923&lan=2",
+          "status": 200,
+          "elapsed": 0.147,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ARG D1 Racing Club vs Banfield",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144507868",
+      "start_at": "2026-08-15T07:00:00+07:00",
+      "league": "ECU D1",
+      "home": "Independiente Del Valle",
+      "away": "Delfin SC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507868&lan=2",
+          "status": 200,
+          "elapsed": 0.147,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ECU D1 Independiente Del Valle vs Delfin SC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144512002",
+      "start_at": "2026-08-15T07:00:00+07:00",
+      "league": "BRA WD1",
+      "home": "Atletico Mineiro/MG Women",
+      "away": "Gremio/RS Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144512002&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "BRA WD1 Atletico Mineiro/MG Women vs Gremio/RS Women",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144565219",
+      "start_at": "2026-08-15T07:00:00+07:00",
+      "league": "USA NWSL",
+      "home": "NJ/NY Gotham FC Women",
+      "away": "Kansas City Current Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565219&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "USA NWSL NJ/NY Gotham FC Women vs Kansas City Current Women",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144655495",
+      "start_at": "2026-08-15T07:00:00+07:00",
+      "league": "OFC OCL",
+      "home": "Tupapa Maraerenga",
+      "away": "ABM Galaxy",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144655495&lan=2",
+          "status": 200,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "OFC OCL Tupapa Maraerenga vs ABM Galaxy",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 36,
-    "matches_processed": 36,
-    "valid_player_responses": 36,
+    "matches_selected": 19,
+    "matches_processed": 19,
+    "valid_player_responses": 19,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 31,
-    "fresh_streams_accepted": 31,
+    "streams_returned_by_api": 6,
+    "fresh_streams_accepted": 6,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.358,
-      4.34,
-      4.257,
-      5.085,
-      5.327,
-      5.492,
-      4.68,
-      4.295,
-      4.352,
-      4.52,
-      4.002,
-      4.561,
-      5.012,
-      4.773,
-      4.266,
-      4.668,
-      4.332,
-      4.9,
-      4.202,
-      4.653,
-      4.936,
-      4.158,
-      5.145,
-      4.892,
-      4.269,
-      5.021,
-      5.03,
-      4.465,
-      4.182,
-      4.342,
-      4.666,
-      4.623,
-      5.147,
-      5.028,
-      5.095
+      5.287,
+      4.335,
+      4.22,
+      4.639,
+      4.316,
+      4.802,
+      5.496,
+      4.416,
+      4.958,
+      4.882,
+      4.067,
+      4.794,
+      4.712,
+      4.442,
+      4.568,
+      4.748,
+      4.199,
+      4.662
     ],
-    "expires_at_min_epoch": 1786738414,
-    "expires_at_max_epoch": 1786738554,
-    "expires_at_span_seconds": 140,
-    "remaining_ttl_min_seconds": 405,
-    "remaining_ttl_max_seconds": 545,
+    "expires_at_min_epoch": 1786741911,
+    "expires_at_max_epoch": 1786741930,
+    "expires_at_span_seconds": 19,
+    "remaining_ttl_min_seconds": 484,
+    "remaining_ttl_max_seconds": 503,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 30,
-    "final_streams": 31,
-    "publish_reason": "published 31 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 31,
+    "final_streams": 6,
+    "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 171.73
+    "elapsed_seconds": 86.98
   }
 }
