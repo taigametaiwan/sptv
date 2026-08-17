@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-17T18:02:01+07:00",
+  "started_at": "2026-08-17T18:55:09+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.369,
+    "elapsed": 0.634,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,86 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.109,
+        "elapsed": 0.168,
         "error": ""
       }
     ],
-    "rows_selected": 12,
+    "rows_selected": 10,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137877868",
+      "start_at": "2026-08-17T18:30:00+07:00",
+      "league": "FriendlyB",
+      "home": "China (M)",
+      "away": "New Zealand (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137877868&lan=2",
+          "status": 200,
+          "elapsed": 0.173,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "FriendlyB China (M) vs New Zealand (M)",
+        "stream_item_count": 2,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137877868",
+          "start_at": "2026-08-17T18:30:00+07:00",
+          "league": "FriendlyB",
+          "home": "China (M)",
+          "away": "New Zealand (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5592053_1.flv?auth_key=1786968310-9472-0-33b100c67d1f3c66ccba73bd768523d3",
+          "expires_at_epoch": 1786968310,
+          "expires_at_utc": "2026-08-17T12:05:10+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137877868&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137877868.html"
+        },
+        {
+          "player_id": "5137877868",
+          "start_at": "2026-08-17T18:30:00+07:00",
+          "league": "FriendlyB",
+          "home": "China (M)",
+          "away": "New Zealand (M)",
+          "line_number": 2,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5592053_2.flv?auth_key=1786968310-2402-0-f2acead46c40564dddc2ead3027eb91f",
+          "expires_at_epoch": 1786968310,
+          "expires_at_utc": "2026-08-17T12:05:10+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137877868&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137877868.html"
+        }
+      ]
+    },
     {
       "player_id": "5137859628",
       "start_at": "2026-08-17T18:00:00+07:00",
@@ -67,7 +139,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859628&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -101,49 +173,6 @@
       "streams": []
     },
     {
-      "player_id": "5360868858",
-      "start_at": "2026-08-17T18:00:00+07:00",
-      "league": "PAR Res",
-      "home": "Olimpia Asuncion Reserve",
-      "away": "Sportivo Ameliano Reserve",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360868858&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "PAR Res Olimpia Asuncion Reserve vs Sportivo Ameliano Reserve",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
       "player_id": "5360882613",
       "start_at": "2026-08-17T18:00:00+07:00",
       "league": "CHN U20",
@@ -153,7 +182,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360882613&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -179,12 +208,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "CHN U20 Hubei Istar FC U20 vs Shandong Taishan U20",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5360882613",
+          "start_at": "2026-08-17T18:00:00+07:00",
+          "league": "CHN U20",
+          "home": "Hubei Istar FC U20",
+          "away": "Shandong Taishan U20",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539217_1.flv?auth_key=1786968320-8700-0-f47a0ecc9c05bc24339dd5dd9aab58ed",
+          "expires_at_epoch": 1786968320,
+          "expires_at_utc": "2026-08-17T12:05:20+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360882613&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5360882613.html"
+        }
+      ]
     },
     {
       "player_id": "5360882619",
@@ -196,7 +241,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360882619&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.173,
           "error": ""
         }
       ],
@@ -237,9 +282,9 @@
           "home": "Shenzhen Peng City U20",
           "away": "Shanghai Shenhua U20",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538860_1.flv?auth_key=1786965135-6595-0-231257cdab3aa6d8a058a86b9392f21a",
-          "expires_at_epoch": 1786965135,
-          "expires_at_utc": "2026-08-17T11:12:15+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538860_1.flv?auth_key=1786968325-1490-0-acb2f74edd049c995407d975588d152f",
+          "expires_at_epoch": 1786968325,
+          "expires_at_utc": "2026-08-17T12:05:25+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360882619&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5360882619.html"
         }
@@ -255,7 +300,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360883027&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -281,12 +326,87 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "CHN U20 Zhejiang FC U20 vs Tianjin Jinmen Tiger U20",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5360883027",
+          "start_at": "2026-08-17T18:00:00+07:00",
+          "league": "CHN U20",
+          "home": "Zhejiang FC U20",
+          "away": "Tianjin Jinmen Tiger U20",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5538859_1.flv?auth_key=1786968329-9490-0-76635a49b7686b2f761991c1ff532486",
+          "expires_at_epoch": 1786968329,
+          "expires_at_utc": "2026-08-17T12:05:29+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360883027&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5360883027.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144441415",
+      "start_at": "2026-08-17T17:30:00+07:00",
+      "league": "AUS VPL1",
+      "home": "Bulleen Lions",
+      "away": "North Sunshine Eagles",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144441415&lan=2",
+          "status": 200,
+          "elapsed": 0.173,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AUS VPL1 Bulleen Lions vs North Sunshine Eagles",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144441415",
+          "start_at": "2026-08-17T17:30:00+07:00",
+          "league": "AUS VPL1",
+          "home": "Bulleen Lions",
+          "away": "North Sunshine Eagles",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5326014_1.flv?auth_key=1786968334-1091-0-7a7e733dec78a8f33dd1eae8e2b62c27",
+          "expires_at_epoch": 1786968334,
+          "expires_at_utc": "2026-08-17T12:05:34+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144441415&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144441415.html"
+        }
+      ]
     },
     {
       "player_id": "5144441418",
@@ -298,7 +418,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144441418&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -339,129 +459,11 @@
           "home": "Melbourne Victory U21",
           "away": "Northcote City SC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5326013_1.flv?auth_key=1786965145-7308-0-a229f66957132cdae70a03402d4df66d",
-          "expires_at_epoch": 1786965145,
-          "expires_at_utc": "2026-08-17T11:12:25+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5326013_1.flv?auth_key=1786968338-7962-0-bfddd0e59399d6e5f23f00636ab5e330",
+          "expires_at_epoch": 1786968338,
+          "expires_at_utc": "2026-08-17T12:05:38+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144441418&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144441418.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144766456",
-      "start_at": "2026-08-17T17:00:00+07:00",
-      "league": "AFC WCL",
-      "home": "TSL FC Women",
-      "away": "Phnom Penh Crown Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144766456&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AFC WCL TSL FC Women vs Phnom Penh Crown Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144766456",
-          "start_at": "2026-08-17T17:00:00+07:00",
-          "league": "AFC WCL",
-          "home": "TSL FC Women",
-          "away": "Phnom Penh Crown Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539360_1.flv?auth_key=1786965149-3348-0-65db543cf19f6acb2c92809981f57cf8",
-          "expires_at_epoch": 1786965149,
-          "expires_at_utc": "2026-08-17T11:12:29+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144766456&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144766456.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144862210",
-      "start_at": "2026-08-17T17:00:00+07:00",
-      "league": "UKR U21",
-      "home": "Dynamo Kyiv U21",
-      "away": "Kolos Kovalivka U21",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144862210&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UKR U21 Dynamo Kyiv U21 vs Kolos Kovalivka U21",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144862210",
-          "start_at": "2026-08-17T17:00:00+07:00",
-          "league": "UKR U21",
-          "home": "Dynamo Kyiv U21",
-          "away": "Kolos Kovalivka U21",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653145_1.flv?auth_key=1786965155-7474-0-0e1481e28bd1506c18201bf505168ae4",
-          "expires_at_epoch": 1786965155,
-          "expires_at_utc": "2026-08-17T11:12:35+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144862210&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144862210.html"
         }
       ]
     },
@@ -475,7 +477,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144862213&lan=2",
           "status": 200,
-          "elapsed": 0.116,
+          "elapsed": 0.173,
           "error": ""
         }
       ],
@@ -516,143 +518,25 @@
           "home": "FC Kharkiv U21",
           "away": "Shakhtar Donetsk U21",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653146_1.flv?auth_key=1786965160-1489-0-184fdffa491d294240b6622c5ff5d2e1",
-          "expires_at_epoch": 1786965160,
-          "expires_at_utc": "2026-08-17T11:12:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653146_1.flv?auth_key=1786968343-8823-0-2d7d3fe66fbc85157078886ffd7c9e02",
+          "expires_at_epoch": 1786968343,
+          "expires_at_utc": "2026-08-17T12:05:43+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144862213&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144862213.html"
         }
       ]
     },
     {
-      "player_id": "5144766528",
-      "start_at": "2026-08-17T16:30:00+07:00",
-      "league": "AFC WCL",
-      "home": "Ayeyawady United Women",
-      "away": "Albirex FC Jurong Women",
+      "player_id": "5144871687",
+      "start_at": "2026-08-17T19:00:00+07:00",
+      "league": "ENG PDL2",
+      "home": "Swansea City U21",
+      "away": "Sheffield Utd U21",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144766528&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144871687&lan=2",
           "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AFC WCL Ayeyawady United Women vs Albirex FC Jurong Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144766528",
-          "start_at": "2026-08-17T16:30:00+07:00",
-          "league": "AFC WCL",
-          "home": "Ayeyawady United Women",
-          "away": "Albirex FC Jurong Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5626892_1.flv?auth_key=1786965164-7243-0-e370e102e0251b2cd3ea997c7a2b67aa",
-          "expires_at_epoch": 1786965164,
-          "expires_at_utc": "2026-08-17T11:12:44+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144766528&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144766528.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5360792337",
-      "start_at": "2026-08-17T16:30:00+07:00",
-      "league": "ASTOU",
-      "home": "Taoyuan Taiwan Beer Leopards BC",
-      "away": "Sichuan Blue Whales 2",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360792337&lan=2",
-          "status": 200,
-          "elapsed": 0.115,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ASTOU Taoyuan Taiwan Beer Leopards BC vs Sichuan Blue Whales 2",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5360792337",
-          "start_at": "2026-08-17T16:30:00+07:00",
-          "league": "ASTOU",
-          "home": "Taoyuan Taiwan Beer Leopards BC",
-          "away": "Sichuan Blue Whales 2",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5698040_1.flv?auth_key=1786965169-9419-0-86e2297a9d84ac6ef2b97c8af9ba7d9f",
-          "expires_at_epoch": 1786965169,
-          "expires_at_utc": "2026-08-17T11:12:49+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5360792337&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5360792337.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137859625",
-      "start_at": "2026-08-17T16:00:00+07:00",
-      "league": "MPBL",
-      "home": "Meycauayan Marilao Gems BC",
-      "away": "Cebu Greats BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859625&lan=2",
-          "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.174,
           "error": ""
         }
       ],
@@ -679,7 +563,50 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "MPBL Meycauayan Marilao Gems BC vs Cebu Greats BC",
+        "title": "ENG PDL2 Swansea City U21 vs Sheffield Utd U21",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144897121",
+      "start_at": "2026-08-17T19:00:00+07:00",
+      "league": "URU Res",
+      "home": "Defensor Sporting Reserve",
+      "away": "Racing Montevideo Reserve",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144897121&lan=2",
+          "status": 200,
+          "elapsed": 0.175,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "URU Res Defensor Sporting Reserve vs Racing Montevideo Reserve",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -688,41 +615,39 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 12,
-    "matches_processed": 12,
-    "valid_player_responses": 12,
+    "matches_selected": 10,
+    "matches_processed": 10,
+    "valid_player_responses": 10,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 7,
-    "fresh_streams_accepted": 7,
+    "streams_returned_by_api": 8,
+    "fresh_streams_accepted": 8,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.366,
-      4.689,
-      4.586,
-      4.633,
-      4.502,
-      4.443,
-      5.306,
-      5.109,
-      4.462,
-      4.243,
-      4.905
+      5.41,
+      4.012,
+      5.107,
+      4.425,
+      4.068,
+      4.594,
+      4.371,
+      4.446,
+      5.458
     ],
-    "expires_at_min_epoch": 1786965135,
-    "expires_at_max_epoch": 1786965169,
-    "expires_at_span_seconds": 34,
-    "remaining_ttl_min_seconds": 531,
-    "remaining_ttl_max_seconds": 565,
+    "expires_at_min_epoch": 1786968310,
+    "expires_at_max_epoch": 1786968343,
+    "expires_at_span_seconds": 33,
+    "remaining_ttl_min_seconds": 527,
+    "remaining_ttl_max_seconds": 560,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 1,
-    "final_streams": 7,
-    "publish_reason": "published 7 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 7,
+    "final_streams": 8,
+    "publish_reason": "published 8 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 53.12
+    "elapsed_seconds": 44.44
   }
 }
