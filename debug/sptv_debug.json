@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-19T18:03:33+07:00",
+  "started_at": "2026-08-19T18:34:26+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.637,
+    "elapsed": 0.42,
     "error": ""
   },
   "schedule": {
@@ -49,25 +49,25 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.17,
+        "elapsed": 0.111,
         "error": ""
       }
     ],
-    "rows_selected": 20,
+    "rows_selected": 19,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5361318375",
-      "start_at": "2026-08-19T18:00:00+07:00",
-      "league": "JonB",
-      "home": "Chinese Taipei Blue Team (M)",
-      "away": "Japan Men's WJC Team",
+      "player_id": "5144578398",
+      "start_at": "2026-08-19T18:30:00+07:00",
+      "league": "CHN D2N",
+      "home": "Nantong Haimen Codion",
+      "away": "Qingdao Red Lions",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361318375&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578398&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.118,
           "error": ""
         }
       ],
@@ -93,12 +93,87 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "JonB Chinese Taipei Blue Team (M) vs Japan Men's WJC Team",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "CHN D2N Nantong Haimen Codion vs Qingdao Red Lions",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144578398",
+          "start_at": "2026-08-19T18:30:00+07:00",
+          "league": "CHN D2N",
+          "home": "Nantong Haimen Codion",
+          "away": "Qingdao Red Lions",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297221_1.flv?auth_key=1787139866-5303-0-1cf6030516d6731047a9ac01ef9cf959",
+          "expires_at_epoch": 1787139866,
+          "expires_at_utc": "2026-08-19T11:44:26+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578398&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144578398.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5361318375",
+      "start_at": "2026-08-19T18:00:00+07:00",
+      "league": "JonB",
+      "home": "Chinese Taipei Blue Team (M)",
+      "away": "Japan Men's WJC Team",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361318375&lan=2",
+          "status": 200,
+          "elapsed": 0.118,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "JonB Chinese Taipei Blue Team (M) vs Japan Men's WJC Team",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5361318375",
+          "start_at": "2026-08-19T18:00:00+07:00",
+          "league": "JonB",
+          "home": "Chinese Taipei Blue Team (M)",
+          "away": "Japan Men's WJC Team",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5684290_1.flv?auth_key=1787139872-6813-0-86af058c96b4fd526dfee9413ef7dc11",
+          "expires_at_epoch": 1787139872,
+          "expires_at_utc": "2026-08-19T11:44:32+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361318375&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5361318375.html"
+        }
+      ]
     },
     {
       "player_id": "5144456859",
@@ -110,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456859&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -151,9 +226,9 @@
           "home": "Preston Lions",
           "away": "Melbourne City Youth",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5040532_1.flv?auth_key=1787138018-4689-0-ffb0ccb576d2da24c836dad40a2dfcea",
-          "expires_at_epoch": 1787138018,
-          "expires_at_utc": "2026-08-19T11:13:38+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5040532_1.flv?auth_key=1787139876-2235-0-fa800668b5243415e3289cb9de22a395",
+          "expires_at_epoch": 1787139876,
+          "expires_at_utc": "2026-08-19T11:44:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456859&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144456859.html"
         }
@@ -169,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842647&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -210,9 +285,9 @@
           "home": "FC Anyang",
           "away": "Jeju FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683630_1.flv?auth_key=1787138024-9047-0-9b1ed9044d98690521b595d2a7ff12ba",
-          "expires_at_epoch": 1787138024,
-          "expires_at_utc": "2026-08-19T11:13:44+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683630_1.flv?auth_key=1787139881-4911-0-17c7f565c18d1297fb8e874b6ff5d359",
+          "expires_at_epoch": 1787139881,
+          "expires_at_utc": "2026-08-19T11:44:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842647&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842647.html"
         }
@@ -228,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842653&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -269,9 +344,9 @@
           "home": "Busan I Park",
           "away": "Bucheon FC 1995",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683564_1.flv?auth_key=1787138029-6228-0-ba4d8bdb38581630875475c28ebe0d75",
-          "expires_at_epoch": 1787138029,
-          "expires_at_utc": "2026-08-19T11:13:49+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683564_1.flv?auth_key=1787139886-5652-0-710cbbb8a4bee9c9c7c5cd7c7d5a24a9",
+          "expires_at_epoch": 1787139886,
+          "expires_at_utc": "2026-08-19T11:44:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842653&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842653.html"
         }
@@ -287,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842659&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.121,
           "error": ""
         }
       ],
@@ -328,9 +403,9 @@
           "home": "Gangwon FC",
           "away": "Seongnam FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683567_1.flv?auth_key=1787138033-2176-0-1851bb6b9b4ca6062a242eb6f3854a8c",
-          "expires_at_epoch": 1787138033,
-          "expires_at_utc": "2026-08-19T11:13:53+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683567_1.flv?auth_key=1787139891-6439-0-a861549746403f463d95ffcda11bb9c0",
+          "expires_at_epoch": 1787139891,
+          "expires_at_utc": "2026-08-19T11:44:51+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842659&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842659.html"
         }
@@ -346,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361337104&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -387,9 +462,9 @@
           "home": "Azzurri United FC",
           "away": "Port Darwin FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5704485_1.flv?auth_key=1787138037-1658-0-d6565295b666e8201d5d01e0a4acc910",
-          "expires_at_epoch": 1787138037,
-          "expires_at_utc": "2026-08-19T11:13:57+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5704485_1.flv?auth_key=1787139895-5307-0-cf93ba748c4d0df3f93b467e37838138",
+          "expires_at_epoch": 1787139895,
+          "expires_at_utc": "2026-08-19T11:44:55+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361337104&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5361337104.html"
         }
@@ -405,7 +480,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842650&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -446,9 +521,9 @@
           "home": "Chungnam Asan",
           "away": "Daejeon Hana Citizen",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683565_1.flv?auth_key=1787138042-1717-0-60166ac9696999e30645058ed815dbf5",
-          "expires_at_epoch": 1787138042,
-          "expires_at_utc": "2026-08-19T11:14:02+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683565_1.flv?auth_key=1787139901-8223-0-734e60b8fb6c6f4aad6c015c8fdbfa32",
+          "expires_at_epoch": 1787139901,
+          "expires_at_utc": "2026-08-19T11:45:01+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842650&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842650.html"
         }
@@ -464,7 +539,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842656&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -505,9 +580,9 @@
           "home": "Jeonbuk Hyundai Motors",
           "away": "Dangjin Citizen",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683563_1.flv?auth_key=1787138046-7544-0-86c3fddb69a304c0baac456ae508a83c",
-          "expires_at_epoch": 1787138046,
-          "expires_at_utc": "2026-08-19T11:14:06+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683563_1.flv?auth_key=1787139905-9720-0-2eaed17c183837f2a4d8e6ed075ce7ae",
+          "expires_at_epoch": 1787139905,
+          "expires_at_utc": "2026-08-19T11:45:05+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842656&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842656.html"
         }
@@ -523,7 +598,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842662&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -564,9 +639,9 @@
           "home": "Gimpo FC",
           "away": "Gimcheon Sangmu",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683562_1.flv?auth_key=1787138051-6293-0-209695259be38a7fd5facf3b7673f4b5",
-          "expires_at_epoch": 1787138051,
-          "expires_at_utc": "2026-08-19T11:14:11+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683562_1.flv?auth_key=1787139911-3550-0-214a0a46e91983621c48397fb7bc7971",
+          "expires_at_epoch": 1787139911,
+          "expires_at_utc": "2026-08-19T11:45:11+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842662&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842662.html"
         }
@@ -582,7 +657,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842665&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -623,9 +698,9 @@
           "home": "Pohang Steelers",
           "away": "Jinju Citizen",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5702584_1.flv?auth_key=1787138056-7409-0-63c398fa8bf2fb6097ff8594e75af6b3",
-          "expires_at_epoch": 1787138056,
-          "expires_at_utc": "2026-08-19T11:14:16+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5702584_1.flv?auth_key=1787139915-8285-0-9b212f6abee93dd2602cf190979f2d07",
+          "expires_at_epoch": 1787139915,
+          "expires_at_utc": "2026-08-19T11:45:15+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842665&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842665.html"
         }
@@ -641,7 +716,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842668&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -682,9 +757,9 @@
           "home": "Ulsan Citizen",
           "away": "Gwangju FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683561_1.flv?auth_key=1787138061-3060-0-c8c2c441bf3e93cb0389a573fde74686",
-          "expires_at_epoch": 1787138061,
-          "expires_at_utc": "2026-08-19T11:14:21+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683561_1.flv?auth_key=1787139920-4445-0-51c1cefde0d228da41f2e138dbacafaa",
+          "expires_at_epoch": 1787139920,
+          "expires_at_utc": "2026-08-19T11:45:20+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842668&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842668.html"
         }
@@ -700,7 +775,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137879074&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -741,9 +816,9 @@
           "home": "Taiwan Beer BC",
           "away": "Macau Black Pandas BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5698182_1.flv?auth_key=1787138065-5775-0-f9ff86de2212d4aa40c98a9e9f4a0f52",
-          "expires_at_epoch": 1787138065,
-          "expires_at_utc": "2026-08-19T11:14:25+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5698182_1.flv?auth_key=1787139925-1671-0-ad703a35cbd33fdee18bd52396dfb1b2",
+          "expires_at_epoch": 1787139925,
+          "expires_at_utc": "2026-08-19T11:45:25+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137879074&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137879074.html"
         }
@@ -759,7 +834,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144884296&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -800,9 +875,9 @@
           "home": "Atletico Suzuka Club",
           "away": "FC Basara Hyogo",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653714_1.flv?auth_key=1787138070-6610-0-ea39b9ee806efb5f7dc67179cb30dbcb",
-          "expires_at_epoch": 1787138070,
-          "expires_at_utc": "2026-08-19T11:14:30+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653714_1.flv?auth_key=1787139931-1953-0-fd5eecb7c1c513ca934c4ed097eaaa89",
+          "expires_at_epoch": 1787139931,
+          "expires_at_utc": "2026-08-19T11:45:31+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144884296&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144884296.html"
         }
@@ -818,7 +893,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886012&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -859,25 +934,25 @@
           "home": "APIA Leichhardt",
           "away": "Melbourne Victory",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683558_1.flv?auth_key=1787138075-3814-0-1a26c0186d21a036af8c8dbfa52441cd",
-          "expires_at_epoch": 1787138075,
-          "expires_at_utc": "2026-08-19T11:14:35+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683558_1.flv?auth_key=1787139936-3992-0-50c85abfee08d01e0f340e2457a03eb5",
+          "expires_at_epoch": 1787139936,
+          "expires_at_utc": "2026-08-19T11:45:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886012&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144886012.html"
         }
       ]
     },
     {
-      "player_id": "5361375120",
-      "start_at": "2026-08-19T16:00:00+07:00",
-      "league": "JonB",
-      "home": "Chinese Taipei White Team (M)",
-      "away": "Jordan (M)",
+      "player_id": "5144528454",
+      "start_at": "2026-08-19T18:35:00+07:00",
+      "league": "CHN SL",
+      "home": "Shanghai Port FC",
+      "away": "Dalian Yingbo",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361375120&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528454&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -904,7 +979,7 @@
         ],
         "code": 0,
         "pid": 1,
-        "title": "JonB Chinese Taipei White Team (M) vs Jordan (M)",
+        "title": "CHN SL Shanghai Port FC vs Dalian Yingbo",
         "stream_item_count": 1,
         "stream_item_types": [
           "dict"
@@ -912,105 +987,19 @@
       },
       "streams": [
         {
-          "player_id": "5361375120",
-          "start_at": "2026-08-19T16:00:00+07:00",
-          "league": "JonB",
-          "home": "Chinese Taipei White Team (M)",
-          "away": "Jordan (M)",
+          "player_id": "5144528454",
+          "start_at": "2026-08-19T18:35:00+07:00",
+          "league": "CHN SL",
+          "home": "Shanghai Port FC",
+          "away": "Dalian Yingbo",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5684289_1.flv?auth_key=1787138079-6271-0-909307f4dcfef91c8c1c2e28bf5e110d",
-          "expires_at_epoch": 1787138079,
-          "expires_at_utc": "2026-08-19T11:14:39+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361375120&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5361375120.html"
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5189596_1.flv?auth_key=1787139941-8344-0-da7986fd2ee8ea01bba4328353353927",
+          "expires_at_epoch": 1787139941,
+          "expires_at_utc": "2026-08-19T11:45:41+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528454&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144528454.html"
         }
       ]
-    },
-    {
-      "player_id": "5144578398",
-      "start_at": "2026-08-19T18:30:00+07:00",
-      "league": "CHN D2N",
-      "home": "Nantong Haimen Codion",
-      "away": "Qingdao Red Lions",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578398&lan=2",
-          "status": 200,
-          "elapsed": 0.179,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CHN D2N Nantong Haimen Codion vs Qingdao Red Lions",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144528454",
-      "start_at": "2026-08-19T18:35:00+07:00",
-      "league": "CHN SL",
-      "home": "Shanghai Port FC",
-      "away": "Dalian Yingbo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528454&lan=2",
-          "status": 200,
-          "elapsed": 0.179,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CHN SL Shanghai Port FC vs Dalian Yingbo",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144661906",
@@ -1022,7 +1011,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144661906&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.12,
           "error": ""
         }
       ],
@@ -1065,7 +1054,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493561&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -1108,7 +1097,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144661909&lan=2",
           "status": 200,
-          "elapsed": 0.178,
+          "elapsed": 0.119,
           "error": ""
         }
       ],
@@ -1144,49 +1133,48 @@
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 20,
-    "matches_processed": 20,
-    "valid_player_responses": 20,
+    "matches_selected": 19,
+    "matches_processed": 19,
+    "valid_player_responses": 19,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 14,
-    "fresh_streams_accepted": 14,
+    "streams_returned_by_api": 16,
+    "fresh_streams_accepted": 16,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.407,
-      5.342,
-      4.654,
-      4.005,
-      4.047,
-      4.629,
-      4.023,
-      4.671,
-      5.178,
-      4.394,
-      4.039,
-      4.662,
-      4.601,
-      4.283,
-      4.228,
-      5.497,
-      5.027,
-      4.617,
-      4.223
+      4.915,
+      4.691,
+      5.051,
+      4.285,
+      4.6,
+      4.703,
+      5.101,
+      4.312,
+      5.313,
+      4.487,
+      4.563,
+      5.415,
+      5.339,
+      5.01,
+      4.56,
+      4.836,
+      4.71,
+      5.371
     ],
-    "expires_at_min_epoch": 1787138018,
-    "expires_at_max_epoch": 1787138079,
-    "expires_at_span_seconds": 61,
-    "remaining_ttl_min_seconds": 484,
-    "remaining_ttl_max_seconds": 545,
+    "expires_at_min_epoch": 1787139866,
+    "expires_at_max_epoch": 1787139941,
+    "expires_at_span_seconds": 75,
+    "remaining_ttl_min_seconds": 480,
+    "remaining_ttl_max_seconds": 555,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 14,
-    "final_streams": 14,
-    "publish_reason": "published 14 fresh streams + preserved 0 unexpired previous streams",
+    "final_streams": 16,
+    "publish_reason": "published 16 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 90.92
+    "elapsed_seconds": 90.08
   }
 }
