@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-19T18:54:53+07:00",
+  "started_at": "2026-08-19T19:28:16+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.613,
+    "elapsed": 0.6,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.172,
+        "elapsed": 0.17,
         "error": ""
       }
     ],
-    "rows_selected": 18,
+    "rows_selected": 13,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5361109809",
+      "start_at": "2026-08-19T19:00:00+07:00",
+      "league": "ASTOU",
+      "home": "Sichuan Blue Whales 2",
+      "away": "Nihon Tengus BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361109809&lan=2",
+          "status": 200,
+          "elapsed": 0.179,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ASTOU Sichuan Blue Whales 2 vs Nihon Tengus BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5361109809",
+          "start_at": "2026-08-19T19:00:00+07:00",
+          "league": "ASTOU",
+          "home": "Sichuan Blue Whales 2",
+          "away": "Nihon Tengus BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5698184_1.flv?auth_key=1787143097-9317-0-144ee77e50bf3f6d7166f031bcb400b3",
+          "expires_at_epoch": 1787143097,
+          "expires_at_utc": "2026-08-19T12:38:17+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361109809&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5361109809.html"
+        }
+      ]
+    },
     {
       "player_id": "5144528454",
       "start_at": "2026-08-19T18:35:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528454&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -108,9 +167,9 @@
           "home": "Shanghai Port FC",
           "away": "Dalian Yingbo",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5189596_1.flv?auth_key=1787141094-3518-0-33286968f046cb5773443108cb0d06bd",
-          "expires_at_epoch": 1787141094,
-          "expires_at_utc": "2026-08-19T12:04:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5189596_1.flv?auth_key=1787143103-7039-0-c28cf7f35e994bc09762d7c243b505e6",
+          "expires_at_epoch": 1787143103,
+          "expires_at_utc": "2026-08-19T12:38:23+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144528454&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144528454.html"
         }
@@ -167,9 +226,9 @@
           "home": "Nantong Haimen Codion",
           "away": "Qingdao Red Lions",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297221_1.flv?auth_key=1787141099-3144-0-cabacbb620f9a82905a8a67db3c6b38c",
-          "expires_at_epoch": 1787141099,
-          "expires_at_utc": "2026-08-19T12:04:59+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5297221_1.flv?auth_key=1787143108-4019-0-71dcaf42274890313c7089b76c7e92f5",
+          "expires_at_epoch": 1787143108,
+          "expires_at_utc": "2026-08-19T12:38:28+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144578398&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144578398.html"
         }
@@ -226,188 +285,11 @@
           "home": "Chinese Taipei Blue Team (M)",
           "away": "Japan Men's WJC Team",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5684290_1.flv?auth_key=1787141104-8211-0-685de9a9e5db67fede14cda9db20ba0d",
-          "expires_at_epoch": 1787141104,
-          "expires_at_utc": "2026-08-19T12:05:04+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5684290_1.flv?auth_key=1787143113-8227-0-33043fe96a21200ece08092b18bb85cb",
+          "expires_at_epoch": 1787143113,
+          "expires_at_utc": "2026-08-19T12:38:33+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361318375&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5361318375.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144456859",
-      "start_at": "2026-08-19T17:30:00+07:00",
-      "league": "AUS NPLV",
-      "home": "Preston Lions",
-      "away": "Melbourne City Youth",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456859&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AUS NPLV Preston Lions vs Melbourne City Youth",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144456859",
-          "start_at": "2026-08-19T17:30:00+07:00",
-          "league": "AUS NPLV",
-          "home": "Preston Lions",
-          "away": "Melbourne City Youth",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5040532_1.flv?auth_key=1787141109-7429-0-f898457356eb130210326a0ab4e8fd52",
-          "expires_at_epoch": 1787141109,
-          "expires_at_utc": "2026-08-19T12:05:09+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456859&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144456859.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842647",
-      "start_at": "2026-08-19T17:30:00+07:00",
-      "league": "KOR Cup",
-      "home": "FC Anyang",
-      "away": "Jeju FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842647&lan=2",
-          "status": 200,
-          "elapsed": 0.181,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "KOR Cup FC Anyang vs Jeju FC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144842647",
-          "start_at": "2026-08-19T17:30:00+07:00",
-          "league": "KOR Cup",
-          "home": "FC Anyang",
-          "away": "Jeju FC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683630_1.flv?auth_key=1787141114-5257-0-39a7fde198931e836ea77e6f2cb46f2e",
-          "expires_at_epoch": 1787141114,
-          "expires_at_utc": "2026-08-19T12:05:14+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842647&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842647.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842653",
-      "start_at": "2026-08-19T17:30:00+07:00",
-      "league": "KOR Cup",
-      "home": "Busan I Park",
-      "away": "Bucheon FC 1995",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842653&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "KOR Cup Busan I Park vs Bucheon FC 1995",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144842653",
-          "start_at": "2026-08-19T17:30:00+07:00",
-          "league": "KOR Cup",
-          "home": "Busan I Park",
-          "away": "Bucheon FC 1995",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683564_1.flv?auth_key=1787141119-8778-0-71afee476072d49d29c15c9d9b6f71dc",
-          "expires_at_epoch": 1787141119,
-          "expires_at_utc": "2026-08-19T12:05:19+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842653&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842653.html"
         }
       ]
     },
@@ -462,129 +344,11 @@
           "home": "Gangwon FC",
           "away": "Seongnam FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683567_1.flv?auth_key=1787141123-8629-0-d3a4acd90d862a31b310ddf838d70ee0",
-          "expires_at_epoch": 1787141123,
-          "expires_at_utc": "2026-08-19T12:05:23+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683567_1.flv?auth_key=1787143118-1638-0-856b14c9b7d1afd2669b7d330f296dcb",
+          "expires_at_epoch": 1787143118,
+          "expires_at_utc": "2026-08-19T12:38:38+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842659&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842659.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5361337104",
-      "start_at": "2026-08-19T17:30:00+07:00",
-      "league": "AUS NPLNT",
-      "home": "Azzurri United FC",
-      "away": "Port Darwin FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361337104&lan=2",
-          "status": 200,
-          "elapsed": 0.181,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AUS NPLNT Azzurri United FC vs Port Darwin FC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5361337104",
-          "start_at": "2026-08-19T17:30:00+07:00",
-          "league": "AUS NPLNT",
-          "home": "Azzurri United FC",
-          "away": "Port Darwin FC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5704485_1.flv?auth_key=1787141128-3782-0-489cd34cccbe8fbd5b3efa312b0d4a0b",
-          "expires_at_epoch": 1787141128,
-          "expires_at_utc": "2026-08-19T12:05:28+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361337104&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5361337104.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842650",
-      "start_at": "2026-08-19T17:00:00+07:00",
-      "league": "KOR Cup",
-      "home": "Chungnam Asan",
-      "away": "Daejeon Hana Citizen",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842650&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "KOR Cup Chungnam Asan vs Daejeon Hana Citizen",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144842650",
-          "start_at": "2026-08-19T17:00:00+07:00",
-          "league": "KOR Cup",
-          "home": "Chungnam Asan",
-          "away": "Daejeon Hana Citizen",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683565_1.flv?auth_key=1787141134-7174-0-ca300eac36880c31ae0b312447f61f81",
-          "expires_at_epoch": 1787141134,
-          "expires_at_utc": "2026-08-19T12:05:34+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842650&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842650.html"
         }
       ]
     },
@@ -639,274 +403,11 @@
           "home": "Jeonbuk Hyundai Motors",
           "away": "Dangjin Citizen",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683563_1.flv?auth_key=1787141139-1843-0-2f44c59b1e1ca6719d292c0e9ef7166e",
-          "expires_at_epoch": 1787141139,
-          "expires_at_utc": "2026-08-19T12:05:39+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683563_1.flv?auth_key=1787143124-1350-0-14e11eb034f3df4fdef059115c3ad12e",
+          "expires_at_epoch": 1787143124,
+          "expires_at_utc": "2026-08-19T12:38:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842656&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842656.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842662",
-      "start_at": "2026-08-19T17:00:00+07:00",
-      "league": "KOR Cup",
-      "home": "Gimpo FC",
-      "away": "Gimcheon Sangmu",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842662&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "KOR Cup Gimpo FC 2-1 Gimcheon Sangmu",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144842665",
-      "start_at": "2026-08-19T17:00:00+07:00",
-      "league": "KOR Cup",
-      "home": "Pohang Steelers",
-      "away": "Jinju Citizen",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842665&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "KOR Cup Pohang Steelers vs Jinju Citizen",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144842665",
-          "start_at": "2026-08-19T17:00:00+07:00",
-          "league": "KOR Cup",
-          "home": "Pohang Steelers",
-          "away": "Jinju Citizen",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5702584_1.flv?auth_key=1787141150-9106-0-3cff0545c81fd8ea7572deaf2628fc03",
-          "expires_at_epoch": 1787141150,
-          "expires_at_utc": "2026-08-19T12:05:50+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842665&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144842665.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144842668",
-      "start_at": "2026-08-19T17:00:00+07:00",
-      "league": "KOR Cup",
-      "home": "Ulsan Citizen",
-      "away": "Gwangju FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842668&lan=2",
-          "status": 200,
-          "elapsed": 0.181,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "KOR Cup Ulsan Citizen 0-1 Gwangju FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144884296",
-      "start_at": "2026-08-19T16:30:00+07:00",
-      "league": "JAP Cup",
-      "home": "Atletico Suzuka Club",
-      "away": "FC Basara Hyogo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144884296&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "JAP Cup Atletico Suzuka Club vs FC Basara Hyogo",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144884296",
-          "start_at": "2026-08-19T16:30:00+07:00",
-          "league": "JAP Cup",
-          "home": "Atletico Suzuka Club",
-          "away": "FC Basara Hyogo",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5653714_1.flv?auth_key=1787141160-6737-0-88b23d3e893731d5bd2e7ca09b43acfb",
-          "expires_at_epoch": 1787141160,
-          "expires_at_utc": "2026-08-19T12:06:00+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144884296&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144884296.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144886012",
-      "start_at": "2026-08-19T16:30:00+07:00",
-      "league": "AUS CUP",
-      "home": "APIA Leichhardt",
-      "away": "Melbourne Victory",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886012&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AUS CUP APIA Leichhardt vs Melbourne Victory",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144886012",
-          "start_at": "2026-08-19T16:30:00+07:00",
-          "league": "AUS CUP",
-          "home": "APIA Leichhardt",
-          "away": "Melbourne Victory",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5683558_1.flv?auth_key=1787141165-9321-0-7b39f2b60e3da63f0391b63f67426422",
-          "expires_at_epoch": 1787141165,
-          "expires_at_utc": "2026-08-19T12:06:05+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886012&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144886012.html"
         }
       ]
     },
@@ -963,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493561&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -1006,7 +507,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144661909&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -1038,51 +539,218 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144493555",
+      "start_at": "2026-08-19T22:00:00+07:00",
+      "league": "UZB SL",
+      "home": "Mashal Mubarek",
+      "away": "FK Andijan",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493555&lan=2",
+          "status": 200,
+          "elapsed": 0.179,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "UZB SL Mashal Mubarek vs FK Andijan",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144760039",
+      "start_at": "2026-08-19T22:00:00+07:00",
+      "league": "RUS D1",
+      "home": "Kamaz Naberezhnye Chelny",
+      "away": "Tekstilshchik Ivanovo",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144760039&lan=2",
+          "status": 200,
+          "elapsed": 0.18,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "RUS D1 Kamaz Naberezhnye Chelny vs Tekstilshchik Ivanovo",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144844852",
+      "start_at": "2026-08-19T22:00:00+07:00",
+      "league": "SRB D2",
+      "home": "Graficar Beograd",
+      "away": "FK Loznica",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844852&lan=2",
+          "status": 200,
+          "elapsed": 0.18,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "SRB D2 Graficar Beograd vs FK Loznica",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144844867",
+      "start_at": "2026-08-19T22:00:00+07:00",
+      "league": "SRB D2",
+      "home": "OFK Vrsac",
+      "away": "FK Dubocica Leskovac",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144844867&lan=2",
+          "status": 200,
+          "elapsed": 0.18,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "SRB D2 OFK Vrsac vs FK Dubocica Leskovac",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 18,
-    "matches_processed": 18,
-    "valid_player_responses": 18,
+    "matches_selected": 13,
+    "matches_processed": 13,
+    "valid_player_responses": 13,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 13,
-    "fresh_streams_accepted": 13,
+    "streams_returned_by_api": 6,
+    "fresh_streams_accepted": 6,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.733,
-      5.109,
-      4.264,
-      4.98,
-      4.52,
-      4.116,
-      5.206,
-      5.31,
-      5.399,
-      5.226,
-      4.736,
-      5.393,
-      4.654,
-      5.087,
-      5.128,
-      5.117,
-      5.435
+      5.324,
+      5.283,
+      5.183,
+      4.374,
+      5.494,
+      4.362,
+      5.481,
+      4.523,
+      4.194,
+      4.978,
+      4.305,
+      5.49
     ],
-    "expires_at_min_epoch": 1787141094,
-    "expires_at_max_epoch": 1787141165,
-    "expires_at_span_seconds": 71,
-    "remaining_ttl_min_seconds": 482,
-    "remaining_ttl_max_seconds": 553,
+    "expires_at_min_epoch": 1787143097,
+    "expires_at_max_epoch": 1787143124,
+    "expires_at_span_seconds": 27,
+    "remaining_ttl_min_seconds": 509,
+    "remaining_ttl_max_seconds": 536,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 16,
-    "final_streams": 13,
-    "publish_reason": "published 13 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 13,
+    "final_streams": 6,
+    "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 88.46
+    "elapsed_seconds": 62.12
   }
 }
