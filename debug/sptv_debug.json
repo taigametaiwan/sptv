@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-20T18:42:57+07:00",
+  "started_at": "2026-08-20T19:02:22+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.58,
+    "elapsed": 0.43,
     "error": ""
   },
   "schedule": {
@@ -49,25 +49,84 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.166,
+        "elapsed": 0.121,
         "error": ""
       }
     ],
-    "rows_selected": 12,
+    "rows_selected": 17,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5137859715",
-      "start_at": "2026-08-20T18:00:00+07:00",
-      "league": "MPBL",
-      "home": "Quezon Huskers BC",
-      "away": "Imus Bandera Yangkee BC",
+      "player_id": "5137884378",
+      "start_at": "2026-08-20T19:00:00+07:00",
+      "league": "WNBL",
+      "home": "Dongguan Xintongsheng (W)",
+      "away": "Shaanxi Yulin Tianze (W)",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859715&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884378&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WNBL Dongguan Xintongsheng (W) vs Shaanxi Yulin Tianze (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137884378",
+          "start_at": "2026-08-20T19:00:00+07:00",
+          "league": "WNBL",
+          "home": "Dongguan Xintongsheng (W)",
+          "away": "Shaanxi Yulin Tianze (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686128_1.flv?auth_key=1787227942-8591-0-8140b926ed65a1380c449593b34390ae",
+          "expires_at_epoch": 1787227942,
+          "expires_at_utc": "2026-08-20T12:12:22+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884378&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137884378.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144517447",
+      "start_at": "2026-08-20T19:00:00+07:00",
+      "league": "EST D2",
+      "home": "JK Nomme Kalju U21",
+      "away": "Tallinna Kalev",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144517447&lan=2",
+          "status": 200,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -94,23 +153,23 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "MPBL Quezon Huskers BC vs Imus Bandera Yangkee BC",
+        "title": "EST D2 JK Nomme Kalju U21 vs Tallinna Kalev",
         "stream_item_count": 0,
         "stream_item_types": []
       },
       "streams": []
     },
     {
-      "player_id": "5137878621",
-      "start_at": "2026-08-20T18:00:00+07:00",
-      "league": "JonB",
-      "home": "Strong Group Athletics BC",
-      "away": "Chinese Taipei Blue Team (M)",
+      "player_id": "5144517450",
+      "start_at": "2026-08-20T19:00:00+07:00",
+      "league": "EST D2",
+      "home": "Tartu JK Welco",
+      "away": "FCI Levadia Tallinn U21",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137878621&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144517450&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -136,264 +195,12 @@
           "title"
         ],
         "code": 0,
-        "pid": 1,
-        "title": "JonB Strong Group Athletics BC vs Chinese Taipei Blue Team (M)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
+        "pid": 0,
+        "title": "EST D2 Tartu JK Welco vs FCI Levadia Tallinn U21",
+        "stream_item_count": 0,
+        "stream_item_types": []
       },
-      "streams": [
-        {
-          "player_id": "5137878621",
-          "start_at": "2026-08-20T18:00:00+07:00",
-          "league": "JonB",
-          "home": "Strong Group Athletics BC",
-          "away": "Chinese Taipei Blue Team (M)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5684294_1.flv?auth_key=1787226784-4102-0-226baf1561ed53d32a16aa6a49a3b938",
-          "expires_at_epoch": 1787226784,
-          "expires_at_utc": "2026-08-20T11:53:04+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137878621&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137878621.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137884591",
-      "start_at": "2026-08-20T18:00:00+07:00",
-      "league": "AsiaB",
-      "home": "Japan U18 (M)",
-      "away": "Qatar U18 (M)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884591&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AsiaB Japan U18 (M) vs Qatar U18 (M)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137884591",
-          "start_at": "2026-08-20T18:00:00+07:00",
-          "league": "AsiaB",
-          "home": "Japan U18 (M)",
-          "away": "Qatar U18 (M)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5704583_1.flv?auth_key=1787226789-9746-0-689c577f7a127b631dea7589f4e8589c",
-          "expires_at_epoch": 1787226789,
-          "expires_at_utc": "2026-08-20T11:53:09+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884591&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137884591.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137884414",
-      "start_at": "2026-08-20T17:00:00+07:00",
-      "league": "WNBL",
-      "home": "Shanghai Jiao Tong University (W)",
-      "away": "Xiamen Bank (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884414&lan=2",
-          "status": 200,
-          "elapsed": 0.179,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WNBL Shanghai Jiao Tong University (W) vs Xiamen Bank (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137884414",
-          "start_at": "2026-08-20T17:00:00+07:00",
-          "league": "WNBL",
-          "home": "Shanghai Jiao Tong University (W)",
-          "away": "Xiamen Bank (W)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686127_1.flv?auth_key=1787226794-2421-0-e3a6159b3b3a5255ea5dd283e6806f45",
-          "expires_at_epoch": 1787226794,
-          "expires_at_utc": "2026-08-20T11:53:14+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884414&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137884414.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144589234",
-      "start_at": "2026-08-20T17:00:00+07:00",
-      "league": "KAZ D2",
-      "home": "Tobol Kostanay B",
-      "away": "FK Khan Tengri",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589234&lan=2",
-          "status": 200,
-          "elapsed": 0.178,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "KAZ D2 Tobol Kostanay B vs FK Khan Tengri",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144589234",
-          "start_at": "2026-08-20T17:00:00+07:00",
-          "league": "KAZ D2",
-          "home": "Tobol Kostanay B",
-          "away": "FK Khan Tengri",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5335219_1.flv?auth_key=1787226799-5859-0-003e809f078e9f0240c80efe01807a2d",
-          "expires_at_epoch": 1787226799,
-          "expires_at_utc": "2026-08-20T11:53:19+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589234&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144589234.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144766465",
-      "start_at": "2026-08-20T17:00:00+07:00",
-      "league": "AFC WCL",
-      "home": "Phnom Penh Crown Women",
-      "away": "Kaya FC Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144766465&lan=2",
-          "status": 200,
-          "elapsed": 0.18,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AFC WCL Phnom Penh Crown Women vs Kaya FC Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144766465",
-          "start_at": "2026-08-20T17:00:00+07:00",
-          "league": "AFC WCL",
-          "home": "Phnom Penh Crown Women",
-          "away": "Kaya FC Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539452_1.flv?auth_key=1787226803-2264-0-1d535d0251239d43342980b4a2b17684",
-          "expires_at_epoch": 1787226803,
-          "expires_at_utc": "2026-08-20T11:53:23+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144766465&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144766465.html"
-        }
-      ]
+      "streams": []
     },
     {
       "player_id": "5144589222",
@@ -405,7 +212,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589222&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -448,7 +255,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589225&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -491,7 +298,48 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589240&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.146,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144607411",
+      "start_at": "2026-08-20T19:00:00+07:00",
+      "league": "UZB PL",
+      "home": "Olympic MobiUZ",
+      "away": "Aral Nukus",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607411&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
           "error": ""
         }
       ],
@@ -518,11 +366,215 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "KAZ D2 FK Yelimay Semey B vs Aktobe Youth",
+        "title": "UZB PL Olympic MobiUZ vs Aral Nukus",
         "stream_item_count": 0,
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144767989",
+      "start_at": "2026-08-20T19:00:00+07:00",
+      "league": "ARM D1",
+      "home": "Van Charentsavan",
+      "away": "FC Syunik",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767989&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ARM D1 Van Charentsavan vs FC Syunik",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5137859715",
+      "start_at": "2026-08-20T18:00:00+07:00",
+      "league": "MPBL",
+      "home": "Quezon Huskers BC",
+      "away": "Imus Bandera Yangkee BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859715&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Quezon Huskers BC vs Imus Bandera Yangkee BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5137878621",
+      "start_at": "2026-08-20T18:00:00+07:00",
+      "league": "JonB",
+      "home": "Strong Group Athletics BC",
+      "away": "Chinese Taipei Blue Team (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137878621&lan=2",
+          "status": 200,
+          "elapsed": 0.13,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "JonB Strong Group Athletics BC vs Chinese Taipei Blue Team (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137878621",
+          "start_at": "2026-08-20T18:00:00+07:00",
+          "league": "JonB",
+          "home": "Strong Group Athletics BC",
+          "away": "Chinese Taipei Blue Team (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5684294_1.flv?auth_key=1787227986-6437-0-161b88c86c78d3b92cb0d850f5953a13",
+          "expires_at_epoch": 1787227986,
+          "expires_at_utc": "2026-08-20T12:13:06+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137878621&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137878621.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137884591",
+      "start_at": "2026-08-20T18:00:00+07:00",
+      "league": "AsiaB",
+      "home": "Japan U18 (M)",
+      "away": "Qatar U18 (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884591&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AsiaB Japan U18 (M) vs Qatar U18 (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137884591",
+          "start_at": "2026-08-20T18:00:00+07:00",
+          "league": "AsiaB",
+          "home": "Japan U18 (M)",
+          "away": "Qatar U18 (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5704583_1.flv?auth_key=1787227992-8115-0-6c9e0e373ef1ac8e5fffd97250d9411e",
+          "expires_at_epoch": 1787227992,
+          "expires_at_utc": "2026-08-20T12:13:12+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884591&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137884591.html"
+        }
+      ]
     },
     {
       "player_id": "5144493549",
@@ -534,7 +586,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493549&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -577,7 +629,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607396&lan=2",
           "status": 200,
-          "elapsed": 0.177,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -620,7 +672,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144807541&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.13,
           "error": ""
         }
       ],
@@ -652,45 +704,179 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144493570",
+      "start_at": "2026-08-20T22:00:00+07:00",
+      "league": "UZB SL",
+      "home": "Xorazm Urganch",
+      "away": "Lokomotiv Tashkent",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493570&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "UZB SL Xorazm Urganch vs Lokomotiv Tashkent",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144760042",
+      "start_at": "2026-08-20T22:00:00+07:00",
+      "league": "RUS D1",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "PFC Sochi",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144760042&lan=2",
+          "status": 200,
+          "elapsed": 0.132,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "RUS D1 Neftekhimik Nizhnekamsk vs PFC Sochi",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144888592",
+      "start_at": "2026-08-20T22:00:00+07:00",
+      "league": "UEFA EL",
+      "home": "Kairat Almaty",
+      "away": "RSC Anderlecht",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144888592&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "UEFA EL Kairat Almaty vs RSC Anderlecht",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 12,
-    "matches_processed": 12,
-    "valid_player_responses": 12,
+    "matches_selected": 17,
+    "matches_processed": 17,
+    "valid_player_responses": 17,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 5,
-    "fresh_streams_accepted": 5,
+    "streams_returned_by_api": 3,
+    "fresh_streams_accepted": 3,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.267,
-      5.205,
-      4.334,
-      5.414,
-      4.173,
-      4.045,
-      4.552,
-      4.2,
-      5.459,
-      5.385,
-      5.138
+      5.161,
+      4.202,
+      5.168,
+      5.251,
+      4.581,
+      5.115,
+      4.089,
+      5.01,
+      4.108,
+      5.037,
+      4.387,
+      4.804,
+      5.314,
+      5.346,
+      5.216,
+      4.334
     ],
-    "expires_at_min_epoch": 1787226784,
-    "expires_at_max_epoch": 1787226803,
-    "expires_at_span_seconds": 19,
-    "remaining_ttl_min_seconds": 521,
+    "expires_at_min_epoch": 1787227942,
+    "expires_at_max_epoch": 1787227992,
+    "expires_at_span_seconds": 50,
+    "remaining_ttl_min_seconds": 490,
     "remaining_ttl_max_seconds": 540,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 6,
-    "final_streams": 5,
-    "publish_reason": "published 5 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 5,
+    "final_streams": 3,
+    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 56.08
+    "elapsed_seconds": 79.94
   }
 }
