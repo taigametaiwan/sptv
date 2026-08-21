@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-22T04:01:37+07:00",
+  "started_at": "2026-08-22T04:32:19+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.402,
+    "elapsed": 0.571,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.107,
+        "elapsed": 0.164,
         "error": ""
       }
     ],
@@ -58,16 +58,75 @@
   },
   "matches": [
     {
-      "player_id": "5144729646",
-      "start_at": "2026-08-22T04:00:00+07:00",
-      "league": "COL D1",
-      "home": "Jaguares Cordoba",
-      "away": "Boyaca Chico",
+      "player_id": "5144895468",
+      "start_at": "2026-08-22T04:30:00+07:00",
+      "league": "PAR D1",
+      "home": "Rubio Nu",
+      "away": "Sportivo Trinidense",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729646&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144895468&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "PAR D1 Rubio Nu vs Sportivo Trinidense",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144895468",
+          "start_at": "2026-08-22T04:30:00+07:00",
+          "league": "PAR D1",
+          "home": "Rubio Nu",
+          "away": "Sportivo Trinidense",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5695312_1.flv?auth_key=1787348540-3731-0-71fdd2e61ae182316ff0dd8b41a56eb5",
+          "expires_at_epoch": 1787348540,
+          "expires_at_utc": "2026-08-21T21:42:20+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144895468&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144895468.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144899350",
+      "start_at": "2026-08-22T04:30:00+07:00",
+      "league": "PAR D2",
+      "home": "Sol de America",
+      "away": "Resistencia SC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899350&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -94,11 +153,70 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "COL D1 Jaguares Cordoba vs Boyaca Chico",
+        "title": "PAR D2 Sol de America vs Resistencia SC",
         "stream_item_count": 0,
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144729646",
+      "start_at": "2026-08-22T04:00:00+07:00",
+      "league": "COL D1",
+      "home": "Jaguares Cordoba",
+      "away": "Boyaca Chico",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729646&lan=2",
+          "status": 200,
+          "elapsed": 0.179,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "COL D1 Jaguares Cordoba vs Boyaca Chico",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144729646",
+          "start_at": "2026-08-22T04:00:00+07:00",
+          "league": "COL D1",
+          "home": "Jaguares Cordoba",
+          "away": "Boyaca Chico",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540104_1.flv?auth_key=1787348550-1924-0-c19c2abad0b4126f60a975ab4a5df754",
+          "expires_at_epoch": 1787348550,
+          "expires_at_utc": "2026-08-21T21:42:30+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729646&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144729646.html"
+        }
+      ]
     },
     {
       "player_id": "5144724210",
@@ -110,7 +228,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724210&lan=2",
           "status": 200,
-          "elapsed": 0.12,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -151,70 +269,11 @@
           "home": "Alianza Atletico",
           "away": "Sporting Cristal",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539969_1.flv?auth_key=1787346703-9663-0-a0f347ebace8fcbf0b44e8949ecd64c5",
-          "expires_at_epoch": 1787346703,
-          "expires_at_utc": "2026-08-21T21:11:43+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539969_1.flv?auth_key=1787348554-8057-0-312301ad5cd4680e87d8d89011c476a6",
+          "expires_at_epoch": 1787348554,
+          "expires_at_utc": "2026-08-21T21:42:34+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144724210&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144724210.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144898327",
-      "start_at": "2026-08-22T03:00:00+07:00",
-      "league": "CRC D2",
-      "home": "Consultants Moravia",
-      "away": "AD Cariari Pococi",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144898327&lan=2",
-          "status": 200,
-          "elapsed": 0.122,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "CRC D2 Consultants Moravia vs AD Cariari Pococi",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144898327",
-          "start_at": "2026-08-22T03:00:00+07:00",
-          "league": "CRC D2",
-          "home": "Consultants Moravia",
-          "away": "AD Cariari Pococi",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5606655_1.flv?auth_key=1787346708-8706-0-9cbcd2f15d74aed563a995d161edcc51",
-          "expires_at_epoch": 1787346708,
-          "expires_at_utc": "2026-08-21T21:11:48+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144898327&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144898327.html"
         }
       ]
     },
@@ -228,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899842&lan=2",
           "status": 200,
-          "elapsed": 0.121,
+          "elapsed": 0.179,
           "error": ""
         }
       ],
@@ -269,201 +328,11 @@
           "home": "Anzoategui",
           "away": "Trujillanos",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5704738_1.flv?auth_key=1787346712-8269-0-59fd6ccc48c68f72fbee8db8dd00feef",
-          "expires_at_epoch": 1787346712,
-          "expires_at_utc": "2026-08-21T21:11:52+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5704738_1.flv?auth_key=1787348559-8595-0-4ab40663335abd5cc84159fd4eb04c7f",
+          "expires_at_epoch": 1787348559,
+          "expires_at_utc": "2026-08-21T21:42:39+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899842&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144899842.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144888931",
-      "start_at": "2026-08-22T02:30:00+07:00",
-      "league": "POR L3",
-      "home": "AD Fafe",
-      "away": "Vitoria Guimaraes B",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144888931&lan=2",
-          "status": 200,
-          "elapsed": 0.125,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "POR L3 AD Fafe vs Vitoria Guimaraes B",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144888931",
-          "start_at": "2026-08-22T02:30:00+07:00",
-          "league": "POR L3",
-          "home": "AD Fafe",
-          "away": "Vitoria Guimaraes B",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5711792_1.flv?auth_key=1787346718-8867-0-c3ff05fdddf6fbcf4805210951e8d8c3",
-          "expires_at_epoch": 1787346718,
-          "expires_at_utc": "2026-08-21T21:11:58+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144888931&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144888931.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144765490",
-      "start_at": "2026-08-22T02:15:00+07:00",
-      "league": "POR L2",
-      "home": "CD Tondela",
-      "away": "Academica Coimbra",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144765490&lan=2",
-          "status": 200,
-          "elapsed": 0.123,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "POR L2 CD Tondela vs Academica Coimbra",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144765490",
-          "start_at": "2026-08-22T02:15:00+07:00",
-          "league": "POR L2",
-          "home": "CD Tondela",
-          "away": "Academica Coimbra",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540035_1.flv?auth_key=1787346722-4622-0-ee763d5d959dafef6f6b65ee48963f67",
-          "expires_at_epoch": 1787346722,
-          "expires_at_utc": "2026-08-21T21:12:02+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144765490&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144765490.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144736312",
-      "start_at": "2026-08-22T02:00:00+07:00",
-      "league": "SPA D2",
-      "home": "Cordoba CF",
-      "away": "Girona FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144736312&lan=2",
-          "status": 200,
-          "elapsed": 0.123,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "SPA D2 Cordoba CF vs Girona FC",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144736312",
-          "start_at": "2026-08-22T02:00:00+07:00",
-          "league": "SPA D2",
-          "home": "Cordoba CF",
-          "away": "Girona FC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540019_1.flv?auth_key=1787346727-7323-0-135838e93f482cfa0dcd3162bb1175e8",
-          "expires_at_epoch": 1787346727,
-          "expires_at_utc": "2026-08-21T21:12:07+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144736312&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144736312.html"
-        },
-        {
-          "player_id": "5144736312",
-          "start_at": "2026-08-22T02:00:00+07:00",
-          "league": "SPA D2",
-          "home": "Cordoba CF",
-          "away": "Girona FC",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540019_2.flv?auth_key=1787346727-9758-0-c874db70b75ef610d42202650ee6a1f2",
-          "expires_at_epoch": 1787346727,
-          "expires_at_utc": "2026-08-21T21:12:07+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144736312&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144736312.html"
         }
       ]
     },
@@ -477,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144444055&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -520,7 +389,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144887608&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -563,7 +432,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581950&lan=2",
           "status": 200,
-          "elapsed": 0.122,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -606,7 +475,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809810&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -649,7 +518,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809813&lan=2",
           "status": 200,
-          "elapsed": 0.124,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -692,7 +561,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507889&lan=2",
           "status": 200,
-          "elapsed": 0.124,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -735,7 +604,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507892&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -767,6 +636,92 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144457858",
+      "start_at": "2026-08-22T07:30:00+07:00",
+      "league": "CHI D1",
+      "home": "Audax Italiano",
+      "away": "Union La Calera",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457858&lan=2",
+          "status": 200,
+          "elapsed": 0.18,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "CHI D1 Audax Italiano vs Union La Calera",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144729628",
+      "start_at": "2026-08-22T07:30:00+07:00",
+      "league": "COL D1",
+      "home": "Alianza Valledupar",
+      "away": "Deportivo Pereira",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729628&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "COL D1 Alianza Valledupar vs Deportivo Pereira",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
@@ -776,38 +731,38 @@
     "valid_player_responses": 14,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 7,
-    "fresh_streams_accepted": 7,
+    "streams_returned_by_api": 4,
+    "fresh_streams_accepted": 4,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.141,
-      4.353,
-      4.41,
-      5.349,
-      4.227,
-      4.47,
-      5.299,
-      5.113,
-      5.075,
-      4.387,
-      5.464,
-      4.32,
-      5.35
+      4.107,
+      5.086,
+      4.195,
+      4.429,
+      5.122,
+      4.927,
+      4.78,
+      4.388,
+      4.487,
+      5.346,
+      4.399,
+      5.251,
+      4.546
     ],
-    "expires_at_min_epoch": 1787346703,
-    "expires_at_max_epoch": 1787346727,
-    "expires_at_span_seconds": 24,
-    "remaining_ttl_min_seconds": 510,
-    "remaining_ttl_max_seconds": 534,
+    "expires_at_min_epoch": 1787348540,
+    "expires_at_max_epoch": 1787348559,
+    "expires_at_span_seconds": 19,
+    "remaining_ttl_min_seconds": 506,
+    "remaining_ttl_max_seconds": 525,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 14,
-    "final_streams": 7,
-    "publish_reason": "published 7 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 7,
+    "final_streams": 4,
+    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 65.19
+    "elapsed_seconds": 64.34
   }
 }
