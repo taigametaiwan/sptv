@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-21T13:20:45+07:00",
+  "started_at": "2026-08-21T14:12:57+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.485,
+    "elapsed": 0.585,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,132 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.134,
+        "elapsed": 0.169,
         "error": ""
       }
     ],
-    "rows_selected": 4,
+    "rows_selected": 7,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137859718",
+      "start_at": "2026-08-21T14:00:00+07:00",
+      "league": "MPBL",
+      "home": "Negros Hacienderos BC",
+      "away": "Basilan Steel BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859718&lan=2",
+          "status": 200,
+          "elapsed": 0.183,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "MPBL Negros Hacienderos BC vs Basilan Steel BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137859718",
+          "start_at": "2026-08-21T14:00:00+07:00",
+          "league": "MPBL",
+          "home": "Negros Hacienderos BC",
+          "away": "Basilan Steel BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600056_1.flv?auth_key=1787296977-3883-0-38f4a772bf6e315f492491cf4e2a9ec7",
+          "expires_at_epoch": 1787296977,
+          "expires_at_utc": "2026-08-21T07:22:57+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859718&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137859718.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137884576",
+      "start_at": "2026-08-21T13:30:00+07:00",
+      "league": "ANBL",
+      "home": "Norths Bears BC",
+      "away": "Frankston Blues BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884576&lan=2",
+          "status": 200,
+          "elapsed": 0.183,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ANBL Norths Bears BC vs Frankston Blues BC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137884576",
+          "start_at": "2026-08-21T13:30:00+07:00",
+          "league": "ANBL",
+          "home": "Norths Bears BC",
+          "away": "Frankston Blues BC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5711810_1.flv?auth_key=1787296983-3129-0-b2f3ee982f61e73d8f39df2bad82543d",
+          "expires_at_epoch": 1787296983,
+          "expires_at_utc": "2026-08-21T07:23:03+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884576&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137884576.html"
+        }
+      ]
+    },
     {
       "player_id": "5137884456",
       "start_at": "2026-08-21T13:00:00+07:00",
@@ -67,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884456&lan=2",
           "status": 200,
-          "elapsed": 0.149,
+          "elapsed": 0.184,
           "error": ""
         }
       ],
@@ -108,115 +226,13 @@
           "home": "Xiamen Bank (W)",
           "away": "Wuhan Shengfan Huanghe (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686129_1.flv?auth_key=1787293845-2080-0-b7d0c282faf0ece26e2bd006a8ecd9e0",
-          "expires_at_epoch": 1787293845,
-          "expires_at_utc": "2026-08-21T06:30:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686129_1.flv?auth_key=1787296988-7666-0-15af77d9ad6377819f5b0bf277254da4",
+          "expires_at_epoch": 1787296988,
+          "expires_at_utc": "2026-08-21T07:23:08+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884456&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137884456.html"
         }
       ]
-    },
-    {
-      "player_id": "5137886844",
-      "start_at": "2026-08-21T12:00:00+07:00",
-      "league": "AsiaB",
-      "home": "China U18 (M)",
-      "away": "Philippines U18 (M)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137886844&lan=2",
-          "status": 200,
-          "elapsed": 0.149,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "AsiaB China U18 (M) vs Philippines U18 (M)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137886844",
-          "start_at": "2026-08-21T12:00:00+07:00",
-          "league": "AsiaB",
-          "home": "China U18 (M)",
-          "away": "Philippines U18 (M)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5711255_1.flv?auth_key=1787293850-5356-0-e0b99fbe55858f3506aee424555a20a5",
-          "expires_at_epoch": 1787293850,
-          "expires_at_utc": "2026-08-21T06:30:50+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137886844&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137886844.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137859718",
-      "start_at": "2026-08-21T14:00:00+07:00",
-      "league": "MPBL",
-      "home": "Negros Hacienderos BC",
-      "away": "Basilan Steel BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859718&lan=2",
-          "status": 200,
-          "elapsed": 0.147,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "MPBL Negros Hacienderos BC vs Basilan Steel BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5137859721",
@@ -228,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859721&lan=2",
           "status": 200,
-          "elapsed": 0.147,
+          "elapsed": 0.184,
           "error": ""
         }
       ],
@@ -260,37 +276,169 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144457036",
+      "start_at": "2026-08-21T16:30:00+07:00",
+      "league": "AUS NPLV",
+      "home": "Green Gully SC",
+      "away": "St Albans Dinamo SC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457036&lan=2",
+          "status": 200,
+          "elapsed": 0.184,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLV Green Gully SC vs St Albans Dinamo SC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144486865",
+      "start_at": "2026-08-21T16:30:00+07:00",
+      "league": "AUS NPLNS",
+      "home": "Sydney FC Youth",
+      "away": "Rockdale Ilinden",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486865&lan=2",
+          "status": 200,
+          "elapsed": 0.184,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLNS Sydney FC Youth vs Rockdale Ilinden",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144695446",
+      "start_at": "2026-08-21T17:00:00+07:00",
+      "league": "JAP D1",
+      "home": "Kashiwa Reysol",
+      "away": "V-Varen Nagasaki",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695446&lan=2",
+          "status": 200,
+          "elapsed": 0.183,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "JAP D1 Kashiwa Reysol vs V-Varen Nagasaki",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 4,
-    "matches_processed": 4,
-    "valid_player_responses": 4,
+    "matches_selected": 7,
+    "matches_processed": 7,
+    "valid_player_responses": 7,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 2,
-    "fresh_streams_accepted": 2,
+    "streams_returned_by_api": 3,
+    "fresh_streams_accepted": 3,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.151,
-      5.436,
-      5.164
+      5.318,
+      5.237,
+      4.873,
+      4.544,
+      4.823,
+      4.657
     ],
-    "expires_at_min_epoch": 1787293845,
-    "expires_at_max_epoch": 1787293850,
-    "expires_at_span_seconds": 5,
-    "remaining_ttl_min_seconds": 554,
-    "remaining_ttl_max_seconds": 559,
+    "expires_at_min_epoch": 1787296977,
+    "expires_at_max_epoch": 1787296988,
+    "expires_at_span_seconds": 11,
+    "remaining_ttl_min_seconds": 539,
+    "remaining_ttl_max_seconds": 550,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 1,
-    "final_streams": 2,
-    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 2,
+    "final_streams": 3,
+    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 15.97
+    "elapsed_seconds": 31.5
   }
 }
