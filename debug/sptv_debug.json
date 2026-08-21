@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-21T12:52:09+07:00",
+  "started_at": "2026-08-21T13:20:45+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.415,
+    "elapsed": 0.485,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.11,
+        "elapsed": 0.134,
         "error": ""
       }
     ],
-    "rows_selected": 2,
+    "rows_selected": 4,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137884456",
+      "start_at": "2026-08-21T13:00:00+07:00",
+      "league": "WNBL",
+      "home": "Xiamen Bank (W)",
+      "away": "Wuhan Shengfan Huanghe (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884456&lan=2",
+          "status": 200,
+          "elapsed": 0.149,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WNBL Xiamen Bank (W) vs Wuhan Shengfan Huanghe (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137884456",
+          "start_at": "2026-08-21T13:00:00+07:00",
+          "league": "WNBL",
+          "home": "Xiamen Bank (W)",
+          "away": "Wuhan Shengfan Huanghe (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686129_1.flv?auth_key=1787293845-2080-0-b7d0c282faf0ece26e2bd006a8ecd9e0",
+          "expires_at_epoch": 1787293845,
+          "expires_at_utc": "2026-08-21T06:30:45+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884456&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137884456.html"
+        }
+      ]
+    },
     {
       "player_id": "5137886844",
       "start_at": "2026-08-21T12:00:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137886844&lan=2",
           "status": 200,
-          "elapsed": 0.125,
+          "elapsed": 0.149,
           "error": ""
         }
       ],
@@ -108,9 +167,9 @@
           "home": "China U18 (M)",
           "away": "Philippines U18 (M)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5711255_1.flv?auth_key=1787292130-5082-0-c0cc8009c4af3db9db191dabece20ca3",
-          "expires_at_epoch": 1787292130,
-          "expires_at_utc": "2026-08-21T06:02:10+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5711255_1.flv?auth_key=1787293850-5356-0-e0b99fbe55858f3506aee424555a20a5",
+          "expires_at_epoch": 1787293850,
+          "expires_at_utc": "2026-08-21T06:30:50+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137886844&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137886844.html"
         }
@@ -126,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859718&lan=2",
           "status": 200,
-          "elapsed": 0.125,
+          "elapsed": 0.147,
           "error": ""
         }
       ],
@@ -158,35 +217,80 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5137859721",
+      "start_at": "2026-08-21T16:00:00+07:00",
+      "league": "MPBL",
+      "home": "Mindoro Tamaraws BC",
+      "away": "Cebu Greats BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859721&lan=2",
+          "status": 200,
+          "elapsed": 0.147,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Mindoro Tamaraws BC vs Cebu Greats BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 2,
-    "matches_processed": 2,
-    "valid_player_responses": 2,
+    "matches_selected": 4,
+    "matches_processed": 4,
+    "valid_player_responses": 4,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 1,
-    "fresh_streams_accepted": 1,
+    "streams_returned_by_api": 2,
+    "fresh_streams_accepted": 2,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.18
+      4.151,
+      5.436,
+      5.164
     ],
-    "expires_at_min_epoch": 1787292130,
-    "expires_at_max_epoch": 1787292130,
-    "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": 565,
-    "remaining_ttl_max_seconds": 565,
+    "expires_at_min_epoch": 1787293845,
+    "expires_at_max_epoch": 1787293850,
+    "expires_at_span_seconds": 5,
+    "remaining_ttl_min_seconds": 554,
+    "remaining_ttl_max_seconds": 559,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 0,
-    "final_streams": 1,
-    "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 1,
+    "final_streams": 2,
+    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 5.97
+    "elapsed_seconds": 15.97
   }
 }
