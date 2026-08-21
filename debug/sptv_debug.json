@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-21T19:02:37+07:00",
+  "started_at": "2026-08-21T20:04:08+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.447,
+    "elapsed": 0.41,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,234 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.118,
+        "elapsed": 0.108,
         "error": ""
       }
     ],
-    "rows_selected": 19,
+    "rows_selected": 25,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144466534",
+      "start_at": "2026-08-21T20:00:00+07:00",
+      "league": "GEO D1",
+      "home": "Meshakhte Tkibuli",
+      "away": "Dinamo Batumi",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144466534&lan=2",
+          "status": 200,
+          "elapsed": 0.125,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "GEO D1 Meshakhte Tkibuli vs Dinamo Batumi",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144589228",
+      "start_at": "2026-08-21T20:00:00+07:00",
+      "league": "KAZ D2",
+      "home": "FC Jaiyq",
+      "away": "Caspiy Aktau B",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589228&lan=2",
+          "status": 200,
+          "elapsed": 0.126,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "KAZ D2 FC Jaiyq vs Caspiy Aktau B",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144589228",
+          "start_at": "2026-08-21T20:00:00+07:00",
+          "league": "KAZ D2",
+          "home": "FC Jaiyq",
+          "away": "Caspiy Aktau B",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5335220_1.flv?auth_key=1787318053-9455-0-a42c6cdd597bad272d8d2e8b4242fbf6",
+          "expires_at_epoch": 1787318053,
+          "expires_at_utc": "2026-08-21T13:14:13+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589228&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144589228.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144589231",
+      "start_at": "2026-08-21T20:00:00+07:00",
+      "league": "KAZ D2",
+      "home": "Shakhter Karagandy",
+      "away": "FC Astana II",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589231&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "KAZ D2 Shakhter Karagandy vs FC Astana II",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144589231",
+          "start_at": "2026-08-21T20:00:00+07:00",
+          "league": "KAZ D2",
+          "home": "Shakhter Karagandy",
+          "away": "FC Astana II",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5335222_1.flv?auth_key=1787318058-5325-0-72d22cc3cc42c837ee34909fa485f0a0",
+          "expires_at_epoch": 1787318058,
+          "expires_at_utc": "2026-08-21T13:14:18+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589231&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144589231.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144831106",
+      "start_at": "2026-08-21T20:00:00+07:00",
+      "league": "MAS SL",
+      "home": "Johor Darul Takzim",
+      "away": "Kuching City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144831106&lan=2",
+          "status": 200,
+          "elapsed": 0.126,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "MAS SL Johor Darul Takzim vs Kuching City",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144831106",
+          "start_at": "2026-08-21T20:00:00+07:00",
+          "league": "MAS SL",
+          "home": "Johor Darul Takzim",
+          "away": "Kuching City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5612046_1.flv?auth_key=1787318062-8745-0-71b34bdd2144a991703a647aaac2bea1",
+          "expires_at_epoch": 1787318062,
+          "expires_at_utc": "2026-08-21T13:14:22+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144831106&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144831106.html"
+        }
+      ]
+    },
     {
       "player_id": "5137884411",
       "start_at": "2026-08-21T19:00:00+07:00",
@@ -67,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884411&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -108,9 +328,9 @@
           "home": "Shanghai Jiao Tong University (W)",
           "away": "Shanxi Zhuyeqing Jiu (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686132_1.flv?auth_key=1787314358-9429-0-39ac351179950b068f1f285ed8f0749f",
-          "expires_at_epoch": 1787314358,
-          "expires_at_utc": "2026-08-21T12:12:38+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686132_1.flv?auth_key=1787318067-7054-0-e006b54e0577aaf99ed506e66588dbea",
+          "expires_at_epoch": 1787318067,
+          "expires_at_utc": "2026-08-21T13:14:27+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884411&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137884411.html"
         }
@@ -126,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842116&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -167,9 +387,9 @@
           "home": "Eastern AA",
           "away": "Shatin SA",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5630207_1.flv?auth_key=1787314363-9264-0-2e9841233bcf2eb4b6a1ac33ab68ce15",
-          "expires_at_epoch": 1787314363,
-          "expires_at_utc": "2026-08-21T12:12:43+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5630207_1.flv?auth_key=1787318073-2385-0-88c714d42ace2c1e742e7a2d9e183a3c",
+          "expires_at_epoch": 1787318073,
+          "expires_at_utc": "2026-08-21T13:14:33+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144842116&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144842116.html"
         }
@@ -185,7 +405,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859637&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -226,9 +446,9 @@
           "home": "Meycauayan Marilao Gems BC",
           "away": "GenSan Warriors BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600058_1.flv?auth_key=1787314367-2931-0-9dd53e9c91cb7169716d6409938a3d44",
-          "expires_at_epoch": 1787314367,
-          "expires_at_utc": "2026-08-21T12:12:47+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5600058_1.flv?auth_key=1787318078-8618-0-ba051d1adccdd5e97a792f946e4d5022",
+          "expires_at_epoch": 1787318078,
+          "expires_at_utc": "2026-08-21T13:14:38+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859637&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137859637.html"
         }
@@ -244,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144864376&lan=2",
           "status": 200,
-          "elapsed": 0.136,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -285,420 +505,13 @@
           "home": "Lokomotiv Kyiv",
           "away": "FC Probiy Horodenka",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5657362_1.flv?auth_key=1787314373-5170-0-3f0099864f76b1cffa69ed913af32ed1",
-          "expires_at_epoch": 1787314373,
-          "expires_at_utc": "2026-08-21T12:12:53+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5657362_1.flv?auth_key=1787318082-9326-0-c734ec496566897911c3014c86d94c19",
+          "expires_at_epoch": 1787318082,
+          "expires_at_utc": "2026-08-21T13:14:42+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144864376&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144864376.html"
         }
       ]
-    },
-    {
-      "player_id": "5144864391",
-      "start_at": "2026-08-21T18:00:00+07:00",
-      "league": "UKR Cup",
-      "home": "Podillya Khmelnytskyi",
-      "away": "Viktoriya Sumy",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144864391&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "UKR Cup Podillya Khmelnytskyi vs Viktoriya Sumy",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144864391",
-          "start_at": "2026-08-21T18:00:00+07:00",
-          "league": "UKR Cup",
-          "home": "Podillya Khmelnytskyi",
-          "away": "Viktoriya Sumy",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5657358_1.flv?auth_key=1787314378-5073-0-9fdb9441c13d97e174f2e668adcaf0d9",
-          "expires_at_epoch": 1787314378,
-          "expires_at_utc": "2026-08-21T12:12:58+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144864391&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144864391.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5361885393",
-      "start_at": "2026-08-21T18:00:00+07:00",
-      "league": "CHN U20",
-      "home": "Ningbo Professional FC U20",
-      "away": "Wuhan Three Towns U20",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361885393&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "CHN U20 Ningbo Professional FC U20 vs Wuhan Three Towns U20",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5361885393",
-          "start_at": "2026-08-21T18:00:00+07:00",
-          "league": "CHN U20",
-          "home": "Ningbo Professional FC U20",
-          "away": "Wuhan Three Towns U20",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5701056_1.flv?auth_key=1787314383-5143-0-96e37cd4bd9602f3bc29291f0b1c1af6",
-          "expires_at_epoch": 1787314383,
-          "expires_at_utc": "2026-08-21T12:13:03+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361885393&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5361885393.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137884579",
-      "start_at": "2026-08-21T17:30:00+07:00",
-      "league": "ANBL",
-      "home": "Rockingham Flames BC",
-      "away": "Canberra Gunners BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884579&lan=2",
-          "status": 200,
-          "elapsed": 0.136,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ANBL Rockingham Flames BC vs Canberra Gunners BC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137884579",
-          "start_at": "2026-08-21T17:30:00+07:00",
-          "league": "ANBL",
-          "home": "Rockingham Flames BC",
-          "away": "Canberra Gunners BC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5711815_1.flv?auth_key=1787314388-7179-0-42c300f52562d37124be84cf9fa753cc",
-          "expires_at_epoch": 1787314388,
-          "expires_at_utc": "2026-08-21T12:13:08+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884579&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137884579.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144695443",
-      "start_at": "2026-08-21T17:30:00+07:00",
-      "league": "JAP D1",
-      "home": "FC Tokyo",
-      "away": "JEF United Chiba",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695443&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "JAP D1 FC Tokyo vs JEF United Chiba",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144695443",
-          "start_at": "2026-08-21T17:30:00+07:00",
-          "league": "JAP D1",
-          "home": "FC Tokyo",
-          "away": "JEF United Chiba",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539468_1.flv?auth_key=1787314393-8540-0-3bdc298a6ed2a9259a6ae874dbfe88cf",
-          "expires_at_epoch": 1787314393,
-          "expires_at_utc": "2026-08-21T12:13:13+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695443&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144695443.html"
-        },
-        {
-          "player_id": "5144695443",
-          "start_at": "2026-08-21T17:30:00+07:00",
-          "league": "JAP D1",
-          "home": "FC Tokyo",
-          "away": "JEF United Chiba",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539468_2.flv?auth_key=1787314393-6704-0-762bbbfb18d95d70670a7e48abfb88d8",
-          "expires_at_epoch": 1787314393,
-          "expires_at_utc": "2026-08-21T12:13:13+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695443&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144695443.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144695446",
-      "start_at": "2026-08-21T17:00:00+07:00",
-      "league": "JAP D1",
-      "home": "Kashiwa Reysol",
-      "away": "V-Varen Nagasaki",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695446&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "JAP D1 Kashiwa Reysol vs V-Varen Nagasaki",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144695446",
-          "start_at": "2026-08-21T17:00:00+07:00",
-          "league": "JAP D1",
-          "home": "Kashiwa Reysol",
-          "away": "V-Varen Nagasaki",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539466_1.flv?auth_key=1787314398-7750-0-9f79a247fa0477a48f7714342e8c0578",
-          "expires_at_epoch": 1787314398,
-          "expires_at_utc": "2026-08-21T12:13:18+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695446&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144695446.html"
-        },
-        {
-          "player_id": "5144695446",
-          "start_at": "2026-08-21T17:00:00+07:00",
-          "league": "JAP D1",
-          "home": "Kashiwa Reysol",
-          "away": "V-Varen Nagasaki",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539466_2.flv?auth_key=1787314398-6519-0-f4869fc26f0bf7aeb46515077444a96a",
-          "expires_at_epoch": 1787314398,
-          "expires_at_utc": "2026-08-21T12:13:18+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144695446&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144695446.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144589228",
-      "start_at": "2026-08-21T20:00:00+07:00",
-      "league": "KAZ D2",
-      "home": "FC Jaiyq",
-      "away": "Caspiy Aktau B",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589228&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "KAZ D2 FC Jaiyq vs Caspiy Aktau B",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144589231",
-      "start_at": "2026-08-21T20:00:00+07:00",
-      "league": "KAZ D2",
-      "home": "Shakhter Karagandy",
-      "away": "FC Astana II",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589231&lan=2",
-          "status": 200,
-          "elapsed": 0.136,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "KAZ D2 Shakhter Karagandy vs FC Astana II",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144493558",
@@ -710,7 +523,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493558&lan=2",
           "status": 200,
-          "elapsed": 0.136,
+          "elapsed": 0.126,
           "error": ""
         }
       ],
@@ -753,7 +566,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144607399&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -796,7 +609,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144872440&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -839,7 +652,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144807547&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -882,7 +695,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493564&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.126,
           "error": ""
         }
       ],
@@ -925,7 +738,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144516397&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -968,7 +781,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144516406&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -1011,7 +824,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144589237&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -1043,52 +856,445 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144711505",
+      "start_at": "2026-08-21T22:30:00+07:00",
+      "league": "SLO D1",
+      "home": "NK Aluminij",
+      "away": "NK Brinje Grosuplje",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144711505&lan=2",
+          "status": 200,
+          "elapsed": 0.122,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "SLO D1 NK Aluminij vs NK Brinje Grosuplje",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144728362",
+      "start_at": "2026-08-21T22:30:00+07:00",
+      "league": "HUN D1",
+      "home": "Paksi FC",
+      "away": "Ujpest FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144728362&lan=2",
+          "status": 200,
+          "elapsed": 0.126,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "HUN D1 Paksi FC vs Ujpest FC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144839551",
+      "start_at": "2026-08-21T22:50:00+07:00",
+      "league": "KSA D1",
+      "home": "Al-Jeel Club",
+      "away": "Al Zulfi SC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144839551&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "KSA D1 Al-Jeel Club vs Al Zulfi SC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144428245",
+      "start_at": "2026-08-21T23:00:00+07:00",
+      "league": "SWE WD1",
+      "home": "Malmo FF Women",
+      "away": "Hammarby IF Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144428245&lan=2",
+          "status": 200,
+          "elapsed": 0.123,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "SWE WD1 Malmo FF Women vs Hammarby IF Women",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144435286",
+      "start_at": "2026-08-21T23:00:00+07:00",
+      "league": "FIN PR",
+      "home": "SJK Seinajoki",
+      "away": "FC Lahti",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144435286&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "FIN PR SJK Seinajoki vs FC Lahti",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144679573",
+      "start_at": "2026-08-21T23:00:00+07:00",
+      "league": "GER Cup",
+      "home": "SC Preussen Munster",
+      "away": "Karlsruher SC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144679573&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "GER Cup SC Preussen Munster vs Karlsruher SC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144679576",
+      "start_at": "2026-08-21T23:00:00+07:00",
+      "league": "GER Cup",
+      "home": "Waldhof Mannheim",
+      "away": "FC Kaiserslautern",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144679576&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "GER Cup Waldhof Mannheim vs FC Kaiserslautern",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144679624",
+      "start_at": "2026-08-21T23:00:00+07:00",
+      "league": "GER Cup",
+      "home": "SC St Tonis 1911/20",
+      "away": "Eintracht Frankfurt",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144679624&lan=2",
+          "status": 200,
+          "elapsed": 0.123,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "GER Cup SC St Tonis 1911/20 vs Eintracht Frankfurt",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144835027",
+      "start_at": "2026-08-21T23:00:00+07:00",
+      "league": "KSA PL",
+      "home": "Al Riyadh SC",
+      "away": "Al Nassr Riyadh",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144835027&lan=2",
+          "status": 200,
+          "elapsed": 0.126,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "KSA PL Al Riyadh SC vs Al Nassr Riyadh",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 19,
-    "matches_processed": 19,
-    "valid_player_responses": 19,
+    "matches_selected": 25,
+    "matches_processed": 25,
+    "valid_player_responses": 25,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 11,
-    "fresh_streams_accepted": 11,
+    "streams_returned_by_api": 7,
+    "fresh_streams_accepted": 7,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.676,
-      4.158,
-      5.459,
-      5.033,
-      5.213,
-      4.5,
-      4.803,
-      5.029,
-      5.251,
-      5.219,
-      4.945,
-      5.002,
-      5.404,
-      5.445,
-      4.705,
-      4.38,
-      5.138,
-      5.464
+      4.059,
+      4.935,
+      4.139,
+      4.717,
+      5.211,
+      5.07,
+      4.3,
+      4.999,
+      4.214,
+      4.957,
+      4.939,
+      5.405,
+      4.818,
+      5.319,
+      4.622,
+      4.63,
+      4.886,
+      4.382,
+      4.036,
+      4.855,
+      4.32,
+      5.495,
+      4.75,
+      4.529
     ],
-    "expires_at_min_epoch": 1787314358,
-    "expires_at_max_epoch": 1787314398,
-    "expires_at_span_seconds": 40,
-    "remaining_ttl_min_seconds": 478,
-    "remaining_ttl_max_seconds": 518,
+    "expires_at_min_epoch": 1787318053,
+    "expires_at_max_epoch": 1787318082,
+    "expires_at_span_seconds": 29,
+    "remaining_ttl_min_seconds": 458,
+    "remaining_ttl_max_seconds": 487,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 13,
-    "final_streams": 11,
-    "publish_reason": "published 11 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 11,
+    "final_streams": 7,
+    "publish_reason": "published 7 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 92.97
+    "elapsed_seconds": 117.24
   }
 }
