@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-22T10:24:00+07:00",
+  "started_at": "2026-08-22T11:01:41+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.58,
+    "elapsed": 0.37,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,116 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.166,
+        "elapsed": 0.109,
         "error": ""
       }
     ],
-    "rows_selected": 24,
+    "rows_selected": 28,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137877697",
+      "start_at": "2026-08-22T11:00:00+07:00",
+      "league": "ABA",
+      "home": "Perth Wildcats BC",
+      "away": "Cairns Taipans BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137877697&lan=2",
+          "status": 200,
+          "elapsed": 0.125,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ABA Perth Wildcats BC vs Cairns Taipans BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144886093",
+      "start_at": "2026-08-22T10:15:00+07:00",
+      "league": "NZL NLC",
+      "home": "Petone FC",
+      "away": "Wellington Olympic",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886093&lan=2",
+          "status": 200,
+          "elapsed": 0.124,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NZL NLC Petone FC vs Wellington Olympic",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144886093",
+          "start_at": "2026-08-22T10:15:00+07:00",
+          "league": "NZL NLC",
+          "home": "Petone FC",
+          "away": "Wellington Olympic",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5693578_1.flv?auth_key=1787371907-8362-0-300374512dc4dd1f8d6974a25428d2fa",
+          "expires_at_epoch": 1787371907,
+          "expires_at_utc": "2026-08-22T04:11:47+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886093&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144886093.html"
+        }
+      ]
+    },
     {
       "player_id": "5144686332",
       "start_at": "2026-08-22T10:10:00+07:00",
@@ -67,7 +169,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686332&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -108,9 +210,9 @@
           "home": "Juarez",
           "away": "Club America",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539546_1.flv?auth_key=1787369641-5899-0-98dd108bf4e1a806c539cf9f86aefe59",
-          "expires_at_epoch": 1787369641,
-          "expires_at_utc": "2026-08-22T03:34:01+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539546_1.flv?auth_key=1787371912-8352-0-728003dcd939d8ae9140a186dd2b77a2",
+          "expires_at_epoch": 1787371912,
+          "expires_at_utc": "2026-08-22T04:11:52+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686332&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144686332.html"
         }
@@ -126,7 +228,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361634677&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.125,
           "error": ""
         }
       ],
@@ -167,9 +269,9 @@
           "home": "Queretaro",
           "away": "Toluca",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539970_1.flv?auth_key=1787369645-5076-0-9dc72fbff8604cbe7c73c49ade388cd1",
-          "expires_at_epoch": 1787369645,
-          "expires_at_utc": "2026-08-22T03:34:05+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539970_1.flv?auth_key=1787371917-2876-0-4a53c5611945dc88ae2ce6cde258499b",
+          "expires_at_epoch": 1787371917,
+          "expires_at_utc": "2026-08-22T04:11:57+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361634677&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5361634677.html"
         }
@@ -185,7 +287,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855725&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.128,
           "error": ""
         }
       ],
@@ -226,9 +328,9 @@
           "home": "Soles de Mexicali BC",
           "away": "Mineros de Zacatecas BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546716_1.flv?auth_key=1787369649-6946-0-f96108bb5f89142869a4a3ee48d5f347",
-          "expires_at_epoch": 1787369649,
-          "expires_at_utc": "2026-08-22T03:34:09+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546716_1.flv?auth_key=1787371922-3911-0-bdacf15089d9cb9430a7275d02acf40c",
+          "expires_at_epoch": 1787371922,
+          "expires_at_utc": "2026-08-22T04:12:02+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855725&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855725.html"
         }
@@ -244,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767479&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -285,9 +387,9 @@
           "home": "Club Atletico La Paz (MEX)",
           "away": "Cruz Azul Hidalgo",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539547_1.flv?auth_key=1787369654-1658-0-d30172b8724d7b76e298c7280cc91430",
-          "expires_at_epoch": 1787369654,
-          "expires_at_utc": "2026-08-22T03:34:14+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539547_1.flv?auth_key=1787371927-3305-0-ad0ac1de5886913e3ce233232ec5733d",
+          "expires_at_epoch": 1787371927,
+          "expires_at_utc": "2026-08-22T04:12:07+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767479&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144767479.html"
         }
@@ -303,7 +405,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832177&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -344,9 +446,9 @@
           "home": "CF Monterrey Women",
           "away": "Club Leon Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615227_1.flv?auth_key=1787369659-3840-0-d12a9d51ffc464436237d99c62da875a",
-          "expires_at_epoch": 1787369659,
-          "expires_at_utc": "2026-08-22T03:34:19+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615227_1.flv?auth_key=1787371932-3243-0-9ed5b4307baf2dc8a5e1c5bf85714e48",
+          "expires_at_epoch": 1787371932,
+          "expires_at_utc": "2026-08-22T04:12:12+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832177&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144832177.html"
         }
@@ -362,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886120&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -403,9 +505,9 @@
           "home": "Eastern Suburbs AFC",
           "away": "East Coast Bays",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5693576_1.flv?auth_key=1787369664-5398-0-9f2bd706af07d2b48de4089369a762df",
-          "expires_at_epoch": 1787369664,
-          "expires_at_utc": "2026-08-22T03:34:24+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5693576_1.flv?auth_key=1787371937-8906-0-4a01bade3138b6873c5f274de5042441",
+          "expires_at_epoch": 1787371937,
+          "expires_at_utc": "2026-08-22T04:12:17+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886120&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144886120.html"
         }
@@ -421,7 +523,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886126&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -462,9 +564,9 @@
           "home": "Western Springs",
           "away": "Tauranga City",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5693575_1.flv?auth_key=1787369669-2511-0-26ed044b9b41b2234a789beaa7aead84",
-          "expires_at_epoch": 1787369669,
-          "expires_at_utc": "2026-08-22T03:34:29+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5693575_1.flv?auth_key=1787371942-8592-0-d5096b7717e02a472162ba5a67996eed",
+          "expires_at_epoch": 1787371942,
+          "expires_at_utc": "2026-08-22T04:12:22+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886126&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144886126.html"
         }
@@ -480,7 +582,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855722&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -521,9 +623,9 @@
           "home": "Panteras de Aguascalientes BC",
           "away": "Santos del Potosi BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546715_1.flv?auth_key=1787369674-6476-0-f6f719563f2eb5513406594707bc5bb8",
-          "expires_at_epoch": 1787369674,
-          "expires_at_utc": "2026-08-22T03:34:34+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546715_1.flv?auth_key=1787371947-7259-0-ceaf6ecb05502322e098f9554b14d209",
+          "expires_at_epoch": 1787371947,
+          "expires_at_utc": "2026-08-22T04:12:27+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855722&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855722.html"
         }
@@ -539,7 +641,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855719&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -580,9 +682,9 @@
           "home": "Diablos Rojos del Mexico BC",
           "away": "Lobos Puebla BC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546713_1.flv?auth_key=1787369680-7845-0-7aecb4681b8247eed5f85165d4bb7570",
-          "expires_at_epoch": 1787369680,
-          "expires_at_utc": "2026-08-22T03:34:40+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5546713_1.flv?auth_key=1787371952-9562-0-5c20b768c9f938a65cd1b11b9c5b5fc5",
+          "expires_at_epoch": 1787371952,
+          "expires_at_utc": "2026-08-22T04:12:32+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855719&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137855719.html"
         }
@@ -598,7 +700,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565246&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -639,9 +741,9 @@
           "home": "San Diego Wave Women",
           "away": "Utah Royals Women",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5341836_1.flv?auth_key=1787369685-4506-0-49759719fb48480de8837cddd374cfcb",
-          "expires_at_epoch": 1787369685,
-          "expires_at_utc": "2026-08-22T03:34:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5341836_1.flv?auth_key=1787371956-2570-0-b73ef38137831099eaab6ad2add1f892",
+          "expires_at_epoch": 1787371956,
+          "expires_at_utc": "2026-08-22T04:12:36+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565246&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144565246.html"
         }
@@ -657,7 +759,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809816&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -698,56 +800,13 @@
           "home": "Toronto Tempo",
           "away": "Portland Fire",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5342131_1.flv?auth_key=1787369689-7282-0-1fc2ea3301708c810c5e080363218295",
-          "expires_at_epoch": 1787369689,
-          "expires_at_utc": "2026-08-22T03:34:49+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5342131_1.flv?auth_key=1787371961-5437-0-f3eabc7fc6832fc0f5ddb1fdfa22730e",
+          "expires_at_epoch": 1787371961,
+          "expires_at_utc": "2026-08-22T04:12:41+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809816&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137809816.html"
         }
       ]
-    },
-    {
-      "player_id": "5137877697",
-      "start_at": "2026-08-22T11:00:00+07:00",
-      "league": "ABA",
-      "home": "Perth Wildcats BC",
-      "away": "Cairns Taipans BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137877697&lan=2",
-          "status": 200,
-          "elapsed": 0.181,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ABA Perth Wildcats BC vs Cairns Taipans BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144526924",
@@ -759,7 +818,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526924&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -802,7 +861,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456781&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -845,7 +904,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526927&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -888,7 +947,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526930&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -931,7 +990,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526933&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -974,7 +1033,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526936&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -1017,7 +1076,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457048&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -1060,7 +1119,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144898072&lan=2",
           "status": 200,
-          "elapsed": 0.179,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -1103,7 +1162,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5362102851&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -1146,7 +1205,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457045&lan=2",
           "status": 200,
-          "elapsed": 0.18,
+          "elapsed": 0.124,
           "error": ""
         }
       ],
@@ -1189,7 +1248,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144486868&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.122,
           "error": ""
         }
       ],
@@ -1232,7 +1291,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144694309&lan=2",
           "status": 200,
-          "elapsed": 0.181,
+          "elapsed": 0.123,
           "error": ""
         }
       ],
@@ -1264,57 +1323,190 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144898078",
+      "start_at": "2026-08-22T13:45:00+07:00",
+      "league": "Playoff",
+      "home": "Kingborough Lions United",
+      "away": "Launceston City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144898078&lan=2",
+          "status": 200,
+          "elapsed": 0.123,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "Playoff Kingborough Lions United vs Launceston City",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5137859664",
+      "start_at": "2026-08-22T14:00:00+07:00",
+      "league": "MPBL",
+      "home": "Abra Weavers BC",
+      "away": "Valenzuela City Darkhorse BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859664&lan=2",
+          "status": 200,
+          "elapsed": 0.122,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Abra Weavers BC vs Valenzuela City Darkhorse BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144457039",
+      "start_at": "2026-08-22T14:00:00+07:00",
+      "league": "AUS NPLV",
+      "home": "Dandenong City",
+      "away": "Preston Lions",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457039&lan=2",
+          "status": 200,
+          "elapsed": 0.122,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLV Dandenong City vs Preston Lions",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 24,
-    "matches_processed": 24,
-    "valid_player_responses": 24,
+    "matches_selected": 28,
+    "matches_processed": 28,
+    "valid_player_responses": 28,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 11,
-    "fresh_streams_accepted": 11,
+    "streams_returned_by_api": 12,
+    "fresh_streams_accepted": 12,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.019,
-      4.342,
-      4.246,
-      4.885,
-      5.12,
-      4.637,
-      5.082,
-      5.422,
-      4.439,
-      4.536,
-      4.584,
-      5.04,
-      5.349,
-      5.461,
-      4.573,
-      5.483,
-      4.942,
-      5.24,
-      4.676,
-      4.137,
-      5.244,
-      4.261,
-      4.943
+      5.403,
+      5.441,
+      5.065,
+      4.24,
+      5.139,
+      4.602,
+      5.103,
+      5.386,
+      4.638,
+      4.199,
+      4.344,
+      5.255,
+      5.063,
+      4.632,
+      5.254,
+      5.141,
+      4.217,
+      4.722,
+      4.949,
+      5.347,
+      4.844,
+      4.94,
+      4.492,
+      4.743,
+      4.773,
+      4.547,
+      4.459
     ],
-    "expires_at_min_epoch": 1787369641,
-    "expires_at_max_epoch": 1787369689,
-    "expires_at_span_seconds": 48,
-    "remaining_ttl_min_seconds": 455,
-    "remaining_ttl_max_seconds": 503,
+    "expires_at_min_epoch": 1787371907,
+    "expires_at_max_epoch": 1787371961,
+    "expires_at_span_seconds": 54,
+    "remaining_ttl_min_seconds": 442,
+    "remaining_ttl_max_seconds": 496,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 3,
-    "final_streams": 11,
-    "publish_reason": "published 11 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 11,
+    "final_streams": 12,
+    "publish_reason": "published 12 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 115.77
+    "elapsed_seconds": 134.91
   }
 }
