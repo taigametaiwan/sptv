@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-22T07:00:38+07:00",
+  "started_at": "2026-08-22T08:41:14+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.586,
+    "elapsed": 0.433,
     "error": ""
   },
   "schedule": {
@@ -49,25 +49,261 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.132,
+        "elapsed": 0.119,
         "error": ""
       }
     ],
-    "rows_selected": 21,
+    "rows_selected": 16,
     "window": "-150/+180"
   },
   "matches": [
     {
-      "player_id": "5137884189",
-      "start_at": "2026-08-22T07:00:00+07:00",
-      "league": "PRBSN",
-      "home": "Santeros de Aguada BC",
-      "away": "Vaqueros de Bayamon BC",
+      "player_id": "5144686347",
+      "start_at": "2026-08-22T08:00:00+07:00",
+      "league": "MEX D1",
+      "home": "Tigres UANL",
+      "away": "Atlante",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884189&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686347&lan=2",
           "status": 200,
-          "elapsed": 0.146,
+          "elapsed": 0.132,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "MEX D1 Tigres UANL vs Atlante",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144686347",
+          "start_at": "2026-08-22T08:00:00+07:00",
+          "league": "MEX D1",
+          "home": "Tigres UANL",
+          "away": "Atlante",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539975_1.flv?auth_key=1787363475-5429-0-d95827f59916284a9cec20afc7cf0553",
+          "expires_at_epoch": 1787363475,
+          "expires_at_utc": "2026-08-22T01:51:15+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686347&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144686347.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144457858",
+      "start_at": "2026-08-22T07:30:00+07:00",
+      "league": "CHI D1",
+      "home": "Audax Italiano",
+      "away": "Union La Calera",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457858&lan=2",
+          "status": 200,
+          "elapsed": 0.134,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "CHI D1 Audax Italiano vs Union La Calera",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144457858",
+          "start_at": "2026-08-22T07:30:00+07:00",
+          "league": "CHI D1",
+          "home": "Audax Italiano",
+          "away": "Union La Calera",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365830_1.flv?auth_key=1787363479-4022-0-788a48810610050e087aba20c4de60be",
+          "expires_at_epoch": 1787363479,
+          "expires_at_utc": "2026-08-22T01:51:19+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457858&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144457858.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144729628",
+      "start_at": "2026-08-22T07:30:00+07:00",
+      "league": "COL D1",
+      "home": "Alianza Valledupar",
+      "away": "Deportivo Pereira",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729628&lan=2",
+          "status": 200,
+          "elapsed": 0.136,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "COL D1 Alianza Valledupar vs Deportivo Pereira",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144729628",
+          "start_at": "2026-08-22T07:30:00+07:00",
+          "league": "COL D1",
+          "home": "Alianza Valledupar",
+          "away": "Deportivo Pereira",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540106_1.flv?auth_key=1787363484-6094-0-8db973a9e8934fce46e2e927c36aa816",
+          "expires_at_epoch": 1787363484,
+          "expires_at_utc": "2026-08-22T01:51:24+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729628&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144729628.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144871519",
+      "start_at": "2026-08-22T07:30:00+07:00",
+      "league": "BOL D1",
+      "home": "Oriente Petrolero",
+      "away": "CD San Antonio(BOL)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144871519&lan=2",
+          "status": 200,
+          "elapsed": 0.134,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "BOL D1 Oriente Petrolero vs CD San Antonio(BOL)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144871519",
+          "start_at": "2026-08-22T07:30:00+07:00",
+          "league": "BOL D1",
+          "home": "Oriente Petrolero",
+          "away": "CD San Antonio(BOL)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5686833_1.flv?auth_key=1787363489-1622-0-c4a42929c1467c31ca0fbb9e8fbdafc8",
+          "expires_at_epoch": 1787363489,
+          "expires_at_utc": "2026-08-22T01:51:29+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144871519&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144871519.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144886087",
+      "start_at": "2026-08-22T07:30:00+07:00",
+      "league": "NZL NLC",
+      "home": "Western Suburbs FC",
+      "away": "Waterside Karori",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886087&lan=2",
+          "status": 200,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -94,7 +330,7 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "PRBSN Santeros de Aguada BC vs Vaqueros de Bayamon BC",
+        "title": "NZL NLC Western Suburbs FC vs Waterside Karori",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -110,7 +346,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507889&lan=2",
           "status": 200,
-          "elapsed": 0.145,
+          "elapsed": 0.135,
           "error": ""
         }
       ],
@@ -151,9 +387,9 @@
           "home": "Deportivo Cuenca",
           "away": "Mushuc Runa",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365836_1.flv?auth_key=1787357444-8862-0-0a985e6f8adfd7dcc249beb7a05c8aa3",
-          "expires_at_epoch": 1787357444,
-          "expires_at_utc": "2026-08-22T00:10:44+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365836_1.flv?auth_key=1787363499-8196-0-ef3bab86c169ec6833ca9c8fcb5abb28",
+          "expires_at_epoch": 1787363499,
+          "expires_at_utc": "2026-08-22T01:51:39+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507889&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144507889.html"
         }
@@ -169,7 +405,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507892&lan=2",
           "status": 200,
-          "elapsed": 0.145,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -210,562 +446,13 @@
           "home": "Leones FC",
           "away": "Independiente Del Valle",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365834_1.flv?auth_key=1787357449-1848-0-d2eb2173d3a390332c89fde3fd1a2c2c",
-          "expires_at_epoch": 1787357449,
-          "expires_at_utc": "2026-08-22T00:10:49+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365834_1.flv?auth_key=1787363504-3982-0-48749ce7c08c08f5d02041cefefcd876",
+          "expires_at_epoch": 1787363504,
+          "expires_at_utc": "2026-08-22T01:51:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507892&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144507892.html"
         }
       ]
-    },
-    {
-      "player_id": "5144886150",
-      "start_at": "2026-08-22T07:00:00+07:00",
-      "league": "NZL NLS",
-      "home": "Cashmere Technical",
-      "away": "Dunedin City Royals",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886150&lan=2",
-          "status": 200,
-          "elapsed": 0.147,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "NZL NLS Cashmere Technical vs Dunedin City Royals",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144886153",
-      "start_at": "2026-08-22T07:00:00+07:00",
-      "league": "NZL NLS",
-      "home": "Selwyn United",
-      "away": "Northern AFC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886153&lan=2",
-          "status": 200,
-          "elapsed": 0.145,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "NZL NLS Selwyn United vs Northern AFC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5137809810",
-      "start_at": "2026-08-22T06:30:00+07:00",
-      "league": "WNBA",
-      "home": "Chicago Sky",
-      "away": "Golden State Valkyries",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809810&lan=2",
-          "status": 200,
-          "elapsed": 0.145,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WNBA Chicago Sky vs Golden State Valkyries",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137809810",
-          "start_at": "2026-08-22T06:30:00+07:00",
-          "league": "WNBA",
-          "home": "Chicago Sky",
-          "away": "Golden State Valkyries",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5342129_1.flv?auth_key=1787357464-8348-0-8323b86585c805ec791d8403e896379c",
-          "expires_at_epoch": 1787357464,
-          "expires_at_utc": "2026-08-22T00:11:04+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809810&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137809810.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137809813",
-      "start_at": "2026-08-22T06:30:00+07:00",
-      "league": "WNBA",
-      "home": "Washington Mystics",
-      "away": "Minnesota Lynx",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809813&lan=2",
-          "status": 200,
-          "elapsed": 0.145,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WNBA Washington Mystics vs Minnesota Lynx",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137809813",
-          "start_at": "2026-08-22T06:30:00+07:00",
-          "league": "WNBA",
-          "home": "Washington Mystics",
-          "away": "Minnesota Lynx",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5342130_1.flv?auth_key=1787357469-1208-0-5de55ad45881e2f4c01397ef1607a948",
-          "expires_at_epoch": 1787357469,
-          "expires_at_utc": "2026-08-22T00:11:09+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809813&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137809813.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144581950",
-      "start_at": "2026-08-22T06:00:00+07:00",
-      "league": "ARG D1",
-      "home": "Estudiantes Rio Cuarto",
-      "away": "San Lorenzo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581950&lan=2",
-          "status": 200,
-          "elapsed": 0.145,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ARG D1 Estudiantes Rio Cuarto vs San Lorenzo",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144581950",
-          "start_at": "2026-08-22T06:00:00+07:00",
-          "league": "ARG D1",
-          "home": "Estudiantes Rio Cuarto",
-          "away": "San Lorenzo",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365808_1.flv?auth_key=1787357475-4011-0-3eb2a95ca65099369bb15c0e761dbf15",
-          "expires_at_epoch": 1787357475,
-          "expires_at_utc": "2026-08-22T00:11:15+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581950&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144581950.html"
-        },
-        {
-          "player_id": "5144581950",
-          "start_at": "2026-08-22T06:00:00+07:00",
-          "league": "ARG D1",
-          "home": "Estudiantes Rio Cuarto",
-          "away": "San Lorenzo",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365808_2.flv?auth_key=1787357475-2960-0-560351a8a6241c05c2489c98495f789f",
-          "expires_at_epoch": 1787357475,
-          "expires_at_utc": "2026-08-22T00:11:15+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581950&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144581950.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144832174",
-      "start_at": "2026-08-22T06:00:00+07:00",
-      "league": "MEX LMXW",
-      "home": "Pumas UNAM Women",
-      "away": "Queretaro Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832174&lan=2",
-          "status": 200,
-          "elapsed": 0.146,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "MEX LMXW Pumas UNAM Women vs Queretaro Women",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144832174",
-          "start_at": "2026-08-22T06:00:00+07:00",
-          "league": "MEX LMXW",
-          "home": "Pumas UNAM Women",
-          "away": "Queretaro Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615226_1.flv?auth_key=1787357479-5270-0-98b1118378be22b2d586b96b28b47e66",
-          "expires_at_epoch": 1787357479,
-          "expires_at_utc": "2026-08-22T00:11:19+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832174&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144832174.html"
-        },
-        {
-          "player_id": "5144832174",
-          "start_at": "2026-08-22T06:00:00+07:00",
-          "league": "MEX LMXW",
-          "home": "Pumas UNAM Women",
-          "away": "Queretaro Women",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5615226_2.flv?auth_key=1787357479-3896-0-ea187f9462ee345a60a41fac517b36b4",
-          "expires_at_epoch": 1787357479,
-          "expires_at_utc": "2026-08-22T00:11:19+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144832174&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144832174.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144899845",
-      "start_at": "2026-08-22T06:00:00+07:00",
-      "league": "VEN D1",
-      "home": "Caracas",
-      "away": "Carabobo",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899845&lan=2",
-          "status": 200,
-          "elapsed": 0.147,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "VEN D1 Caracas vs Carabobo",
-        "stream_item_count": 2,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144899845",
-          "start_at": "2026-08-22T06:00:00+07:00",
-          "league": "VEN D1",
-          "home": "Caracas",
-          "away": "Carabobo",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5704739_1.flv?auth_key=1787357484-6431-0-133b94b4697d7bdfd8251121dc7cb6ae",
-          "expires_at_epoch": 1787357484,
-          "expires_at_utc": "2026-08-22T00:11:24+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899845&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144899845.html"
-        },
-        {
-          "player_id": "5144899845",
-          "start_at": "2026-08-22T06:00:00+07:00",
-          "league": "VEN D1",
-          "home": "Caracas",
-          "away": "Carabobo",
-          "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5704739_2.flv?auth_key=1787357484-1880-0-f0078e232f799cb5b951f34dd9a973f0",
-          "expires_at_epoch": 1787357484,
-          "expires_at_utc": "2026-08-22T00:11:24+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899845&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144899845.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144457858",
-      "start_at": "2026-08-22T07:30:00+07:00",
-      "league": "CHI D1",
-      "home": "Audax Italiano",
-      "away": "Union La Calera",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457858&lan=2",
-          "status": 200,
-          "elapsed": 0.147,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "CHI D1 Audax Italiano vs Union La Calera",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144729628",
-      "start_at": "2026-08-22T07:30:00+07:00",
-      "league": "COL D1",
-      "home": "Alianza Valledupar",
-      "away": "Deportivo Pereira",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729628&lan=2",
-          "status": 200,
-          "elapsed": 0.148,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "COL D1 Alianza Valledupar vs Deportivo Pereira",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144686347",
-      "start_at": "2026-08-22T08:00:00+07:00",
-      "league": "MEX D1",
-      "home": "Tigres UANL",
-      "away": "Atlante",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686347&lan=2",
-          "status": 200,
-          "elapsed": 0.145,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "MEX D1 Tigres UANL vs Atlante",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5137809816",
@@ -777,7 +464,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809816&lan=2",
           "status": 200,
-          "elapsed": 0.145,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -820,7 +507,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565246&lan=2",
           "status": 200,
-          "elapsed": 0.145,
+          "elapsed": 0.137,
           "error": ""
         }
       ],
@@ -863,7 +550,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855719&lan=2",
           "status": 200,
-          "elapsed": 0.147,
+          "elapsed": 0.135,
           "error": ""
         }
       ],
@@ -906,7 +593,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855722&lan=2",
           "status": 200,
-          "elapsed": 0.146,
+          "elapsed": 0.135,
           "error": ""
         }
       ],
@@ -949,7 +636,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855725&lan=2",
           "status": 200,
-          "elapsed": 0.147,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -992,7 +679,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686332&lan=2",
           "status": 200,
-          "elapsed": 0.146,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -1035,7 +722,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767479&lan=2",
           "status": 200,
-          "elapsed": 0.146,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -1078,7 +765,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144901705&lan=2",
           "status": 200,
-          "elapsed": 0.146,
+          "elapsed": 0.135,
           "error": ""
         }
       ],
@@ -1110,54 +797,92 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5361634677",
+      "start_at": "2026-08-22T10:10:00+07:00",
+      "league": "MEX D1",
+      "home": "Queretaro",
+      "away": "Toluca",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361634677&lan=2",
+          "status": 200,
+          "elapsed": 0.135,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MEX D1 Queretaro vs Toluca",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 21,
-    "matches_processed": 21,
-    "valid_player_responses": 21,
+    "matches_selected": 16,
+    "matches_processed": 16,
+    "valid_player_responses": 16,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 10,
-    "fresh_streams_accepted": 10,
+    "streams_returned_by_api": 6,
+    "fresh_streams_accepted": 6,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.563,
-      5.211,
-      5.422,
-      4.102,
-      5.326,
-      4.612,
-      5.456,
-      4.544,
-      4.603,
-      5.149,
-      4.324,
-      5.236,
-      4.905,
-      4.26,
-      4.38,
-      4.538,
-      5.291,
-      4.793,
-      5.42,
-      5.429
+      4.745,
+      4.116,
+      4.769,
+      5.306,
+      5.284,
+      4.222,
+      4.518,
+      4.179,
+      4.731,
+      4.434,
+      4.674,
+      4.136,
+      4.868,
+      4.052,
+      4.226
     ],
-    "expires_at_min_epoch": 1787357444,
-    "expires_at_max_epoch": 1787357484,
-    "expires_at_span_seconds": 40,
-    "remaining_ttl_min_seconds": 475,
-    "remaining_ttl_max_seconds": 515,
+    "expires_at_min_epoch": 1787363475,
+    "expires_at_max_epoch": 1787363504,
+    "expires_at_span_seconds": 29,
+    "remaining_ttl_min_seconds": 500,
+    "remaining_ttl_max_seconds": 529,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 12,
-    "final_streams": 10,
-    "publish_reason": "published 10 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 10,
+    "final_streams": 6,
+    "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 101.36
+    "elapsed_seconds": 70.97
   }
 }
