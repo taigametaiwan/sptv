@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-22T21:01:35+07:00",
+  "started_at": "2026-08-22T21:29:28+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.545,
+    "elapsed": 0.804,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.119,
+        "elapsed": 0.167,
         "error": ""
       }
     ],
@@ -57,6 +57,124 @@
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144807553",
+      "start_at": "2026-08-22T21:15:00+07:00",
+      "league": "QAT D1",
+      "home": "Al Duhail SC",
+      "away": "Al Sailiya SC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144807553&lan=2",
+          "status": 200,
+          "elapsed": 0.182,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "QAT D1 Al Duhail SC vs Al Sailiya SC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144807553",
+          "start_at": "2026-08-22T21:15:00+07:00",
+          "league": "QAT D1",
+          "home": "Al Duhail SC",
+          "away": "Al Sailiya SC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5592630_1.flv?auth_key=1787409569-5234-0-8eb741f4060b95c62d3137f996ca387c",
+          "expires_at_epoch": 1787409569,
+          "expires_at_utc": "2026-08-22T14:39:29+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144807553&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144807553.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137893945",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "AsiaB",
+      "home": "Australia U18 (M)",
+      "away": "South Korea U18 (M)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137893945&lan=2",
+          "status": 200,
+          "elapsed": 0.184,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "AsiaB Australia U18 (M) vs South Korea U18 (M)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137893945",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "AsiaB",
+          "home": "Australia U18 (M)",
+          "away": "South Korea U18 (M)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5714909_1.flv?auth_key=1787409574-3021-0-957a9bbde654707c21f078808b1fa904",
+          "expires_at_epoch": 1787409574,
+          "expires_at_utc": "2026-08-22T14:39:34+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137893945&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137893945.html"
+        }
+      ]
+    },
     {
       "player_id": "5144433558",
       "start_at": "2026-08-22T21:00:00+07:00",
@@ -67,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144433558&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -93,55 +211,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "NOR D1 Sandnes Ulf vs Bryne",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
-    },
-    {
-      "player_id": "5144435292",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "FIN PR",
-      "home": "Ilves Tampere",
-      "away": "VPS Vaasa",
-      "attempts": [
+      "streams": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144435292&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
+          "player_id": "5144433558",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR D1",
+          "home": "Sandnes Ulf",
+          "away": "Bryne",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5371746_1.flv?auth_key=1787409579-4106-0-38d525561292c9b60e45b509346b89ae",
+          "expires_at_epoch": 1787409579,
+          "expires_at_utc": "2026-08-22T14:39:39+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144433558&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144433558.html"
         }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "FIN PR Ilves Tampere vs VPS Vaasa",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
+      ]
     },
     {
       "player_id": "5144435295",
@@ -153,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144435295&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -194,56 +285,13 @@
           "home": "FF Jaro",
           "away": "AC Oulu",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5342017_1.flv?auth_key=1787407906-3392-0-69edb5128758e6fcfb5737a1e81b7ef8",
-          "expires_at_epoch": 1787407906,
-          "expires_at_utc": "2026-08-22T14:11:46+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5342017_1.flv?auth_key=1787409584-4775-0-73f15eb01cf659d021f1d36d8adfa576",
+          "expires_at_epoch": 1787409584,
+          "expires_at_utc": "2026-08-22T14:39:44+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144435295&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144435295.html"
         }
       ]
-    },
-    {
-      "player_id": "5144436009",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "NOR WPR",
-      "home": "Stabaek Women",
-      "away": "Bodo/Glimt Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144436009&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "NOR WPR Stabaek Women vs Bodo/Glimt Women",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144453811",
@@ -255,7 +303,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144453811&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -296,9 +344,9 @@
           "home": "Atvidabergs FF",
           "away": "Angelholms FF",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5362676_1.flv?auth_key=1787407915-6199-0-81495feac084b350145f50604ddad958",
-          "expires_at_epoch": 1787407915,
-          "expires_at_utc": "2026-08-22T14:11:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5362676_1.flv?auth_key=1787409589-2825-0-cabb38fca9ff6dbe7def1dbc464740a7",
+          "expires_at_epoch": 1787409589,
+          "expires_at_utc": "2026-08-22T14:39:49+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144453811&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144453811.html"
         }
@@ -314,7 +362,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144453817&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -355,9 +403,9 @@
           "home": "Jonkopings Sodra",
           "away": "FC Rosengard",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5362673_1.flv?auth_key=1787407920-7069-0-406baf951e80002ec3cfc377b00088d4",
-          "expires_at_epoch": 1787407920,
-          "expires_at_utc": "2026-08-22T14:12:00+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5362673_1.flv?auth_key=1787409594-6940-0-541ed2460f2d2d3bec8675ab7d5d0f17",
+          "expires_at_epoch": 1787409594,
+          "expires_at_utc": "2026-08-22T14:39:54+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144453817&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144453817.html"
         }
@@ -373,7 +421,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144453826&lan=2",
           "status": 200,
-          "elapsed": 0.137,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -414,9 +462,9 @@
           "home": "FC Trollhattan",
           "away": "Trelleborgs FF",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5362670_1.flv?auth_key=1787407925-7661-0-7f9c7c4fe06c732a934a38ca58062345",
-          "expires_at_epoch": 1787407925,
-          "expires_at_utc": "2026-08-22T14:12:05+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5362670_1.flv?auth_key=1787409598-3154-0-25339e06f5ba2901dc08a448e8871f66",
+          "expires_at_epoch": 1787409598,
+          "expires_at_utc": "2026-08-22T14:39:58+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144453826&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144453826.html"
         }
@@ -432,7 +480,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144454540&lan=2",
           "status": 200,
-          "elapsed": 0.136,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -473,271 +521,13 @@
           "home": "Sollentuna FK",
           "away": "IF Karlstad",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5362665_1.flv?auth_key=1787407930-3314-0-4f3757e729df7a07f31426a0bf1b564e",
-          "expires_at_epoch": 1787407930,
-          "expires_at_utc": "2026-08-22T14:12:10+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5362665_1.flv?auth_key=1787409603-7731-0-a6dddfee830feb4fe722205c5b96c86e",
+          "expires_at_epoch": 1787409603,
+          "expires_at_utc": "2026-08-22T14:40:03+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144454540&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144454540.html"
         }
       ]
-    },
-    {
-      "player_id": "5144474541",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "SWE D2SS",
-      "home": "Ragsveds IF",
-      "away": "IK Sleipner",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144474541&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "SWE D2SS Ragsveds IF vs IK Sleipner",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144488062",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ICE D1",
-      "home": "Fylkir Reykjavik",
-      "away": "UMF Grindavik",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144488062&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ICE D1 Fylkir Reykjavik vs UMF Grindavik",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144488068",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ICE D1",
-      "home": "HK Kopavogur",
-      "away": "Throttur Reykjavik",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144488068&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ICE D1 HK Kopavogur vs Throttur Reykjavik",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144488482",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "EST D1",
-      "home": "Tammeka Tartu",
-      "away": "Kuressaare",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144488482&lan=2",
-          "status": 200,
-          "elapsed": 0.136,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "EST D1 Tammeka Tartu vs Kuressaare",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144490906",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ICE D2",
-      "home": "KFG Gardabaer",
-      "away": "Kormakur Hvaot",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144490906&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ICE D2 KFG Gardabaer vs Kormakur Hvaot",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144516403",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "LAT D1",
-      "home": "Ogre United",
-      "away": "FS Jelgava",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144516403&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "LAT D1 Ogre United vs FS Jelgava",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144603478",
@@ -749,7 +539,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603478&lan=2",
           "status": 200,
-          "elapsed": 0.136,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -790,9 +580,9 @@
           "home": "FK Smorgon",
           "away": "FK Ostrovets",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5342060_1.flv?auth_key=1787407965-8019-0-00387d3d80ac7d4c049b3abb76e695e8",
-          "expires_at_epoch": 1787407965,
-          "expires_at_utc": "2026-08-22T14:12:45+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5342060_1.flv?auth_key=1787409608-3765-0-767efaf416f87ed47b52d07be0720389",
+          "expires_at_epoch": 1787409608,
+          "expires_at_utc": "2026-08-22T14:40:08+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144603478&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144603478.html"
         }
@@ -808,7 +598,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700930&lan=2",
           "status": 200,
-          "elapsed": 0.136,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -849,9 +639,9 @@
           "home": "Greenock Morton",
           "away": "Arbroath FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539679_1.flv?auth_key=1787407970-3214-0-a33b6db419209e167eba9d7f3e04246c",
-          "expires_at_epoch": 1787407970,
-          "expires_at_utc": "2026-08-22T14:12:50+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539679_1.flv?auth_key=1787409612-1240-0-16bb7a4ea11e975603fa7625971ecfe8",
+          "expires_at_epoch": 1787409612,
+          "expires_at_utc": "2026-08-22T14:40:12+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700930&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144700930.html"
         }
@@ -867,7 +657,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700936&lan=2",
           "status": 200,
-          "elapsed": 0.136,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -908,9 +698,9 @@
           "home": "Livingston FC",
           "away": "Dunfermline Athletic FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539677_1.flv?auth_key=1787407975-1678-0-87ff47c406d7310bc853820d8e361cf1",
-          "expires_at_epoch": 1787407975,
-          "expires_at_utc": "2026-08-22T14:12:55+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539677_1.flv?auth_key=1787409617-6516-0-dd7919004c7fb44f2802ee0d7b974c9c",
+          "expires_at_epoch": 1787409617,
+          "expires_at_utc": "2026-08-22T14:40:17+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700936&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144700936.html"
         }
@@ -926,7 +716,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700939&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -967,9 +757,9 @@
           "home": "Queen's Park",
           "away": "Stenhousemuir FC",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539676_1.flv?auth_key=1787407980-4423-0-36d46e6e43d35245eea60892f2c011ca",
-          "expires_at_epoch": 1787407980,
-          "expires_at_utc": "2026-08-22T14:13:00+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539676_1.flv?auth_key=1787409622-6571-0-a77c4f09d8e9b3b0e52536cdd0d3a702",
+          "expires_at_epoch": 1787409622,
+          "expires_at_utc": "2026-08-22T14:40:22+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700939&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144700939.html"
         }
@@ -985,7 +775,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700942&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1026,314 +816,13 @@
           "home": "Raith Rovers",
           "away": "Ayr United",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539675_1.flv?auth_key=1787407984-4923-0-afd21efebdd269fac37749d46eb726f3",
-          "expires_at_epoch": 1787407984,
-          "expires_at_utc": "2026-08-22T14:13:04+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539675_1.flv?auth_key=1787409627-4934-0-b2a88aa74e1f0d748d28ee542c688471",
+          "expires_at_epoch": 1787409627,
+          "expires_at_utc": "2026-08-22T14:40:27+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144700942&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144700942.html"
         }
       ]
-    },
-    {
-      "player_id": "5144701485",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "SCO D1",
-      "home": "Airdrieonians FC",
-      "away": "Ross County",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144701485&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "SCO D1 Airdrieonians FC vs Ross County",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144701488",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "SCO D1",
-      "home": "Cove Rangers",
-      "away": "Peterhead FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144701488&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "SCO D1 Cove Rangers vs Peterhead FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144701491",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "SCO D1",
-      "home": "East Fife",
-      "away": "Hamilton Academical",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144701491&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "SCO D1 East Fife vs Hamilton Academical",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144701494",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "SCO D1",
-      "home": "Montrose FC",
-      "away": "East Kilbride",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144701494&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "SCO D1 Montrose FC vs East Kilbride",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144702028",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "SCO D2",
-      "home": "Edinburgh City",
-      "away": "Annan Athletic",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144702028&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "SCO D2 Edinburgh City vs Annan Athletic",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144702031",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "SCO D2",
-      "home": "Kelty Hearts FC",
-      "away": "Dumbarton FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144702031&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "SCO D2 Kelty Hearts FC vs Dumbarton FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144702034",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "SCO D2",
-      "home": "Stirling Albion",
-      "away": "Stranraer FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144702034&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "SCO D2 Stirling Albion vs Stranraer FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144704824",
@@ -1345,7 +834,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144704824&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -1371,12 +860,28 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
+        "pid": 1,
         "title": "BEL D1 Zulte Waregem vs SK Beveren",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
-      "streams": []
+      "streams": [
+        {
+          "player_id": "5144704824",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "BEL D1",
+          "home": "Zulte Waregem",
+          "away": "SK Beveren",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539665_1.flv?auth_key=1787409632-6953-0-ffbf72a6f8e2d7502cf6308a365b8e0c",
+          "expires_at_epoch": 1787409632,
+          "expires_at_utc": "2026-08-22T14:40:32+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144704824&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144704824.html"
+        }
+      ]
     },
     {
       "player_id": "5144705757",
@@ -1388,7 +893,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705757&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1429,9 +934,9 @@
           "home": "Everton",
           "away": "Crystal Palace",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539645_1.flv?auth_key=1787408029-4953-0-e0c3ee8cc66b09195d727909235da9b5",
-          "expires_at_epoch": 1787408029,
-          "expires_at_utc": "2026-08-22T14:13:49+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539645_1.flv?auth_key=1787409637-9599-0-e09ac6f6a3e7166ff94bc0295964558c",
+          "expires_at_epoch": 1787409637,
+          "expires_at_utc": "2026-08-22T14:40:37+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705757&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144705757.html"
         },
@@ -1442,9 +947,9 @@
           "home": "Everton",
           "away": "Crystal Palace",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539645_2.flv?auth_key=1787408029-3439-0-40a37856d88dce886de45549df1ef67c",
-          "expires_at_epoch": 1787408029,
-          "expires_at_utc": "2026-08-22T14:13:49+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539645_2.flv?auth_key=1787409637-3142-0-78e1b1fa36652429f894ec5f0edf9007",
+          "expires_at_epoch": 1787409637,
+          "expires_at_utc": "2026-08-22T14:40:37+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705757&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144705757.html"
         }
@@ -1460,7 +965,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705760&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -1501,9 +1006,9 @@
           "home": "Ipswich Town",
           "away": "Sunderland",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539644_1.flv?auth_key=1787408034-6035-0-ec644d4e38c3168697a989c081c2ed85",
-          "expires_at_epoch": 1787408034,
-          "expires_at_utc": "2026-08-22T14:13:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539644_1.flv?auth_key=1787409642-5765-0-b146357633cab58a95095726a81bbdc7",
+          "expires_at_epoch": 1787409642,
+          "expires_at_utc": "2026-08-22T14:40:42+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705760&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144705760.html"
         },
@@ -1514,9 +1019,9 @@
           "home": "Ipswich Town",
           "away": "Sunderland",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539644_2.flv?auth_key=1787408034-5158-0-2f7d256f6736dbe670e02cffe5653506",
-          "expires_at_epoch": 1787408034,
-          "expires_at_utc": "2026-08-22T14:13:54+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539644_2.flv?auth_key=1787409642-7801-0-673609101a530d7f40bba5f1f6b8f12a",
+          "expires_at_epoch": 1787409642,
+          "expires_at_utc": "2026-08-22T14:40:42+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705760&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144705760.html"
         }
@@ -1532,7 +1037,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705763&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -1573,9 +1078,9 @@
           "home": "Nottingham Forest",
           "away": "Leeds United",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539643_1.flv?auth_key=1787408039-9943-0-494e2c42a94c64be0a4ea9071c31394a",
-          "expires_at_epoch": 1787408039,
-          "expires_at_utc": "2026-08-22T14:13:59+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539643_1.flv?auth_key=1787409646-5081-0-391515767a3cb8dd23977ef54d325976",
+          "expires_at_epoch": 1787409646,
+          "expires_at_utc": "2026-08-22T14:40:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705763&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144705763.html"
         },
@@ -1586,9 +1091,9 @@
           "home": "Nottingham Forest",
           "away": "Leeds United",
           "line_number": 2,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539643_2.flv?auth_key=1787408039-4000-0-e7249507d0508387dd7eae9059437305",
-          "expires_at_epoch": 1787408039,
-          "expires_at_utc": "2026-08-22T14:13:59+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539643_2.flv?auth_key=1787409646-5041-0-9657b1994e7cd9ae03e79c50f316d60f",
+          "expires_at_epoch": 1787409646,
+          "expires_at_utc": "2026-08-22T14:40:46+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144705763&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144705763.html"
         }
@@ -1604,7 +1109,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144710302&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -1645,9 +1150,9 @@
           "home": "Club NXT",
           "away": "RFC Seraing",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539695_1.flv?auth_key=1787408044-4979-0-25b160544318905b1849afda6efda13c",
-          "expires_at_epoch": 1787408044,
-          "expires_at_utc": "2026-08-22T14:14:04+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539695_1.flv?auth_key=1787409651-6556-0-163d9ca5da8e7a70f5a007cfca1e9802",
+          "expires_at_epoch": 1787409651,
+          "expires_at_utc": "2026-08-22T14:40:51+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144710302&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144710302.html"
         }
@@ -1663,7 +1168,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144710305&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.182,
           "error": ""
         }
       ],
@@ -1704,56 +1209,13 @@
           "home": "FCV Dender EH",
           "away": "Beerschot VA",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539680_1.flv?auth_key=1787408049-4858-0-3616a0cb6267f1c3450f84fed845cf36",
-          "expires_at_epoch": 1787408049,
-          "expires_at_utc": "2026-08-22T14:14:09+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539680_1.flv?auth_key=1787409656-5649-0-337f0a9e2de7f3739258e239274e2bf4",
+          "expires_at_epoch": 1787409656,
+          "expires_at_utc": "2026-08-22T14:40:56+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144710305&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144710305.html"
         }
       ]
-    },
-    {
-      "player_id": "5144715333",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ENG L1",
-      "home": "AFC Wimbledon",
-      "away": "Reading FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715333&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ENG L1 AFC Wimbledon vs Reading FC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144715336",
@@ -1765,7 +1227,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715336&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -1806,9 +1268,9 @@
           "home": "Bromley FC",
           "away": "Cambridge Utd",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539672_1.flv?auth_key=1787408058-1925-0-4a745ad65374ceff3b060a425ee37e61",
-          "expires_at_epoch": 1787408058,
-          "expires_at_utc": "2026-08-22T14:14:18+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539672_1.flv?auth_key=1787409661-4655-0-3394ed34e691cdf630be1d93e2a517bb",
+          "expires_at_epoch": 1787409661,
+          "expires_at_utc": "2026-08-22T14:41:01+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715336&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144715336.html"
         }
@@ -1824,7 +1286,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715342&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.18,
           "error": ""
         }
       ],
@@ -1865,185 +1327,13 @@
           "home": "Leicester City",
           "away": "Burton Albion",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539673_1.flv?auth_key=1787408063-8613-0-94228cbeffaaadcbd7cc1415ebfbdb33",
-          "expires_at_epoch": 1787408063,
-          "expires_at_utc": "2026-08-22T14:14:23+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539673_1.flv?auth_key=1787409665-9671-0-aaaad9f2289aeece7acd407c34b522e7",
+          "expires_at_epoch": 1787409665,
+          "expires_at_utc": "2026-08-22T14:41:05+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715342&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144715342.html"
         }
       ]
-    },
-    {
-      "player_id": "5144715348",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ENG L1",
-      "home": "Milton Keynes Dons",
-      "away": "Huddersfield Town",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715348&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ENG L1 Milton Keynes Dons vs Huddersfield Town",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144715351",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ENG L1",
-      "home": "Peterborough United",
-      "away": "Mansfield Town",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715351&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ENG L1 Peterborough United vs Mansfield Town",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144715357",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ENG L1",
-      "home": "Stevenage FC",
-      "away": "Oxford United",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715357&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ENG L1 Stevenage FC vs Oxford United",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144715360",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ENG L1",
-      "home": "Stockport County",
-      "away": "Blackpool",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715360&lan=2",
-          "status": 200,
-          "elapsed": 0.133,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ENG L1 Stockport County vs Blackpool",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144715363",
@@ -2055,7 +1345,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715363&lan=2",
           "status": 200,
-          "elapsed": 0.137,
+          "elapsed": 0.183,
           "error": ""
         }
       ],
@@ -2096,99 +1386,13 @@
           "home": "Wigan Athletic",
           "away": "Leyton Orient",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539667_1.flv?auth_key=1787408087-4570-0-3b79786acf7f83a1f5665556a2766d2c",
-          "expires_at_epoch": 1787408087,
-          "expires_at_utc": "2026-08-22T14:14:47+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539667_1.flv?auth_key=1787409670-5683-0-b08931bed9d03bcfbd7b0463b92670b1",
+          "expires_at_epoch": 1787409670,
+          "expires_at_utc": "2026-08-22T14:41:10+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715363&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144715363.html"
         }
       ]
-    },
-    {
-      "player_id": "5144715366",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ENG L1",
-      "home": "Wycombe Wanderers",
-      "away": "Plymouth Argyle",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144715366&lan=2",
-          "status": 200,
-          "elapsed": 0.132,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ENG L1 Wycombe Wanderers vs Plymouth Argyle",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144717010",
-      "start_at": "2026-08-22T21:00:00+07:00",
-      "league": "ENG L2",
-      "home": "Colchester United",
-      "away": "Oldham Athletic",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144717010&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "ENG L2 Colchester United vs Oldham Athletic",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
     },
     {
       "player_id": "5144717013",
@@ -2200,7 +1404,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144717013&lan=2",
           "status": 200,
-          "elapsed": 0.133,
+          "elapsed": 0.181,
           "error": ""
         }
       ],
@@ -2241,11 +1445,1191 @@
           "home": "Crewe Alexandra",
           "away": "Northampton Town",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539702_1.flv?auth_key=1787408102-8946-0-53a5b55fc7455593c6d32e5100e83070",
-          "expires_at_epoch": 1787408102,
-          "expires_at_utc": "2026-08-22T14:15:02+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539702_1.flv?auth_key=1787409675-5707-0-cf3b857b698329efdbfac2431cf92cf2",
+          "expires_at_epoch": 1787409675,
+          "expires_at_utc": "2026-08-22T14:41:15+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144717013&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144717013.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144718699",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ENG LCh",
+      "home": "Blackburn Rovers",
+      "away": "Middlesbrough",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718699&lan=2",
+          "status": 200,
+          "elapsed": 0.182,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ENG LCh Blackburn Rovers vs Middlesbrough",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144718699",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ENG LCh",
+          "home": "Blackburn Rovers",
+          "away": "Middlesbrough",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539658_1.flv?auth_key=1787409680-7389-0-231a3fe157f54401b0150646df60de19",
+          "expires_at_epoch": 1787409680,
+          "expires_at_utc": "2026-08-22T14:41:20+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718699&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144718699.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144718708",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ENG LCh",
+      "home": "Preston North End",
+      "away": "Wolverhampton Wanderers",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718708&lan=2",
+          "status": 200,
+          "elapsed": 0.183,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ENG LCh Preston North End vs Wolverhampton Wanderers",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144718708",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ENG LCh",
+          "home": "Preston North End",
+          "away": "Wolverhampton Wanderers",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539654_1.flv?auth_key=1787409684-7488-0-485b8f032c249f140fd18b03d98605a6",
+          "expires_at_epoch": 1787409684,
+          "expires_at_utc": "2026-08-22T14:41:24+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718708&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144718708.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144718711",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ENG LCh",
+      "home": "Queens Park Rangers",
+      "away": "Bolton Wanderers",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718711&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ENG LCh Queens Park Rangers vs Bolton Wanderers",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144718711",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ENG LCh",
+          "home": "Queens Park Rangers",
+          "away": "Bolton Wanderers",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539653_1.flv?auth_key=1787409689-6785-0-e85ec03f201432a1e4f7b6221c0e057f",
+          "expires_at_epoch": 1787409689,
+          "expires_at_utc": "2026-08-22T14:41:29+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718711&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144718711.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144718714",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ENG LCh",
+      "home": "Southampton",
+      "away": "Stoke City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718714&lan=2",
+          "status": 200,
+          "elapsed": 0.184,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ENG LCh Southampton vs Stoke City",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144718714",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ENG LCh",
+          "home": "Southampton",
+          "away": "Stoke City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539652_1.flv?auth_key=1787409694-7222-0-020533490309796e383459e10a4250f6",
+          "expires_at_epoch": 1787409694,
+          "expires_at_utc": "2026-08-22T14:41:34+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718714&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144718714.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144718720",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ENG LCh",
+      "home": "West Ham Utd",
+      "away": "Charlton Athletic",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718720&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ENG LCh West Ham Utd vs Charlton Athletic",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144718720",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ENG LCh",
+          "home": "West Ham Utd",
+          "away": "Charlton Athletic",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539650_1.flv?auth_key=1787409700-6727-0-780cd42725a449e9ed46e642b3b33619",
+          "expires_at_epoch": 1787409700,
+          "expires_at_utc": "2026-08-22T14:41:40+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718720&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144718720.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144718723",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ENG LCh",
+      "home": "Derby County",
+      "away": "Cardiff City",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718723&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ENG LCh Derby County vs Cardiff City",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144718723",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ENG LCh",
+          "home": "Derby County",
+          "away": "Cardiff City",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539649_1.flv?auth_key=1787409705-9305-0-bed6c5d0bcf2db79ba72eb6cca039290",
+          "expires_at_epoch": 1787409705,
+          "expires_at_utc": "2026-08-22T14:41:45+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718723&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144718723.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144718726",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ENG LCh",
+      "home": "Swansea City",
+      "away": "Sheffield Utd",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718726&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ENG LCh Swansea City vs Sheffield Utd",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144718726",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ENG LCh",
+          "home": "Swansea City",
+          "away": "Sheffield Utd",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539647_1.flv?auth_key=1787409710-8659-0-782e427a8f4ca4693aedb8fe090ef185",
+          "expires_at_epoch": 1787409710,
+          "expires_at_utc": "2026-08-22T14:41:50+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718726&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144718726.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144718729",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ENG LCh",
+      "home": "Wrexham AFC",
+      "away": "Watford FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718729&lan=2",
+          "status": 200,
+          "elapsed": 0.183,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ENG LCh Wrexham AFC vs Watford FC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144718729",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ENG LCh",
+          "home": "Wrexham AFC",
+          "away": "Watford FC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539646_1.flv?auth_key=1787409715-3468-0-2aa42056cd0e184cd07645f209caf755",
+          "expires_at_epoch": 1787409715,
+          "expires_at_utc": "2026-08-22T14:41:55+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144718729&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144718729.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144767788",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "ARM D1",
+      "home": "Shirak FC",
+      "away": "Urartu FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767788&lan=2",
+          "status": 200,
+          "elapsed": 0.18,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "ARM D1 Shirak FC vs Urartu FC",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144767788",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "ARM D1",
+          "home": "Shirak FC",
+          "away": "Urartu FC",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539476_1.flv?auth_key=1787409720-5430-0-f5e8dc4a5865fe78e1a77848393e56f6",
+          "expires_at_epoch": 1787409720,
+          "expires_at_utc": "2026-08-22T14:42:00+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767788&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144767788.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144771997",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Baerum",
+      "away": "Mjondalen",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144771997&lan=2",
+          "status": 200,
+          "elapsed": 0.182,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Baerum vs Mjondalen",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144771997",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Baerum",
+          "away": "Mjondalen",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556965_1.flv?auth_key=1787409725-5382-0-6a7d865443bad1e99ff655bfdafdfbe6",
+          "expires_at_epoch": 1787409725,
+          "expires_at_utc": "2026-08-22T14:42:05+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144771997&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144771997.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772000",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Bossekop",
+      "away": "Alta",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772000&lan=2",
+          "status": 200,
+          "elapsed": 0.182,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Bossekop vs Alta",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772000",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Bossekop",
+          "away": "Alta",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556964_1.flv?auth_key=1787409731-2714-0-7723ac9cf469cf6162bb8ecde60e6c49",
+          "expires_at_epoch": 1787409731,
+          "expires_at_utc": "2026-08-22T14:42:11+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772000&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772000.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772015",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Eik Tonsberg",
+      "away": "Honefoss",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772015&lan=2",
+          "status": 200,
+          "elapsed": 0.186,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Eik Tonsberg vs Honefoss",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772015",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Eik Tonsberg",
+          "away": "Honefoss",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556960_1.flv?auth_key=1787409736-6648-0-9faef3811a37c911cd21ba0572adeeee",
+          "expires_at_epoch": 1787409736,
+          "expires_at_utc": "2026-08-22T14:42:16+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772015&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772015.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772021",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Fana Fotball",
+      "away": "Bjarg",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772021&lan=2",
+          "status": 200,
+          "elapsed": 0.182,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Fana Fotball  vs Bjarg",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772021",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Fana Fotball",
+          "away": "Bjarg",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556958_1.flv?auth_key=1787409740-3781-0-3534dc9f3e08c9fa22a3a8326e5b68ea",
+          "expires_at_epoch": 1787409740,
+          "expires_at_utc": "2026-08-22T14:42:20+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772021&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772021.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772036",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Floro",
+      "away": "Forde",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772036&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Floro vs Forde",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772036",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Floro",
+          "away": "Forde",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556972_1.flv?auth_key=1787409745-8918-0-f62e6d6787902592b0b32c5d8faab46c",
+          "expires_at_epoch": 1787409745,
+          "expires_at_utc": "2026-08-22T14:42:25+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772036&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772036.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772066",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Heming",
+      "away": "Stabaek",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772066&lan=2",
+          "status": 200,
+          "elapsed": 0.181,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Heming vs Stabaek",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772066",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Heming",
+          "away": "Stabaek",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556947_1.flv?auth_key=1787409751-4815-0-b2b6ee3fc6363337b026a562152d5156",
+          "expires_at_epoch": 1787409751,
+          "expires_at_utc": "2026-08-22T14:42:31+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772066&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772066.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772102",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Os Turn Fotball",
+      "away": "Lysekloster",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772102&lan=2",
+          "status": 200,
+          "elapsed": 0.184,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Os Turn Fotball vs Lysekloster",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772102",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Os Turn Fotball",
+          "away": "Lysekloster",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556936_1.flv?auth_key=1787409756-2887-0-99112c8a589fde9012c1ade548cd6263",
+          "expires_at_epoch": 1787409756,
+          "expires_at_utc": "2026-08-22T14:42:36+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772102&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772102.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772108",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Ready",
+      "away": "KFUM Oslo",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772108&lan=2",
+          "status": 200,
+          "elapsed": 0.185,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Ready vs KFUM Oslo",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772108",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Ready",
+          "away": "KFUM Oslo",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556934_1.flv?auth_key=1787409760-5667-0-8e6de87dbe9fe6fe58ea7d128d8b964b",
+          "expires_at_epoch": 1787409760,
+          "expires_at_utc": "2026-08-22T14:42:40+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772108&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772108.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772120",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Skreia IL",
+      "away": "Kongsvinger",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772120&lan=2",
+          "status": 200,
+          "elapsed": 0.183,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Skreia IL vs Kongsvinger",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772120",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Skreia IL",
+          "away": "Kongsvinger",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556973_1.flv?auth_key=1787409765-3661-0-dd3877b20642f4eb73afee9345837bd7",
+          "expires_at_epoch": 1787409765,
+          "expires_at_utc": "2026-08-22T14:42:45+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772120&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772120.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772135",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Strindheim",
+      "away": "Levanger",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772135&lan=2",
+          "status": 200,
+          "elapsed": 0.184,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Strindheim vs Levanger",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772135",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Strindheim",
+          "away": "Levanger",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556928_1.flv?auth_key=1787409770-9151-0-cc8c18b1f30d81645f2019784520d6a6",
+          "expires_at_epoch": 1787409770,
+          "expires_at_utc": "2026-08-22T14:42:50+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772135&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772135.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5144772147",
+      "start_at": "2026-08-22T21:00:00+07:00",
+      "league": "NOR Cup",
+      "home": "Tynset",
+      "away": "SK Trygg/Lade",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772147&lan=2",
+          "status": 200,
+          "elapsed": 0.184,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "NOR Cup Tynset vs SK Trygg/Lade",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144772147",
+          "start_at": "2026-08-22T21:00:00+07:00",
+          "league": "NOR Cup",
+          "home": "Tynset",
+          "away": "SK Trygg/Lade",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5556925_1.flv?auth_key=1787409774-4038-0-bdfa05e87ea5bd854fc6be349ffa5b5b",
+          "expires_at_epoch": 1787409774,
+          "expires_at_utc": "2026-08-22T14:42:54+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144772147&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144772147.html"
         }
       ]
     }
@@ -2257,68 +2641,68 @@
     "valid_player_responses": 43,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": true,
-    "streams_returned_by_api": 22,
-    "fresh_streams_accepted": 22,
+    "streams_returned_by_api": 46,
+    "fresh_streams_accepted": 46,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.999,
-      5.181,
-      4.21,
-      4.304,
-      4.703,
-      5.492,
-      4.919,
-      4.453,
-      4.227,
-      5.456,
-      4.996,
-      4.921,
-      5.13,
-      4.543,
-      4.677,
-      4.711,
-      4.821,
-      4.475,
-      4.29,
-      4.103,
-      5.413,
-      5.351,
-      5.386,
-      4.077,
-      5.497,
-      4.653,
-      4.754,
-      5.013,
-      4.749,
-      4.349,
-      5.181,
-      4.209,
-      4.34,
-      4.918,
-      4.45,
-      5.272,
-      4.249,
-      4.653,
-      5.058,
-      5.054,
-      4.681,
-      4.864,
-      4.831
+      5.241,
+      4.983,
+      4.264,
+      4.884,
+      4.994,
+      4.215,
+      4.769,
+      4.142,
+      4.102,
+      4.967,
+      5.015,
+      4.303,
+      5.251,
+      4.387,
+      4.733,
+      4.168,
+      4.915,
+      4.307,
+      4.985,
+      4.165,
+      5.007,
+      4.054,
+      5.05,
+      4.348,
+      4.642,
+      4.806,
+      5.429,
+      5.384,
+      4.574,
+      4.658,
+      5.028,
+      5.144,
+      5.469,
+      4.407,
+      4.359,
+      4.71,
+      5.382,
+      4.594,
+      4.478,
+      4.888,
+      4.37,
+      4.429,
+      5.403
     ],
-    "expires_at_min_epoch": 1787407906,
-    "expires_at_max_epoch": 1787408102,
-    "expires_at_span_seconds": 196,
-    "remaining_ttl_min_seconds": 369,
-    "remaining_ttl_max_seconds": 565,
+    "expires_at_min_epoch": 1787409569,
+    "expires_at_max_epoch": 1787409774,
+    "expires_at_span_seconds": 205,
+    "remaining_ttl_min_seconds": 359,
+    "remaining_ttl_max_seconds": 564,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 39,
-    "final_streams": 22,
-    "publish_reason": "published 22 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 22,
+    "final_streams": 46,
+    "publish_reason": "published 46 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 212.09
+    "elapsed_seconds": 212.24
   }
 }
