@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-22T08:41:14+07:00",
+  "started_at": "2026-08-22T09:39:55+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.433,
+    "elapsed": 0.464,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,132 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.119,
+        "elapsed": 0.118,
         "error": ""
       }
     ],
-    "rows_selected": 16,
+    "rows_selected": 19,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144565246",
+      "start_at": "2026-08-22T09:10:00+07:00",
+      "league": "USA NWSL",
+      "home": "San Diego Wave Women",
+      "away": "Utah Royals Women",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565246&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "USA NWSL San Diego Wave Women vs Utah Royals Women",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144565246",
+          "start_at": "2026-08-22T09:10:00+07:00",
+          "league": "USA NWSL",
+          "home": "San Diego Wave Women",
+          "away": "Utah Royals Women",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5341836_1.flv?auth_key=1787366995-3511-0-12302a86a0eba183a2a5cf27921f2dfa",
+          "expires_at_epoch": 1787366995,
+          "expires_at_utc": "2026-08-22T02:49:55+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565246&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144565246.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137809816",
+      "start_at": "2026-08-22T09:00:00+07:00",
+      "league": "WNBA",
+      "home": "Toronto Tempo",
+      "away": "Portland Fire",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809816&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WNBA Toronto Tempo vs Portland Fire",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137809816",
+          "start_at": "2026-08-22T09:00:00+07:00",
+          "league": "WNBA",
+          "home": "Toronto Tempo",
+          "away": "Portland Fire",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5342131_1.flv?auth_key=1787367001-5880-0-55f510001c844bf8e554fca8bb299377",
+          "expires_at_epoch": 1787367001,
+          "expires_at_utc": "2026-08-22T02:50:01+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809816&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137809816.html"
+        }
+      ]
+    },
     {
       "player_id": "5144686347",
       "start_at": "2026-08-22T08:00:00+07:00",
@@ -67,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686347&lan=2",
           "status": 200,
-          "elapsed": 0.132,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -108,188 +226,11 @@
           "home": "Tigres UANL",
           "away": "Atlante",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539975_1.flv?auth_key=1787363475-5429-0-d95827f59916284a9cec20afc7cf0553",
-          "expires_at_epoch": 1787363475,
-          "expires_at_utc": "2026-08-22T01:51:15+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539975_1.flv?auth_key=1787367006-5005-0-82db8bd5e23e84be2eb31ddf15042070",
+          "expires_at_epoch": 1787367006,
+          "expires_at_utc": "2026-08-22T02:50:06+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686347&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144686347.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144457858",
-      "start_at": "2026-08-22T07:30:00+07:00",
-      "league": "CHI D1",
-      "home": "Audax Italiano",
-      "away": "Union La Calera",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457858&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "CHI D1 Audax Italiano vs Union La Calera",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144457858",
-          "start_at": "2026-08-22T07:30:00+07:00",
-          "league": "CHI D1",
-          "home": "Audax Italiano",
-          "away": "Union La Calera",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365830_1.flv?auth_key=1787363479-4022-0-788a48810610050e087aba20c4de60be",
-          "expires_at_epoch": 1787363479,
-          "expires_at_utc": "2026-08-22T01:51:19+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457858&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144457858.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144729628",
-      "start_at": "2026-08-22T07:30:00+07:00",
-      "league": "COL D1",
-      "home": "Alianza Valledupar",
-      "away": "Deportivo Pereira",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729628&lan=2",
-          "status": 200,
-          "elapsed": 0.136,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "COL D1 Alianza Valledupar vs Deportivo Pereira",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144729628",
-          "start_at": "2026-08-22T07:30:00+07:00",
-          "league": "COL D1",
-          "home": "Alianza Valledupar",
-          "away": "Deportivo Pereira",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540106_1.flv?auth_key=1787363484-6094-0-8db973a9e8934fce46e2e927c36aa816",
-          "expires_at_epoch": 1787363484,
-          "expires_at_utc": "2026-08-22T01:51:24+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729628&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144729628.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144871519",
-      "start_at": "2026-08-22T07:30:00+07:00",
-      "league": "BOL D1",
-      "home": "Oriente Petrolero",
-      "away": "CD San Antonio(BOL)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144871519&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "BOL D1 Oriente Petrolero vs CD San Antonio(BOL)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144871519",
-          "start_at": "2026-08-22T07:30:00+07:00",
-          "league": "BOL D1",
-          "home": "Oriente Petrolero",
-          "away": "CD San Antonio(BOL)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5686833_1.flv?auth_key=1787363489-1622-0-c4a42929c1467c31ca0fbb9e8fbdafc8",
-          "expires_at_epoch": 1787363489,
-          "expires_at_utc": "2026-08-22T01:51:29+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144871519&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144871519.html"
         }
       ]
     },
@@ -303,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886087&lan=2",
           "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -337,134 +278,16 @@
       "streams": []
     },
     {
-      "player_id": "5144507889",
-      "start_at": "2026-08-22T07:00:00+07:00",
-      "league": "ECU D1",
-      "home": "Deportivo Cuenca",
-      "away": "Mushuc Runa",
+      "player_id": "5144886159",
+      "start_at": "2026-08-22T09:45:00+07:00",
+      "league": "NZL NLS",
+      "home": "Nomads United AFC",
+      "away": "Wanaka AFC",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507889&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144886159&lan=2",
           "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ECU D1 Deportivo Cuenca vs Mushuc Runa",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144507889",
-          "start_at": "2026-08-22T07:00:00+07:00",
-          "league": "ECU D1",
-          "home": "Deportivo Cuenca",
-          "away": "Mushuc Runa",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365836_1.flv?auth_key=1787363499-8196-0-ef3bab86c169ec6833ca9c8fcb5abb28",
-          "expires_at_epoch": 1787363499,
-          "expires_at_utc": "2026-08-22T01:51:39+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507889&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144507889.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144507892",
-      "start_at": "2026-08-22T07:00:00+07:00",
-      "league": "ECU D1",
-      "home": "Leones FC",
-      "away": "Independiente Del Valle",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507892&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ECU D1 Leones FC vs Independiente Del Valle",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144507892",
-          "start_at": "2026-08-22T07:00:00+07:00",
-          "league": "ECU D1",
-          "home": "Leones FC",
-          "away": "Independiente Del Valle",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365834_1.flv?auth_key=1787363504-3982-0-48749ce7c08c08f5d02041cefefcd876",
-          "expires_at_epoch": 1787363504,
-          "expires_at_utc": "2026-08-22T01:51:44+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144507892&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144507892.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137809816",
-      "start_at": "2026-08-22T09:00:00+07:00",
-      "league": "WNBA",
-      "home": "Toronto Tempo",
-      "away": "Portland Fire",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137809816&lan=2",
-          "status": 200,
-          "elapsed": 0.134,
+          "elapsed": 0.132,
           "error": ""
         }
       ],
@@ -491,136 +314,7 @@
         ],
         "code": 0,
         "pid": 0,
-        "title": "WNBA Toronto Tempo vs Portland Fire",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5144565246",
-      "start_at": "2026-08-22T09:00:00+07:00",
-      "league": "USA NWSL",
-      "home": "San Diego Wave Women",
-      "away": "Utah Royals Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565246&lan=2",
-          "status": 200,
-          "elapsed": 0.137,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "USA NWSL San Diego Wave Women vs Utah Royals Women",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5137855719",
-      "start_at": "2026-08-22T09:15:00+07:00",
-      "league": "MLNBP",
-      "home": "Diablos Rojos del Mexico BC",
-      "away": "Lobos Puebla BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855719&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "MLNBP Diablos Rojos del Mexico BC vs Lobos Puebla BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
-      },
-      "streams": []
-    },
-    {
-      "player_id": "5137855722",
-      "start_at": "2026-08-22T09:30:00+07:00",
-      "league": "MLNBP",
-      "home": "Panteras de Aguascalientes BC",
-      "away": "Santos del Potosi BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137855722&lan=2",
-          "status": 200,
-          "elapsed": 0.135,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 0,
-        "title": "MLNBP Panteras de Aguascalientes BC vs Santos del Potosi BC",
+        "title": "NZL NLS Nomads United AFC vs Wanaka AFC",
         "stream_item_count": 0,
         "stream_item_types": []
       },
@@ -765,7 +459,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144901705&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.134,
           "error": ""
         }
       ],
@@ -808,7 +502,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5361634677&lan=2",
           "status": 200,
-          "elapsed": 0.135,
+          "elapsed": 0.133,
           "error": ""
         }
       ],
@@ -840,49 +534,439 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5137877697",
+      "start_at": "2026-08-22T11:00:00+07:00",
+      "league": "ABA",
+      "home": "Perth Wildcats BC",
+      "away": "Cairns Taipans BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137877697&lan=2",
+          "status": 200,
+          "elapsed": 0.133,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "ABA Perth Wildcats BC vs Cairns Taipans BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144526924",
+      "start_at": "2026-08-22T11:30:00+07:00",
+      "league": "AUS NPLACT",
+      "home": "Canberra Olympic",
+      "away": "Brindabella Blues",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526924&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLACT Canberra Olympic vs Brindabella Blues",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144456781",
+      "start_at": "2026-08-22T12:00:00+07:00",
+      "league": "AUS NPLV",
+      "home": "Melbourne City Youth",
+      "away": "Bentleigh Greens",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144456781&lan=2",
+          "status": 200,
+          "elapsed": 0.134,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLV Melbourne City Youth vs Bentleigh Greens",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144526927",
+      "start_at": "2026-08-22T12:00:00+07:00",
+      "league": "AUS NPLACT",
+      "home": "Canberra Croatia",
+      "away": "Belconnen United",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526927&lan=2",
+          "status": 200,
+          "elapsed": 0.133,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLACT Canberra Croatia vs Belconnen United",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144526930",
+      "start_at": "2026-08-22T12:00:00+07:00",
+      "league": "AUS NPLACT",
+      "home": "Canberra White Eagles",
+      "away": "Monaro Panthers",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526930&lan=2",
+          "status": 200,
+          "elapsed": 0.132,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLACT Canberra White Eagles vs Monaro Panthers",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144526933",
+      "start_at": "2026-08-22T12:00:00+07:00",
+      "league": "AUS NPLACT",
+      "home": "Queanbeyan City",
+      "away": "O'Connor Knights",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526933&lan=2",
+          "status": 200,
+          "elapsed": 0.132,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLACT Queanbeyan City vs O'Connor Knights",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144526936",
+      "start_at": "2026-08-22T12:00:00+07:00",
+      "league": "AUS NPLACT",
+      "home": "Tuggeranong United",
+      "away": "Canberra Juventus",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144526936&lan=2",
+          "status": 200,
+          "elapsed": 0.133,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLACT Tuggeranong United vs Canberra Juventus",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144457048",
+      "start_at": "2026-08-22T12:15:00+07:00",
+      "league": "AUS NPLV",
+      "home": "Altona Magic",
+      "away": "Avondale FC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144457048&lan=2",
+          "status": 200,
+          "elapsed": 0.131,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "AUS NPLV Altona Magic vs Avondale FC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
+    },
+    {
+      "player_id": "5144898072",
+      "start_at": "2026-08-22T12:30:00+07:00",
+      "league": "Playoff",
+      "home": "Playford City Patriots",
+      "away": "FK Beograd (AUS)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144898072&lan=2",
+          "status": 200,
+          "elapsed": 0.132,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "Playoff Playford City Patriots vs FK Beograd (AUS)",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 16,
-    "matches_processed": 16,
-    "valid_player_responses": 16,
+    "matches_selected": 19,
+    "matches_processed": 19,
+    "valid_player_responses": 19,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 6,
-    "fresh_streams_accepted": 6,
+    "streams_returned_by_api": 3,
+    "fresh_streams_accepted": 3,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.745,
-      4.116,
-      4.769,
-      5.306,
-      5.284,
-      4.222,
-      4.518,
-      4.179,
-      4.731,
-      4.434,
-      4.674,
-      4.136,
-      4.868,
-      4.052,
-      4.226
+      5.023,
+      5.45,
+      4.189,
+      4.55,
+      4.185,
+      4.315,
+      5.268,
+      4.882,
+      4.608,
+      4.937,
+      4.099,
+      5.404,
+      5.295,
+      4.459,
+      4.747,
+      5.079,
+      4.272,
+      5.024
     ],
-    "expires_at_min_epoch": 1787363475,
-    "expires_at_max_epoch": 1787363504,
-    "expires_at_span_seconds": 29,
-    "remaining_ttl_min_seconds": 500,
-    "remaining_ttl_max_seconds": 529,
+    "expires_at_min_epoch": 1787366995,
+    "expires_at_max_epoch": 1787367006,
+    "expires_at_span_seconds": 11,
+    "remaining_ttl_min_seconds": 481,
+    "remaining_ttl_max_seconds": 492,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 10,
-    "final_streams": 6,
-    "publish_reason": "published 6 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 6,
+    "final_streams": 3,
+    "publish_reason": "published 3 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 70.97
+    "elapsed_seconds": 88.92
   }
 }
