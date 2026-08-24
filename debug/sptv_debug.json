@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-24T18:13:19+07:00",
+  "started_at": "2026-08-24T18:44:13+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.679,
+    "elapsed": 0.633,
     "error": ""
   },
   "schedule": {
@@ -49,7 +49,7 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.17,
+        "elapsed": 0.166,
         "error": ""
       }
     ],
@@ -58,16 +58,16 @@
   },
   "matches": [
     {
-      "player_id": "5137859733",
-      "start_at": "2026-08-24T18:00:00+07:00",
-      "league": "MPBL",
-      "home": "Zamboanga Sikat BC",
-      "away": "Bataan Risers BC",
+      "player_id": "5137884381",
+      "start_at": "2026-08-24T18:30:00+07:00",
+      "league": "WNBL",
+      "home": "Fujian Jinlan (W)",
+      "away": "Xinjiang Tianshan (W)",
       "attempts": [
         {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859733&lan=2",
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884381&lan=2",
           "status": 200,
-          "elapsed": 0.175,
+          "elapsed": 0.171,
           "error": ""
         }
       ],
@@ -93,130 +93,73 @@
           "title"
         ],
         "code": 0,
-        "pid": 0,
-        "title": "MPBL Zamboanga Sikat BC vs Bataan Risers BC",
-        "stream_item_count": 0,
-        "stream_item_types": []
+        "pid": 1,
+        "title": "WNBL Fujian Jinlan (W) vs Xinjiang Tianshan (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137884381",
+          "start_at": "2026-08-24T18:30:00+07:00",
+          "league": "WNBL",
+          "home": "Fujian Jinlan (W)",
+          "away": "Xinjiang Tianshan (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686142_1.flv?auth_key=1787572454-1720-0-2fc1ff3e5f16acdd983e2b9b1155c108",
+          "expires_at_epoch": 1787572454,
+          "expires_at_utc": "2026-08-24T11:54:14+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884381&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137884381.html"
+        }
+      ]
+    },
+    {
+      "player_id": "5137884420",
+      "start_at": "2026-08-24T16:30:00+07:00",
+      "league": "WNBL",
+      "home": "Shijiazhuang Win Power (W)",
+      "away": "Jiangxi Jingyu Qingjiu (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884420&lan=2",
+          "status": 200,
+          "elapsed": 0.171,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WNBL Shijiazhuang Win Power (W) 90-73 Jiangxi Jingyu Qingjiu (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
       },
       "streams": []
-    },
-    {
-      "player_id": "5137884363",
-      "start_at": "2026-08-24T17:00:00+07:00",
-      "league": "WNBL",
-      "home": "Beijing Normal University (W)",
-      "away": "Shandong Chishui River Jiu (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884363&lan=2",
-          "status": 200,
-          "elapsed": 0.175,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WNBL Beijing Normal University (W) vs Shandong Chishui River Jiu (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137884363",
-          "start_at": "2026-08-24T17:00:00+07:00",
-          "league": "WNBL",
-          "home": "Beijing Normal University (W)",
-          "away": "Shandong Chishui River Jiu (W)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686141_1.flv?auth_key=1787570605-8397-0-20e85f86912f9357c76ca143ed56786c",
-          "expires_at_epoch": 1787570605,
-          "expires_at_utc": "2026-08-24T11:23:25+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884363&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137884363.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5362606314",
-      "start_at": "2026-08-24T17:00:00+07:00",
-      "league": "WNBL",
-      "home": "Xiamen Bank (W)",
-      "away": "Shanxi Zhuyeqing Jiu (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5362606314&lan=2",
-          "status": 200,
-          "elapsed": 0.175,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WNBL Xiamen Bank (W) vs Shanxi Zhuyeqing Jiu (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5362606314",
-          "start_at": "2026-08-24T17:00:00+07:00",
-          "league": "WNBL",
-          "home": "Xiamen Bank (W)",
-          "away": "Shanxi Zhuyeqing Jiu (W)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5722501_1.flv?auth_key=1787570610-5819-0-0032049313d77a2f989aed4083cfefd2",
-          "expires_at_epoch": 1787570610,
-          "expires_at_utc": "2026-08-24T11:23:30+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5362606314&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5362606314.html"
-        }
-      ]
     },
     {
       "player_id": "5144493579",
@@ -228,7 +171,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144493579&lan=2",
           "status": 200,
-          "elapsed": 0.175,
+          "elapsed": 0.171,
           "error": ""
         }
       ],
@@ -260,6 +203,49 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5144760060",
+      "start_at": "2026-08-24T21:30:00+07:00",
+      "league": "RUS D1",
+      "home": "Kamaz Naberezhnye Chelny",
+      "away": "PFC Sochi",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144760060&lan=2",
+          "status": 200,
+          "elapsed": 0.171,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "RUS D1 Kamaz Naberezhnye Chelny vs PFC Sochi",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
@@ -269,28 +255,28 @@
     "valid_player_responses": 4,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 2,
-    "fresh_streams_accepted": 2,
+    "streams_returned_by_api": 1,
+    "fresh_streams_accepted": 1,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.985,
-      4.088,
-      4.362
+      4.157,
+      4.557,
+      5.431
     ],
-    "expires_at_min_epoch": 1787570605,
-    "expires_at_max_epoch": 1787570610,
-    "expires_at_span_seconds": 5,
-    "remaining_ttl_min_seconds": 561,
-    "remaining_ttl_max_seconds": 566,
+    "expires_at_min_epoch": 1787572454,
+    "expires_at_max_epoch": 1787572454,
+    "expires_at_span_seconds": 0,
+    "remaining_ttl_min_seconds": 555,
+    "remaining_ttl_max_seconds": 555,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 4,
-    "final_streams": 2,
-    "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 2,
+    "final_streams": 1,
+    "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 14.99
+    "elapsed_seconds": 15.64
   }
 }
