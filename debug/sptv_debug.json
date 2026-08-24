@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-24T08:44:18+07:00",
+  "started_at": "2026-08-24T09:50:24+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.424,
+    "elapsed": 0.373,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.119,
+        "elapsed": 0.11,
         "error": ""
       }
     ],
-    "rows_selected": 9,
+    "rows_selected": 4,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5144899218",
+      "start_at": "2026-08-24T09:00:00+07:00",
+      "league": "USA MLSNP",
+      "home": "Ventura County",
+      "away": "Portland Timbers II",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899218&lan=2",
+          "status": 200,
+          "elapsed": 0.115,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "USA MLSNP Ventura County vs Portland Timbers II",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5144899218",
+          "start_at": "2026-08-24T09:00:00+07:00",
+          "league": "USA MLSNP",
+          "home": "Ventura County",
+          "away": "Portland Timbers II",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5701335_1.flv?auth_key=1787540424-8985-0-79ebebc135fea7d5aff8b66e498f8465",
+          "expires_at_epoch": 1787540424,
+          "expires_at_utc": "2026-08-24T03:00:24+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899218&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5144899218.html"
+        }
+      ]
+    },
     {
       "player_id": "5144729649",
       "start_at": "2026-08-24T08:15:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729649&lan=2",
           "status": 200,
-          "elapsed": 0.124,
+          "elapsed": 0.115,
           "error": ""
         }
       ],
@@ -108,9 +167,9 @@
           "home": "Junior Barranquilla",
           "away": "Once Caldas",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540103_1.flv?auth_key=1787536459-3154-0-bb94f7b82686438d32c4af750bca3c4c",
-          "expires_at_epoch": 1787536459,
-          "expires_at_utc": "2026-08-24T01:54:19+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540103_1.flv?auth_key=1787540429-4347-0-c24eac635151b5e36b8b1d102aefb973",
+          "expires_at_epoch": 1787540429,
+          "expires_at_utc": "2026-08-24T03:00:29+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144729649&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144729649.html"
         }
@@ -126,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686353&lan=2",
           "status": 200,
-          "elapsed": 0.123,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -167,9 +226,9 @@
           "home": "Pumas UNAM",
           "away": "Necaxa",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540124_1.flv?auth_key=1787536464-7480-0-ab463187e3ce549c942d3597dff008ae",
-          "expires_at_epoch": 1787536464,
-          "expires_at_utc": "2026-08-24T01:54:24+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540124_1.flv?auth_key=1787540434-8738-0-a5e9731160142f53299fc96ff45ba950",
+          "expires_at_epoch": 1787540434,
+          "expires_at_utc": "2026-08-24T03:00:34+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144686353&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144686353.html"
         }
@@ -185,7 +244,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767458&lan=2",
           "status": 200,
-          "elapsed": 0.124,
+          "elapsed": 0.116,
           "error": ""
         }
       ],
@@ -226,403 +285,44 @@
           "home": "Tapatio",
           "away": "Mineros de Zacatecas",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539462_1.flv?auth_key=1787536469-6135-0-a422b2ddbb10f61d52d607e83641947f",
-          "expires_at_epoch": 1787536469,
-          "expires_at_utc": "2026-08-24T01:54:29+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5539462_1.flv?auth_key=1787540439-2643-0-a437ed214db78a662449e889a99ff1ff",
+          "expires_at_epoch": 1787540439,
+          "expires_at_utc": "2026-08-24T03:00:39+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144767458&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5144767458.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144899215",
-      "start_at": "2026-08-24T07:40:00+07:00",
-      "league": "USA MLSNP",
-      "home": "Colorado Rapids II",
-      "away": "Real Monarchs",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899215&lan=2",
-          "status": 200,
-          "elapsed": 0.124,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "USA MLSNP Colorado Rapids II vs Real Monarchs",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144899215",
-          "start_at": "2026-08-24T07:40:00+07:00",
-          "league": "USA MLSNP",
-          "home": "Colorado Rapids II",
-          "away": "Real Monarchs",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5701333_1.flv?auth_key=1787536474-9385-0-bdb6ada48da5a9f797f30ff9102c3146",
-          "expires_at_epoch": 1787536474,
-          "expires_at_utc": "2026-08-24T01:54:34+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899215&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144899215.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144581968",
-      "start_at": "2026-08-24T07:30:00+07:00",
-      "league": "ARG D1",
-      "home": "Racing Club",
-      "away": "Boca Juniors(ARG)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581968&lan=2",
-          "status": 200,
-          "elapsed": 0.126,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "ARG D1 Racing Club vs Boca Juniors(ARG)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144581968",
-          "start_at": "2026-08-24T07:30:00+07:00",
-          "league": "ARG D1",
-          "home": "Racing Club",
-          "away": "Boca Juniors(ARG)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365802_1.flv?auth_key=1787536479-5622-0-4d4f2881a94b2233c0bba924246aae87",
-          "expires_at_epoch": 1787536479,
-          "expires_at_utc": "2026-08-24T01:54:39+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144581968&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144581968.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144899221",
-      "start_at": "2026-08-24T07:30:00+07:00",
-      "league": "USA MLSNP",
-      "home": "Austin FC II",
-      "away": "The Town FC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899221&lan=2",
-          "status": 200,
-          "elapsed": 0.124,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "USA MLSNP Austin FC II vs The Town FC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144899221",
-          "start_at": "2026-08-24T07:30:00+07:00",
-          "league": "USA MLSNP",
-          "home": "Austin FC II",
-          "away": "The Town FC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5701334_1.flv?auth_key=1787536484-2441-0-9b24e262acd38bd9646268421080e464",
-          "expires_at_epoch": 1787536484,
-          "expires_at_utc": "2026-08-24T01:54:44+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144899221&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144899221.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137895055",
-      "start_at": "2026-08-24T07:00:00+07:00",
-      "league": "PRBSN",
-      "home": "Vaqueros de Bayamon BC",
-      "away": "Santeros de Aguada BC",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137895055&lan=2",
-          "status": 200,
-          "elapsed": 0.123,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "PRBSN Vaqueros de Bayamon BC vs Santeros de Aguada BC",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137895055",
-          "start_at": "2026-08-24T07:00:00+07:00",
-          "league": "PRBSN",
-          "home": "Vaqueros de Bayamon BC",
-          "away": "Santeros de Aguada BC",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5718314_1.flv?auth_key=1787536490-8603-0-01b1994d179a7fbb19797af11f649b1d",
-          "expires_at_epoch": 1787536490,
-          "expires_at_utc": "2026-08-24T01:54:50+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137895055&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137895055.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144565267",
-      "start_at": "2026-08-24T07:00:00+07:00",
-      "league": "USA NWSL",
-      "home": "Angel City Women",
-      "away": "NJ/NY Gotham FC Women",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565267&lan=2",
-          "status": 200,
-          "elapsed": 0.124,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "USA NWSL Angel City Women vs NJ/NY Gotham FC Women",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144565267",
-          "start_at": "2026-08-24T07:00:00+07:00",
-          "league": "USA NWSL",
-          "home": "Angel City Women",
-          "away": "NJ/NY Gotham FC Women",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5365852_1.flv?auth_key=1787536494-1837-0-92d407626f6e7971c3455619c499d8a1",
-          "expires_at_epoch": 1787536494,
-          "expires_at_utc": "2026-08-24T01:54:54+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144565267&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144565267.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5144821827",
-      "start_at": "2026-08-24T07:00:00+07:00",
-      "league": "CRC D1",
-      "home": "LD Alajuelense",
-      "away": "AD San Carlos",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821827&lan=2",
-          "status": 200,
-          "elapsed": 0.124,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "CRC D1 LD Alajuelense vs AD San Carlos",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5144821827",
-          "start_at": "2026-08-24T07:00:00+07:00",
-          "league": "CRC D1",
-          "home": "LD Alajuelense",
-          "away": "AD San Carlos",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/202_5540112_1.flv?auth_key=1787536499-6266-0-db4b076603d1a7978e77a963eef025d8",
-          "expires_at_epoch": 1787536499,
-          "expires_at_utc": "2026-08-24T01:54:59+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5144821827&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5144821827.html"
         }
       ]
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 9,
-    "matches_processed": 9,
-    "valid_player_responses": 9,
+    "matches_selected": 4,
+    "matches_processed": 4,
+    "valid_player_responses": 4,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 9,
-    "fresh_streams_accepted": 9,
+    "streams_returned_by_api": 4,
+    "fresh_streams_accepted": 4,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      5.076,
-      5.188,
-      4.653,
-      4.578,
-      5.261,
-      5.127,
-      4.525,
-      4.402
+      5.168,
+      4.017,
+      4.92
     ],
-    "expires_at_min_epoch": 1787536459,
-    "expires_at_max_epoch": 1787536499,
-    "expires_at_span_seconds": 40,
-    "remaining_ttl_min_seconds": 530,
+    "expires_at_min_epoch": 1787540424,
+    "expires_at_max_epoch": 1787540439,
+    "expires_at_span_seconds": 15,
+    "remaining_ttl_min_seconds": 555,
     "remaining_ttl_max_seconds": 570,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 20,
-    "final_streams": 9,
-    "publish_reason": "published 9 fresh streams + preserved 0 unexpired previous streams",
+    "expired_previous_removed": 9,
+    "final_streams": 4,
+    "publish_reason": "published 4 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 40.48
+    "elapsed_seconds": 15.06
   }
 }
