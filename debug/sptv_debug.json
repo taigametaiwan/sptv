@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-24T14:37:35+07:00",
+  "started_at": "2026-08-24T15:23:58+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.366,
+    "elapsed": 0.642,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.11,
+        "elapsed": 0.171,
         "error": ""
       }
     ],
-    "rows_selected": 3,
+    "rows_selected": 4,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137895172",
+      "start_at": "2026-08-24T15:00:00+07:00",
+      "league": "WNBL",
+      "home": "Wuhan Shengfan Huanghe (W)",
+      "away": "Dalian Wentilu (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137895172&lan=2",
+          "status": 200,
+          "elapsed": 0.175,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WNBL Wuhan Shengfan Huanghe (W) vs Dalian Wentilu (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137895172",
+          "start_at": "2026-08-24T15:00:00+07:00",
+          "league": "WNBL",
+          "home": "Wuhan Shengfan Huanghe (W)",
+          "away": "Dalian Wentilu (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5722500_1.flv?auth_key=1787560439-3213-0-a75eba4ec0921a3b4a020dd52a7f67b2",
+          "expires_at_epoch": 1787560439,
+          "expires_at_utc": "2026-08-24T08:33:59+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137895172&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137895172.html"
+        }
+      ]
+    },
     {
       "player_id": "5137884435",
       "start_at": "2026-08-24T14:30:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884435&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.176,
           "error": ""
         }
       ],
@@ -108,70 +167,11 @@
           "home": "Zhejiang Chouzhou Bank (W)",
           "away": "Shanghai PD Bank (W)",
           "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686140_1.flv?auth_key=1787557655-1766-0-d3c748797343cc9eaac6a2fc3e9cbe32",
-          "expires_at_epoch": 1787557655,
-          "expires_at_utc": "2026-08-24T07:47:35+00:00",
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686140_1.flv?auth_key=1787560444-4571-0-229e071209f9e58e27c04d5e1b28b493",
+          "expires_at_epoch": 1787560444,
+          "expires_at_utc": "2026-08-24T08:34:04+00:00",
           "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884435&lan=2",
           "player_page_url": "https://www.sptv.com/en/player/5137884435.html"
-        }
-      ]
-    },
-    {
-      "player_id": "5137895166",
-      "start_at": "2026-08-24T13:00:00+07:00",
-      "league": "WNBL",
-      "home": "Dongguan Xintongsheng (W)",
-      "away": "Shaanxi Yulin Tianze (W)",
-      "attempts": [
-        {
-          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137895166&lan=2",
-          "status": 200,
-          "elapsed": 0.114,
-          "error": ""
-        }
-      ],
-      "player": {
-        "valid_payload": true,
-        "payload_type": "dict",
-        "top_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "player_keys": [
-          "code",
-          "data",
-          "m",
-          "msg",
-          "pid",
-          "purl",
-          "title"
-        ],
-        "code": 0,
-        "pid": 1,
-        "title": "WNBL Dongguan Xintongsheng (W) vs Shaanxi Yulin Tianze (W)",
-        "stream_item_count": 1,
-        "stream_item_types": [
-          "dict"
-        ]
-      },
-      "streams": [
-        {
-          "player_id": "5137895166",
-          "start_at": "2026-08-24T13:00:00+07:00",
-          "league": "WNBL",
-          "home": "Dongguan Xintongsheng (W)",
-          "away": "Shaanxi Yulin Tianze (W)",
-          "line_number": 1,
-          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5722499_1.flv?auth_key=1787557660-1696-0-70073bff52939432fb025e1f8443ef99",
-          "expires_at_epoch": 1787557660,
-          "expires_at_utc": "2026-08-24T07:47:40+00:00",
-          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137895166&lan=2",
-          "player_page_url": "https://www.sptv.com/en/player/5137895166.html"
         }
       ]
     },
@@ -185,7 +185,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859730&lan=2",
           "status": 200,
-          "elapsed": 0.114,
+          "elapsed": 0.176,
           "error": ""
         }
       ],
@@ -217,13 +217,56 @@
         "stream_item_types": []
       },
       "streams": []
+    },
+    {
+      "player_id": "5137859733",
+      "start_at": "2026-08-24T18:00:00+07:00",
+      "league": "MPBL",
+      "home": "Zamboanga Sikat BC",
+      "away": "Bataan Risers BC",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859733&lan=2",
+          "status": 200,
+          "elapsed": 0.176,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 0,
+        "title": "MPBL Zamboanga Sikat BC vs Bataan Risers BC",
+        "stream_item_count": 0,
+        "stream_item_types": []
+      },
+      "streams": []
     }
   ],
   "summary": {
     "status": "PUBLISHED_FRESH",
-    "matches_selected": 3,
-    "matches_processed": 3,
-    "valid_player_responses": 3,
+    "matches_selected": 4,
+    "matches_processed": 4,
+    "valid_player_responses": 4,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
     "streams_returned_by_api": 2,
@@ -233,20 +276,21 @@
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
     "request_delays_seconds": [
-      4.488,
-      4.618
+      4.916,
+      5.156,
+      4.417
     ],
-    "expires_at_min_epoch": 1787557655,
-    "expires_at_max_epoch": 1787557660,
+    "expires_at_min_epoch": 1787560439,
+    "expires_at_max_epoch": 1787560444,
     "expires_at_span_seconds": 5,
-    "remaining_ttl_min_seconds": 560,
-    "remaining_ttl_max_seconds": 565,
+    "remaining_ttl_min_seconds": 555,
+    "remaining_ttl_max_seconds": 560,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
     "expired_previous_removed": 2,
     "final_streams": 2,
     "publish_reason": "published 2 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 9.93
+    "elapsed_seconds": 16.02
   }
 }
