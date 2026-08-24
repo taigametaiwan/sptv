@@ -1,7 +1,7 @@
 {
   "source": "sptv",
   "version": "0.1.4",
-  "started_at": "2026-08-24T11:27:20+07:00",
+  "started_at": "2026-08-24T12:52:30+07:00",
   "configuration": {
     "home_url": "https://www.sptv.com/en/",
     "schedule_url": "https://www.sptv.com/data/zb.json",
@@ -41,7 +41,7 @@
   "home": {
     "url": "https://www.sptv.com/en/",
     "status": 200,
-    "elapsed": 0.372,
+    "elapsed": 0.65,
     "error": ""
   },
   "schedule": {
@@ -49,14 +49,73 @@
       {
         "url": "https://www.sptv.com/data/zb.json",
         "status": 200,
-        "elapsed": 0.11,
+        "elapsed": 0.168,
         "error": ""
       }
     ],
-    "rows_selected": 1,
+    "rows_selected": 2,
     "window": "-150/+180"
   },
   "matches": [
+    {
+      "player_id": "5137884369",
+      "start_at": "2026-08-24T12:20:00+07:00",
+      "league": "WNBL",
+      "home": "Beijing Shougang Park (W)",
+      "away": "Hefei Wenlu (W)",
+      "attempts": [
+        {
+          "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884369&lan=2",
+          "status": 200,
+          "elapsed": 0.172,
+          "error": ""
+        }
+      ],
+      "player": {
+        "valid_payload": true,
+        "payload_type": "dict",
+        "top_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "player_keys": [
+          "code",
+          "data",
+          "m",
+          "msg",
+          "pid",
+          "purl",
+          "title"
+        ],
+        "code": 0,
+        "pid": 1,
+        "title": "WNBL Beijing Shougang Park (W) vs Hefei Wenlu (W)",
+        "stream_item_count": 1,
+        "stream_item_types": [
+          "dict"
+        ]
+      },
+      "streams": [
+        {
+          "player_id": "5137884369",
+          "start_at": "2026-08-24T12:20:00+07:00",
+          "league": "WNBL",
+          "home": "Beijing Shougang Park (W)",
+          "away": "Hefei Wenlu (W)",
+          "line_number": 1,
+          "media_url": "https://livesp.zhibozhibozhibozhibo.com/sport/201_5686139_1.flv?auth_key=1787551351-4999-0-1c955ecb3034f2a340127e5e3fd457b1",
+          "expires_at_epoch": 1787551351,
+          "expires_at_utc": "2026-08-24T06:02:31+00:00",
+          "player_api_url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137884369&lan=2",
+          "player_page_url": "https://www.sptv.com/en/player/5137884369.html"
+        }
+      ]
+    },
     {
       "player_id": "5137859640",
       "start_at": "2026-08-24T14:00:00+07:00",
@@ -67,7 +126,7 @@
         {
           "url": "https://www.sptv.com/ajax_zb.php?act=player&isMobile=0&id=5137859640&lan=2",
           "status": 200,
-          "elapsed": 0.115,
+          "elapsed": 0.172,
           "error": ""
         }
       ],
@@ -102,30 +161,32 @@
     }
   ],
   "summary": {
-    "status": "EMPTY_NO_VALID_KEY",
-    "matches_selected": 1,
-    "matches_processed": 1,
-    "valid_player_responses": 1,
+    "status": "PUBLISHED_FRESH",
+    "matches_selected": 2,
+    "matches_processed": 2,
+    "valid_player_responses": 2,
     "failed_player_responses": 0,
     "scan_stopped_by_budget": false,
-    "streams_returned_by_api": 0,
-    "fresh_streams_accepted": 0,
+    "streams_returned_by_api": 1,
+    "fresh_streams_accepted": 1,
     "rejected_missing_expiry": 0,
     "rejected_short_ttl": 0,
     "minimum_required_ttl_seconds": 300,
     "placeholders": 0,
-    "request_delays_seconds": [],
-    "expires_at_min_epoch": null,
-    "expires_at_max_epoch": null,
+    "request_delays_seconds": [
+      4.367
+    ],
+    "expires_at_min_epoch": 1787551351,
+    "expires_at_max_epoch": 1787551351,
     "expires_at_span_seconds": 0,
-    "remaining_ttl_min_seconds": null,
-    "remaining_ttl_max_seconds": null,
+    "remaining_ttl_min_seconds": 565,
+    "remaining_ttl_max_seconds": 565,
     "playlist_changed": true,
     "preserved_unexpired_previous": 0,
-    "expired_previous_removed": 1,
-    "final_streams": 0,
-    "publish_reason": "candidate has 0; no unexpired previous stream remains; removed 1 expired streams",
+    "expired_previous_removed": 0,
+    "final_streams": 1,
+    "publish_reason": "published 1 fresh streams + preserved 0 unexpired previous streams",
     "output": "/home/runner/work/sptv/sptv/sptv.m3u",
-    "elapsed_seconds": 0.6
+    "elapsed_seconds": 5.54
   }
 }
